@@ -1,4 +1,4 @@
-iDROP TABLE IF EXISTS user;
+DROP TABLE IF EXISTS user;
 CREATE TABLE user (
     id_compte BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     nom_compte VARCHAR(50),
@@ -9,14 +9,6 @@ CREATE TABLE user (
     tel_compte VARCHAR(50),
     password_compte VARCHAR(50)
 );
-
-DROP TABLE IF EXISTS produit ;
-CREATE TABLE produit (
-    id_produit BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-    quantite_produit BIGINT,
-    nb_personne_produit BIGINT,
-    libelle_produit VARCHAR(50)
-);
     
 DROP TABLE IF EXISTS recette;
 CREATE TABLE recette (
@@ -25,7 +17,8 @@ CREATE TABLE recette (
     date_recette DATE,
     categorie_recette VARCHAR(50),
     description_recette VARCHAR(50),
-    image_recette VARCHAR(50)
+    image_recette VARCHAR(50),
+    nb_personne BIGINT
 );
         
 DROP TABLE IF EXISTS etape;
@@ -47,8 +40,7 @@ CREATE TABLE ingredient (
 DROP TABLE IF EXISTS unite;
 CREATE TABLE unite (
     id_unite BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-    libelle_unite VARCHAR(50),
-    ingredient_id_ingredient BIGINT
+    libelle_unite VARCHAR(50)
 );
 
 DROP TABLE IF EXISTS historique;
@@ -68,7 +60,8 @@ CREATE TABLE categorie (
 DROP TABLE IF EXISTS pays;
 CREATE TABLE pays (
     id_pays BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-    nom_pays VARCHAR(50)
+    nom_pays VARCHAR(50),
+    abrev_pays VARCHAR(50)
 );
     
 DROP TABLE IF EXISTS materiel;
@@ -77,99 +70,73 @@ CREATE TABLE materiel (
     libelle_materiel VARCHAR(50)
 );
 
-DROP TABLE IF EXISTS transforme;
-CREATE TABLE transforme (
-    id_produit BIGINT AUTO_INCREMENT NOT NULL,
-    id_ingredient BIGINT NOT NULL,
-    PRIMARY KEY (id_produit, id_ingredient),
-    FOREIGN KEY (id_produit) REFERENCES produit (id_produit),
-    FOREIGN KEY (id_ingredient) REFERENCES ingredient (id_ingredient)
-);
-
 DROP TABLE IF EXISTS possede;
 CREATE TABLE possede (
     id_historique BIGINT AUTO_INCREMENT NOT NULL,
     id_recette BIGINT NOT NULL,
-    PRIMARY KEY (id_historique, id_recette),
-    FOREIGN KEY (id_historique) REFERENCES historique (id_historique),
-    FOREIGN KEY (id_recette) REFERENCES recette (id_recette)
+    PRIMARY KEY (id_historique, id_recette)
 );
 
 DROP TABLE IF EXISTS relier;
 CREATE TABLE relier (
     id_compte BIGINT AUTO_INCREMENT NOT NULL,
     id_historique BIGINT NOT NULL,
-    PRIMARY KEY (id_compte, id_historique),
-    FOREIGN KEY (id_compte) REFERENCES user (id_compte),
-    FOREIGN KEY (id_historique) REFERENCES historique (id_historique)
+    PRIMARY KEY (id_compte, id_historique)
 );
 
 DROP TABLE IF EXISTS consulter;
 CREATE TABLE consulter (
     id_compte BIGINT AUTO_INCREMENT NOT NULL,
     id_recette BIGINT NOT NULL,
-    PRIMARY KEY (id_compte, id_recette),
-    FOREIGN KEY (id_compte) REFERENCES user (id_compte),
-    FOREIGN KEY (id_recette) REFERENCES recette (id_recette)
+    PRIMARY KEY (id_compte, id_recette)
 );
 
 DROP TABLE IF EXISTS decompose;
 CREATE TABLE decompose (
     id_etape BIGINT AUTO_INCREMENT NOT NULL,
     id_recette BIGINT NOT NULL,
-    PRIMARY KEY (id_etape, id_recette),
-    FOREIGN KEY (id_etape) REFERENCES etape (id_etape),
-    FOREIGN KEY (id_recette) REFERENCES recette (id_recette)
+    PRIMARY KEY (id_etape, id_recette)
+);
+
+DROP TABLE IF EXISTS categoriser;
+CREATE TABLE categoriser (
+    id_categorie BIGINT AUTO_INCREMENT NOT NULL,
+    id_recette BIGINT NOT NULL,
+    PRIMARY KEY (id_categorie, id_recette)
 );
 
 DROP TABLE IF EXISTS compose;
 CREATE TABLE compose (
     id_ingredient BIGINT AUTO_INCREMENT NOT NULL,
     id_recette BIGINT NOT NULL,
-    PRIMARY KEY (id_ingredient, id_recette),
-    FOREIGN KEY (id_ingredient) REFERENCES ingredient (id_ingredient),
-    FOREIGN KEY (id_recette) REFERENCES recette (id_recette)
+    quantite_compose BIGINT,
+    PRIMARY KEY (id_ingredient, id_recette)
 );
 
 DROP TABLE IF EXISTS utilise;
 CREATE TABLE utilise (
     id_recette BIGINT AUTO_INCREMENT NOT NULL,
     id_materiel BIGINT NOT NULL,
-    PRIMARY KEY (id_recette, id_materiel),
-    FOREIGN KEY (id_recette) REFERENCES recette (id_recette),
-    FOREIGN KEY (id_materiel) REFERENCES materiel (id_materiel)
-);
-
-DROP TABLE IF EXISTS categoriser;
-CREATE TABLE categoriser (
-    id_recette BIGINT NOT NULL,
-    id_categorie BIGINT NOT NULL,
-    PRIMARY KEY (id_recette, id_categorie),
-    FOREIGN KEY (id_recette) REFERENCES recette (id_recette),
-    FOREIGN KEY (id_categorie) REFERENCES categorie (id_c_categorie)
-);
-
-DROP TABLE IF EXISTS contient;
-CREATE TABLE contient (
-    id_recette BIGINT NOT NULL,
-    id_ingredient BIGINT NOT NULL,
-    PRIMARY KEY (id_recette, id_ingredient),
-    FOREIGN KEY (id_recette) REFERENCES recette (id_recette),
-    FOREIGN KEY (id_ingredient) REFERENCES ingredient (id_ingredient)
+    PRIMARY KEY (id_recette, id_materiel)
 );
 
 DROP TABLE IF EXISTS provient;
 CREATE TABLE provient (
-    id_recette NOT FOUND AUTO_INCREMENT NOT NULL,
-    id_Pays NOT FOUND NOT NULL,
+    id_recette BIGINT AUTO_INCREMENT NOT NULL,
+    id_Pays BIGINT NOT NULL,
     PRIMARY KEY (id_recette,  id_Pays)
 );
 
-ALTER TABLE recette ADD CONSTRAINT FK_recette_id_c_categorie FOREIGN KEY (id_c_categorie) REFERENCES categorie (id_c_categorie);
-ALTER TABLE unite ADD CONSTRAINT FK_unite_ingredient_id_ingredient FOREIGN KEY (ingredient_id_ingredient) REFERENCES ingredient (id_ingredient); 
-ALTER TABLE transforme ADD CONSTRAINT FK_transforme_id_produit FOREIGN KEY (id_produit) REFERENCES produit (id_produit); 
-ALTER TABLE transforme ADD CONSTRAINT FK_transforme_id_ingredient FOREIGN KEY (id_ingredient) REFERENCES ingredient (id_ingredient); 
-ALTER TABLE possede ADD CONSTRAINT FK_possede_id_historique FOREIGN KEY (id_historique) REFERENCES historique (id_historique); 
+DROP TABLE IF EXISTS contient;
+CREATE TABLE contient (
+    id_ingredient BIGINT NOT NULL,
+    id_unite BIGINT NOT NULL,
+    PRIMARY KEY (id_ingredient, id_unite)
+);
+
+ALTER TABLE contient ADD CONSTRAINT FK_contient_id_ingredient FOREIGN KEY (id_ingredient) REFERENCES ingredient (id_ingredient);
+ALTER TABLE contient ADD CONSTRAINT FK_contient_id_unite FOREIGN KEY (id_unite) REFERENCES unite (id_unite);
+ALTER TABLE possede ADD CONSTRAINT FK_possede_id_historique FOREIGN KEY (id_historique) REFERENCES historique (id_historique);
 ALTER TABLE possede ADD CONSTRAINT FK_possede_id_recette FOREIGN KEY (id_recette) REFERENCES recette (id_recette);
 ALTER TABLE relier ADD CONSTRAINT FK_relier_id_compte FOREIGN KEY (id_compte) REFERENCES user (id_compte);
 ALTER TABLE relier ADD CONSTRAINT FK_relier_id_historique FOREIGN KEY (id_historique) REFERENCES historique (id_historique);
@@ -177,6 +144,8 @@ ALTER TABLE consulter ADD CONSTRAINT FK_consulter_id_compte FOREIGN KEY (id_comp
 ALTER TABLE consulter ADD CONSTRAINT FK_consulter_id_recette FOREIGN KEY (id_recette) REFERENCES recette (id_recette);
 ALTER TABLE decompose ADD CONSTRAINT FK_decompose_id_etape FOREIGN KEY (id_etape) REFERENCES etape (id_etape);
 ALTER TABLE decompose ADD CONSTRAINT FK_decompose_id_recette FOREIGN KEY (id_recette) REFERENCES recette (id_recette);
+ALTER TABLE categoriser ADD CONSTRAINT FK_categoriser_id FOREIGN KEY (id_categorie) REFERENCES categorie (id_categorie);
+ALTER TABLE categoriser ADD CONSTRAINT FK_categoriser_id_recette FOREIGN KEY (id_recette) REFERENCES recette (id_recette);
 ALTER TABLE compose ADD CONSTRAINT FK_compose_id_ingredient FOREIGN KEY (id_ingredient) REFERENCES ingredient (id_ingredient);
 ALTER TABLE compose ADD CONSTRAINT FK_compose_id_recette FOREIGN KEY (id_recette) REFERENCES recette (id_recette);
 ALTER TABLE utilise ADD CONSTRAINT FK_utilise_id_recette FOREIGN KEY (id_recette) REFERENCES recette (id_recette);
