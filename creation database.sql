@@ -20,13 +20,14 @@ CREATE TABLE recette (
     image_recette VARCHAR(50),
     nb_personne BIGINT
 );
-        
+
 DROP TABLE IF EXISTS etape;
 CREATE TABLE etape (
     id_etape BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     nom_etape VARCHAR(50),
     texte_etape VARCHAR(400)
 );
+
 
 DROP TABLE IF EXISTS ingredient;
 CREATE TABLE ingredient (
@@ -37,11 +38,43 @@ CREATE TABLE ingredient (
     categorieI_ingredient VARCHAR(50)
 );
 
+
 DROP TABLE IF EXISTS unite;
 CREATE TABLE unite (
     id_unite BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
     libelle_unite VARCHAR(50)
 );
+
+//
+ DROP TABLE IF EXISTS unite ; 
+
+DROP TABLE IF EXISTS historique ; 
+CREATE TABLE historique (id_historique BIGINT AUTO_INCREMENT NOT NULL, avis_historique VARCHAR, favori_historique BIGINT, PRIMARY KEY (id_historique)) ENGINE=InnoDB;  
+
+DROP TABLE IF EXISTS categorie ; 
+CREATE TABLE categorie (id_c_categorie BIGINT AUTO_INCREMENT NOT NULL, libelle_categorie VARCHAR, sous_categorie_categorie VARCHAR, PRIMARY KEY (id_c_categorie)) ENGINE=InnoDB;  
+
+DROP TABLE IF EXISTS materiel ; 
+CREATE TABLE materiel (id_materiel BIGINT AUTO_INCREMENT NOT NULL, libelle_materiel VARCHAR, PRIMARY KEY (id_materiel)) ENGINE=InnoDB;  
+
+DROP TABLE IF EXISTS Pays ; 
+CREATE TABLE Pays (id_pays BIGINT AUTO_INCREMENT NOT NULL, nom VARCHAR, abrev_Pays VARCHAR, PRIMARY KEY (id_pays)) ENGINE=InnoDB;  
+
+DROP TABLE IF EXISTS possede ; 
+CREATE TABLE possede (id_historique **NOT FOUND** AUTO_INCREMENT NOT NULL, id_recette **NOT FOUND** NOT NULL, PRIMARY KEY (id_historique,  id_recette)) ENGINE=InnoDB;
+
+//
+
+
+
+DROP TABLE IF EXISTS produit ;
+CREATE TABLE produit (
+    id_produit BIGINT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    quantite_produit BIGINT,
+    nb_personne_produit BIGINT,
+    libelle_produit VARCHAR(50)
+);
+    
 
 DROP TABLE IF EXISTS historique;
 CREATE TABLE historique (
