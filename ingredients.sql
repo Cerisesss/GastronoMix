@@ -1,4 +1,4 @@
 INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom, categorieI_ingredient) VALUES(LOAD_FILE('C:\Images\fraise.jpg'), 'Fruits' , 'Fraise', 'Fruits');
 INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom, categorieI_ingredient) VALUES(LOAD_FILE('C:\Images\lait.jpg'), 'Lait/Lactose' , 'Lait', 'Produits laitiers');
 INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom, categorieI_ingredient) VALUES(LOAD_FILE('C:\Images\oeuf.jpg'), 'Oeuf' , 'Oeuf', 'Produits laitiers');
-INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom, categorieI_ingredient) VALUES(LOAD_FILE('C:\Images\farine.jpg'), 'Farine' , 'Gluten', 'Céréales');
+INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom, categorieI_ingredient) VALUES(LOAD_FILE('C:\Images\farine.jpg'), 'Gluten' , 'Farine', 'Céréales');
