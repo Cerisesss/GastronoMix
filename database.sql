@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS `unite` (
 CREATE TABLE IF NOT EXISTS `quantite` (
     `id_recette` BIGINT NOT NULL,
     `id_ingredient` BIGINT NOT NULL,
-    `quantite` BIGINT NOT NULL,
+    `quantite` FLOAT,
     CONSTRAINT `fk_quantite_recette_id`
         FOREIGN KEY (`id_recette`)
         REFERENCES `recette` (`id_recette`)
