@@ -85,7 +85,7 @@ WHERE i.nom_ingredient = "Carotte";
 
 
 --Affiche les recettes en utilisant les unites -> pour libelle_unite = "kg"
-SELECT r.id_recette, r.titre, r.image_recette, q.id_ingredient, i.nom_ingredient, q.quantites, u.libelle_unite FROM recette r
+SELECT r.id_recette, r.titre, r.image_recette, q.id_ingredient, i.nom_ingredient, q.quantite, u.libelle_unite FROM recette r
 JOIN quantite q ON q.id_recette = r.id_recette
 JOIN ingredient i ON i.id_ingredient = q.id_ingredient
 JOIN unite u ON u.id_unite = i.id_unite
