@@ -85,7 +85,7 @@ WHERE i.nom_ingredient = "Carotte";
 
 
 --Affiche les recettes en utilisant les unites -> pour libelle_unite = "kg"
-SELECT r.id_recette, r.titre, r.image_recette, q.id_ingredient, i.nom_ingredient, q.quantite), u.libelle_unite FROM recette r
+SELECT r.id_recette, r.titre, r.image_recette, q.id_ingredient, i.nom_ingredient, q.quantites, u.libelle_unite FROM recette r
 JOIN quantite q ON q.id_recette = r.id_recette
 JOIN ingredient i ON i.id_ingredient = q.id_ingredient
 JOIN unite u ON u.id_unite = i.id_unite
@@ -130,6 +130,21 @@ JOIN materiel m ON m.id_materiel = rm.id_materiel;
 SELECT i.nom_ingredient, i.categorie_ingredient, un.libelle_unite FROM ingredient i
 JOIN unite un ON i.id_unite = un.id_unite
 WHERE i.nom_ingredient = 'farine';
+
+SELECT r.id_recette, r.titre, r.image_recette, q.id_ingredient, i.nom_ingredient, q.quantite, u.libelle_unite
+FROM recette r
+JOIN quantite q ON q.id_recette = r.id_recette
+JOIN ingredient i ON i.id_ingredient = q.id_ingredient
+JOIN unite u ON u.id_unite = i.id_unite
+WHERE r.id_recette IN (
+    SELECT q2.id_recette
+    FROM quantite q2
+    JOIN ingredient i2 ON i2.id_ingredient = q2.id_ingredient
+    WHERE i2.nom_ingredient IN ("Carotte", "Poulet")
+    GROUP BY q2.id_recette
+    HAVING COUNT(DISTINCT i2.nom_ingredient) = 2
+);
+
 
 
 --Affiche les ingrédients faisant partie d'une categorie -> pour categorie = légumes
