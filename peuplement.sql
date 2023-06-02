@@ -78,10 +78,9 @@ insert into pays(nom_pays, abrev_pays) VALUES('Russie','RUS');
 insert into pays(nom_pays, abrev_pays) VALUES('Allemagne','GER');
 
 insert into categorie(libelle_categorie) VALUES('entree');
-insert into categorie(libelle_categorie, sous_categorie) VALUES('Plat');
-insert into categorie(libelle_categorie, sous_categorie) VALUES('Dessert');
-insert into categorie(libelle_categorie, sous_categorie) VALUES('Boisson');
-insert into categorie(libelle_categorie, sous_categorie) VALUES('Aperitif');
+insert into categorie(libelle_categorie) VALUES('Plat');
+insert into categorie(libelle_categorie) VALUES('Dessert');
+insert into categorie(libelle_categorie) VALUES('Boisson');
 
 INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
 VALUES ('Gateau fraise', '2023-05-16', 'Dessert', 'Bon gateau aux fraises miam miam', 'https://', 2, 30, 30, 0, 1, '', 3); 
@@ -90,7 +89,7 @@ VALUES ('Couscous', '2023-06-17', 'Plat', 'Plat traditionnel Algerien', 'https:/
 INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
 VALUES ('Feijoada', '2023-06-17', 'Plat', 'Un excellent plat portugais/bresilien', 'https://', 4, 30, 30, 0, 2, 3, 2); 
 INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
-VALUES ('Aubergine sautée', '2023-06-17', 'Plat', 'Un petit plat asiatique de qualite', 'https://', 2, 30, 30, 0, 3, 4, 2); 
+VALUES ('Aubergine sautée', '2023-06-17', 'Plat', 'Un petit plat asiatique de qualite', 'C:\wamp64\www\gastronomix\Images\aubergineSautee.jpg', 2, 30, 30, 0, 3, 4, 2); 
 INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
 VALUES ('Jus d`orange', '2023-06-17', 'Boisson', 'Jus d`orange non industriel', 'https://', 4, 0, 0, 30, 2, '', 4); 
 

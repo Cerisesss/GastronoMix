@@ -68,7 +68,6 @@ CREATE TABLE IF NOT EXISTS `pays` (
 CREATE TABLE IF NOT EXISTS `categorie` (
     `id_categorie` BIGINT NOT NULL AUTO_INCREMENT,
     `libelle_categorie` VARCHAR(50) NULL,
-    `sous_categorie` VARCHAR(50) NULL,
     PRIMARY KEY (`id_categorie`)
 );
 
