@@ -61,8 +61,8 @@
 
     <?php
         $host = "localhost";
-        $user = "eleve";
-        $password = "secret";
+        $user = "root";
+        $password = "";
         $database = "GastronoMix"; 
 
         // Connexion à la base de données
