@@ -1,0 +1,182 @@
+html{
+    background-size : cover;
+    background-repeat: no-repeat;
+    height : 100%;
+}
+
+
+
+
+
+header{
+    margin-top: 5%;
+    line-height: 30px;
+    text-align: center;
+    
+    padding: 1em;
+    border: 1px solid rgb(144, 159, 246);;
+    background : rgb(144, 159, 246);
+    opacity : 0.8;
+	font-family: "avion", sans-serif;
+    flex : align-items;
+}
+
+
+
+
+
+body{
+	margin : auto;
+    margin-top: 5%;
+    line-height: 30px;
+    text-align: center;
+    width: 800px;
+    padding: 1em;
+    border: 1px solid white;
+    background : white;
+    opacity : 0.8;
+	font-family: "avion", sans-serif;
+    display : block;
+}
+
+
+
+
+
+#menu {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 300px;
+    background-color: #fff3f8;
+    border: 3px solid #f3d6e5;
+    padding: 10px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 5;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #0f0e0e;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.MenuButton {
+    background-color: #ffffff;
+    border: 3px solid #f3d6e5;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 20px;
+}
+
+.MenuButton:hover {
+    background-color: #f7ebf0;
+} 
+
+.MenuButton {
+    box-shadow: 0 2px 4px rgba(6, 5, 5, 0.1);
+}
+  
+.MenuButton:hover {
+    box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
+}
+
+
+
+
+
+#compte {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#compte ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#compte ul li a {
+    text-decoration: none;
+    color: #0f0e0e;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.CompteButton {
+    background-color: #ffffff;
+    border: 3px solid #f3d6e5;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 20px;
+}
+
+.CompteButton:hover {
+    background-color: #f7ebf0;
+}
+  
+.CompteButton {
+    box-shadow: 0 2px 4px rgba(6, 5, 5, 0.1);
+}
+  
+.CompteButton:hover {
+    box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
+}
+
+
+
+
+
+.RechercheButton {
+    background-color: #ffffff;
+    border: 3px solid #f3d6e5;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 20px;
+}
+
+.RechercheButton:hover {
+    background-color: #f7ebf0;
+}
+
+.RechercheButton {
+    box-shadow: 0 2px 4px rgba(6, 5, 5, 0.1);
+}
+  
+.RechercheButton:hover {
+    box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
+}
+
+
+
+
+
+.ConnexionButton {
+    background-color: #ffffff;
+    border: 3px solid #f3d6e5;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-radius: 20px;
+}
+
+.ConnexionButton:hover {
+    background-color: #f7ebf0;
+}
+
+.ConnexionButton {
+    box-shadow: 0 2px 4px rgba(6, 5, 5, 0.1);
+}
+  
+.ConnexionButton:hover {
+    box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
+}
