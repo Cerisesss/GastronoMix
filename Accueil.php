@@ -20,7 +20,7 @@
     <div header>
         <h1>GastronoMix</h1>
 
-        <button class="MenuButton" onclick="toggleMenu()">=</button>
+        <button class="Button" onclick="toggleMenu()">=</button>
 
         <div id="menu">
             <!-- Votre contenu de menu ici -->
@@ -36,15 +36,15 @@
 
         <form action="display" method="GET">
             <input type="text" name="recherche" value="">
-            <button class="RechercheButton" type="submit">Rechercher</button>
+            <button class="Button" type="submit">Rechercher</button>
         </form>
 
-        <a href="http://localhost/gastronomix/connexion.php"><button class="ConnexionButton">Connexion</button></a>
+        <a href="http://localhost/gastronomix/connexion.php"><button class="Button">Connexion</button></a>
     </div>
 
 
     <!-- Si connecté
-    <button class="CompteButton" onclick="toggleCompte()">Compte</button>
+    <button class="Button" onclick="toggleCompte()">Compte</button>
     <div id="compte">
         <ul> 
             <li><a href="http://localhost/gastronomix/profil.php">Profil</a></li>

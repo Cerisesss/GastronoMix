@@ -68,24 +68,6 @@ body{
     margin: 0;
 }
 
-.MenuButton {
-    background-color: #ffffff;
-    border: 3px solid #f3d6e5;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    border-radius: 20px;
-}
-
-.MenuButton:hover {
-    background-color: #f7ebf0;
-} 
-
-.MenuButton {
-    box-shadow: 0 2px 4px rgba(6, 5, 5, 0.1);
-}
-  
-.MenuButton:hover {
-    box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
-}
 
 
 
@@ -116,67 +98,26 @@ body{
     margin: 0;
 }
 
-.CompteButton {
+
+
+
+
+
+.Button {
     background-color: #ffffff;
     border: 3px solid #f3d6e5;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     border-radius: 20px;
 }
 
-.CompteButton:hover {
-    background-color: #f7ebf0;
-}
-  
-.CompteButton {
-    box-shadow: 0 2px 4px rgba(6, 5, 5, 0.1);
-}
-  
-.CompteButton:hover {
-    box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
-}
-
-
-
-
-
-.RechercheButton {
-    background-color: #ffffff;
-    border: 3px solid #f3d6e5;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    border-radius: 20px;
-}
-
-.RechercheButton:hover {
+.Button:hover {
     background-color: #f7ebf0;
 }
 
-.RechercheButton {
+.Button {
     box-shadow: 0 2px 4px rgba(6, 5, 5, 0.1);
 }
   
-.RechercheButton:hover {
-    box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
-}
-
-
-
-
-
-.ConnexionButton {
-    background-color: #ffffff;
-    border: 3px solid #f3d6e5;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    border-radius: 20px;
-}
-
-.ConnexionButton:hover {
-    background-color: #f7ebf0;
-}
-
-.ConnexionButton {
-    box-shadow: 0 2px 4px rgba(6, 5, 5, 0.1);
-}
-  
-.ConnexionButton:hover {
+.Button:hover {
     box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
 }
