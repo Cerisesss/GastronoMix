@@ -33,46 +33,27 @@
             <a href="http://localhost/gastronomix/connexion.php"><button class="Button">Connexion</button></a>
         </div>
         
-        <h1>Les boissons</h1>
+        <h1>Boissons</h1>
 
         <?php
-        $mysqli = ConnectionDatabase();
+            $mysqli = ConnectionDatabase();
+            
+            $query = "SELECT r.image_recette, r.titre 
+                    FROM recette r
+                    JOIN categorie c ON c.id_categorie = r.id_categorie
+                    WHERE c.libelle_categorie = 'boisson';";
         
-        $query = "SELECT r.id_recette, r.titre, r.categorie_recette, r.description_recette, c.libelle_categorie FROM recette r
-        JOIN categorie c ON c.id_categorie = r.id_categorie
-        WHERE c.libelle_categorie = 'boisson'";
-    
-        $result = $mysqli->query($query);
-        
-        if ($result !== false && $result->num_rows > 0) {
-            while ($row = $result->fetch_assoc()) {
-                echo "<h2>Titre: " . $row["titre"] . "</h2>";
-                echo "<p><strong>Description:</strong> " . $row["description_recette"] . "</p>";
-                echo "<p><strong>Catégorie:</strong> " . $row["categorie_recette"] . "</p>";
-                
-                $recette_id = $row["id_recette"];
-                
-                $etape_query = "SELECT nom_etape, texte_etape FROM etape WHERE id_recette = $recette_id";
-                $etape_result = $mysqli->query($etape_query);
-                
-                if ($etape_result !== false && $etape_result->num_rows > 0) {
-                    echo "<h3>Étapes:</h3>";
-                    echo "<ol>";
-                    
-                    while ($etape_row = $etape_result->fetch_assoc()) {
-                        echo "<li><strong>Nom de l'étape:</strong> " . $etape_row["nom_etape"] . "</li>";
-                        echo "<li><strong>Texte de l'étape:</strong> " . $etape_row["texte_etape"] . "</li>";
-                    }
-                    
-                    echo "</ol>";
-                } else {
-                    echo "<p>Aucune étape trouvée pour cette recette.</p>";
+            $result = $mysqli->query($query);
+            
+            if ($result !== false && $result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo $row["image_recette"];
+                    echo "<h2>" . $row["titre"] . "</h2>";
                 }
+            } else {
+                echo "Aucun résultat.";
             }
-        } else {
-            echo "Aucune boisson trouvée.";
-        }
-        $mysqli->close();
+            $mysqli->close();
         ?>
         
     </body>
