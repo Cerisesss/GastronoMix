@@ -17,80 +17,98 @@
 </head>
 <body>
 
-    <button onclick="toggleMenu()">=</button>
-    <div id="menu">
-        <!-- Votre contenu de menu ici -->
-        <ul>
-            <li><a href="http://localhost/gastronomix/entree.php">Entrée</a></li>
-            <li><a href="http://localhost/gastronomix/plat.php">Plat</a></li>
-            <li><a href="http://localhost/gastronomix/dessert.php">Dessert</a></li>
-            <li><a href="http://localhost/gastronomix/boisson.php">Boisson</a></li>
-        </ul>
+    <div header>
+        <h1>GastronoMix</h1>
+
+        <button class="Button" onclick="toggleMenu()">=</button>
+
+        <div id="menu">
+            <!-- Votre contenu de menu ici -->
+            <ul>
+                <h2>Menu</h2>
+                <!--<li><a href="http://localhost/gastronomix/Accueil.php">Accueil</a></li>-->
+                <li><a href="http://localhost/gastronomix/entree.php">Entrée</a></li>
+                <li><a href="http://localhost/gastronomix/plat.php">Plat</a></li>
+                <li><a href="http://localhost/gastronomix/dessert.php">Dessert</a></li>
+                <li><a href="http://localhost/gastronomix/boisson.php">Boisson</a></li>
+            </ul>
+        </div>
+
+        <form action="display" method="GET">
+            <input type="text" name="recherche" value="">
+            <button class="Button" type="submit">Rechercher</button>
+        </form>
+
+        <a href="http://localhost/gastronomix/creationdeconnexion.php"><button class="Button">Connexion</button></a>
     </div>
 
-
-    <form action="display" method="GET">
-		<input type="text" name="recherche" value="">
-		<button class="favorite styled" type="submit">Rechercher</button>
-    </form>
-
-    <a href="http://localhost/gastronomix/creationdecompte.php"><button>Connexion</button></a>
+    <!-- Si connecté
+    <button class="Button" onclick="toggleCompte()">Compte</button>
+    <div id="compte">
+        <ul> 
+            <li><a href="http://localhost/gastronomix/profil.php">Profil</a></li>
+            <li><a href="http://localhost/gastronomix/favoris.php">Favoris</a></li>
+            <li><a href="http://localhosts/gastronomix/historique.php">Historique</a></li>
+            <li><a href="http://localhost/gastronomix/deconnexion.php">Déconnexion</a></li>
+        </ul>
+    </div>
+    -->
 
 	
     </br></br></br>
     
 
-        <?php
-            $host = "localhost";
-            $user = "root";
-            $password = "";
-            $database = "GastronoMix"; 
+    <?php
+        $host = "localhost";
+        $user = "root";
+        $password = "";
+        $database = "GastronoMix"; 
 
-            // Connexion à la base de données
-            
-            try {
-                // Vérification de la connexion
-                $mysqli = new mysqli($host, $user, $password, $database);
-                //$mysqli = mysqli_connect($host, $user, $password, $database);
-                //echo "Connexion à la base de données : " . $database . " réussie. </br></br>";
-            }
-            catch (Exception $e) {
-                echo '<p>Erreur de Connexion au SGBD = '.$database;
-                echo "\n -ERROR-ERROR-ERROR " . $e;
-                die('Erreur de connexion (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error); 
-                exit();
-            }
-            
-            $categorie = ["Entree", "Plat", "Dessert", "Boisson"];
- 
-            // Requête SQL
-            
-            for($i = 0; $i < count($categorie); $i++){
-                $categorie_actuelle = $categorie[$i];
+        // Connexion à la base de données
+        
+        try {
+            // Vérification de la connexion
+            $mysqli = new mysqli($host, $user, $password, $database);
+            //$mysqli = mysqli_connect($host, $user, $password, $database);
+            //echo "Connexion à la base de données : " . $database . " réussie. </br></br>";
+        }
+        catch (Exception $e) {
+            echo '<p>Erreur de Connexion au SGBD = '.$database;
+            echo "\n -ERROR-ERROR-ERROR " . $e;
+            die('Erreur de connexion (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error); 
+            exit();
+        }
+        
+        $categorie = ["Entree", "Plat", "Dessert", "Boisson"];
 
-                echo $categorie_actuelle . "</br>";
+        // Requête SQL
+        
+        for($i = 0; $i < count($categorie); $i++){
+            $categorie_actuelle = $categorie[$i];
 
-                $query = "SELECT image_recette, titre FROM recette
-                        WHERE categorie_recette = '$categorie_actuelle'
-                        ORDER BY titre asc ;";
+            echo $categorie_actuelle . "</br>";
 
-                $result = $mysqli->query($query);
+            $query = "SELECT image_recette, titre FROM recette
+                    WHERE categorie_recette = '$categorie_actuelle'
+                    ORDER BY titre asc ;";
+
+            $result = $mysqli->query($query);
 
 
-                while ($row = mysqli_fetch_assoc($result)) {
-                    $image_recette = $row["image_recette"];
-                    $titre = $row['titre'];
+            while ($row = mysqli_fetch_assoc($result)) {
+                $image_recette = $row["image_recette"];
+                $titre = $row['titre'];
 
-                    $lienRecette = '<a href="http://localhost/gastronomix/recette.php/' . $titre . '">' . $titre . '</a>';
+                $lienRecette = '<a href="http://localhost/gastronomix/recette.php/' . $titre . '">' . $titre . '</a>';
 
-                    echo $image_recette . '<br>';
-                    echo $lienRecette . '<br><br>';
-                }
-
-                echo "</br>";
+                echo $image_recette . '<br>';
+                echo $lienRecette . '<br><br>';
             }
 
-            $mysqli->close();
-        ?>
+            echo "</br>";
+        }
+
+        $mysqli->close();
+    ?>
 </body>
 </html>
