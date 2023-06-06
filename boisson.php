@@ -6,9 +6,11 @@
 <html>
     <head>
         <title>Liste des boissons</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
         <h1>Les boissons</h1>
+
         <?php
         $mysqli = ConnectionDatabase();
         
@@ -49,5 +51,5 @@
         $mysqli->close();
         ?>
         
-</body>
+    </body>
 </html>
