@@ -34,7 +34,7 @@
 		<button class="favorite styled" type="submit">Rechercher</button>
     </form>
 
-    <a href="http://localhost/gastronomix/connexion.php"><button>Connexion</button></a>
+    <a href="http://localhost/gastronomix/creationdecompte.php"><button>Connexion</button></a>
 
 	
     </br></br></br>
@@ -42,8 +42,8 @@
 
         <?php
             $host = "localhost";
-            $user = "eleve";
-            $password = "secret";
+            $user = "root";
+            $password = "";
             $database = "GastronoMix"; 
 
             // Connexion à la base de données
