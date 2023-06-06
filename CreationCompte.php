@@ -1,3 +1,7 @@
+<?php
+    require 'Function.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

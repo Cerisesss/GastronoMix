@@ -1,3 +1,7 @@
+<?php
+    require 'Function.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,16 +10,13 @@
 <body>
     <h1>Les dessert</h1>
     <?php
-    $conn = new mysqli("localhost", "root", "", "gastronomix");
-    if ($conn->connect_error) {
-        die("La connexion a échoué : " . $conn->connect_error);
-    }
+    $mysqli = ConnectionDatabase();
     
     $query = "SELECT r.id_recette, r.titre, r.categorie_recette, r.description_recette, c.libelle_categorie FROM recette r
     JOIN categorie c ON c.id_categorie = r.id_categorie
     WHERE c.libelle_categorie = 'dessert'";
    
-    $result = $conn->query($query);
+    $result = $mysqli->query($query);
     
     if ($result !== false && $result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
@@ -27,7 +28,7 @@
             $recette_id = $row["id_recette"];
             
             $etape_query = "SELECT nom_etape, texte_etape FROM etape WHERE id_recette = $recette_id";
-            $etape_result = $conn->query($etape_query);
+            $etape_result = $mysqli->query($etape_query);
             
             if ($etape_result !== false && $etape_result->num_rows > 0) {
                 echo "<h3>Étapes:</h3>";
@@ -46,7 +47,7 @@
     } else {
         echo "Aucun dessert  trouvée.";
     }
-    $conn->close();
+    $mysqli->close();
     ?>
     
 </body>

@@ -1,3 +1,7 @@
+<?php
+    require 'Function.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,8 +43,9 @@
             <button class="Button" type="submit">Rechercher</button>
         </form>
 
-        <a href="http://localhost/gastronomix/creationdeconnexion.php"><button class="Button">Connexion</button></a>
+        <a href="http://localhost/gastronomix/connexion.php"><button class="Button">Connexion</button></a>
     </div>
+
 
     <!-- Si connecté
     <button class="Button" onclick="toggleCompte()">Compte</button>
@@ -59,25 +64,7 @@
     
 
     <?php
-        $host = "localhost";
-        $user = "root";
-        $password = "";
-        $database = "GastronoMix"; 
-
-        // Connexion à la base de données
-        
-        try {
-            // Vérification de la connexion
-            $mysqli = new mysqli($host, $user, $password, $database);
-            //$mysqli = mysqli_connect($host, $user, $password, $database);
-            //echo "Connexion à la base de données : " . $database . " réussie. </br></br>";
-        }
-        catch (Exception $e) {
-            echo '<p>Erreur de Connexion au SGBD = '.$database;
-            echo "\n -ERROR-ERROR-ERROR " . $e;
-            die('Erreur de connexion (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error); 
-            exit();
-        }
+        $mysqli = ConnectionDatabase();
         
         $categorie = ["Entree", "Plat", "Dessert", "Boisson"];
 
