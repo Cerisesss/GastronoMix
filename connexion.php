@@ -21,7 +21,7 @@
                 </ul>
             </div>
 
-            <form action="display" method="GET">
+            <form action="recette.php" method="GET">
                 <input type="text" name="recherche" value="">
                 <button class="Button" type="submit">Rechercher</button>
             </form>

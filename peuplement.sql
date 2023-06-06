@@ -25,11 +25,11 @@ INSERT INTO quantite(id_recette, id_ingredient, quantite) VALUES(4, 13, 1);
 INSERT INTO quantite(id_recette, id_ingredient, quantite) VALUES(5, 14, 0.5);
 INSERT INTO quantite(id_recette, id_ingredient, quantite) VALUES(5, 15, 0.2);
  
-INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('C:\Images\fraise.jpg'), 'Fraise' , 'Fraise', 'Fruits', 1);
-INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('C:\Images\lait.jpg'), 'Lait/Lactose' , 'Lait', 'Produits laitiers', 2);
-INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('C:\Images\oeuf.jpg'), 'Oeuf' , 'Oeuf', 'Produits laitiers', 8);
-INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('C:\Images\farine.jpg'), 'Gluten' , 'Farine', 'Céréales', 1);
-INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('C:\Images\Carotte.jpg'), 'Carotte' , 'Carotte', 'Légumes', 1);
+INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('\Images\fraise.jpg'), 'Fraise' , 'Fraise', 'Fruits', 1);
+INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('\Images\lait.jpg'), 'Lait/Lactose' , 'Lait', 'Produits laitiers', 2);
+INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('\Images\oeuf.jpg'), 'Oeuf' , 'Oeuf', 'Produits laitiers', 8);
+INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('\Images\farine.jpg'), 'Gluten' , 'Farine', 'Céréales', 1);
+INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('\Images\Carotte.jpg'), 'Carotte' , 'Carotte', 'Légumes', 1);
 INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('C:\Images\Tomate.jpg'), 'Tomate' , 'Tomate', 'Fruits', 1);
 INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('C:\Images\HaricotVert.jpg'), 'Haricot' , 'Haricot vert', 'Légumineuse', 1);
 INSERT INTO ingredient(image_ingredient, allergie_ingredient, nom_ingredient, categorie_ingredient, id_unite) VALUES(LOAD_FILE('C:\Images\Poulet.jpg'), 'Poulet' , 'Poulet', 'Viande', 1);
@@ -89,7 +89,7 @@ VALUES ('Couscous', '2023-06-17', 'Plat', 'Plat traditionnel Algerien', 'https:/
 INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
 VALUES ('Feijoada', '2023-06-17', 'Plat', 'Un excellent plat portugais/bresilien', 'https://', 4, 30, 30, 0, 2, 3, 2); 
 INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
-VALUES ('Aubergine sautée', '2023-06-17', 'Plat', 'Un petit plat asiatique de qualite', 'C:\wamp64\www\gastronomix\Images\aubergineSautee.jpg', 2, 30, 30, 0, 3, 4, 2); 
+VALUES ('Aubergine sautée', '2023-06-17', 'Plat', 'Un petit plat asiatique de qualite', '\Images\aubergineSautee.jpg', 2, 30, 30, 0, 3, 4, 2); 
 INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
 VALUES ('Jus d`orange', '2023-06-17', 'Boisson', 'Jus d`orange non industriel', 'https://', 4, 0, 0, 30, 2, '', 4); 
 

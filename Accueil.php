@@ -18,7 +18,6 @@
         <button class="Button" onclick="toggleMenu()">=</button>
 
         <div id="menu">
-            <!-- Votre contenu de menu ici -->
             <ul>
                 <h2>Menu</h2>
                 <li><a href="http://localhost/gastronomix/Accueil.php">Accueil</a></li>
@@ -29,7 +28,7 @@
             </ul>
         </div>
 
-        <form action="display" method="GET">
+        <form action="recette.php" method="GET">
             <input type="text" name="recherche" value="">
             <button class="Button" type="submit">Rechercher</button>
         </form>
@@ -59,8 +58,6 @@
         
         $categorie = ["Entree", "Plat", "Dessert", "Boisson"];
 
-        // Requête SQL
-        
         for($i = 0; $i < count($categorie); $i++){
             $categorie_actuelle = $categorie[$i];
 
@@ -77,7 +74,7 @@
                 $image_recette = $row["image_recette"];
                 $titre = $row['titre'];
 
-                $lienRecette = '<a href="http://localhost/gastronomix/recette.php/' . $titre . '">' . $titre . '</a>';
+                $lienRecette = '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>';
 
                 echo $image_recette . '<br>';
                 echo $lienRecette . '<br><br>';

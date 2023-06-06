@@ -35,7 +35,7 @@ SELECT r.id_recette, r.titre, r.image_recette, q.id_ingredient, i.nom_ingredient
 JOIN quantite q ON q.id_recette = r.id_recette
 JOIN ingredient i ON i.id_ingredient = q.id_ingredient
 WHERE r.id_recette = 1;
---le round (pour les chiffres a virgule) ne marche pas
+
 
 
 --les noms des ingrédients qui la compose une recette -> pour titre = 'gateau fraise'
