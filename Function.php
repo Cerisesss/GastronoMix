@@ -4,11 +4,8 @@
         $user = "root";
         $password = "";
         $database = "GastronoMix"; 
-
-        // Connexion à la base de données
         
         try {
-            // Vérification de la connexion
             $mysqli = new mysqli($host, $user, $password, $database);
             return $mysqli;
             //$mysqli = mysqli_connect($host, $user, $password, $database);

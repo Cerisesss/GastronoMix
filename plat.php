@@ -14,7 +14,6 @@
             <button class="Button" onclick="toggleMenu()">=</button>
 
             <div id="menu">
-                <!-- Votre contenu de menu ici -->
                 <ul>
                     <h2>Menu</h2>
                     <li><a href="http://localhost/gastronomix/Accueil.php">Accueil</a></li>
