@@ -8,16 +8,7 @@
     <title>GastronoMix</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <!--<meta http-equiv="refresh" content="2; url=/req_actualiser_lobby?choix={{choix}}&pseudo={{pseudo}}">-->
-    <script>
-        function toggleMenu() {
-            var menu = document.getElementById("menu");
-            if (menu.style.display === "block") {
-                menu.style.display = "none";
-            } else {
-                menu.style.display = "block";
-            }
-        }
-    </script>
+    <script src="Function.js"></script>
 </head>
 <body>
 
@@ -30,7 +21,7 @@
             <!-- Votre contenu de menu ici -->
             <ul>
                 <h2>Menu</h2>
-                <!--<li><a href="http://localhost/gastronomix/Accueil.php">Accueil</a></li>-->
+                <li><a href="http://localhost/gastronomix/Accueil.php">Accueil</a></li>
                 <li><a href="http://localhost/gastronomix/entree.php">Entrée</a></li>
                 <li><a href="http://localhost/gastronomix/plat.php">Plat</a></li>
                 <li><a href="http://localhost/gastronomix/dessert.php">Dessert</a></li>
@@ -60,7 +51,7 @@
     -->
 
 	
-    </br></br></br>
+    </br></br>
     
 
     <?php

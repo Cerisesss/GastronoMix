@@ -7,8 +7,32 @@
     <head>
         <title>Liste des boissons</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="Function.js"></script>
     </head>
     <body>
+        <div header>
+            <button class="Button" onclick="toggleMenu()">=</button>
+
+            <div id="menu">
+                <!-- Votre contenu de menu ici -->
+                <ul>
+                    <h2>Menu</h2>
+                    <li><a href="http://localhost/gastronomix/Accueil.php">Accueil</a></li>
+                    <li><a href="http://localhost/gastronomix/entree.php">Entrée</a></li>
+                    <li><a href="http://localhost/gastronomix/plat.php">Plat</a></li>
+                    <li><a href="http://localhost/gastronomix/dessert.php">Dessert</a></li>
+                    <li><a href="http://localhost/gastronomix/boisson.php">Boisson</a></li>
+                </ul>
+            </div>
+
+            <form action="display" method="GET">
+                <input type="text" name="recherche" value="">
+                <button class="Button" type="submit">Rechercher</button>
+            </form>
+
+            <a href="http://localhost/gastronomix/connexion.php"><button class="Button">Connexion</button></a>
+        </div>
+        
         <h1>Les boissons</h1>
 
         <?php
