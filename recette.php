@@ -41,7 +41,7 @@
             <?php
                 $mysqli = ConnectionDatabase();
                 
-                if (isset($_GET['recherche'])) {
+                if(isset($_GET['recherche'])) {
                     $mot_clef = $_GET['recherche'];
                     
                     //if ($mot_clef !== false && $mot_clef !== null) {
