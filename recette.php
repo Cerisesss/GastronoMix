@@ -37,6 +37,13 @@
 
     <h1>Résultat</h1>
     
+    <form action="traitement_jaime.php" method="POST" class="jaime-form">
+    <input type="hidden" name="id_recette" value="<?php echo $id_recette; ?>">
+    <button type="submit" class="jaime-button">J'aime</button>
+    <span class="jaime-count"><?php echo $nombre_jaime; ?></span>
+</form>
+
+
 
         <?php
             $mysqli = ConnectionDatabase();

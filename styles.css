@@ -121,3 +121,14 @@ body{
 .Button:hover {
     box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
 }
+/* Style du cœur initial */
+.jaime-icon {
+    color: red;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+/* Style du cœur actif */
+.jaime-icon.active {
+    color: pink;
+}
