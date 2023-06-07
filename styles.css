@@ -12,7 +12,6 @@ header{
     margin-top: 5%;
     line-height: 30px;
     text-align: center;
-    
     padding: 1em;
     border: 1px solid rgb(144, 159, 246);;
     background : rgb(144, 159, 246);
@@ -46,12 +45,13 @@ body{
 #menu {
     display: none;
     position: absolute;
-    top: 0px;
-    left: 0;
-    width: 300px;
+    top: 15px;
+    left: 80px;
+    width: 280px;
     background-color: #fff3f8;
     border: 3px solid #f3d6e5;
     padding: 10px;
+    height: 250px;
 }
 
 #menu ul {
@@ -68,6 +68,13 @@ body{
     margin: 0;
 }
 
+#MenuButton {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+}
 
 
 
@@ -77,10 +84,10 @@ body{
     display: none;
     position: absolute;
     top: 50px;
-    right: 0;
-    width: 150px;
+    right: 0px;
+    width: 200px;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     padding: 10px;
 }
 
@@ -96,6 +103,14 @@ body{
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+#CompteButton {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    width: 100px;
+    height: 40px;
 }
 
 

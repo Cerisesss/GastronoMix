@@ -11,7 +11,7 @@
     </head>
     <body>
         <div header>
-            <button class="Button" onclick="toggleMenu()">=</button>
+            <button id="MenuButton" class="Button" onclick="toggleMenu()">=</button>
 
             <div id="menu">
                 <ul>
