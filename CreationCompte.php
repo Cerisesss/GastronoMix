@@ -11,7 +11,7 @@
     </head>
     <body>
         <div header>
-            <button class="Button" onclick="toggleMenu()">=</button>
+        <btuton id="MenuButton" class="Button" onclick="toggleMenu()">=</button>
 
             <div id="menu">
                 <ul>
@@ -28,9 +28,8 @@
                 <input type="text" name="recherche" value="">
                 <button class="Button" type="submit">Rechercher</button>
             </form>
-
-            <a href="http://localhost/gastronomix/connexion.php"><button class="Button">Connexion</button></a>
         </div>
+        
 
         <?php
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -128,7 +127,7 @@
                 </div>
                 <input type="submit" class="Button" value="S'inscrire" />
             </form>
-            <p>Déjà inscrit ? <a href="creationdecompte.php">Se connecter</a></p>
+            <p>Déjà inscrit ?<a href="http://localhost/gastronomix/connexion.php"><button class="Button">Se connecter</button></a></p>
         </div>
     </body>
 </html>

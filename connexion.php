@@ -7,7 +7,7 @@
     </head>
     <body>
         <div header>
-            <button class="Button" onclick="toggleMenu()">=</button>
+            <button id="MenuButton" class="Button" onclick="toggleMenu()">=</button>
 
             <div id="menu">
                 <ul>
@@ -24,8 +24,6 @@
                 <input type="text" name="recherche" value="">
                 <button class="Button" type="submit">Rechercher</button>
             </form>
-
-            <a href="http://localhost/gastronomix/connexion.php"><button class="Button">Connexion</button></a>
         </div>
         <?php
         
@@ -94,7 +92,7 @@
                 <a href="Accueil.php"><button type="button" class="Button">Se connecter</button></a>
 
             </form>
-            <p>Nouveau sur notre site ? <a href="connect.php">Créer un compte</a></p>
+            <p>Nouveau sur notre site ? <a href="http://localhost/gastronomix/CreationCompte.php"><button class="Button">Créer un compte</button></a></p>
         </div>
     </body>
 </html>
