@@ -44,6 +44,9 @@
             if (isset($_GET['recherche'])) {
                 $mot_clef = $_GET['recherche'];
                 
+        
+            
+                
                 //if ($mot_clef !== false && $mot_clef !== null) {
 
                 $query = "SELECT image_recette, titre, temps_prep_recette, temps_cui_recette, temps_repos_recette, nb_personne

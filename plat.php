@@ -35,25 +35,32 @@
         <h1>Plats</h1>
 
         <?php
-            $mysqli = ConnectionDatabase();
+    $mysqli = ConnectionDatabase();
+    
+    $query = "SELECT r.id_recette, r.titre, r.image_recette
+              FROM recette r
+              JOIN categorie c ON c.id_categorie = r.id_categorie
+              WHERE c.libelle_categorie = 'plat'";
+    
+    $result = $mysqli->query($query);
+    
+    if ($result !== false && $result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+           
+            $titre = $row['titre'];
+            $imageLink = $row['image_recette'];
             
-            $query = "SELECT r.image_recette, r.titre 
-                    FROM recette r
-                    JOIN categorie c ON c.id_categorie = r.id_categorie
-                    WHERE c.libelle_categorie = 'plat';";
-        
-            $result = $mysqli->query($query);
-            
-            if ($result !== false && $result->num_rows > 0) {
-                while ($row = $result->fetch_assoc()) {
-                    echo $row["image_recette"];
-                    echo "<h2>" . $row["titre"] . "</h2>";
-                }
-            } else {
-                echo "Aucun résultat.";
-            }
-            $mysqli->close();
-        ?>
+            echo "<a href=\"recette.php?recherche=$titre\">";
+            echo "<h2>$titre</h2>";
+            echo "<img src=\"$imageLink\" alt=\"Description de l'image\">";
+            echo "</a>";
+        }
+    } else {
+        echo "Aucun plat trouvé.";
+    }
+    
+    $mysqli->close();
+    ?>
         
     </body>
 </html>
