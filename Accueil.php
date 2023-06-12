@@ -11,6 +11,7 @@
         <script src="Function.js"></script>
     </head>
     <body>
+    <a href="http://localhost/gastronomix/favoris.php"><button class="Button">Favoris</button></a>
 
         <div header>
             <h1>GastronoMix</h1>
@@ -32,9 +33,13 @@
                 <input type="text" name="recherche" value="">
                 <button class="Button" type="submit">Rechercher</button>
             </form>
-
+            <li><a href="deconnexion.php">Déconnexion</a></li> <!-- Bouton de déconnexion -->
             <a href="http://localhost/gastronomix/connexion.php"><button class="Button">Connexion</button></a>
         </div>
+        <?php if (isset($_SESSION['id_user'])) : ?>
+    <a href="http://localhost/gastronomix/favoris.php"><button class="Button">Favoris</button></a>
+<?php endif; ?>
+
 
 
         <!-- Si connecté
