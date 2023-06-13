@@ -10,26 +10,27 @@
         <script src="Function.js"></script>
     </head>
     <body>
-        <div header>
-        <btuton id="MenuButton" class="Button" onclick="toggleMenu()">=</button>
+        <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
 
-            <div id="menu">
-                <ul>
-                    <h2>Menu</h2>
-                    <li><a href="http://localhost/gastronomix/Accueil.php">Accueil</a></li>
-                    <li><a href="http://localhost/gastronomix/entree.php">Entrée</a></li>
-                    <li><a href="http://localhost/gastronomix/plat.php">Plat</a></li>
-                    <li><a href="http://localhost/gastronomix/dessert.php">Dessert</a></li>
-                    <li><a href="http://localhost/gastronomix/boisson.php">Boisson</a></li>
-                </ul>
-            </div>
+        <div id="menu">
+            <ul>
+                <h2>Menu</h2>
+                <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
+                <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
+                <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
+                <li><a href="http://localhost/gastronomix/dessert.php">🍽️ Dessert</a></li>
+                <li><a href="http://localhost/gastronomix/boisson.php">🍽️ Boisson</a></li>
+            </ul>
+        </div>
 
+        <div id="Rechercher">
             <form action="recette.php" method="GET">
-                <input type="text" name="recherche" value="">
-                <button class="Button" type="submit">Rechercher</button>
+                <input id="RechercherBarre" type="text" name="recherche" value="">
+                <button id="RechercherButton" class="Button" type="submit">🔍</button>
             </form>
         </div>
-        
+
+        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
         <?php
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {

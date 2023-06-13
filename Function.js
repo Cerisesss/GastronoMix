@@ -15,3 +15,15 @@ function toggleCompte() {
         compte.style.display = "block";
     }
 }
+
+
+function ChangeBackgroundColor() {
+    var html = document.documentElement;
+    backgroundColor = html.style.backgroundColor;
+
+    if (backgroundColor === 'white' || backgroundColor === '') {
+        html.style.backgroundColor = '#202020';
+    } else {
+        html.style.backgroundColor = 'white';
+    }
+}
