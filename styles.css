@@ -188,3 +188,15 @@ body{
     padding: 0;
     margin: 0;
 }
+
+/* Style du cœur initial */
+.jaime-icon {
+    color: red;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+/* Style du cœur actif */
+.jaime-icon.active {
+    color: pink;
+}

@@ -4,12 +4,12 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title>GastronoMix</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="Function.js"></script>
-</head>
-<body>
+    <head>
+        <title>GastronoMix</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="Function.js"></script>
+    </head>
+    <body>
         <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
 
         <div id="menu">
@@ -49,40 +49,40 @@
     -->
 
 	
-    </br></br>
-    
-
-    <?php
-        $mysqli = ConnectionDatabase();
+        </br></br>
         
-        $categorie = ["Entree", "Plat", "Dessert", "Boisson"];
 
-        for($i = 0; $i < count($categorie); $i++){
-            $categorie_actuelle = $categorie[$i];
+        <?php
+            $mysqli = ConnectionDatabase();
+            
+            $categorie = ["Entree", "Plat", "Dessert", "Boisson"];
 
-            echo $categorie_actuelle . "</br>";
+            for($i = 0; $i < count($categorie); $i++){
+                $categorie_actuelle = $categorie[$i];
 
-            $query = "SELECT image_recette, titre FROM recette
-                    WHERE categorie_recette = '$categorie_actuelle'
-                    ORDER BY titre asc ;";
+                echo $categorie_actuelle . "</br>";
 
-            $result = $mysqli->query($query);
+                $query = "SELECT image_recette, titre FROM recette
+                        WHERE categorie_recette = '$categorie_actuelle'
+                        ORDER BY titre asc ;";
+
+                $result = $mysqli->query($query);
 
 
-            while ($row = mysqli_fetch_assoc($result)) {
-                $image_recette = $row["image_recette"];
-                $titre = $row['titre'];
+                while ($row = mysqli_fetch_assoc($result)) {
+                    $image_recette = $row["image_recette"];
+                    $titre = $row['titre'];
 
-                $lienRecette = '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>';
+                    $lienRecette = '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>';
 
-                echo $image_recette . '<br>';
-                echo $lienRecette . '<br><br>';
+                    echo $image_recette . '<br>';
+                    echo $lienRecette . '<br><br>';
+                }
+
+                echo "</br>";
             }
 
-            echo "</br>";
-        }
-
-        $mysqli->close();
-    ?>
-</body>
+            $mysqli->close();
+        ?>
+    </body>
 </html>
