@@ -1,39 +1,16 @@
 <?php
-require 'Function.php';
+require_once 'Function.php';
 session_start();
-
-?>
+?> 
 
 <!DOCTYPE html>
 <html>
 <head>
     <title>GastronoMix</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <!--<meta http-equiv="refresh" content="2; url=/req_actualiser_lobby?choix={{choix}}&pseudo={{pseudo}}">-->
     <script src="Function.js"></script>
 </head>
 <body>
-<button id="favori-button" class="Button" type="button">❤</button>
-<script>
-document.getElementById('favori-button').addEventListener('click', function() {
-    // Code à exécuter lors du clic sur le bouton
-    // Vérifier si l'utilisateur est connecté
-    <?php if (isset($_SESSION['id_user'])) { ?>
-        // Envoyer une requête au serveur pour ajouter la recette en favori
-        fetch('http://localhost/gastronomix/ajouter_favorie.php')
-          .then(function(response) {
-            // Gérer la réponse du serveur ici
-          })
-          .catch(function(error) {
-            // Gérer les erreurs ici
-          });
-    <?php } else { ?>
-        // Rediriger vers la page de connexion
-        window.location.href = 'http://localhost/gastronomix/connexion.php';
-    <?php } ?>
-});
-</script>
- 
 <div id="header">
     <button id="MenuButton" class="Button" onclick="toggleMenu()">=</button>
 
@@ -58,7 +35,7 @@ document.getElementById('favori-button').addEventListener('click', function() {
 
 <br><br>
 
-<h1>Résultat</h1>
+<h1>Résultat</h1> 
 
 <?php
 $mysqli = ConnectionDatabase();
@@ -66,7 +43,7 @@ $mysqli = ConnectionDatabase();
 if (isset($_GET['recherche'])) {
     $mot_clef = $_GET['recherche'];
 
-    $query = "SELECT image_recette, titre, temps_prep_recette, temps_cui_recette, temps_repos_recette, nb_personne
+    $query = "SELECT image_recette, titre, temps_prep_recette, temps_cui_recette, temps_repos_recette, nb_personne, id_recette
                 FROM recette 
                 WHERE titre LIKE '%$mot_clef%';";
 
@@ -74,17 +51,14 @@ if (isset($_GET['recherche'])) {
 
     if ($result_recette->num_rows > 0) {
         while ($row = $result_recette->fetch_assoc()) {
+            $id_recette = $row['id_recette']; // Définition de la valeur de $id_recette
+
             echo $row['image_recette'] . "<br>";
             echo "<h2>" . $row["titre"] . "</h2><br>";
             echo "<p>Temps de préparation : " . $row['temps_prep_recette']. "</p>";
             echo "<p>Temps de cuisson : " . $row['temps_cui_recette']. "</p>";
             echo "<p>Temps de repos : " . $row['temps_repos_recette'] . "</p>";
             echo "<h3>Nombre de personnes</h3>" . $row['nb_personne'] . "<br>";
-
-            // Code pour afficher le cœur favori ici
-            if (isset($_SESSION['id_user'])) {
-                echo '<span class="favori-icon">&#9825;</span>';
-            }
 
             $query_materiel = "SELECT m.libelle_materiel FROM recette r
                                 JOIN recette_materiel rm ON rm.id_recette = r.id_recette
@@ -117,27 +91,62 @@ if (isset($_GET['recherche'])) {
 
             $query_etape = "SELECT e.id_etape, e.texte_etape FROM recette r 
                                 JOIN etape e ON e.id_recette = r.id_recette
-                                WHERE r.titre LIKE '%$mot_clef%';";
+                                WHERE r.id_recette = " . $row['id_recette'] . ";";
 
             $result_etape = $mysqli->query($query_etape);
 
             if ($result_etape->num_rows > 0) {
-                echo "<h3>Étapes</h3>";
+                echo "<h3>Étapes</h3>"; 
                 while ($row_etape = $result_etape->fetch_assoc()) {
                     echo "<li>" . "Étape " . $row_etape['id_etape'] . " : " . $row_etape['texte_etape'] . "</li>";
                 }
             }
 
             echo "<br>";
+        
+
+// L'utilisateur est connecté, afficher le formulaire pour ajouter aux favoris
+    echo '<form id="ajouter-favoris-form" method="post">';
+    echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
+    echo '<input type="submit" value="Ajouter aux favoris">';
+    echo '</form>';
+
         }
     } else {
         echo "<p>Aucun résultat.</p>";
     }
-
-    $mysqli->close();
 } else {
-    echo "<p>Aucun résultat</p>";
+    echo "<p>Aucun résultat.</p>";
 }
+
+$mysqli->close();
 ?>
+
+<script>
+document.getElementById('ajouter-favoris-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Empêche le rechargement de la page
+
+    var form = event.target;
+    var formData = new FormData(form);
+
+    fetch('ajouter_aux_favoris.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(function(response) {
+        if (response.ok) {
+            // Le script PHP a terminé avec succès
+            alert("La recette a été ajoutée aux favoris !");   
+        } else {
+            throw new Error('Erreur lors de l\'ajout aux favoris.');
+        }
+    })
+    .catch(function(error) {
+        console.error(error);
+    });
+});
+
+</script>
+
 </body>
 </html>
