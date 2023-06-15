@@ -10,59 +10,51 @@ if (isset($_SESSION['id_user'])) {
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title>GastronoMix</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="Function.js"></script>
-</head>
-<body>
-<div id="header">
-    <h1>GastronoMix</h1>
+    <head>
+        <title>GastronoMix</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="Function.js"></script>
+    </head>
+    <body>
+        <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
 
-    <button id="MenuButton" class="Button" onclick="toggleMenu()">=</button>
+        <div id="menu">
+            <ul>
+                <h2>Menu</h2>
+                <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
+                <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
+                <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
+                <li><a href="http://localhost/gastronomix/dessert.php">🍽️ Dessert</a></li>
+                <li><a href="http://localhost/gastronomix/boisson.php">🍽️ Boisson</a></li>
+            </ul>
+        </div>
 
-    <div id="menu">
-        <ul>
-            <h2>Menu</h2>
-            <li><a href="http://localhost/gastronomix/Accueil.php">Accueil</a></li>
-            <li><a href="http://localhost/gastronomix/entree.php">Entrée</a></li>
-            <li><a href="http://localhost/gastronomix/plat.php">Plat</a></li>
-            <li><a href="http://localhost/gastronomix/dessert.php">Dessert</a></li>
-            <li><a href="http://localhost/gastronomix/boisson.php">Boisson</a></li>
+        <div id="Rechercher">
+            <form action="recette.php" method="GET">
+                <input id="RechercherBarre" type="text" name="recherche" value="">
+                <button id="RechercherButton" class="Button" type="submit">🔍</button>
+            </form>
+        </div>
+
+        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
+
+        <a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>
+
+        <h1>GastronoMix</h1>
+
+    <!-- Si connecté
+    <button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>
+    <div id="compte">
+        <ul> 
+            <li><a href="http://localhost/gastronomix/profil.php">⚙️ Profil</a></li>
+            <li><a href="http://localhost/gastronomix/favoris.php">🧡 Favoris</a></li>
+            <li><a href="http://localhost/gastronomix/historique.php">⌛️ Historique</a></li>
+            <li><a href="http://localhost/gastronomix/deconnexion.php">👋 Déconnexion</a></li>
         </ul>
     </div>
+    -->
 
-    <form action="favoris.php" method="GET">
-        <button class="Button" type="submit">Afficher les recettes favorites</button>
-    </form>
-
-    <form action="recette.php" method="GET">
-        <input type="text" name="recherche" value="">
-        <button class="Button" type="submit">Rechercher</button>
-    </form>
-
-    <?php if (isset($_SESSION['id_user'])) : ?>
-        <a href="deconnexion.php">Déconnexion</a>
-    <?php else: ?>
-        <!-- Bouton de connexion -->
-        <a href="http://localhost/gastronomix/connexion.php"><button class="Button">Connexion</button></a>
-    <?php endif; ?>
-
-
-
-        <!-- Si connecté
-        <button class="Button" onclick="toggleCompte()">Compte</button>
-        <div id="compte">
-            <ul> 
-                <li><a href="http://localhost/gastronomix/profil.php">Profil</a></li>
-                <li><a href="http://localhost/gastronomix/favoris.php">Favoris</a></li>
-                <li><a href="http://localhost/gastronomix/historique.php">Historique</a></li>
-                <li><a href="http://localhost/gastronomix/deconnexion.php">Déconnexion</a></li>
-            </ul>
-</div>
-        -->
-
-        
+	
         </br></br>
 
 <br><br>

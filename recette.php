@@ -14,38 +14,42 @@ session_start();
 <div id="header">
     <button id="MenuButton" class="Button" onclick="toggleMenu()">=</button>
 
-    <div id="menu">
-        <ul>
-            <h2>Menu</h2>
-            <li><a href="http://localhost/gastronomix/Accueil.php">Accueil</a></li>
-            <li><a href="http://localhost/gastronomix/entree.php">Entrée</a></li>
-            <li><a href="http://localhost/gastronomix/plat.php">Plat</a></li>
-            <li><a href="http://localhost/gastronomix/dessert.php">Dessert</a></li>
-            <li><a href="http://localhost/gastronomix/boisson.php">Boisson</a></li>
-        </ul>
-    </div>
+        <div id="menu">
+            <ul>
+                <h2>Menu</h2>
+                <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
+                <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
+                <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
+                <li><a href="http://localhost/gastronomix/dessert.php">🍽️ Dessert</a></li>
+                <li><a href="http://localhost/gastronomix/boisson.php">🍽️ Boisson</a></li>
+            </ul>
+        </div>
 
-    <form action="" method="GET">
-        <input type="text" name="recherche" value="">
-        <button class="Button" type="submit">Rechercher</button>
-    </form>
+        <div id="Rechercher">
+            <form action="recette.php" method="GET">
+                <input id="RechercherBarre" type="text" name="recherche" value="">
+                <button id="RechercherButton" class="Button" type="submit">🔍</button>
+            </form>
 
     <a href="http://localhost/gastronomix/connexion.php"><button class="Button">Connexion</button></a>
-</div>
+        </div>
 
 <br><br>
 
 <h1>Résultat</h1> 
+=======
+        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
+>>>>>>> 4d83ba30fa3c2b101d692a8b27d44aae7211878b
 
-<?php
-$mysqli = ConnectionDatabase();
+        <?php
+            $mysqli = ConnectionDatabase();
+            
+            if (isset($_GET['recherche'])) {
+                $mot_clef = $_GET['recherche'];
 
-if (isset($_GET['recherche'])) {
-    $mot_clef = $_GET['recherche'];
-
-    $query = "SELECT image_recette, titre, temps_prep_recette, temps_cui_recette, temps_repos_recette, nb_personne, id_recette
-                FROM recette 
-                WHERE titre LIKE '%$mot_clef%';";
+                $query = "SELECT image_recette, titre, temps_prep_recette, temps_cui_recette, temps_repos_recette, nb_personne
+                        FROM recette 
+                        WHERE titre LIKE '%$mot_clef%';";
 
     $result_recette = $mysqli->query($query);
 
@@ -64,7 +68,7 @@ if (isset($_GET['recherche'])) {
                                 JOIN recette_materiel rm ON rm.id_recette = r.id_recette
                                 JOIN materiel m ON m.id_materiel = rm.id_materiel
                                 WHERE r.titre LIKE '%$mot_clef%';";
-
+        
             $result_materiel = $mysqli->query($query_materiel);
 
             if ($result_materiel->num_rows > 0) {
