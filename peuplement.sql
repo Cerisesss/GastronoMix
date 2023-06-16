@@ -82,16 +82,16 @@ insert into categorie(libelle_categorie) VALUES('Plat');
 insert into categorie(libelle_categorie) VALUES('Dessert');
 insert into categorie(libelle_categorie) VALUES('Boisson');
 
-INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
-VALUES ('Gateau fraise', '2023-05-16', 'Dessert', 'Bon gateau aux fraises miam miam', 'https://', 2, 30, 30, 0, 1, '', 3); 
-INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
-VALUES ('Couscous', '2023-06-17', 'Plat', 'Plat traditionnel Algerien', 'https://', 4, 30, 30, 0, 1, 2, 2); 
-INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
-VALUES ('Feijoada', '2023-06-17', 'Plat', 'Un excellent plat portugais/bresilien', 'https://', 4, 30, 30, 0, 2, 3, 2); 
-INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
-VALUES ('Aubergine sautée', '2023-06-17', 'Plat', 'Un petit plat asiatique de qualite', '\Images\aubergineSautee.jpg', 2, 30, 30, 0, 3, 4, 2); 
-INSERT INTO recette(titre, date_recette, categorie_recette, description_recette, image_recette, nb_personne, temps_prep_recette, temps_cui_recette, temps_repos_recette, id_user, id_pays, id_categorie) 
-VALUES ('Jus d`orange', '2023-06-17', 'Boisson', 'Jus d`orange non industriel', 'https://', 4, 0, 0, 30, 2, '', 4); 
+INSERT INTO recette(titre, source, date_recette, categorie_recette, image_recette, nb_personne, temps_prep_recette, temps_total_recette, difficulte, id_user, id_pays, id_categorie) 
+VALUES ('Gateau fraise', 'Personne', '2023-05-16', 'Dessert', 'https://', 2, 30, 30, 3, 1, '', 3); 
+INSERT INTO recette(titre, source, date_recette, categorie_recette, image_recette, nb_personne, temps_prep_recette, temps_total_recette, difficulte, id_user, id_pays, id_categorie) 
+VALUES ('Couscous', 'Souhila', '2023-06-17', 'Plat', 'https://', 4, 30, 30, 2, 1, 2, 2); 
+INSERT INTO recette(titre, source, date_recette, categorie_recette, image_recette, nb_personne, temps_prep_recette, temps_total_recette, difficulte, id_user, id_pays, id_categorie) 
+VALUES ('Feijoada', 'Lea', '2023-06-17', 'Plat', 'https://', 4, 30, 30, 2, 2, 3, 2); 
+INSERT INTO recette(titre, source, date_recette, categorie_recette, image_recette, nb_personne, temps_prep_recette, temps_total_recette, difficulte, id_user, id_pays, id_categorie) 
+VALUES ('Aubergine sautée', 'Celive', '2023-06-17', 'Plat', '\Images\aubergineSautee.jpg', 2, 30, 30, 1, 3, 4, 2); 
+INSERT INTO recette(titre, source, date_recette, categorie_recette, image_recette, nb_personne, temps_prep_recette, temps_total_recette, difficulte, id_user, id_pays, id_categorie) 
+VALUES ('Jus d`orange', 'Personne', '2023-06-17', 'Boisson', 'https://', 4, 0, 30, 0, 2, '', 4); 
 
 INSERT INTO recette_materiel(id_recette, id_materiel) VALUES (1, 1);
 INSERT INTO recette_materiel(id_recette, id_materiel) VALUES (1, 2);
@@ -122,19 +122,19 @@ INSERT INTO recette_materiel(id_recette, id_materiel) VALUES (5, 4);
 INSERT INTO recette_materiel(id_recette, id_materiel) VALUES (5, 12);
 INSERT INTO recette_materiel(id_recette, id_materiel) VALUES (5, 13);
 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (1, 'Préparation des ingrédients', 'Mélanger dans un saladier les ingrédients les un après les autres', 1); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (2, 'Préparation des ingrédients', 'Laver les fraises et les couper en morceaux.', 1); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (3, '', 'Manger le tout.', 1); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (1, 'Cuisson', 'Faire cuire le couscous a la vapeur.', 2); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (2, 'Préparation de la sauce', 'Faire la sauce.', 2); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (3, '', 'Melanger les deux.', 2); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (1, 'Cuisson', 'Faire cuir la viande pendant 20 minutes.', 3); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (2, '', 'Ajouter les haricots.', 3); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (3, '', 'Deguster.', 3); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (1, 'Préparation des ingrédients', 'Laver et couper les aubergines et l`ail en cube.', 4); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (2, 'Cuisson', 'Faire cuire le tout pendant 20 minutes.', 4); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (1, 'Préparation des ingrédients', 'Laver les oranges et les presser.', 5); 
-INSERT INTO etape(id_etape, nom_etape, texte_etape, id_recette) VALUES (2, 'Etape final', 'Mettre le jus dans un verre et ajouter le sucre.', 5); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (1, 'Mélanger dans un saladier les ingrédients les un après les autres', 1); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (2, 'Laver les fraises et les couper en morceaux.', 1); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (3, 'Manger le tout.', 1); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (1, 'Faire cuire le couscous a la vapeur.', 2); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (2, 'Faire la sauce.', 2); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (3, 'Melanger les deux.', 2); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (1, 'Faire cuir la viande pendant 20 minutes.', 3); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (2, 'Ajouter les haricots.', 3); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (3, 'Deguster.', 3); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (1, 'Laver et couper les aubergines et l`ail en cube.', 4); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (2, 'Faire cuire le tout pendant 20 minutes.', 4); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (1, 'Laver les oranges et les presser.', 5); 
+INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (2, 'Mettre le jus dans un verre et ajouter le sucre.', 5); 
 
 insert into historique(avis_historique, favori_historique, id_user, id_recette) VALUES(5, 1, 1, 1);
 insert into historique(avis_historique, favori_historique, id_user, id_recette) VALUES(3, 1, 2, 1);

@@ -64,7 +64,7 @@
             if (isset($_GET['recherche'])) {
                 $mot_clef = $_GET['recherche'];
 
-                $query = "SELECT image_recette, titre, temps_prep_recette, temps_cui_recette, temps_repos_recette, nb_personne
+                $query = "SELECT image_recette, titre, source, temps_prep_recette, temps_total_recette, nb_personne, difficulte
                         FROM recette 
                         WHERE titre LIKE '%$mot_clef%';";
 
@@ -77,14 +77,15 @@
                         echo '<span class="favori-icon">&#9825;</span>';
                     }
 
-                    $row = mysqli_fetch_assoc($result_recette);
-                    echo $row['image_recette'] . "</br>";
-                    echo "<h2>" . $row["titre"] . "</h2></br>";
-                    echo "<p>Temps de preparation : </p>" . $row['temps_prep_recette']. "</p>";
-                    echo "<p>Temps de cuisson : </p>" . $row['temps_cui_recette']. "</p>";
-                    echo "<p>Temps de repos : </p>" . $row['temps_repos_recette'] . "</p>";
-                    echo "<h3>Nombre de personne</h3>" . $row['nb_personne'] . "</br>" ;
-
+                    while ($row = mysqli_fetch_assoc($result_recette)){
+                        echo $row['image_recette'] . "</br>";
+                        echo "<h2>" . $row["titre"] . "</h2></br>";
+                        echo "<p>Source : </p>" . $row['source'] . "</br>" ;
+                        echo "<p>Temps de preparation : </p>" . $row['temps_prep_recette']. "</p>";
+                        echo "<p>Temps total : </p>" . $row['temps_total_recette']. "</p>";
+                        echo "<h3>Nombre de personne</h3>" . $row['nb_personne'] . "</br>" ;
+                        echo "<h3>Difficulté</h3>" . $row['difficulte'] . "</br>" ;
+                    }
 
                     $query = "SELECT m.libelle_materiel FROM recette r
                             JOIN recette_materiel rm ON rm.id_recette = r.id_recette
