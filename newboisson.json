@@ -1,507 +1,368 @@
 [
     {
-        "nom": "Chèvre en feuilleté",
-        "source": "Marmiton",
-        "difficulte": 1,
-        "quantite": [
-            "1",
-            "1",
-            "1",
-            " "
-        ],
-        "unite": [
-            " ",
-            "bûche",
-            " ",
-            " "
-        ],
-        "ingredients": [
-            "pâte feuilletée",
-            "fromage de chèvre",
-            "oeuf",
-            "basilic"
-        ],
-        "image": "https://assets.afcdn.com/recipe/20160805/54703_w1024h1024c1cx2000cy3000.jpg",
-        "etapes": [
-            "Préchauffer le four à 210°C (thermostat 7). Couper la bûche en 8 rondelles égales.",
-            "Avec un verre, couper 16 ronds dans la pâte feuilletée.",
-            "Poser chaque rondelle de fromage sur un rond de pâte feuilletée,",
-            "parsemer de basilic.",
-            "Recouvrir avec la pâte feuilletée restante.",
-            "Fermer tout autour les petits pâtés ainsi réalisés.",
-            "Dorer au jaune d'oeuf",
-            "avant de passer au four 15 min.",
-            "Se marie très bien avec une salade verte.",
-            "Déguster"
-        ],
-        "tempspreparation": 20,
-        "tempstotal": 35,
-        "nombredepersonne": 4,
-        "categorie": "boisson"
-    },
-    {
-        "nom": "Quiche tatin",
-        "source": "Marmiton",
-        "difficulte": 1,
-        "quantite": [
-            "20",
-            "150",
-            "1",
-            " ",
-            " ",
-            "7",
-            "8",
-            "3",
-            "1"
-        ],
-        "unite": [
-            "cl",
-            "g",
-            " ",
-            " ",
-            " ",
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "ingredients": [
-            "crème fraîche",
-            "gruyère râpé",
-            "pâte feuilletée",
-            "sel",
-            "poivre",
-            "pommes de terre",
-            "fines tranches de lard",
-            "oeufs entiers",
-            "fromage de chèvre"
-        ],
-        "image": "https://assets.afcdn.com/recipe/20170609/68312_w1024h1024c1cx2000cy3000.jpg",
-        "etapes": [
-            "Cuire les pommes de terre à la vapeur.\nPréchauffer le four à 200°C (thermostat 6-7).",
-            "Tapisser le moule de tranches de lard.",
-            "Mettre le râpé sur les tranches de lard. ",
-            "Couper les pommes de terre en rondelles sur le râpé, puis le fromage de chèvre en tranches.",
-            "Battre dans un bol la crème, les oeufs, le sel et poivre, verser sur la préparation.",
-            "Mettre la pâte feuilletée dessus comme une tarte tatin et la piquer.",
-            "Cuire pendant 30 min suivant le four."
-        ],
-        "tempspreparation": 15,
-        "tempstotal": 45,
-        "nombredepersonne": 6,
-        "categorie": "boisson"
-    },
-    {
-        "nom": "Quiche lorraine traditionnelle",
-        "source": "Marmiton",
-        "difficulte": 1,
-        "quantite": [
-            "1",
-            "250",
-            "150",
-            " ",
-            " ",
-            "3",
-            " "
-        ],
-        "unite": [
-            "rouleau",
-            "g",
-            "g",
-            " ",
-            " ",
-            " ",
-            " "
-        ],
-        "ingredients": [
-            "pâte brisée",
-            "crème fraîche",
-            "lardons",
-            "poivre",
-            "sel",
-            "oeufs",
-            "muscade"
-        ],
-        "image": "https://assets.afcdn.com/recipe/20221010/135915_w1024h1024c1cx999cy749cxb1999cyb1499.jpg",
-        "etapes": [
-            "Pré-chauffer le four à 200°C (thermostat 6-7).\nDérouler la pâte brisée et la placer dans un plat à tarte. Piquer le fond avec une fourchette.",
-            "Faire dorer les lardons.",
-            "Pendant ce temps, mélanger les oeufs battus et la crème fraîche.",
-            "Une fois les lardons dorés, les mélanger à la préparation aux oeufs.",
-            "Saler, poivrer, et ajouter la muscade selon votre convenance.",
-            "Verser la préparation sur le fond de pâte.",
-            "Mettre au four pendant 30 min."
-        ],
-        "tempspreparation": 5,
-        "tempstotal": 35,
-        "nombredepersonne": 4,
-        "categorie": "boisson"
-    },
-    {
-        "nom": "Quiche au poireau et saumon fumé",
-        "source": "Marmiton",
-        "difficulte": 2,
-        "quantite": [
-            "1",
-            "2",
-            "50",
-            "4",
-            " ",
-            " ",
-            "4",
-            "2",
-            "6",
-            " "
-        ],
-        "unite": [
-            " ",
-            " ",
-            "g",
-            "c.à.s",
-            " ",
-            " ",
-            "tranches",
-            " ",
-            "c.à.s",
-            " "
-        ],
-        "ingredients": [
-            "pâte brisée",
-            "poireaux",
-            "gruyère râpé",
-            "crème fraîche allégée",
-            "poivre",
-            "sel",
-            "saumon fumé",
-            "oeufs",
-            "lait",
-            "muscade"
-        ],
-        "image": "https://assets.afcdn.com/recipe/20221004/135708_w1024h1024c1cx694cy723cxb1453cyb1473.jpg",
-        "etapes": [
-            "Préchauffez le four th.7.",
-            "Emincez les poireaux (sans les feuilles!), faites les fondre dans un peu de beurre; lorsqu'ils sont  fondus, justement, ajoutez deux bonnes cuillères à soupe de crème, salez, poivrez, et parfumez avec la muscade, selon votre goût. Etalez cette préparation sur le fond de pâte, recouvrir entièrement de saumon fumé (en tranches entières ou en lanières).",
-            "Mélangez dans un gros bol deux oeufs entiers, deux généreuses cuillères de crème, les six cuillères de lait (ou plus selon la consistance désirée), le gruyère râpé, le sel, le poivre et éventuellement encore un peu de muscade. Versez sur la quiche cette préparation et mettez à cuire environ 30 minutes."
-        ],
-        "tempspreparation": 15,
-        "tempstotal": 45,
-        "nombredepersonne": 6,
-        "categorie": "boisson"
-    },
-    {
-        "nom": "Verrine fraîcheur au carré frais",
+        "nom": "Sirop de citron ou orange",
         "source": "Marmiton",
         "difficulte": 3,
         "quantite": [
-            " ",
-            " ",
-            " ",
-            " ",
-            " ",
-            "4",
-            "1",
-            "3",
-            "1",
-            "2",
-            "2",
-            "2",
+            "1.5",
+            "50",
             "1"
         ],
         "unite": [
-            " ",
-            " ",
-            " ",
-            " ",
-            " ",
-            "verres",
-            " ",
-            "c.à.s",
-            " ",
-            "carré",
-            "c.à.s",
-            "tranches",
-            " "
+            "kg",
+            "cl",
+            "kg"
         ],
         "ingredients": [
-            "aneth",
-            "oeufs de saumon",
-            "aneth frais (équivalent d'1 cuillère à café)",
-            "poivre du moulin",
-            "sel (déjà présent dans le saumon fumé, le carré frais de gervais et le surimi râpé)",
-            "maïs transparents",
-            "avocat",
-            "surimi râpé",
-            "jus de citron vert",
-            "frais de gervais",
-            "crème fleurette",
-            "saumon fumé",
-            "couteau à lame lisse pour le saumon"
+            "sucre cristallisé",
+            "d'eau",
+            "citron non traités (soit environ 7 gros citrons)"
         ],
-        "image": "https://assets.afcdn.com/recipe/20180209/77480_w1024h1024c1cx1643cy1727cxb3287cyb3454.jpg",
+        "image": "https://assets.afcdn.com/recipe/20180222/77688_w1024h1024c1cx2837cy1891cxb5674cyb3783.jpg",
         "etapes": [
-            "Dans vos quatre verres, répartissez équitablement les 3 cuillères à soupe de surimi râpé.",
-            "Réduisez en purée votre avocat avec le demi jus du citon vert, après l'avoir épluché et avoir enlevé le noyau bien sûr. Répartissez toujours aussi équitablement entre les 4 verres.",
-            "Mixer les 2 carrés frais avec l'aneth frais et la crème fleurette et un peu de poivre du moulin. Répartissez toujours de la même manière dans les 4 verres.",
-            "Couper en lamelles très fines vos deux tranches de saumon fumé que vous disposez dans les verres en essayant de dessiner comme un rond ou une spirale qui s'entremêlent.",
-            "Disposez 3 ou 4 oeufs de saumon au centre (pas plus c'est juste pour la déco) ainsi que de tout petits brins d'aneth. Arrosez de quelques gouttes de citron vert, un soupçon de tour de moulin à poivre, et c'est prêt!",
-            "Mettre au frigo, dans la partie la plus froide et ne sortir qu'au moment de se mettre à table!",
-            "Je vous conseille, un vin blanc sec, peu importe de quelle région il vient. (à consommer avec modération bien sûr!)",
-            "Bon Appétit!"
+            "Faire chauffer l'eau et le sucre, porter doucement à ébullition. ",
+            "Pendant ce temps, prélever les zestes de tous les citrons. Les jeter dans le sirop de sucre, et laisser mijoter 5 min. ",
+            "Pendant ce temps, presser les citrons. Verser le jus dans une casserole, puis ajouter le sirop par-dessus. ",
+            "Laisser macérer 24 heures, puis filtrer, et mettre en bouteille."
         ],
-        "tempspreparation": 20,
+        "tempspreparation": 30,
+        "tempstotal": 40,
+        "nombredepersonne": 2,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Soupe champenoise",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "75",
+            "5",
+            "10",
+            "10"
+        ],
+        "unite": [
+            "cl",
+            "cl",
+            "cl",
+            "cl"
+        ],
+        "ingredients": [
+            "vin pétillant (mousseux ou Champagne)",
+            "sucre de canne liquide",
+            "citron vert (ou jaune)",
+            "cointreau"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20131106/24723_w1024h1024c1cx1611cy1300cxb3683cyb4466.jpg",
+        "etapes": [
+            "Mélanger les 3 derniers ingrédients ensemble et, au moment de servir, ajouter le vin pétillant bien frais."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 6,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Chocolat chaud du Père Noël",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "150",
+            "50",
+            "20"
+        ],
+        "unite": [
+            "g",
+            "cl",
+            "g"
+        ],
+        "ingredients": [
+            "chocolat pâtissier noir",
+            "lait entier",
+            "crème liquide"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20131009/46740_w1024h1024c1cx2184cy1456.jpg",
+        "etapes": [
+            "Dans une casserole, verser le lait et la crème. Porter à ébullition. ",
+            "Pendant ce temps, concasser le chocolat en morceaux. Le réserver dans une seconde casserole. ",
+            "Verser enfin la préparation lait-crème sur le chocolat et mélanger à l'aide d'une cuillère en bois."
+        ],
+        "tempspreparation": 10,
         "tempstotal": 20,
         "nombredepersonne": 4,
         "categorie": "boisson"
     },
     {
-        "nom": "Soufflé au fromage",
+        "nom": "Cocktail litchi, gingembre et champagne",
         "source": "Marmiton",
-        "difficulte": 2,
+        "difficulte": 3,
         "quantite": [
-            "150",
+            " ",
+            " ",
             "60",
-            "60",
-            "4",
-            "40",
-            " "
+            "2",
+            "2",
+            "2"
         ],
         "unite": [
-            "g",
-            "g",
-            "g",
+            " ",
             " ",
             "cl",
+            "boîtes",
+            "boîtes",
             " "
         ],
         "ingredients": [
-            "d'emmental ou gruyère râpé",
-            "beurre",
-            "farine",
-            "oeufs ou 5 moyens",
-            "lait",
-            "muscade"
+            "gingembre confit haché (une poignée) ou gelée de gingembre (que l'on liquéfie en réchauffant)",
+            "fraises et des piques en bois",
+            "d'Alcool de litchi",
+            "litchi au sirop (565 g chacune)",
+            "litchi (25 cl chacune) non gazeuse",
+            "champagne brut ou blanc de blanc très frais, limite glacées"
         ],
-        "image": "https://assets.afcdn.com/recipe/20160404/61662_w1024h1024c1cx1000cy1500.jpg",
+        "image": "https://assets.afcdn.com/recipe/20210311/118498_w1024h1024c1cx707cy1060cxb1414cyb2121.jpg",
         "etapes": [
-            "Préchauffer le four à 180°C (thermostat 6). Beurrer le moule.",
-            "Chauffer le beurre dans une casserole, ajouter la farine et remuer rapidement pendant 1 min. Ajouter le lait tiédi, remuer au fouet pendant quelques minutes à feu doux.",
-            "Retirer la casserole du feu.",
-            "Séparer les blancs et les battre fermement (avec une pincée de sel).",
-            "Dans la casserole refroidie, ajouter les jaunes d'oeufs un à un, puis le fromage râpé. Mettre une pincée de muscade, poivrer. Saler peu car le fromage contient déjà du sel.",
-            "Incorporer les blancs d'oeufs battus en mélangeant délicatement. ",
-            "Verser dans le moule, au maximum jusqu'à 4 cm du bord.",
-            "Enfourner pendant 35 minutes en position chaleur tournante."
-        ],
-        "tempspreparation": 15,
-        "tempstotal": 50,
-        "nombredepersonne": 4,
-        "categorie": "boisson"
-    },
-    {
-        "nom": "Velouté de Potiron et Carottes",
-        "source": "Marmiton",
-        "difficulte": 1,
-        "quantite": [
-            "500",
-            "1",
-            "1",
-            " ",
-            " ",
-            " ",
-            "1",
-            "2",
-            "1",
-            "1/2",
-            "1/2",
-            " ",
-            "10"
-        ],
-        "unite": [
-            "g",
-            " ",
-            "c.à.s",
-            " ",
-            " ",
-            " ",
-            "kg",
-            " ",
-            "gousse",
-            "l",
-            "l",
-            " ",
-            "cl"
-        ],
-        "ingredients": [
-            "carotte",
-            "oignon",
-            "d'huile d'olive",
-            "persil",
-            "poivre",
-            "sel",
-            "potiron",
-            "pommes de terre",
-            "d'ail",
-            "lait",
-            "bouillon de volaille",
-            "muscade",
-            "crème liquide (facultatif)"
-        ],
-        "image": "https://assets.afcdn.com/recipe/20160325/63237_w1024h1024c1cx1000cy1500.jpg",
-        "etapes": [
-            "Éplucher et couper en dés le potiron, les pommes de terre, les carottes en rondelles. ",
-            "Emincer l'ail et l'oignon. ",
-            "Faire suer l'oignon dans l'huile d'olive. ",
-            "Ajouter tous les légumes et l'ail puis verser le bouillon et le lait. ",
-            "Saler, poivrer, \"muscader\" et laisser cuire environ une trentaine de minutes. ",
-            "Mixer le tout (ajouter éventuellement la crème) et rectifier l'assaisonnement si nécessaire. ",
-            "Bon appétit !"
-        ],
-        "tempspreparation": 30,
-        "tempstotal": 60,
-        "nombredepersonne": 4,
-        "categorie": "boisson"
-    },
-    {
-        "nom": "Velouté de potiron",
-        "source": "Marmiton",
-        "difficulte": 1,
-        "quantite": [
-            "1",
-            " ",
-            " ",
-            " ",
-            " ",
-            "1",
-            "1",
-            " "
-        ],
-        "unite": [
-            " ",
-            " ",
-            " ",
-            " ",
-            " ",
-            " ",
-            "brique",
-            " "
-        ],
-        "ingredients": [
-            "oignon",
-            "poivre",
-            "sel",
-            "huile",
-            "persil ciselé",
-            "quartier de potiron",
-            "crème fraîche liquide",
-            "muscade en poudre"
-        ],
-        "image": "https://assets.afcdn.com/recipe/20221010/135900_w1024h1024c1cx1160cy863cxb2121cyb1414.jpg",
-        "etapes": [
-            "Couper la chair du potiron en gros dés.",
-            "Couper l'oignon en lamelles et le faire revenir dans une cocotte avec un peu d'huile. ",
-            "Ajouter les dés de courge dans la cocotte et recouvrir d'eau (juste au niveau de la courge, pas plus). Laisser bouillir environ 45 min à 1 h.",
-            "Ajouter la crème liquide, saler, poivrer et ajouter de la muscade selon votre goût. Mixer.",
-            "Au moment de servir, parsemer de persil ciselé."
-        ],
-        "tempspreparation": 30,
-        "tempstotal": 75,
-        "nombredepersonne": 4,
-        "categorie": "boisson"
-    },
-    {
-        "nom": "Velouté de carottes au cumin",
-        "source": "Marmiton",
-        "difficulte": 1,
-        "quantite": [
-            "1",
-            "1",
-            "3/4",
-            "20",
-            "1/2",
-            "1/2",
-            " ",
-            "1",
-            "20"
-        ],
-        "unite": [
-            "kg",
-            " ",
-            "l",
-            "g",
-            "c.à.c",
-            "c.à.c",
-            " ",
-            " ",
-            "cl"
-        ],
-        "ingredients": [
-            "carotte",
-            "oignon",
-            "d'eau",
-            "beurre",
-            "curry",
-            "cumin",
-            "sel de Guérande",
-            "pomme de terre moyenne",
-            "crème liquide"
-        ],
-        "image": "https://assets.afcdn.com/recipe/20160325/48385_w1024h1024c1cx1500cy1000.jpg",
-        "etapes": [
-            "Emincez l'oignon. Faites fondre le beurre dans une cocotte minute, puis ajoutez l'oignon. Faites dorer. ",
-            "Ajoutez les carottes et la pomme de terre préalablement coupés en morceaux. Faites cuire ainsi 5 minutes.",
-            "Ajoutez l'eau, ainsi que le curry et le cumin.",
-            "Fermez la cocotte et faire cuire 20 minutes après la montée en pression.",
-            "Il ne reste plus qu'à mixer le tout en y ajoutant la crème liquide... et bien sûr qu'à se régaler!"
+            "La veille, verser dans un grand récipient la liqueur de litcho,  le jus des deux boîtes de litchis, les deux boîtes de boisson aux litchis et le gingembre. Réfrigérer.",
+            "Avant de servir, verser les deux bouteilles de champagne.",
+            "Pour soigner la préparation, sur les petites piques en bois, enfiler un litchi et une fraise. Disposer dans chaque flûte (ou chaque verre) avant de servir."
         ],
         "tempspreparation": 10,
-        "tempstotal": 35,
-        "nombredepersonne": 6,
+        "tempstotal": 10,
+        "nombredepersonne": 20,
         "categorie": "boisson"
     },
     {
-        "nom": "Verrine avocat et saumon fumé",
+        "nom": "Soupe Champagne",
         "source": "Marmiton",
         "difficulte": 3,
         "quantite": [
             "1",
-            "2",
-            "100",
-            "1/2",
-            "50",
-            " ",
+            "1",
+            "1",
             "1"
         ],
         "unite": [
             " ",
-            "tranches",
-            "g",
             " ",
-            "g",
             " ",
-            "pot"
+            " "
         ],
         "ingredients": [
-            "avocat bien mûr",
-            "truite fumée (ou saumon)",
-            "fromage frais",
-            "citron",
-            "fromage ail et fines herbes",
-            "ciboulette",
-            "d'oeuf de truite"
+            "louche de sucre de canne",
+            "louche de cointreau",
+            "citron pressé",
+            "bouteille de mousseux sec ou champagne"
         ],
-        "image": "https://assets.afcdn.com/recipe/20210909/121890_w1024h1024c1cx1448cy763cxb2121cyb1414.jpg",
+        "image": "https://assets.afcdn.com/recipe/20180601/79374_w1024h1024c1cx1925cy2887cxb3850cyb5775.jpg",
         "etapes": [
-            "Ecraser la pulpe de l'avocat dans un bol.",
-            "Saler très peu, poivrer et citronner. ",
-            "Déposer 1/4 de la préparation dans chaque verrine.",
-            "Mélanger le fromage frais et le fromage ail et fines herbes dans un bol avec 1 cuillère à soupe d'eau pour fluidifier.",
-            "Déposer dans les verrines en une seconde couche.",
-            "Couper les tranches de saumon fumé en petits morceaux, répartir dans les verrines et mettre au frais. ",
-            "Au moment de servir, décorer de quelques oeufs de truite, brins de ciboulette, un filet de citron et un tour de moulin à poivres 5 baies."
+            "Mettre les ingrédients dans une soupière. ",
+            "Verser le mousseux. ",
+            "Ajouter des glacons."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 6,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Liqueur de Lait aux Carambars façon Clochette",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "3",
+            "1",
+            "1",
+            "20",
+            " "
+        ],
+        "unite": [
+            "l",
+            "kg",
+            "morceau",
+            "l",
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "rhum blanc",
+            "sucre",
+            "gingembre frais",
+            "lait",
+            "bâtons de cannelle",
+            "citron jaune",
+            "citron vert",
+            "carambars© (difficile à éplucher, et long si on lit toutes les blagues!!!)",
+            "autres épices selon le goût désiré (moi par exemple j'avais mis une pincée d'épices à pain d'épices)"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20100120/1973_w1024h1024c1cx256cy192.jpg",
+        "etapes": [
+            "Ingrédients pour 2 litres.",
+            "J'ai préparé cette liqueur dans un énorme bocal acheté spécialement pour l'occasion, mais elle peut se faire dans tout autre récipient étanche et transparent (pour bien voir l'évolution et la fonte des carambars jour après jour). ",
+            "Couper vos citrons en 2, les mettre au fond du bocal, y rajouter les bâtons de cannelle, le gingembre (épluché), les carambars et le sucre, puis les liquides, le lait et le rhum. ",
+            "Bien fermer le bocal et bien l'agiter.... ",
+            "Mettre dans un endroit sombre et frais. ",
+            "Remuer le bocal tout les jours, et au fur et à mesure la liqueur va devenir \"marron\" et les carambars deviendront introuvables, c'est d'aileurs le but !!!",
+            "Au bout d'un mois, ouvrir le bocal, filtrer la préparation et mettre en bouteilles. ",
+            "Depuis ouverture, je conservais au frigo, mais maintenant qu'il n'y en a plus, je vais vite recommencer..."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 30,
+        "nombredepersonne": 6,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Mojito cubain",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "3",
+            " ",
+            "1/2",
+            "1",
+            " ",
+            " "
+        ],
+        "unite": [
+            "c.à.c",
+            " ",
+            " ",
+            "branche",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "sucre de canne en poudre",
+            "rhum (cubain de préférence, c'est le pays du mojito)",
+            "citron vert",
+            "menthe bien fournie",
+            "eau gazeuse",
+            "glaçons"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20180601/79373_w1024h1024c1cx2000cy3000cxb4000cyb6000.jpg",
+        "etapes": [
+            "Dans un verre de taille moyenne (contenance 40 cl environ), mettez 3 cuillères à café de sucre de canne.",
+            "Ajoutez-y le jus d'1/2 citron vert.",
+            "Coupez en 3 ou 4 votre branche de menthe et mettez-la dans le verre (le fait de la couper permet à la saveur de la menthe de mieux se diffuser).",
+            "Ajoutez un peu d'eau gazeuse (environ 3 cl) puis avec une cuillère à café, remuez bien le tout et écrasez la menthe (insistez sur les branches plus que sur les feuilles, sinon il y aura pleins de petits bouts de menthe assez désagréables au moment de déguster votre cocktail!).",
+            "Ajoutez 5 glaçons environ.",
+            "Ensuite versez 6 cl de rhum (en versant à débit moyen). Pour la dose plutôt chargée, comptez jusqu'à 5; pour la dose légère jusqu'à 4.",
+            "Enfin, complétez avec de l'eau gazeuse."
+        ],
+        "tempspreparation": 5,
+        "tempstotal": 5,
+        "nombredepersonne": 1,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Limoncello (liqueur de citron)",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "400",
+            "50",
+            "3",
+            "50"
+        ],
+        "unite": [
+            "g",
+            "cl",
+            " ",
+            "cl"
+        ],
+        "ingredients": [
+            "sucre",
+            "d'eau",
+            "citrons",
+            "d'Alcool à 90 ou 1 litre d\"eau de vie de fruit"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20210426/119827_w1024h1024c1cx1060cy707cxb2121cyb1414.jpg",
+        "etapes": [
+            "Faire macérer les zestes de citrons 10 jours dans 1/2 litre d'alcool ou d'eau de vie.",
+            "Retirer les zestes au bout de 10 jours.",
+            "Si vous utilisez l'alcool et non l'eau de vie, diluer les 400 g de sucre dans 1/2 litre d'eau. Ou dans le 1/2 l d'eau de vie restant.",
+            "Mélanger les 2 liquides.",
+            "Mettre en bouteille. Se conserve au congélateur. Se sert à la sortie du congélo."
         ],
         "tempspreparation": 15,
         "tempstotal": 15,
         "nombredepersonne": 4,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Grog au rhum",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            " ",
+            " ",
+            " ",
+            " "
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "rhum brun ambré",
+            "miel",
+            "eau",
+            "citron"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20181107/83642_w1024h1024c1cx1765cy2353cxb3526cyb4705.jpg",
+        "etapes": [
+            "Mettre l'eau à chauffer. ",
+            "Pendant ce temps, presser le jus d'1/2 citron. ",
+            "Dans une chope mettre 2 cuillères à café de miel, le jus de citron, et la valeur d'un petit verre à liqueur de rhum. ",
+            "Quand l'eau commence à faire de petites bulles, vider dans la chope. ",
+            "Boire dès que la température le permet.... "
+        ],
+        "tempspreparation": 5,
+        "tempstotal": 8,
+        "nombredepersonne": 1,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Lait de poule pour Noël",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "25",
+            "1",
+            "15",
+            "1",
+            "1"
+        ],
+        "unite": [
+            "g",
+            " ",
+            "cl",
+            "pincée",
+            "pincée"
+        ],
+        "ingredients": [
+            "sucre",
+            "jaune d'oeuf",
+            "lait",
+            "cannelle",
+            "muscade"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20201203/116053_w1024h1024c1cx482cy447cxb948cyb700.jpg",
+        "etapes": [
+            "Faites chauffer le lait dans une casserole avec la cannelle et la noix de muscade (attention à ne pas faire bouillir la préparation).",
+            "Mélangez le jaune d'oeuf et le sucre dans votre tasse.",
+            "Ajoutez le lait dans votre tasse en continuant de bien mélanger."
+        ],
+        "tempspreparation": 5,
+        "tempstotal": 7,
+        "nombredepersonne": 1,
         "categorie": "boisson"
     }
 ]
