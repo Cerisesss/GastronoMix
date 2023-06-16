@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "readline-sync": "^1.4.10"
+  },
+  "name": "gastronomix",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "version": "1.0.0",
+  "main": "Function.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}

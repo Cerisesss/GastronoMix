@@ -158,10 +158,6 @@ body{
 .Button:hover {
     box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
 }
-<<<<<<< HEAD
-.favori-icon {
-    font-size: 20px;
-=======
 
 
 
@@ -197,7 +193,6 @@ body{
 .jaime-icon {
     color: red;
     transition: color 0.3s;
->>>>>>> 4d83ba30fa3c2b101d692a8b27d44aae7211878b
     cursor: pointer;
   }
   

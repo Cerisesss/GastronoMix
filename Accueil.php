@@ -21,6 +21,7 @@ if (isset($_SESSION['id_user'])) {
         <div id="menu">
             <ul>
                 <h2>Menu</h2>
+                <li><a href="http://localhost/gastronomix/favoris.php">🍽️ favoris</a></li>
                 <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
                 <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
                 <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
@@ -81,7 +82,7 @@ for ($i = 0; $i < count($categorie); $i++) {
 
         $lienRecette = '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>';
 
-        echo $image_recette . '<br>';
+        echo '<img src="' . $row['image_recette'] . '" alt="Image de la recette"><br>';
         echo $lienRecette . '<br>';
 
         // Affichage du bouton d'ajout aux favoris

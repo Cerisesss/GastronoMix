@@ -74,14 +74,14 @@ CREATE TABLE IF NOT EXISTS `categorie` (
 CREATE TABLE IF NOT EXISTS `recette` (
     `id_recette` BIGINT NOT NULL AUTO_INCREMENT,
     `titre` VARCHAR(50) NULL,
+    `source` VARCHAR(50) NULL,
     `date_recette` DATE NULL,
     `categorie_recette` VARCHAR(50) NULL,
-    `description_recette` VARCHAR(50) NULL,
     `image_recette` VARCHAR(50) NULL,
     `nb_personne` VARCHAR(50) NULL,
     `temps_prep_recette` TIME NOT NULL DEFAULT '00:00:00',
-    `temps_cui_recette` TIME NULL DEFAULT '00:00:00',
-    `temps_repos_recette` TIME NULL DEFAULT '00:00:00',
+    `temps_total_recette` TIME NULL DEFAULT '00:00:00',
+    `difficulte` VARCHAR(50) NULL,
     `id_user` BIGINT NOT NULL,
     `id_pays` BIGINT NOT NULL,
     `id_categorie` BIGINT NOT NULL,
@@ -122,7 +122,6 @@ CREATE TABLE IF NOT EXISTS `recette_materiel` (
 
 CREATE TABLE IF NOT EXISTS `etape` (
     `id_etape` BIGINT NOT NULL,
-    `nom_etape` VARCHAR(50) NOT NULL,
     `texte_etape` VARCHAR(400) NULL,
     `id_recette` BIGINT NOT NULL,
     CONSTRAINT `fk_etape_recette_id`
@@ -145,6 +144,24 @@ CREATE TABLE IF NOT EXISTS `historique` (
         ON DELETE NO ACTION
         ON UPDATE NO ACTION,
     CONSTRAINT `fk_historique_user_id`
+        FOREIGN KEY (`id_user`)
+        REFERENCES `user` (`id_user`)
+        ON DELETE NO ACTION
+        ON UPDATE NO ACTION
+);
+
+
+CREATE TABLE IF NOT EXISTS `favoris` (
+    `id_favori` BIGINT NOT NULL AUTO_INCREMENT,
+    `id_user` BIGINT NOT NULL,
+    `id_recette` BIGINT NOT NULL,
+    PRIMARY KEY (`id_favori`),
+    CONSTRAINT `fk_favoris_recette_id`
+        FOREIGN KEY (`id_recette`)
+        REFERENCES `recette` (`id_recette`)
+        ON DELETE NO ACTION
+        ON UPDATE NO ACTION,
+    CONSTRAINT `fk_favoris_user_id`
         FOREIGN KEY (`id_user`)
         REFERENCES `user` (`id_user`)
         ON DELETE NO ACTION

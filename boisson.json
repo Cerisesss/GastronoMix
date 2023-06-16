@@ -1,539 +1,357 @@
 [
   {
-    name: 'Chèvre en feuilleté',
-    rate: 4.7,
-    url: 'https://www.marmiton.org/recettes/recette_chevre-en-feuillete_11921.aspx',
+    name: 'Sirop de citron ou orange',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_sirop-de-citron-ou-orange_25892.aspx',
     ingredients: [
-      '1 pâte feuilletée',
-      '1 bûche de fromage de chèvre',
-      '1 oeuf',
-      'basilic'
+      '1.5 kg de sucre cristallisé',
+      "50 cl d'eau",
+      '1 kg de citron non traités (soit environ 7 gros citrons)'
     ],
-    author: 'manodin',
+    author: 'Posilippo',
     images: [
-      'https://assets.afcdn.com/recipe/20160805/54703_w1024h576c1 cx2000cy3000.webp',
-      'https://assets.afcdn.com/recipe/20160805/54703_w1024h768c1cx2000cy3000.webp',
-      'https://assets.afcdn.com/recipe/20160805/54703_w1024h1024c1cx2000cy3000.webp',
-      'https://assets.afcdn.com/recipe/20160805/54703_w1024h576c1cx2000cy3000.jpg',
-      'https://assets.afcdn.com/recipe/20160805/54703_w1024h768c1cx2000cy3000.jpg',
-      'https://assets.afcdn.com/recipe/20160805/54703_w1024h1024c1cx2000cy3000.jpg'
+      'https://assets.afcdn.com/recipe/20180222/77688_w1024h576c1 cx2837cy1891cxb5674cyb3783.webp',
+      'https://assets.afcdn.com/recipe/20180222/77688_w1024h768c1cx2837cy1891cxb5674cyb3783.webp',
+      'https://assets.afcdn.com/recipe/20180222/77688_w1024h1024c1cx2837cy1891cxb5674cyb3783.webp',
+      'https://assets.afcdn.com/recipe/20180222/77688_w1024h576c1cx2837cy1891cxb5674cyb3783.jpg',
+      'https://assets.afcdn.com/recipe/20180222/77688_w1024h768c1cx2837cy1891cxb5674cyb3783.jpg',
+      'https://assets.afcdn.com/recipe/20180222/77688_w1024h1024c1cx2837cy1891cxb5674cyb3783.jpg'
     ],
     steps: [
-      'Préchauffer le four à 210°C (thermostat 7). Couper la bûche en 8 rondelles égales.',
-      'Avec un verre, couper 16 ronds dans la pâte feuilletée.',
-      'Poser chaque rondelle de fromage sur un rond de pâte feuilletée,',
-      'parsemer de basilic.',
-      'Recouvrir avec la pâte feuilletée restante.',
-      'Fermer tout autour les petits pâtés ainsi réalisés.',
-      "Dorer au jaune d'oeuf",
-      'avant de passer au four 15 min.',
-      'Se marie très bien avec une salade verte.',
-      'Déguster'
+      "Faire chauffer l'eau et le sucre, porter doucement à ébullition. ",
+      'Pendant ce temps, prélever les zestes de tous les citrons. Les jeter dans le sirop de sucre, et laisser mijoter 5 min. ',
+      'Pendant ce temps, presser les citrons. Verser le jus dans une casserole, puis ajouter le sirop par-dessus. ',
+      'Laisser macérer 24 heures, puis filtrer, et mettre en bouteille.'
     ],
-    description: 'pâte feuilletée, fromage de chèvre, oeuf, basilic',
-    difficulty: 1,
-    budget: 1,
-    tags: [
-      'Chèvre en feuilleté',
-      'pâte feuilletée',
-      'fromage de chèvre',
-      'oeuf',
-      'basilic',
-      'feuilleté',
-      'très facile',
-      'bon marché'
-    ],
-    prepTime: 20,
-    totalTime: 35,
-    people: 4
-  },
-  {
-    name: 'Quiche tatin',
-    rate: 4.7,
-    url: 'https://www.marmiton.org/recettes/recette_quiche-tatin_14309.aspx',
-    ingredients: [
-      '20 cl de crème fraîche',
-      '150 g de gruyère râpé',
-      '1 pâte feuilletée',
-      'sel',
-      'poivre',
-      '7 pommes de terre',
-      '8 fines tranches de lard',
-      '3 oeufs entiers',
-      '1 fromage de chèvre'
-    ],
-    author: 'Anonyme',
-    images: [
-      'https://assets.afcdn.com/recipe/20170609/68312_w1024h576c1 cx2000cy3000.webp',
-      'https://assets.afcdn.com/recipe/20170609/68312_w1024h768c1cx2000cy3000.webp',
-      'https://assets.afcdn.com/recipe/20170609/68312_w1024h1024c1cx2000cy3000.webp',
-      'https://assets.afcdn.com/recipe/20170609/68312_w1024h576c1cx2000cy3000.jpg',
-      'https://assets.afcdn.com/recipe/20170609/68312_w1024h768c1cx2000cy3000.jpg',
-      'https://assets.afcdn.com/recipe/20170609/68312_w1024h1024c1cx2000cy3000.jpg'
-    ],
-    steps: [
-      'Cuire les pommes de terre à la vapeur.\n' +
-        'Préchauffer le four à 200°C (thermostat 6-7).',
-      'Tapisser le moule de tranches de lard.',
-      'Mettre le râpé sur les tranches de lard. ',
-      'Couper les pommes de terre en rondelles sur le râpé, puis le fromage de chèvre en tranches.',
-      'Battre dans un bol la crème, les oeufs, le sel et poivre, verser sur la préparation.',
-      'Mettre la pâte feuilletée dessus comme une tarte tatin et la piquer.',
-      'Cuire pendant 30 min suivant le four.'
-    ],
-    description: 'crème fraîche, gruyère râpé, pâte feuilletée, sel, poivre, pomme de terre, lard, oeuf, fromage de chèvre',
-    difficulty: 1,
-    budget: 1,
-    tags: [
-      'Quiche tatin',
-      'crème fraîche',
-      'gruyère râpé',
-      'pâte feuilletée',
-      'sel',
-      'poivre',
-      'pomme de terre',
-      'lard',
-      'oeuf',
-      'fromage de chèvre',
-      'quiche Tatin',
-      'très facile',
-      'bon marché'
-    ],
-    prepTime: 15,
-    totalTime: 45,
-    people: 6
-  },
-  {
-    name: 'Quiche lorraine traditionnelle',
-    rate: 4.8,
-    url: 'https://www.marmiton.org/recettes/recette_quiche-lorraine-de-sophie_57113.aspx',
-    ingredients: [
-      '1 rouleau de pâte brisée',
-      '250 g de crème fraîche',
-      '150 g de lardons',
-      'poivre',
-      'sel',
-      '3 oeufs',
-      'muscade'
-    ],
-    author: 'emma_15787568',
-    images: [
-      'https://assets.afcdn.com/recipe/20221010/135915_w1024h576c1 cx999cy749cxb1999cyb1499.webp',
-      'https://assets.afcdn.com/recipe/20221010/135915_w1024h768c1cx999cy749cxb1999cyb1499.webp',
-      'https://assets.afcdn.com/recipe/20221010/135915_w1024h1024c1cx999cy749cxb1999cyb1499.webp',
-      'https://assets.afcdn.com/recipe/20221010/135915_w1024h576c1cx999cy749cxb1999cyb1499.jpg',
-      'https://assets.afcdn.com/recipe/20221010/135915_w1024h768c1cx999cy749cxb1999cyb1499.jpg',
-      'https://assets.afcdn.com/recipe/20221010/135915_w1024h1024c1cx999cy749cxb1999cyb1499.jpg'
-    ],
-    steps: [
-      'Pré-chauffer le four à 200°C (thermostat 6-7).\n' +
-        'Dérouler la pâte brisée et la placer dans un plat à tarte. Piquer le fond avec une fourchette.',
-      'Faire dorer les lardons.',
-      'Pendant ce temps, mélanger les oeufs battus et la crème fraîche.',
-      'Une fois les lardons dorés, les mélanger à la préparation aux oeufs.',
-      'Saler, poivrer, et ajouter la muscade selon votre convenance.',
-      'Verser la préparation sur le fond de pâte.',
-      'Mettre au four pendant 30 min.'
-    ],
-    description: 'pâte brisée, crème fraîche, lardons, poivre, sel, oeuf, muscade',
-    difficulty: 1,
-    budget: 1,
-    tags: [
-      'Quiche lorraine traditionnelle',
-      'pâte brisée',
-      'crème fraîche',
-      'lardons',
-      'poivre',
-      'sel',
-      'oeuf',
-      'muscade',
-      'quiche lorraine',
-      'très facile',
-      'bon marché'
-    ],
-    prepTime: 5,
-    totalTime: 35,
-    people: 4
-  },
-  {
-    name: 'Quiche au poireau et saumon fumé',
-    rate: 4.8,
-    url: 'https://www.marmiton.org/recettes/recette_quiche-au-poireau-et-saumon-fume_16938.aspx',
-    ingredients: [
-      '1 pâte brisée',
-      '2 poireaux',
-      '50 g de gruyère râpé',
-      '4 c.à.s de crème fraîche allégée',
-      'poivre',
-      'sel',
-      '4 tranches de saumon fumé',
-      '2 oeufs',
-      '6 c.à.s de lait',
-      'muscade'
-    ],
-    author: 'Anonyme',
-    images: [
-      'https://assets.afcdn.com/recipe/20221004/135708_w1024h576c1 cx694cy723cxb1453cyb1473.webp',
-      'https://assets.afcdn.com/recipe/20221004/135708_w1024h768c1cx694cy723cxb1453cyb1473.webp',
-      'https://assets.afcdn.com/recipe/20221004/135708_w1024h1024c1cx694cy723cxb1453cyb1473.webp',
-      'https://assets.afcdn.com/recipe/20221004/135708_w1024h576c1cx694cy723cxb1453cyb1473.jpg',
-      'https://assets.afcdn.com/recipe/20221004/135708_w1024h768c1cx694cy723cxb1453cyb1473.jpg',
-      'https://assets.afcdn.com/recipe/20221004/135708_w1024h1024c1cx694cy723cxb1453cyb1473.jpg'
-    ],
-    steps: [
-      'Préchauffez le four th.7.',
-      "Emincez les poireaux (sans les feuilles!), faites les fondre dans un peu de beurre; lorsqu'ils sont  fondus, justement, ajoutez deux bonnes cuillères à soupe de crème, salez, poivrez, et parfumez avec la muscade, selon votre goût. Etalez cette préparation sur le fond de pâte, recouvrir entièrement de saumon fumé (en tranches entières ou en lanières).",
-      'Mélangez dans un gros bol deux oeufs entiers, deux généreuses cuillères de crème, les six cuillères de lait (ou plus selon la consistance désirée), le gruyère râpé, le sel, le poivre et éventuellement encore un peu de muscade. Versez sur la quiche cette préparation et mettez à cuire environ 30 minutes.'
-    ],
-    description: 'pâte brisée, poireau, gruyère râpé, crème fraîche, poivre, sel, saumon fumé, oeuf, lait, muscade',
-    difficulty: 2,
-    budget: 2,
-    tags: [
-      'Quiche au poireau et saumon fumé',
-      'pâte brisée',
-      'poireau',
-      'gruyère râpé',
-      'crème fraîche',
-      'poivre',
-      'sel',
-      'saumon fumé',
-      'oeuf',
-      'lait',
-      'muscade',
-      'quiche au saumon',
-      'facile',
-      'moyen'
-    ],
-    prepTime: 15,
-    totalTime: 45,
-    people: 6
-  },
-  {
-    name: 'Verrine fraîcheur au carré frais',
-    rate: 4.8,
-    url: 'https://www.marmiton.org/recettes/recette_verrine-fraicheur-au-carre-frais_764.aspx',
-    ingredients: [
-      'aneth',
-      'oeufs de saumon',
-      "aneth frais (équivalent d'1 cuillère à café)",
-      'poivre du moulin',
-      'sel (déjà présent dans le saumon fumé, le carré frais de gervais et le surimi râpé)',
-      '4 verres de maïs transparents',
-      '1 avocat',
-      '3 c.à.s de surimi râpé',
-      '1 jus de citron vert',
-      '2 carré frais de gervais',
-      '2 c.à.s de crème fleurette',
-      '2 tranches de saumon fumé',
-      '1 couteau à lame lisse pour le saumon'
-    ],
-    author: 'hannah_15138689',
-    images: [
-      'https://assets.afcdn.com/recipe/20180209/77480_w1024h576c1 cx1643cy1727cxb3287cyb3454.webp',
-      'https://assets.afcdn.com/recipe/20180209/77480_w1024h768c1cx1643cy1727cxb3287cyb3454.webp',
-      'https://assets.afcdn.com/recipe/20180209/77480_w1024h1024c1cx1643cy1727cxb3287cyb3454.webp',
-      'https://assets.afcdn.com/recipe/20180209/77480_w1024h576c1cx1643cy1727cxb3287cyb3454.jpg',
-      'https://assets.afcdn.com/recipe/20180209/77480_w1024h768c1cx1643cy1727cxb3287cyb3454.jpg',
-      'https://assets.afcdn.com/recipe/20180209/77480_w1024h1024c1cx1643cy1727cxb3287cyb3454.jpg'
-    ],
-    steps: [
-      'Dans vos quatre verres, répartissez équitablement les 3 cuillères à soupe de surimi râpé.',
-      "Réduisez en purée votre avocat avec le demi jus du citon vert, après l'avoir épluché et avoir enlevé le noyau bien sûr. Répartissez toujours aussi équitablement entre les 4 verres.",
-      "Mixer les 2 carrés frais avec l'aneth frais et la crème fleurette et un peu de poivre du moulin. Répartissez toujours de la même manière dans les 4 verres.",
-      "Couper en lamelles très fines vos deux tranches de saumon fumé que vous disposez dans les verres en essayant de dessiner comme un rond ou une spirale qui s'entremêlent.",
-      "Disposez 3 ou 4 oeufs de saumon au centre (pas plus c'est juste pour la déco) ainsi que de tout petits brins d'aneth. Arrosez de quelques gouttes de citron vert, un soupçon de tour de moulin à poivre, et c'est prêt!",
-      "Mettre au frigo, dans la partie la plus froide et ne sortir qu'au moment de se mettre à table!",
-      'Je vous conseille, un vin blanc sec, peu importe de quelle région il vient. (à consommer avec modération bien sûr!)',
-      'Bon Appétit!'
-    ],
-    description: 'aneth, oeufs de saumon, aneth, poivre, sel, maïs, avocat, surimi, jus de citron, carré frais, crème fleurette, saumon fumé, couteau',
+    description: 'sucre, eau, citron',
     difficulty: 3,
     budget: 2,
     tags: [
-      'Verrine fraîcheur au carré frais',
-      'aneth',
-      'oeufs de saumon',
-      'aneth',
-      'poivre',
-      'sel',
-      'maïs',
-      'avocat',
-      'surimi',
-      'jus de citron',
-      'carré frais',
-      'crème fleurette',
-      'saumon fumé',
-      'couteau',
-      'verrine',
-      'facile',
+      'Sirop de citron ou orange',
+      'sucre',
+      'eau',
+      'citron',
+      '',
+      'très facile',
       'bon marché',
       'rapide'
     ],
-    prepTime: 20,
+    prepTime: 30,
+    totalTime: 40,
+    people: 2
+  },
+  {
+    name: 'Soupe champenoise',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_soupe-champenoise_15029.aspx',
+    ingredients: [
+      '75 cl de vin pétillant (mousseux ou Champagne)',
+      '5 cl de sucre de canne liquide',
+      '10 cl de citron vert (ou jaune)',
+      '10 cl de cointreau'
+    ],
+    author: 'jade_15144102',
+    images: [
+      'https://assets.afcdn.com/recipe/20131106/24723_w1024h576c1 cx1611cy1300cxb3683cyb4466.webp',
+      'https://assets.afcdn.com/recipe/20131106/24723_w1024h768c1cx1611cy1300cxb3683cyb4466.webp',
+      'https://assets.afcdn.com/recipe/20131106/24723_w1024h1024c1cx1611cy1300cxb3683cyb4466.webp',
+      'https://assets.afcdn.com/recipe/20131106/24723_w1024h576c1cx1611cy1300cxb3683cyb4466.jpg',
+      'https://assets.afcdn.com/recipe/20131106/24723_w1024h768c1cx1611cy1300cxb3683cyb4466.jpg',
+      'https://assets.afcdn.com/recipe/20131106/24723_w1024h1024c1cx1611cy1300cxb3683cyb4466.jpg'
+    ],
+    steps: [
+      'Mélanger les 3 derniers ingrédients ensemble et, au moment de servir, ajouter le vin pétillant bien frais.'
+    ],
+    description: 'vin, sucre de canne, citron vert, cointreau',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Soupe champenoise',
+      'vin',
+      'sucre de canne',
+      'citron vert',
+      'cointreau',
+      'cocktail champagne',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 6
+  },
+  {
+    name: 'Chocolat chaud du Père Noël',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_chocolat-chaud-du-pere-noel_85004.aspx',
+    ingredients: [
+      '150 g de chocolat pâtissier noir',
+      '50 cl de lait entier',
+      '20 g de crème liquide'
+    ],
+    author: 'emmy_17554864',
+    images: [
+      'https://assets.afcdn.com/recipe/20131009/46740_w1024h576c1 cx2184cy1456.webp',
+      'https://assets.afcdn.com/recipe/20131009/46740_w1024h768c1cx2184cy1456.webp',
+      'https://assets.afcdn.com/recipe/20131009/46740_w1024h1024c1cx2184cy1456.webp',
+      'https://assets.afcdn.com/recipe/20131009/46740_w1024h576c1cx2184cy1456.jpg',
+      'https://assets.afcdn.com/recipe/20131009/46740_w1024h768c1cx2184cy1456.jpg',
+      'https://assets.afcdn.com/recipe/20131009/46740_w1024h1024c1cx2184cy1456.jpg'
+    ],
+    steps: [
+      'Dans une casserole, verser le lait et la crème. Porter à ébullition. ',
+      'Pendant ce temps, concasser le chocolat en morceaux. Le réserver dans une seconde casserole. ',
+      "Verser enfin la préparation lait-crème sur le chocolat et mélanger à l'aide d'une cuillère en bois."
+    ],
+    description: 'chocolat pâtissier, lait entier, crème liquide',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Chocolat chaud du Père Noël',
+      'chocolat pâtissier',
+      'lait entier',
+      'crème liquide',
+      'chocolat chaud',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
     totalTime: 20,
     people: 4
   },
   {
-    name: 'Soufflé au fromage',
-    rate: 4.7,
-    url: 'https://www.marmiton.org/recettes/recette_souffle-au-fromage_69641.aspx',
-    ingredients: [
-      "150 g d'emmental ou gruyère râpé",
-      '60 g de beurre',
-      '60 g de farine',
-      '4 oeufs ou 5 moyens',
-      '40 cl de lait',
-      'muscade'
-    ],
-    author: 'veronique_296',
-    images: [
-      'https://assets.afcdn.com/recipe/20160404/61662_w1024h576c1 cx1000cy1500.webp',
-      'https://assets.afcdn.com/recipe/20160404/61662_w1024h768c1cx1000cy1500.webp',
-      'https://assets.afcdn.com/recipe/20160404/61662_w1024h1024c1cx1000cy1500.webp',
-      'https://assets.afcdn.com/recipe/20160404/61662_w1024h576c1cx1000cy1500.jpg',
-      'https://assets.afcdn.com/recipe/20160404/61662_w1024h768c1cx1000cy1500.jpg',
-      'https://assets.afcdn.com/recipe/20160404/61662_w1024h1024c1cx1000cy1500.jpg'
-    ],
-    steps: [
-      'Préchauffer le four à 180°C (thermostat 6). Beurrer le moule.',
-      'Chauffer le beurre dans une casserole, ajouter la farine et remuer rapidement pendant 1 min. Ajouter le lait tiédi, remuer au fouet pendant quelques minutes à feu doux.',
-      'Retirer la casserole du feu.',
-      'Séparer les blancs et les battre fermement (avec une pincée de sel).',
-      "Dans la casserole refroidie, ajouter les jaunes d'oeufs un à un, puis le fromage râpé. Mettre une pincée de muscade, poivrer. Saler peu car le fromage contient déjà du sel.",
-      "Incorporer les blancs d'oeufs battus en mélangeant délicatement. ",
-      "Verser dans le moule, au maximum jusqu'à 4 cm du bord.",
-      'Enfourner pendant 35 minutes en position chaleur tournante.'
-    ],
-    description: 'emmental, beurre, farine, oeuf, lait, muscade',
-    difficulty: 2,
-    budget: 1,
-    tags: [
-      'Soufflé au fromage',
-      'emmental',
-      'beurre',
-      'farine',
-      'oeuf',
-      'lait',
-      'muscade',
-      'soufflé',
-      'facile',
-      'bon marché'
-    ],
-    prepTime: 15,
-    totalTime: 50,
-    people: 4
-  },
-  {
-    name: 'Velouté de Potiron et Carottes',
+    name: 'Cocktail litchi, gingembre et champagne',
     rate: 4.8,
-    url: 'https://www.marmiton.org/recettes/recette_veloute-de-potiron-et-carottes_19009.aspx',
+    url: 'https://www.marmiton.org/recettes/recette_cocktail-litchi-gingembre-et-champagne_30040.aspx',
     ingredients: [
-      '500 g de carotte',
-      '1 oignon',
-      "1 c.à.s d'huile d'olive",
-      'persil',
-      'poivre',
-      'sel',
-      '1 kg de potiron',
-      '2 pommes de terre',
-      "1 gousse d'ail",
-      '1/2 l de lait',
-      '1/2 l de bouillon de volaille',
-      'muscade',
-      '10 cl de crème liquide (facultatif)'
+      "gingembre confit haché (une poignée) ou gelée de gingembre (que l'on liquéfie en réchauffant)",
+      'fraises et des piques en bois',
+      "60 cl d'Alcool de litchi",
+      '2 boîtes de litchi au sirop (565 g chacune)',
+      '2 boîtes de litchi (25 cl chacune) non gazeuse',
+      '2 champagne brut ou blanc de blanc très frais, limite glacées'
     ],
-    author: 'Anonyme',
+    author: 'jade_15196431',
     images: [
-      'https://assets.afcdn.com/recipe/20160325/63237_w1024h576c1 cx1000cy1500.webp',
-      'https://assets.afcdn.com/recipe/20160325/63237_w1024h768c1cx1000cy1500.webp',
-      'https://assets.afcdn.com/recipe/20160325/63237_w1024h1024c1cx1000cy1500.webp',
-      'https://assets.afcdn.com/recipe/20160325/63237_w1024h576c1cx1000cy1500.jpg',
-      'https://assets.afcdn.com/recipe/20160325/63237_w1024h768c1cx1000cy1500.jpg',
-      'https://assets.afcdn.com/recipe/20160325/63237_w1024h1024c1cx1000cy1500.jpg'
+      'https://assets.afcdn.com/recipe/20210311/118498_w1024h576c1 cx707cy1060cxb1414cyb2121.webp',
+      'https://assets.afcdn.com/recipe/20210311/118498_w1024h768c1cx707cy1060cxb1414cyb2121.webp',
+      'https://assets.afcdn.com/recipe/20210311/118498_w1024h1024c1cx707cy1060cxb1414cyb2121.webp',
+      'https://assets.afcdn.com/recipe/20210311/118498_w1024h576c1cx707cy1060cxb1414cyb2121.jpg',
+      'https://assets.afcdn.com/recipe/20210311/118498_w1024h768c1cx707cy1060cxb1414cyb2121.jpg',
+      'https://assets.afcdn.com/recipe/20210311/118498_w1024h1024c1cx707cy1060cxb1414cyb2121.jpg'
     ],
     steps: [
-      'Éplucher et couper en dés le potiron, les pommes de terre, les carottes en rondelles. ',
-      "Emincer l'ail et l'oignon. ",
-      "Faire suer l'oignon dans l'huile d'olive. ",
-      "Ajouter tous les légumes et l'ail puis verser le bouillon et le lait. ",
-      'Saler, poivrer, "muscader" et laisser cuire environ une trentaine de minutes. ',
-      "Mixer le tout (ajouter éventuellement la crème) et rectifier l'assaisonnement si nécessaire. ",
-      'Bon appétit !'
+      'La veille, verser dans un grand récipient la liqueur de litcho,  le jus des deux boîtes de litchis, les deux boîtes de boisson aux litchis et le gingembre. Réfrigérer.',
+      'Avant de servir, verser les deux bouteilles de champagne.',
+      'Pour soigner la préparation, sur les petites piques en bois, enfiler un litchi et une fraise. Disposer dans chaque flûte (ou chaque verre) avant de servir.'
     ],
-    description: "carotte, oignon, huile d'olive, persil, poivre, sel, potiron, pomme de terre, ail, lait, bouillon de volaille, muscade, crème liquide",
-    difficulty: 1,
-    budget: 1,
-    tags: [
-      'Velouté de Potiron et Carottes',
-      'carotte',
-      'oignon',
-      "huile d'olive",
-      'persil',
-      'poivre',
-      'sel',
-      'potiron',
-      'pomme de terre',
-      'ail',
-      'lait',
-      'bouillon de volaille',
-      'muscade',
-      'crème liquide',
-      'soupe',
-      'très facile',
-      'bon marché'
-    ],
-    prepTime: 30,
-    totalTime: 60,
-    people: 4
-  },
-  {
-    name: 'Velouté de potiron',
-    rate: 4.9,
-    url: 'https://www.marmiton.org/recettes/recette_veloute-de-potiron_18663.aspx',
-    ingredients: [
-      '1 oignon',
-      'poivre',
-      'sel',
-      'huile',
-      'persil ciselé',
-      '1 quartier de potiron',
-      '1 brique de crème fraîche liquide',
-      'muscade en poudre'
-    ],
-    author: 'anna_14466430',
-    images: [
-      'https://assets.afcdn.com/recipe/20221010/135900_w1024h576c1 cx1160cy863cxb2121cyb1414.webp',
-      'https://assets.afcdn.com/recipe/20221010/135900_w1024h768c1cx1160cy863cxb2121cyb1414.webp',
-      'https://assets.afcdn.com/recipe/20221010/135900_w1024h1024c1cx1160cy863cxb2121cyb1414.webp',
-      'https://assets.afcdn.com/recipe/20221010/135900_w1024h576c1cx1160cy863cxb2121cyb1414.jpg',
-      'https://assets.afcdn.com/recipe/20221010/135900_w1024h768c1cx1160cy863cxb2121cyb1414.jpg',
-      'https://assets.afcdn.com/recipe/20221010/135900_w1024h1024c1cx1160cy863cxb2121cyb1414.jpg'
-    ],
-    steps: [
-      'Couper la chair du potiron en gros dés.',
-      "Couper l'oignon en lamelles et le faire revenir dans une cocotte avec un peu d'huile. ",
-      "Ajouter les dés de courge dans la cocotte et recouvrir d'eau (juste au niveau de la courge, pas plus). Laisser bouillir environ 45 min à 1 h.",
-      'Ajouter la crème liquide, saler, poivrer et ajouter de la muscade selon votre goût. Mixer.',
-      'Au moment de servir, parsemer de persil ciselé.'
-    ],
-    description: 'oignon, poivre, sel, huile, persil, potiron, brique, muscade',
-    difficulty: 1,
-    budget: 1,
-    tags: [
-      'Velouté de potiron',
-      'oignon',
-      'poivre',
-      'sel',
-      'huile',
-      'persil',
-      'potiron',
-      'brique',
-      'muscade',
-      'soupe',
-      'très facile',
-      'bon marché'
-    ],
-    prepTime: 30,
-    totalTime: 75,
-    people: 4
-  },
-  {
-    name: 'Velouté de carottes au cumin',
-    rate: 4.7,
-    url: 'https://www.marmiton.org/recettes/recette_veloute-de-carottes-au-cumin_16952.aspx',
-    ingredients: [
-      '1 kg de carotte',
-      '1 oignon',
-      "3/4 l d'eau",
-      '20 g de beurre',
-      '1/2 c.à.c de curry',
-      '1/2 c.à.c de cumin',
-      'sel de Guérande',
-      '1 pomme de terre moyenne',
-      '20 cl de crème liquide'
-    ],
-    author: 'Anonyme',
-    images: [
-      'https://assets.afcdn.com/recipe/20160325/48385_w1024h576c1 cx1500cy1000.webp',
-      'https://assets.afcdn.com/recipe/20160325/48385_w1024h768c1cx1500cy1000.webp',
-      'https://assets.afcdn.com/recipe/20160325/48385_w1024h1024c1cx1500cy1000.webp',
-      'https://assets.afcdn.com/recipe/20160325/48385_w1024h576c1cx1500cy1000.jpg',
-      'https://assets.afcdn.com/recipe/20160325/48385_w1024h768c1cx1500cy1000.jpg',
-      'https://assets.afcdn.com/recipe/20160325/48385_w1024h1024c1cx1500cy1000.jpg'
-    ],
-    steps: [
-      "Emincez l'oignon. Faites fondre le beurre dans une cocotte minute, puis ajoutez l'oignon. Faites dorer. ",
-      'Ajoutez les carottes et la pomme de terre préalablement coupés en morceaux. Faites cuire ainsi 5 minutes.',
-      "Ajoutez l'eau, ainsi que le curry et le cumin.",
-      'Fermez la cocotte et faire cuire 20 minutes après la montée en pression.',
-      "Il ne reste plus qu'à mixer le tout en y ajoutant la crème liquide... et bien sûr qu'à se régaler!"
-    ],
-    description: 'carotte, oignon, eau, beurre, curry, cumin, sel, pomme de terre, crème liquide',
-    difficulty: 1,
-    budget: 1,
-    tags: [
-      'Velouté de carottes au cumin',
-      'carotte',
-      'oignon',
-      'eau',
-      'beurre',
-      'curry',
-      'cumin',
-      'sel',
-      'pomme de terre',
-      'crème liquide',
-      'soupe',
-      'très facile',
-      'bon marché'
-    ],
-    prepTime: 10,
-    totalTime: 35,
-    people: 6
-  },
-  {
-    name: 'Verrine avocat et saumon fumé',
-    rate: 4.8,
-    url: 'https://www.marmiton.org/recettes/recette_verrine-avocat-truite-fumee_44183.aspx',
-    ingredients: [
-      '1 avocat bien mûr',
-      '2 tranches de truite fumée (ou saumon)',
-      '100 g de fromage frais',
-      '1/2 citron',
-      '50 g de fromage ail et fines herbes',
-      'ciboulette',
-      "1 pot d'oeuf de truite"
-    ],
-    author: 'rose_17144525',
-    images: [
-      'https://assets.afcdn.com/recipe/20210909/121890_w1024h576c1 cx1448cy763cxb2121cyb1414.webp',
-      'https://assets.afcdn.com/recipe/20210909/121890_w1024h768c1cx1448cy763cxb2121cyb1414.webp',
-      'https://assets.afcdn.com/recipe/20210909/121890_w1024h1024c1cx1448cy763cxb2121cyb1414.webp',
-      'https://assets.afcdn.com/recipe/20210909/121890_w1024h576c1cx1448cy763cxb2121cyb1414.jpg',
-      'https://assets.afcdn.com/recipe/20210909/121890_w1024h768c1cx1448cy763cxb2121cyb1414.jpg',
-      'https://assets.afcdn.com/recipe/20210909/121890_w1024h1024c1cx1448cy763cxb2121cyb1414.jpg'
-    ],
-    steps: [
-      "Ecraser la pulpe de l'avocat dans un bol.",
-      'Saler très peu, poivrer et citronner. ',
-      'Déposer 1/4 de la préparation dans chaque verrine.',
-      "Mélanger le fromage frais et le fromage ail et fines herbes dans un bol avec 1 cuillère à soupe d'eau pour fluidifier.",
-      'Déposer dans les verrines en une seconde couche.',
-      'Couper les tranches de saumon fumé en petits morceaux, répartir dans les verrines et mettre au frais. ',
-      'Au moment de servir, décorer de quelques oeufs de truite, brins de ciboulette, un filet de citron et un tour de moulin à poivres 5 baies.'
-    ],
-    description: 'avocat, truite, fromage frais, citron, fromage ail et fines herbes, ciboulette, oeuf de truite',
+    description: 'gingembre confit, fraises, Alcool, litchi au sirop, litchi, champagne',
     difficulty: 3,
     budget: 2,
     tags: [
-      'Verrine avocat et saumon fumé',
-      'avocat',
-      'truite',
-      'fromage frais',
+      'Cocktail litchi',
+      'gingembre et champagne',
+      'gingembre confit',
+      'fraises',
+      'Alcool',
+      'litchi au sirop',
+      'litchi',
+      'champagne',
+      'cocktail champagne',
+      'très facile',
+      'assez cher',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 20
+  },
+  {
+    name: 'Soupe Champagne',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_soupe-champagne_18838.aspx',
+    ingredients: [
+      '1 louche de sucre de canne',
+      '1 louche de cointreau',
+      '1 citron pressé',
+      '1 bouteille de mousseux sec ou champagne'
+    ],
+    author: 'jmd',
+    images: [
+      'https://assets.afcdn.com/recipe/20180601/79374_w1024h576c1 cx1925cy2887cxb3850cyb5775.webp',
+      'https://assets.afcdn.com/recipe/20180601/79374_w1024h768c1cx1925cy2887cxb3850cyb5775.webp',
+      'https://assets.afcdn.com/recipe/20180601/79374_w1024h1024c1cx1925cy2887cxb3850cyb5775.webp',
+      'https://assets.afcdn.com/recipe/20180601/79374_w1024h576c1cx1925cy2887cxb3850cyb5775.jpg',
+      'https://assets.afcdn.com/recipe/20180601/79374_w1024h768c1cx1925cy2887cxb3850cyb5775.jpg',
+      'https://assets.afcdn.com/recipe/20180601/79374_w1024h1024c1cx1925cy2887cxb3850cyb5775.jpg'
+    ],
+    steps: [
+      'Mettre les ingrédients dans une soupière. ',
+      'Verser le mousseux. ',
+      'Ajouter des glacons.'
+    ],
+    description: 'sucre de canne, cointreau, citron, mousseux',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Soupe Champagne',
+      'sucre de canne',
+      'cointreau',
       'citron',
-      'fromage ail et fines herbes',
-      'ciboulette',
-      'oeuf de truite',
-      'verrine',
+      'mousseux',
+      'cocktail champagne',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 6
+  },
+  {
+    name: 'Liqueur de Lait aux Carambars façon Clochette',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_liqueur-de-lait-aux-carambars-facon-clochette_35344.aspx',
+    ingredients: [
+      '1 l de rhum blanc',
+      '1 kg de sucre',
+      '1 morceau de gingembre frais',
+      '1 l de lait',
+      '3 bâtons de cannelle',
+      '1 citron jaune',
+      '1 citron vert',
+      '20 carambars© (difficile à éplucher, et long si on lit toutes les blagues!!!)',
+      "autres épices selon le goût désiré (moi par exemple j'avais mis une pincée d'épices à pain d'épices)"
+    ],
+    author: 'hannah_15963796',
+    images: [
+      'https://assets.afcdn.com/recipe/20100120/1973_w1024h576c1 cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/1973_w1024h768c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/1973_w1024h1024c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/1973_w1024h576c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/1973_w1024h768c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/1973_w1024h1024c1cx256cy192.jpg'
+    ],
+    steps: [
+      'Ingrédients pour 2 litres.',
+      "J'ai préparé cette liqueur dans un énorme bocal acheté spécialement pour l'occasion, mais elle peut se faire dans tout autre récipient étanche et transparent (pour bien voir l'évolution et la fonte des carambars jour après jour). ",
+      'Couper vos citrons en 2, les mettre au fond du bocal, y rajouter les bâtons de cannelle, le gingembre (épluché), les carambars et le sucre, puis les liquides, le lait et le rhum. ',
+      "Bien fermer le bocal et bien l'agiter.... ",
+      'Mettre dans un endroit sombre et frais. ',
+      `Remuer le bocal tout les jours, et au fur et à mesure la liqueur va devenir "marron" et les carambars deviendront introuvables, c'est d'aileurs le but !!!`,
+      "Au bout d'un mois, ouvrir le bocal, filtrer la préparation et mettre en bouteilles. ",
+      "Depuis ouverture, je conservais au frigo, mais maintenant qu'il n'y en a plus, je vais vite recommencer..."
+    ],
+    description: 'rhum, sucre, gingembre, lait, cannelle, citron, citron vert, carambar©, autres',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Liqueur de Lait aux Carambars façon Clochette',
+      'rhum',
+      'sucre',
+      'gingembre',
+      'lait',
+      'cannelle',
+      'citron',
+      'citron vert',
+      'carambar©',
+      'autres',
+      'liqueur',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 30,
+    totalTime: 30,
+    people: 6
+  },
+  {
+    name: 'Mojito cubain',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_mojito-cubain_80528.aspx',
+    ingredients: [
+      '3 c.à.c de sucre de canne en poudre',
+      "rhum (cubain de préférence, c'est le pays du mojito)",
+      '1/2 citron vert',
+      '1 branche de menthe bien fournie',
+      'eau gazeuse',
+      'glaçons'
+    ],
+    author: 'marjojo',
+    images: [
+      'https://assets.afcdn.com/recipe/20180601/79373_w1024h576c1 cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20180601/79373_w1024h768c1cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20180601/79373_w1024h1024c1cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20180601/79373_w1024h576c1cx2000cy3000cxb4000cyb6000.jpg',
+      'https://assets.afcdn.com/recipe/20180601/79373_w1024h768c1cx2000cy3000cxb4000cyb6000.jpg',
+      'https://assets.afcdn.com/recipe/20180601/79373_w1024h1024c1cx2000cy3000cxb4000cyb6000.jpg'
+    ],
+    steps: [
+      'Dans un verre de taille moyenne (contenance 40 cl environ), mettez 3 cuillères à café de sucre de canne.',
+      "Ajoutez-y le jus d'1/2 citron vert.",
+      'Coupez en 3 ou 4 votre branche de menthe et mettez-la dans le verre (le fait de la couper permet à la saveur de la menthe de mieux se diffuser).',
+      "Ajoutez un peu d'eau gazeuse (environ 3 cl) puis avec une cuillère à café, remuez bien le tout et écrasez la menthe (insistez sur les branches plus que sur les feuilles, sinon il y aura pleins de petits bouts de menthe assez désagréables au moment de déguster votre cocktail!).",
+      'Ajoutez 5 glaçons environ.',
+      "Ensuite versez 6 cl de rhum (en versant à débit moyen). Pour la dose plutôt chargée, comptez jusqu'à 5; pour la dose légère jusqu'à 4.",
+      "Enfin, complétez avec de l'eau gazeuse."
+    ],
+    description: 'sucre de canne, rhum, citron vert, menthe, eau gazeuse, glaçons',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Mojito cubain',
+      'sucre de canne',
+      'rhum',
+      'citron vert',
+      'menthe',
+      'eau gazeuse',
+      'glaçons',
+      'mojito',
+      'facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: 'Limoncello (liqueur de citron)',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_limoncello_12511.aspx',
+    ingredients: [
+      '400 g de sucre',
+      "50 cl d'eau",
+      '3 citrons',
+      `50 cl d'Alcool à 90 ou 1 litre d"eau de vie de fruit`
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20210426/119827_w1024h576c1 cx1060cy707cxb2121cyb1414.webp',
+      'https://assets.afcdn.com/recipe/20210426/119827_w1024h768c1cx1060cy707cxb2121cyb1414.webp',
+      'https://assets.afcdn.com/recipe/20210426/119827_w1024h1024c1cx1060cy707cxb2121cyb1414.webp',
+      'https://assets.afcdn.com/recipe/20210426/119827_w1024h576c1cx1060cy707cxb2121cyb1414.jpg',
+      'https://assets.afcdn.com/recipe/20210426/119827_w1024h768c1cx1060cy707cxb2121cyb1414.jpg',
+      'https://assets.afcdn.com/recipe/20210426/119827_w1024h1024c1cx1060cy707cxb2121cyb1414.jpg'
+    ],
+    steps: [
+      "Faire macérer les zestes de citrons 10 jours dans 1/2 litre d'alcool ou d'eau de vie.",
+      'Retirer les zestes au bout de 10 jours.',
+      "Si vous utilisez l'alcool et non l'eau de vie, diluer les 400 g de sucre dans 1/2 litre d'eau. Ou dans le 1/2 l d'eau de vie restant.",
+      'Mélanger les 2 liquides.',
+      'Mettre en bouteille. Se conserve au congélateur. Se sert à la sortie du congélo.'
+    ],
+    description: 'sucre, eau, citron, Alcool',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Limoncello (liqueur de citron)',
+      'sucre',
+      'eau',
+      'citron',
+      'Alcool',
+      'liqueur',
       'très facile',
       'bon marché',
       'rapide'
@@ -541,5 +359,88 @@
     prepTime: 15,
     totalTime: 15,
     people: 4
+  },
+  {
+    name: 'Grog au rhum',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_grog-au-rhum_20790.aspx',
+    ingredients: [ 'rhum brun ambré', 'miel', 'eau', 'citron' ],
+    author: 'lise_14944888',
+    images: [
+      'https://assets.afcdn.com/recipe/20181107/83642_w1024h576c1 cx1765cy2353cxb3526cyb4705.webp',
+      'https://assets.afcdn.com/recipe/20181107/83642_w1024h768c1cx1765cy2353cxb3526cyb4705.webp',
+      'https://assets.afcdn.com/recipe/20181107/83642_w1024h1024c1cx1765cy2353cxb3526cyb4705.webp',
+      'https://assets.afcdn.com/recipe/20181107/83642_w1024h576c1cx1765cy2353cxb3526cyb4705.jpg',
+      'https://assets.afcdn.com/recipe/20181107/83642_w1024h768c1cx1765cy2353cxb3526cyb4705.jpg',
+      'https://assets.afcdn.com/recipe/20181107/83642_w1024h1024c1cx1765cy2353cxb3526cyb4705.jpg'
+    ],
+    steps: [
+      "Mettre l'eau à chauffer. ",
+      "Pendant ce temps, presser le jus d'1/2 citron. ",
+      "Dans une chope mettre 2 cuillères à café de miel, le jus de citron, et la valeur d'un petit verre à liqueur de rhum. ",
+      "Quand l'eau commence à faire de petites bulles, vider dans la chope. ",
+      'Boire dès que la température le permet.... '
+    ],
+    description: 'rhum, miel, eau, citron',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Grog au rhum',
+      'rhum',
+      'miel',
+      'eau',
+      'citron',
+      'cocktail rhum',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 8,
+    people: 1
+  },
+  {
+    name: 'Lait de poule pour Noël',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_lait-de-poule-pour-noel_340080.aspx',
+    ingredients: [
+      '25 g de sucre',
+      "1 jaune d'oeuf",
+      '15 cl de lait',
+      '1 pincée de cannelle',
+      '1 pincée de muscade'
+    ],
+    author: 'bookaddict',
+    images: [
+      'https://assets.afcdn.com/recipe/20201203/116053_w1024h576c1 cx482cy447cxb948cyb700.webp',
+      'https://assets.afcdn.com/recipe/20201203/116053_w1024h768c1cx482cy447cxb948cyb700.webp',
+      'https://assets.afcdn.com/recipe/20201203/116053_w1024h1024c1cx482cy447cxb948cyb700.webp',
+      'https://assets.afcdn.com/recipe/20201203/116053_w1024h576c1cx482cy447cxb948cyb700.jpg',
+      'https://assets.afcdn.com/recipe/20201203/116053_w1024h768c1cx482cy447cxb948cyb700.jpg',
+      'https://assets.afcdn.com/recipe/20201203/116053_w1024h1024c1cx482cy447cxb948cyb700.jpg'
+    ],
+    steps: [
+      'Faites chauffer le lait dans une casserole avec la cannelle et la noix de muscade (attention à ne pas faire bouillir la préparation).',
+      "Mélangez le jaune d'oeuf et le sucre dans votre tasse.",
+      'Ajoutez le lait dans votre tasse en continuant de bien mélanger.'
+    ],
+    description: "sucre, jaune d'oeuf, lait, cannelle, muscade",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Lait de poule pour Noël',
+      'sucre',
+      "jaune d'oeuf",
+      'lait',
+      'cannelle',
+      'muscade',
+      'apéritif de Noël',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 7,
+    people: 1
   }
 ]

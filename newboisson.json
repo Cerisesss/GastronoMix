@@ -1,0 +1,368 @@
+[
+    {
+        "nom": "Sirop de citron ou orange",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1.5",
+            "50",
+            "1"
+        ],
+        "unite": [
+            "kg",
+            "cl",
+            "kg"
+        ],
+        "ingredients": [
+            "sucre cristallisé",
+            "d'eau",
+            "citron non traités (soit environ 7 gros citrons)"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20180222/77688_w1024h1024c1cx2837cy1891cxb5674cyb3783.jpg",
+        "etapes": [
+            "Faire chauffer l'eau et le sucre, porter doucement à ébullition. ",
+            "Pendant ce temps, prélever les zestes de tous les citrons. Les jeter dans le sirop de sucre, et laisser mijoter 5 min. ",
+            "Pendant ce temps, presser les citrons. Verser le jus dans une casserole, puis ajouter le sirop par-dessus. ",
+            "Laisser macérer 24 heures, puis filtrer, et mettre en bouteille."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 40,
+        "nombredepersonne": 2,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Soupe champenoise",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "75",
+            "5",
+            "10",
+            "10"
+        ],
+        "unite": [
+            "cl",
+            "cl",
+            "cl",
+            "cl"
+        ],
+        "ingredients": [
+            "vin pétillant (mousseux ou Champagne)",
+            "sucre de canne liquide",
+            "citron vert (ou jaune)",
+            "cointreau"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20131106/24723_w1024h1024c1cx1611cy1300cxb3683cyb4466.jpg",
+        "etapes": [
+            "Mélanger les 3 derniers ingrédients ensemble et, au moment de servir, ajouter le vin pétillant bien frais."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 6,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Chocolat chaud du Père Noël",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "150",
+            "50",
+            "20"
+        ],
+        "unite": [
+            "g",
+            "cl",
+            "g"
+        ],
+        "ingredients": [
+            "chocolat pâtissier noir",
+            "lait entier",
+            "crème liquide"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20131009/46740_w1024h1024c1cx2184cy1456.jpg",
+        "etapes": [
+            "Dans une casserole, verser le lait et la crème. Porter à ébullition. ",
+            "Pendant ce temps, concasser le chocolat en morceaux. Le réserver dans une seconde casserole. ",
+            "Verser enfin la préparation lait-crème sur le chocolat et mélanger à l'aide d'une cuillère en bois."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 20,
+        "nombredepersonne": 4,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Cocktail litchi, gingembre et champagne",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            " ",
+            " ",
+            "60",
+            "2",
+            "2",
+            "2"
+        ],
+        "unite": [
+            " ",
+            " ",
+            "cl",
+            "boîtes",
+            "boîtes",
+            " "
+        ],
+        "ingredients": [
+            "gingembre confit haché (une poignée) ou gelée de gingembre (que l'on liquéfie en réchauffant)",
+            "fraises et des piques en bois",
+            "d'Alcool de litchi",
+            "litchi au sirop (565 g chacune)",
+            "litchi (25 cl chacune) non gazeuse",
+            "champagne brut ou blanc de blanc très frais, limite glacées"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20210311/118498_w1024h1024c1cx707cy1060cxb1414cyb2121.jpg",
+        "etapes": [
+            "La veille, verser dans un grand récipient la liqueur de litcho,  le jus des deux boîtes de litchis, les deux boîtes de boisson aux litchis et le gingembre. Réfrigérer.",
+            "Avant de servir, verser les deux bouteilles de champagne.",
+            "Pour soigner la préparation, sur les petites piques en bois, enfiler un litchi et une fraise. Disposer dans chaque flûte (ou chaque verre) avant de servir."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 20,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Soupe Champagne",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "louche de sucre de canne",
+            "louche de cointreau",
+            "citron pressé",
+            "bouteille de mousseux sec ou champagne"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20180601/79374_w1024h1024c1cx1925cy2887cxb3850cyb5775.jpg",
+        "etapes": [
+            "Mettre les ingrédients dans une soupière. ",
+            "Verser le mousseux. ",
+            "Ajouter des glacons."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 6,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Liqueur de Lait aux Carambars façon Clochette",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "3",
+            "1",
+            "1",
+            "20",
+            " "
+        ],
+        "unite": [
+            "l",
+            "kg",
+            "morceau",
+            "l",
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "rhum blanc",
+            "sucre",
+            "gingembre frais",
+            "lait",
+            "bâtons de cannelle",
+            "citron jaune",
+            "citron vert",
+            "carambars© (difficile à éplucher, et long si on lit toutes les blagues!!!)",
+            "autres épices selon le goût désiré (moi par exemple j'avais mis une pincée d'épices à pain d'épices)"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20100120/1973_w1024h1024c1cx256cy192.jpg",
+        "etapes": [
+            "Ingrédients pour 2 litres.",
+            "J'ai préparé cette liqueur dans un énorme bocal acheté spécialement pour l'occasion, mais elle peut se faire dans tout autre récipient étanche et transparent (pour bien voir l'évolution et la fonte des carambars jour après jour). ",
+            "Couper vos citrons en 2, les mettre au fond du bocal, y rajouter les bâtons de cannelle, le gingembre (épluché), les carambars et le sucre, puis les liquides, le lait et le rhum. ",
+            "Bien fermer le bocal et bien l'agiter.... ",
+            "Mettre dans un endroit sombre et frais. ",
+            "Remuer le bocal tout les jours, et au fur et à mesure la liqueur va devenir \"marron\" et les carambars deviendront introuvables, c'est d'aileurs le but !!!",
+            "Au bout d'un mois, ouvrir le bocal, filtrer la préparation et mettre en bouteilles. ",
+            "Depuis ouverture, je conservais au frigo, mais maintenant qu'il n'y en a plus, je vais vite recommencer..."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 30,
+        "nombredepersonne": 6,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Mojito cubain",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "3",
+            " ",
+            "1/2",
+            "1",
+            " ",
+            " "
+        ],
+        "unite": [
+            "c.à.c",
+            " ",
+            " ",
+            "branche",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "sucre de canne en poudre",
+            "rhum (cubain de préférence, c'est le pays du mojito)",
+            "citron vert",
+            "menthe bien fournie",
+            "eau gazeuse",
+            "glaçons"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20180601/79373_w1024h1024c1cx2000cy3000cxb4000cyb6000.jpg",
+        "etapes": [
+            "Dans un verre de taille moyenne (contenance 40 cl environ), mettez 3 cuillères à café de sucre de canne.",
+            "Ajoutez-y le jus d'1/2 citron vert.",
+            "Coupez en 3 ou 4 votre branche de menthe et mettez-la dans le verre (le fait de la couper permet à la saveur de la menthe de mieux se diffuser).",
+            "Ajoutez un peu d'eau gazeuse (environ 3 cl) puis avec une cuillère à café, remuez bien le tout et écrasez la menthe (insistez sur les branches plus que sur les feuilles, sinon il y aura pleins de petits bouts de menthe assez désagréables au moment de déguster votre cocktail!).",
+            "Ajoutez 5 glaçons environ.",
+            "Ensuite versez 6 cl de rhum (en versant à débit moyen). Pour la dose plutôt chargée, comptez jusqu'à 5; pour la dose légère jusqu'à 4.",
+            "Enfin, complétez avec de l'eau gazeuse."
+        ],
+        "tempspreparation": 5,
+        "tempstotal": 5,
+        "nombredepersonne": 1,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Limoncello (liqueur de citron)",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "400",
+            "50",
+            "3",
+            "50"
+        ],
+        "unite": [
+            "g",
+            "cl",
+            " ",
+            "cl"
+        ],
+        "ingredients": [
+            "sucre",
+            "d'eau",
+            "citrons",
+            "d'Alcool à 90 ou 1 litre d\"eau de vie de fruit"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20210426/119827_w1024h1024c1cx1060cy707cxb2121cyb1414.jpg",
+        "etapes": [
+            "Faire macérer les zestes de citrons 10 jours dans 1/2 litre d'alcool ou d'eau de vie.",
+            "Retirer les zestes au bout de 10 jours.",
+            "Si vous utilisez l'alcool et non l'eau de vie, diluer les 400 g de sucre dans 1/2 litre d'eau. Ou dans le 1/2 l d'eau de vie restant.",
+            "Mélanger les 2 liquides.",
+            "Mettre en bouteille. Se conserve au congélateur. Se sert à la sortie du congélo."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 15,
+        "nombredepersonne": 4,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Grog au rhum",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            " ",
+            " ",
+            " ",
+            " "
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "rhum brun ambré",
+            "miel",
+            "eau",
+            "citron"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20181107/83642_w1024h1024c1cx1765cy2353cxb3526cyb4705.jpg",
+        "etapes": [
+            "Mettre l'eau à chauffer. ",
+            "Pendant ce temps, presser le jus d'1/2 citron. ",
+            "Dans une chope mettre 2 cuillères à café de miel, le jus de citron, et la valeur d'un petit verre à liqueur de rhum. ",
+            "Quand l'eau commence à faire de petites bulles, vider dans la chope. ",
+            "Boire dès que la température le permet.... "
+        ],
+        "tempspreparation": 5,
+        "tempstotal": 8,
+        "nombredepersonne": 1,
+        "categorie": "boisson"
+    },
+    {
+        "nom": "Lait de poule pour Noël",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "25",
+            "1",
+            "15",
+            "1",
+            "1"
+        ],
+        "unite": [
+            "g",
+            " ",
+            "cl",
+            "pincée",
+            "pincée"
+        ],
+        "ingredients": [
+            "sucre",
+            "jaune d'oeuf",
+            "lait",
+            "cannelle",
+            "muscade"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20201203/116053_w1024h1024c1cx482cy447cxb948cyb700.jpg",
+        "etapes": [
+            "Faites chauffer le lait dans une casserole avec la cannelle et la noix de muscade (attention à ne pas faire bouillir la préparation).",
+            "Mélangez le jaune d'oeuf et le sucre dans votre tasse.",
+            "Ajoutez le lait dans votre tasse en continuant de bien mélanger."
+        ],
+        "tempspreparation": 5,
+        "tempstotal": 7,
+        "nombredepersonne": 1,
+        "categorie": "boisson"
+    }
+]

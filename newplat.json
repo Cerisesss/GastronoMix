@@ -1,0 +1,514 @@
+[
+    {
+        "nom": "Rôti de porc de Dijon",
+        "source": "Marmiton",
+        "difficulte": 2,
+        "quantite": [
+            " ",
+            " ",
+            " ",
+            "1",
+            "3/4",
+            "10",
+            " "
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            " ",
+            "gousse",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "moutarde de Dijon forte (quantité selon votre goût)",
+            "poivre",
+            "sel",
+            "rôti de porc de 600 grammes environ",
+            "d'ail",
+            "échalotes",
+            "crème fraîche allégée"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20210203/117771_w1024h1024c1cx1060cy707cxb2121cyb1414.jpg",
+        "etapes": [
+            "Piquer le rôti de petites gousses d'ail coupées en deux ou trois, suivant grosseur.",
+            "Dans une cocotte, le faire dorer quelques minute dans du beurre sur toute les faces. Saler et poivrer.",
+            "Quand il est bien coloré, le retirer de la cocotte et le badigeonner avec la moutarde forte, remettre ensuite à cuire avec les échalotes, couvrir et laisser mijoter à feu doux pendant +/- 1h30, en retournant de temps en temps.",
+            "Rajouter de l'eau régulièrement, dès lors que tout le liquide est évaporé.",
+            "Après ce temps, retirer le rôti et les échalotes, puis rectifier la sauce si nécessaire (avec sel et poivre), puis ajouter la crème fraîche selon votre goût.",
+            "Couper le rôti en tranches, puis le servir nappé de sauce et accompagné des petites échalotes entières."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 90,
+        "nombredepersonne": 6,
+        "categorie": "plat"
+    },
+    {
+        "nom": "Chili con carne facile",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "50",
+            "2",
+            "1",
+            "2",
+            "1",
+            "30",
+            " ",
+            " ",
+            " ",
+            "2",
+            "500",
+            "65"
+        ],
+        "unite": [
+            "g",
+            " ",
+            "c.à.c",
+            "c.à.c",
+            " ",
+            "cl",
+            " ",
+            " ",
+            " ",
+            "gousses",
+            "g",
+            "g"
+        ],
+        "ingredients": [
+            "beurre",
+            "oignons",
+            "chili en poudre",
+            "cumin en poudre",
+            "grosse boîte de haricots rouges égouttés",
+            "bouillon de boeuf",
+            "sel",
+            "poivre",
+            "persil pour décorer",
+            "d'ail écrasées",
+            "boeuf haché",
+            "concentré de tomates"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20211222/126214_w1024h1024c1cx1124cy721cxb2119cyb1415.jpg",
+        "etapes": [
+            "Préchauffer le four à 180°C (thermostat 6).",
+            "Hacher l'oignon et l'ail.",
+            "Dans une cocotte en fonte, faire fondre le beurre, et ensuite dorer doucement l'oignon et l’ail.",
+            "Incorporer le boeuf haché et laisser cuire doucement 10 min.",
+            "Mélanger le chili, le cumin, le concentré de tomates, et incorporer le tout au boeuf. Ajouter les haricots, le bouillon, du sel et du poivre.",
+            "Couvrir et cuire 25 min au four."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 35,
+        "nombredepersonne": 4,
+        "categorie": "plat"
+    },
+    {
+        "nom": "Couscous poulet et merguez facile",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "12",
+            " ",
+            "1",
+            "2",
+            "3",
+            "5",
+            "2",
+            "400",
+            "8",
+            "2",
+            "3",
+            "10"
+        ],
+        "unite": [
+            " ",
+            " ",
+            "c.à.c",
+            "cubes",
+            " ",
+            " ",
+            " ",
+            "g",
+            " ",
+            "boîtes",
+            "c.à.s",
+            " "
+        ],
+        "ingredients": [
+            "merguez",
+            "huile d'olive",
+            "harissa",
+            "bouillon de boeuf",
+            "tomates",
+            "carottes",
+            "courgettes",
+            "pois chiches",
+            "pilons de poulet (fermier de préférence)",
+            "concentré de tomates",
+            "d'épices à couscous",
+            "navets"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20180621/79724_w1024h1024c1cx1944cy2592cxb3888cyb5184.jpg",
+        "etapes": [
+            "Lavez et épluchez les carottes, les navets et les tomates et les couper en cubes. ",
+            "Dans un autocuiseur, versez 3 cuillères à soupe d'huile d'olive. Mettez à chauffer et faites-y dorer les pilons de poulet. Quand ils sont dorés, versez l'équivalent d'1 litre d'eau et ajouter les cubes de bouillon de boeuf, le concentré de tomate, les carottes, navets et tomates, les épices à couscous et l'harissa. ",
+            "Fermez votre autocuiseur et compter 25 mn de cuisson une fois que celui-ci est monté en pression. ",
+            "En attendant, lavez et coupez les courgettes en cubes et égouttez les pois chiches. ",
+            "Une fois les 25 mn écoulées, évacuez la vapeur de votre autocuiseur, ouvrez et rajouter les courgettes et les pois chiches. ",
+            "Remettez au feu : comptez 10 mn de cuisson une fois votre autocuiseur sous pression. ",
+            "Faites cuire vos merguez sur un grill ou à la poêle, mais pas avec les légumes. ",
+            "Servez accompagné d'une semoule fine."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 65,
+        "nombredepersonne": 6,
+        "categorie": "plat"
+    },
+    {
+        "nom": "Filet mignon de porc à la moutarde",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "1",
+            "40",
+            " ",
+            " ",
+            " ",
+            "1",
+            "25",
+            "500"
+        ],
+        "unite": [
+            " ",
+            "cl",
+            " ",
+            " ",
+            " ",
+            "filet",
+            "cl",
+            "g"
+        ],
+        "ingredients": [
+            "bouillon de légumes",
+            "crème fraîche",
+            "moutarde",
+            "huile d'olive",
+            "beurre",
+            "mignon de porc de 600 à 700 g environ",
+            "vin blanc sec",
+            "champignon en boîte"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20171004/72705_w1024h1024c1cx2000cy3000cxb4000cyb6000.jpg",
+        "etapes": [
+            "Couper la viande en morceaux et mettre le mélange huile + beurre à chauffer.",
+            "La faire dorer dans un mélange huile + beurre dans une cocotte.",
+            "Retirer les morceaux de la cocotte et jeter le surplus de gras.",
+            "Déglacer la cocotte avec le vin blanc, le bouillon cube, le jus des champignons et la crème (2/3 du pot).",
+            "Tartiner le filet mignon de moutarde à l'ancienne et le remettre dans la cocotte avec les champignons.",
+            "Cuire environ 30 min, à feu très doux.",
+            "En fin de cuisson, ajouter le reste de crème, saler et poivrer.",
+            "Bon appétit."
+        ],
+        "tempspreparation": 18,
+        "tempstotal": 65,
+        "nombredepersonne": 4,
+        "categorie": "plat"
+    },
+    {
+        "nom": "Carbonades flamandes traditionnelles",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "400",
+            "250",
+            "5",
+            "30",
+            " ",
+            "3",
+            "1",
+            "1",
+            "1",
+            "1"
+        ],
+        "unite": [
+            "g",
+            "g",
+            "tranches",
+            "g",
+            " ",
+            "c.à.s",
+            "kg",
+            "c.à.s",
+            " ",
+            "l"
+        ],
+        "ingredients": [
+            "d'oignon",
+            "lard fumé entier (pas des lardons sous vide)",
+            "pain d'épices (si possible maison)",
+            "beurre",
+            "sel de Guérande",
+            "moutarde",
+            "boeuf maigre à braiser (paleron, gîte, hampe, etc ...)",
+            "cassonade",
+            "bouquet garni",
+            "bière brune (Pelforth brune pour un goût délicat, ou Leffe Brune pour un goût plus sucré)"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20130201/9458_w1024h1024c1cx1250cy1875.jpg",
+        "etapes": [
+            "Couper la viande en cubes de 2 à 3 centimètres de côté. \nDécouper grossièrement les oignons et couper le lard en gros lardons.",
+            "Faire fondre le beurre et faire suer les oignons dedans 10 minutes pour les ramollir (feu au mini à couvert).",
+            "Ajouter le lard en augmentant légèrement le feu, remuer régulièrement en essayant de garder couvert le plus possible.",
+            "Une fois le lard bien rose, retirer le tout (sauf le jus) et le réserver dans un plat.",
+            "Mettre le feu au maxi et mettre la viande dans la cocotte. Remuer régulièrement (ne pas couvrir), la viande doit se colorer de tous les côtés, elle va finir par rendre pas mal de jus.\nRetirer la cocotte du feu, mettre la viande dans un plat en conservant le jus dans la cocotte.",
+            "Diluer la cassonade dans le jus de viande et mettre sur le feu à fond pour le réduire de moitié. ",
+            "Une fois réduit, mettre le feu au mini et remettre le mélange lard-oignons en le mêlant au 'sirop', ajouter la viande et re-mélanger, ajouter le bouquet garni et recouvrir de bière entre (80 cl et 1 litre), saler très légèrement.",
+            "Recouvrir délicatement toute la surface avec le pain d'épices 'moutardé'. \nLaisser mijoter à couvert 3 heures sans remuer, tant que le pain d'épices n'est pas fondu (retirer le bouquet après 1 heure ou 2 maxi).",
+            "En cours de 'mijotage', rectifier l'assaisonnement si besoin.",
+            "Si après trois heures, le jus est encore trop liquide, laisser encore mijoter en laissant le couvercle en partie ouvert, la sauce doit être légèrement collante en surface mais bien liquide en dessous et ne doit surtout pas brûler au fond."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 220,
+        "nombredepersonne": 4,
+        "categorie": "plat"
+    },
+    {
+        "nom": "Paupiettes de veau",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "1",
+            "2",
+            "12.5",
+            "1",
+            "1",
+            "4",
+            "1",
+            "12.5"
+        ],
+        "unite": [
+            "c.à.s",
+            "c.à.s",
+            "cl",
+            "c.à.s",
+            "c.à.s",
+            " ",
+            "gousse",
+            "cl"
+        ],
+        "ingredients": [
+            "d'huile d'olive",
+            "fond de veau",
+            "d'eau",
+            "moutarde de Dijon",
+            "vinaigre balsamique",
+            "paupiettes de veau",
+            "d'ail",
+            "vin blanc"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20221007/135809_w1024h1024c1cx851cy1190cxb1686cyb1778.jpg",
+        "etapes": [
+            "Dans une sauteuse, faire chauffer l'huile d'olive avec la gousse d'ail finement coupée, à feu moyen.",
+            "Lorsque c'est bien chaud, mettre les paupiettes à dorer quelques minutes de chaque côté.",
+            "Quand toutes les faces sont légèrement colorées, ajouter le fond de veau et mouiller avec le vin blanc et l'eau.",
+            "Ensuite mettre la moutarde, le vinaigre balsamique et bien mélanger en retournant les paupiettes pour qu'elles s'imbibent bien de la sauce.",
+            "Laisser cuire 5 minutes à feu moyen, pour que l'alcool du vin blanc s'évapore, puis mettre à feu doux et couvrir. Laisser mijoter 20 minutes environ, en retournant les paupiettes de temps en temps.",
+            "S'accommode avec toutes sortes de légumes ainsi que des féculents."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 45,
+        "nombredepersonne": 2,
+        "categorie": "plat"
+    },
+    {
+        "nom": "Tarte tatin de légumes",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "1",
+            "3",
+            "1",
+            "2",
+            "1/2",
+            " ",
+            " ",
+            " ",
+            "50",
+            "1",
+            " "
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            "g",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "courgette",
+            "poivrons de couleurs différentes",
+            "oignon",
+            "tomates",
+            "aubergine",
+            "huile d'olive",
+            "poivre",
+            "sel",
+            "Parmesan environ",
+            "pâte brisée",
+            "herbes de Provence (facultatif)"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160404/63886_w1024h1024c1cx998cy1500.jpg",
+        "etapes": [
+            "Laver tous les légumes, puis les émincer.",
+            "Les faire revenir dans de l'huile d'olive à feu moyen, pendant environ 20 min. Au 3/4 de la cuisson, assaisonner et ajouter les herbes.",
+            "Préchauffer le four à 210°C.\nGarnir le fond d'un moule à tarte de papier sulfurisé, puis étaler les légumes par-dessus et tasser à l'aide d'une cuillère ou autre,de façon à ce que le dessus soit à peu près plat.",
+            "Saupoudrer un peu partout de parmesan et mettre la pâte brisée par-dessus. Rentrer les bords à l'intérieur du plat. Piquer et enfourner pour environ 30 mn, jusqu'à ce que la pâte soit cuite.",
+            "A la sortie du four, retourner la tarte sur un plat et servir chaud."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 60,
+        "nombredepersonne": 6,
+        "categorie": "plat"
+    },
+    {
+        "nom": "Sauté de veau de Lisbonne",
+        "source": "Marmiton",
+        "difficulte": 2,
+        "quantite": [
+            "1",
+            "1",
+            "1",
+            " ",
+            " ",
+            "400",
+            "1",
+            "3",
+            "1",
+            "1",
+            "1"
+        ],
+        "unite": [
+            "verre",
+            " ",
+            "pincée",
+            " ",
+            " ",
+            "g",
+            "morceau",
+            " ",
+            " ",
+            " ",
+            "gousse"
+        ],
+        "ingredients": [
+            "porto + 1 verre d'eau",
+            "oignon",
+            "thym",
+            "poivre",
+            "sel",
+            "sauté de veau",
+            "chorizo (15 cm environ) coupé en fines rondelles",
+            "pommes de terre coupées en gros morceaux",
+            "petite poignée d'olives noires",
+            "petite boîte de concentré de tomates",
+            "d'ail"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160405/8490_w1024h1024c1cx1500cy1000.jpg",
+        "etapes": [
+            "Couper la viande en gros carrés. La faire revenir dans une cocotte avec un peu d'huile d'olive quelques minutes. ",
+            "Ajouter l'oignon et le faire roussir.",
+            "Ajouter l'eau, le Porto, et délayer le concentré de tomates. ",
+            "Ajouter les autres ingrédients, saler (très modérément) et poivrer. ",
+            "Laisser mijoter pendant 1 heure en rajoutant un peu d'eau si la sauce vous paraît trop courte. ",
+            "Nota : vous pouvez faire ce plat la veille car réchauffé, il est encore meilleur. ",
+            "Nota 2 : ne supprimez pas le chorizo ni le Porto, car ça donne beaucoup de caractère à ce plat. ",
+            "Nota 3 : vous pouvez également le faire avec du filet mignon de porc et de la soubressade. ",
+            "Nota 4 : on peut remplacer le Porto rouge par du blanc. "
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 75,
+        "nombredepersonne": 3,
+        "categorie": "plat"
+    },
+    {
+        "nom": "Crevettes au curry express",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "2",
+            "300",
+            "2"
+        ],
+        "unite": [
+            "c.à.c",
+            "c.à.c",
+            "g",
+            "c.à.s"
+        ],
+        "ingredients": [
+            "curry",
+            "d'huile d'olive",
+            "crevette rose",
+            "crème"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20150225/32437_w1024h1024c1cx1250cy1747.jpg",
+        "etapes": [
+            "Décortiquer les crevettes. Les faire revenir très rapidement dans l'huile d'olive en les saupoudrant de curry.",
+            "Ajouter la crème et mélanger le tout.",
+            "Servir immédiatement avec du riz thaï."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 15,
+        "nombredepersonne": 2,
+        "categorie": "plat"
+    },
+    {
+        "nom": "Endive jambon",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            " ",
+            "1",
+            "1",
+            "4",
+            " ",
+            " "
+        ],
+        "unite": [
+            " ",
+            "noisette",
+            "kg",
+            "tranches",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "gruyère râpé (1 sachet)",
+            "beurre",
+            "d'endive",
+            "jambon",
+            "crème fraîche liquide épaisse (1 pot)",
+            "ail 2 à 3 gousses (selon la grosseur)"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20161006/1269_w1024h1024c1cx2000cy3000.jpg",
+        "etapes": [
+            "Effeuiller les endives pour les faire cuire dans le l'eau bouillante. \nQuand elles sont cuites les laisser égoutter.",
+            "Faire fondre dans une casserole, une noisette de beurre, y ajouter l'ail écrasé, puis ensuite, y verser la crème fraîche, saler poivrer, et y mettre le gruyère râpé en en conservant une partie pour le gratiné. ",
+            "Disposer dans un plat allant au four, une couche d'endive, une couche de jambon, et une couche de la préparation à la crème, renouveller cette opération et terminer en mettant le reste du gruyère râpé sur le dessus. ",
+            "Faire gratiner pendant à peu près 30 mn à four chaud et régalez vous."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 45,
+        "nombredepersonne": 4,
+        "categorie": "plat"
+    }
+]
