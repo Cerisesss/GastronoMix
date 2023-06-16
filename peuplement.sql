@@ -136,6 +136,10 @@ INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (2, 'Faire cuire le 
 INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (1, 'Laver les oranges et les presser.', 5); 
 INSERT INTO etape(id_etape, texte_etape, id_recette) VALUES (2, 'Mettre le jus dans un verre et ajouter le sucre.', 5); 
 
-insert into historique(avis_historique, favori_historique, id_user, id_recette) VALUES(5, 1, 1, 1);
-insert into historique(avis_historique, favori_historique, id_user, id_recette) VALUES(3, 1, 2, 1);
-insert into historique(avis_historique, favori_historique, id_user, id_recette) VALUES(1, 2, 2, 3);
+insert into historique(avis_historique, id_user, id_recette) VALUES(5, 1, 1);
+insert into historique(avis_historique, id_user, id_recette) VALUES(3, 2, 1);
+insert into historique(avis_historique, id_user, id_recette) VALUES(1, 2, 3);
+
+insert into favoris(id_user, id_recette) VALUES(1, 1);
+insert into favoris(id_user, id_recette) VALUES(1, 2);
+insert into favoris(id_user, id_recette) VALUES(2, 3);
