@@ -134,7 +134,6 @@ CREATE TABLE IF NOT EXISTS `etape` (
 CREATE TABLE IF NOT EXISTS `historique` (
     `id_historique` BIGINT NOT NULL AUTO_INCREMENT,
     `avis_historique` BIGINT NULL,
-    `favori_historique` BIGINT NULL,
     `id_user` BIGINT NOT NULL,
     `id_recette` BIGINT NOT NULL,
     PRIMARY KEY (`id_historique`),

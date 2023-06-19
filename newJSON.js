@@ -31,8 +31,26 @@ function getIngredients(fichier_json, categories) {
         unite = [];
         newIngredients = [];
 
+        let textOutput = [];
+        let newEtapes = [];
+        let lereste_text = "";
+
+
+        //pour enlever les \n, \r et \" du texte des etapes
+        for (let i = 0; i < etapes.length; i++) {
+            let texte = etapes[i];
+            newEtapes[i] = texte.replace(/\n|\r|\"/g, "");
+        }
+
+        //pour enlever les \n, \r et \" du texte des ingredients
+
+
+
+
+        //pour les ingredients
         for (let i = 0; i < ingredients.length; i++) {
             let ingredient = ingredients[i];
+            ingredient = ingredient.replace(/\"/g, "");
             let words = ingredient.split(" ");
             output.push(words);
         }
@@ -85,7 +103,7 @@ function getIngredients(fichier_json, categories) {
             "unite": unite,
             "ingredients": newIngredients,
             "image": image,
-            "etapes": etapes,
+            "etapes": newEtapes,
             "tempspreparation": tempspreparation,
             "tempstotal": tempstotal,
             "nombredepersonne": nombredepersonne,
