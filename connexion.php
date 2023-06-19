@@ -4,7 +4,7 @@ $bdd = ConnectionDatabase();
 
 session_start(); 
 if (!empty($_POST['mail_user']) && !empty($_POST['password_user'])) {
-    // Patch XSS
+    
     $mail = htmlspecialchars($_POST['mail_user']);
     $password = htmlspecialchars($_POST['password_user']);
 
@@ -55,7 +55,6 @@ if (!empty($_POST['mail_user']) && !empty($_POST['password_user'])) {
         <div id="menu">
             <ul>
                 <h2>Menu</h2>
-                <li><a href="http://localhost/gastronomix/favoris.php">🍽️ favoris</a></li>
                 <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
                 <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
                 <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>

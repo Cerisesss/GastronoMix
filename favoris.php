@@ -17,7 +17,6 @@ session_start();
     <div id="menu">
         <ul>
             <h2>Menu</h2>
-            <li><a href="http://localhost/gastronomix/favoris.php">🍽️ favoris</a></li>
             <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
             <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
             <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
@@ -45,13 +44,13 @@ session_start();
 $mysqli = ConnectionDatabase();
 
 // Vérifier si l'utilisateur est connecté
-if (isset($_SESSION['id_user'])) {
-    $user_id = $_SESSION['id_user'];
+if (isset($_SESSION['user'])) {
+    $user_id = $_SESSION['user'];
 
     $query = "SELECT r.image_recette, r.titre
               FROM recette AS r
               INNER JOIN favoris AS f ON r.id_recette = f.id_recette
-              WHERE f.id_user = '$id_user'";
+              WHERE f.id_user = '$user_id'";
 
     $result = $mysqli->query($query);
 

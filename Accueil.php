@@ -21,7 +21,6 @@ if (isset($_SESSION['id_user'])) {
         <div id="menu">
             <ul>
                 <h2>Menu</h2>
-                <li><a href="http://localhost/gastronomix/favoris.php">🍽️ favoris</a></li>
                 <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
                 <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
                 <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
@@ -43,17 +42,19 @@ if (isset($_SESSION['id_user'])) {
 
         <h1>GastronoMix</h1>
 
-    <!-- Si connecté
-    <button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>
-    <div id="compte">
-        <ul> 
-            <li><a href="http://localhost/gastronomix/profil.php">⚙️ Profil</a></li>
-            <li><a href="http://localhost/gastronomix/favoris.php">🧡 Favoris</a></li>
-            <li><a href="http://localhost/gastronomix/historique.php">⌛️ Historique</a></li>
-            <li><a href="http://localhost/gastronomix/deconnexion.php">👋 Déconnexion</a></li>
-        </ul>
-    </div>
-    -->
+        <?php
+    if (isset($_SESSION['user'])) {
+        echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
+        echo '<div id="compte">';
+        echo '<ul>';
+        echo '<li><a href="http://localhost/gastronomix/profil.php">⚙️ Profil</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/favoris.php">🧡 Favoris</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/historique.php">⌛️ Historique</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/deconnexion.php">👋 Déconnexion</a></li>';
+        echo '</ul>';
+        echo '</div>';
+    }
+    ?>
 
 	
         </br></br>
