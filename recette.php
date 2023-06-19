@@ -107,13 +107,14 @@ session_start();
                 }
 
                 echo "<br>";
-
-                if (isset($_SESSION['id_user'])) {// L'utilisateur est connecté, afficher le formulaire pour ajouter aux favoris
-                echo '<form id="ajouter-favoris-form" method="post">';
-                echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
-                echo '<input type="submit" value="Ajouter aux favoris">';
-                echo '</form>';
-            }
+    
+                if (isset($_SESSION['user'])) {
+                    // L'utilisateur est connecté, afficher le formulaire pour ajouter aux favoris
+                    echo '<form id="ajouter-favoris-form" method="post">';
+                    echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
+                    echo '<input type="submit" value="Ajouter aux favoris">';
+                    echo '</form>';
+                }     
         }
         } else {
             echo "<p>Aucun résultat.</p>";
