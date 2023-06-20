@@ -55,10 +55,11 @@
                     while($row = mysqli_fetch_assoc($result_recette)){
                         echo '<img src="' . $row['image_recette'] . '"><br>';
                         echo "<h2>" . $row["titre"] . "</h2></br>";
-                        echo "<p>Temps de preparation : </p>" . $row['temps_prep_recette']. "</p>";
-                        echo "<p>Temps de cuisson : </p>" . $row['temps_cui_recette']. "</p>";
-                        echo "<p>Temps de repos : </p>" . $row['temps_repos_recette'] . "</p>";
+                        echo "<p>Source : </p>" . $row['source']. "</p>";
+                        echo "<p>Temps de préparation : </p>" . $row['temps_prep_recette']. "</p>";
+                        echo "<p>Temps de total : </p>" . $row['temps_total_recette'] . "</p>";
                         echo "<h3>Nombre de personne</h3>" . $row['nb_personne'] . "</br>" ;
+                        echo "<p>Difficulté : </p>" . $row['difficulte'] . "</p>";
                     }
 
                     $query_materiel = "SELECT m.libelle_materiel FROM recette r
@@ -70,7 +71,7 @@
                     $result_materiel = $mysqli->query($query_materiel);
 
                     //pour les materiels
-                    echo "<h3>Materiel</h3>";
+                    echo "<h3>Matériel</h3>";
                     
                     while ($row = mysqli_fetch_assoc($result_materiel)) {
                         echo "<li>" . $row['libelle_materiel'] . "</li>" ; 
@@ -87,7 +88,7 @@
 
                     $result_ingredient = $mysqli->query($query_ingredient);
 
-                    echo "<h3>Ingredient</h3>";
+                    echo "<h3>Ingrédients</h3>";
                     
                     while ($row = mysqli_fetch_assoc($result_ingredient)) {
                         echo "<li>" . $row['nom_ingredient'] . " " . $row['quantite'] . " " . $row['libelle_unite'] . "</li>" ; 
@@ -101,13 +102,22 @@
 
                     $result_ingredient = $mysqli->query($query_etape);
 
-                    echo "<h3>Etape</h3>";
+                    echo "<h3>Étapes</h3>";
                     
                     while ($row = mysqli_fetch_assoc($result_ingredient)) {
                         echo "<li>" . "Etape " . $row['id_etape'] . " : " . $row['texte_etape'] . "</li>" ; 
                     }
 
                     echo "</br>";
+
+                    if (isset($_SESSION['user'])) {
+                        // L'utilisateur est connecté, afficher le formulaire pour ajouter aux favoris
+                        echo '<form id="ajouter-favoris-form" method="post">';
+                        echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
+                        echo '<input type="submit" value="Ajouter aux favoris">';
+                        echo '</form>';
+                    }
+
                 } else {
                     echo "<p>Aucun résultat.</p>";
                 }
@@ -117,5 +127,30 @@
 
             $mysqli->close();
         ?>
+        <script>
+            document.getElementById('ajouter-favoris-form').addEventListener('submit', function(event) {
+                event.preventDefault(); // Empêche le rechargement de la page
+
+                var form = event.target;
+                var formData = new FormData(form);
+
+                fetch('ajouter_aux_favoris.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(function(response) {
+                    if (response.ok) {
+                        // Le script PHP a terminé avec succèsh
+                        alert("La recette a été ajoutée aux favoris !");   
+                    } else {
+                        throw new Error('Erreur lors de l\'ajout aux favoris.');  
+                    }
+                })
+                .catch(function(error) {
+                    // Une erreur s'est produite lors de l'appel à ajouter_aux_favoris.php
+                    alert(error.message);
+                });
+            });
+        </script>
     </body>
 </html>
