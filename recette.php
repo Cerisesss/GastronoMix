@@ -91,6 +91,10 @@
                     echo "<h3>Ingrédients</h3>";
                     
                     while ($row = mysqli_fetch_assoc($result_ingredient)) {
+                        if ($row['quantite'] == 0) {
+                            $row['quantite'] = "";
+                        }
+                        
                         echo "<li>" . $row['quantite'] . " " . $row['libelle_unite'] . " " . $row['nom_ingredient'] . "</li>" ; 
                     }
 
