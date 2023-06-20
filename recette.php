@@ -55,11 +55,11 @@
                     while($row = mysqli_fetch_assoc($result_recette)){
                         echo '<img src="' . $row['image_recette'] . '"><br>';
                         echo "<h2>" . $row["titre"] . "</h2></br>";
-                        echo "<p>Source : </p>" . $row['source']. "</p>";
-                        echo "<p>Temps de préparation : </p>" . $row['temps_prep_recette']. "</p>";
-                        echo "<p>Temps de total : </p>" . $row['temps_total_recette'] . "</p>";
-                        echo "<h3>Nombre de personne</h3>" . $row['nb_personne'] . "</br>" ;
-                        echo "<p>Difficulté : </p>" . $row['difficulte'] . "</p>";
+                        echo "<h4>Source : " . $row['source']. "</h4>";
+                        echo "<p>Temps de préparation : " . $row['temps_prep_recette']. "</p>";
+                        echo "<p>Temps de total : " . $row['temps_total_recette'] . "</p>";
+                        echo "<p>Nombre de personne : " . $row['nb_personne'] . "</br>" ;
+                        echo "<p>Difficulté : " . $row['difficulte'] . "</p>";
                     }
 
                     $query_materiel = "SELECT m.libelle_materiel FROM recette r
@@ -91,7 +91,7 @@
                     echo "<h3>Ingrédients</h3>";
                     
                     while ($row = mysqli_fetch_assoc($result_ingredient)) {
-                        echo "<li>" . $row['nom_ingredient'] . " " . $row['quantite'] . " " . $row['libelle_unite'] . "</li>" ; 
+                        echo "<li>" . $row['quantite'] . " " . $row['libelle_unite'] . " " . $row['nom_ingredient'] . "</li>" ; 
                     }
 
 
@@ -140,10 +140,10 @@
                 })
                 .then(function(response) {
                     if (response.ok) {
-                        // Le script PHP a terminé avec succèsh
+                        // Le script PHP a terminé avec succès
                         alert("La recette a été ajoutée aux favoris !");   
                     } else {
-                        throw new Error('Erreur lors de l\'ajout aux favoris.');  
+                        throw new Error("Erreur lors de l'ajout aux favoris.");  
                     }
                 })
                 .catch(function(error) {
