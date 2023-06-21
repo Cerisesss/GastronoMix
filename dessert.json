@@ -590,5 +590,2111 @@
     prepTime: 10,
     totalTime: 45,
     people: 6
+  },
+  {
+    name: "Financier minute (pour utiliser des blancs d'oeuf)",
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_financier-minute-pour-utiliser-des-blancs-d-oeuf_17526.aspx',
+    ingredients: [
+      '60 g de farine',
+      '100 g de beurre',
+      '150 g de sucre',
+      "80 g d'amandes en poudre",
+      "4 blancs d'oeuf"
+    ],
+    author: 'laurence b',
+    images: [
+      'https://assets.afcdn.com/recipe/20200430/110248_w1024h576c1 cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20200430/110248_w1024h768c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20200430/110248_w1024h1024c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20200430/110248_w1024h576c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20200430/110248_w1024h768c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20200430/110248_w1024h1024c1cx960cy540cxb1920cyb1080.jpg'
+    ],
+    steps: [
+      "Mélanger les blancs d'oeufs, la farine, le sucre et les amandes en fouettant énergiquement. ",
+      'Ajouter le beurre fondu. Verser dans un moule beurré.',
+      'Cuire 20 minutes à 200°C (thermostat 6/7).'
+    ],
+    description: "farine, beurre, sucre, amandes en poudre, blanc d'oeuf",
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      "Financier minute (pour utiliser des blancs d'oeuf)",
+      'farine',
+      'beurre',
+      'sucre',
+      'amandes en poudre',
+      "blanc d'oeuf",
+      'financiers',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 10,
+    totalTime: 30,
+    people: 4
+  },
+  {
+    name: 'Crème anglaise réussie, onctueuse à souhait',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_creme-anglaise-reussie-onctueuse-a-souhait_37391.aspx',
+    ingredients: [
+      '50 g de sucre',
+      '50 cl de lait demi-écrémé',
+      '1 gousse de vanille',
+      '1 c.à.s de maïzena',
+      "4 jaunes d'oeuf"
+    ],
+    author: 'sofia_13819508',
+    images: [
+      'https://assets.afcdn.com/recipe/20160405/61763_w1024h576c1 cx1000cy1500.webp',
+      'https://assets.afcdn.com/recipe/20160405/61763_w1024h768c1cx1000cy1500.webp',
+      'https://assets.afcdn.com/recipe/20160405/61763_w1024h1024c1cx1000cy1500.webp',
+      'https://assets.afcdn.com/recipe/20160405/61763_w1024h576c1cx1000cy1500.jpg',
+      'https://assets.afcdn.com/recipe/20160405/61763_w1024h768c1cx1000cy1500.jpg',
+      'https://assets.afcdn.com/recipe/20160405/61763_w1024h1024c1cx1000cy1500.jpg'
+    ],
+    steps: [
+      "Porter à ébullition le lait en ayant pris soin d'y plonger la gousse de vanille fendue en deux dans sa longueur.",
+      'Laisser ensuite infuser pendant 10 min, puis retirer la gousse de vanille, et récupérer les grains en la grattant. Délayer ceux ci dans le lait.',
+      "Dans une seconde casserole, fouetter activement les jaunes d'oeuf et le sucre afin que le mélange blanchisse. ",
+      "Incorporer ensuite petit à petit le lait et rendre l'appareil bien homogène avec le fouet. ",
+      'Ajouter ensuite la maïzena et réchauffer le mélange à feu moyen.',
+      "Sans cesser de remuer, guetter le moment où la crème s'épaissit. ",
+      'Ne pas laisser boullir. ',
+      'Retirer du feu et fouetter activement.',
+      'Réserver dans une saucière au frigo.'
+    ],
+    description: "sucre, lait demi-écrémé, vanille, maïzena, jaune d'oeuf",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Crème anglaise réussie',
+      'onctueuse à souhait',
+      'sucre',
+      'lait demi-écrémé',
+      'vanille',
+      'maïzena',
+      "jaune d'oeuf",
+      'crème anglaise',
+      'facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 25,
+    people: 50
+  },
+  {
+    name: 'Gâteau au chocolat fondant rapide',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_gateau-au-chocolat-fondant-rapide_166352.aspx',
+    ingredients: [
+      '200 g de chocolat pâtissier',
+      '100 g de beurre + une noix pour le moule',
+      '50 g de farine',
+      '100 g de sucre en poudre',
+      '3 oeufs'
+    ],
+    author: 'hannah_14141987',
+    images: [
+      'https://assets.afcdn.com/recipe/20230620/143582_w1024h576c1 cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20230620/143582_w1024h768c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20230620/143582_w1024h1024c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20230620/143582_w1024h576c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20230620/143582_w1024h768c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20230620/143582_w1024h1024c1cx3072cy1728cxb6144cyb3456.jpg'
+    ],
+    steps: [
+      'Préchauffez votre four à 180°C (thermostat 6).\n' +
+        'Dans une casserole, faites fondre le chocolat et le beurre coupé en morceaux à feu très doux.',
+      'Dans un saladier, ajoutez le sucre, les oeufs, la farine. Mélangez. ',
+      'Ajoutez le mélange chocolat/beurre. Mélangez bien.',
+      "Beurrez à l'aide d'une feuille de papier essuie-tout et farinez votre moule puis y versez la pâte à gâteau.",
+      'Faites cuire au four environ 20 minutes. ',
+      "A la sortie du four le gâteau ne paraît pas assez cuit. C'est normal, laissez-le refroidir puis démoulez- le."
+    ],
+    description: 'chocolat pâtissier, beurre, farine, sucre en poudre, oeuf',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Gâteau au chocolat fondant rapide',
+      'chocolat pâtissier',
+      'beurre',
+      'farine',
+      'sucre en poudre',
+      'oeuf',
+      'gâteau au chocolat',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 10,
+    totalTime: 40,
+    people: 6
+  },
+  {
+    name: 'Tarte aux pommes',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_tarte-aux-pommes_18588.aspx',
+    ingredients: [
+      '1 pâte brisée',
+      '1 sachet de sucre vanillé',
+      '30 g de beurre',
+      '6 pommes Golden'
+    ],
+    author: 'Aloha',
+    images: [
+      'https://assets.afcdn.com/recipe/20220128/128250_w1024h576c1 cx1294cy688cxb2037cyb1472.webp',
+      'https://assets.afcdn.com/recipe/20220128/128250_w1024h768c1cx1294cy688cxb2037cyb1472.webp',
+      'https://assets.afcdn.com/recipe/20220128/128250_w1024h1024c1cx1294cy688cxb2037cyb1472.webp',
+      'https://assets.afcdn.com/recipe/20220128/128250_w1024h576c1cx1294cy688cxb2037cyb1472.jpg',
+      'https://assets.afcdn.com/recipe/20220128/128250_w1024h768c1cx1294cy688cxb2037cyb1472.jpg',
+      'https://assets.afcdn.com/recipe/20220128/128250_w1024h1024c1cx1294cy688cxb2037cyb1472.jpg'
+    ],
+    steps: [
+      'Éplucher et découper en morceaux 4 Golden. ',
+      "Faire une compote : les mettre dans une casserole avec un peu d'eau (1 verre ou 2). Bien remuer. Quand les pommes commencent à ramollir, ajouter un sachet ou un sachet et demi de sucre vanillé. Ajouter un peu d'eau si nécessaire.",
+      "Vous saurez si la compote est prête une fois que les pommes ne seront plus dures du tout. Ce n'est pas grave s'il reste quelques morceaux.",
+      'Pendant que la compote cuit, éplucher et couper en quatre les deux dernières pommes, puis, couper les quartiers en fines lamelles (elles serviront à être posées sur la compote).',
+      'Préchauffer le four à 210°C (thermostat 7).',
+      'Laisser un peu refroidir la compote et étaler la pâte brisée dans un moule et la piquer avec une fourchette. ',
+      'Verser la compote sur la pâte et placer les lamelles de pommes en formant une spirale ou plusieurs cercles, au choix ! Disposer des lamelles de beurre dessus.',
+      'Mettre au four et laisser cuire pendant 30 min max. Surveiller la cuisson. Vous pouvez ajouter un peu de sucre vanillé sur la tarte pendant que çà cuit pour caraméliser un peu.'
+    ],
+    description: 'pâte brisée, sucre vanillé, beurre, pomme',
+    difficulty: 2,
+    budget: 1,
+    tags: [
+      'Tarte aux pommes',
+      'pâte brisée',
+      'sucre vanillé',
+      'beurre',
+      'pomme',
+      'tarte aux pommes',
+      'facile',
+      'bon marché'
+    ],
+    prepTime: 25,
+    totalTime: 55,
+    people: 6
+  },
+  {
+    name: "Gâteau d'anniversaire",
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_gateau-d-anniversaire_16870.aspx',
+    ingredients: [
+      '300 g de farine',
+      '300 g de sucre',
+      '1 paquet de sucre vanillé',
+      '1 paquet de levure chimique',
+      "1 verre d'huile",
+      '4 oeufs (blancs en neige)',
+      '1 verre de lait'
+    ],
+    author: 'summertime',
+    images: [
+      'https://assets.afcdn.com/recipe/20190529/93143_w1024h576c1 cx2592cy1728cxb5184cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20190529/93143_w1024h768c1cx2592cy1728cxb5184cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20190529/93143_w1024h1024c1cx2592cy1728cxb5184cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20190529/93143_w1024h576c1cx2592cy1728cxb5184cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20190529/93143_w1024h768c1cx2592cy1728cxb5184cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20190529/93143_w1024h1024c1cx2592cy1728cxb5184cyb3456.jpg'
+    ],
+    steps: [
+      "Mélanger les jaunes d'oeuf et le sucre ",
+      'pour obtenir un mélange blanc.',
+      "Ajouter peu à peu le verre de lait, le verre d'huile, la levure, puis la farine.",
+      'Monter les blancs en neige très ferme, puis les incorporer délicatement.',
+      'Beurrer et fariner légèrement un grand moule',
+      'manqué, puis cuire 60 min à thermostat 3 ou 4 (120°C), en enfournant à four froid.',
+      'Décorer selon vos désirs : par exemple une crème au chocolat blanc en mélangeant du chocolat blanc à du fromage frais puis décorer avec des décors en sucre ou des paillettes colorées.'
+    ],
+    description: 'farine, sucre, sucre vanillé, levure chimique, huile, oeuf, lait',
+    difficulty: 2,
+    budget: 2,
+    tags: [
+      "Gâteau d'anniversaire",
+      'farine',
+      'sucre',
+      'sucre vanillé',
+      'levure chimique',
+      'huile',
+      'oeuf',
+      'lait',
+      "gâteau d'anniversaire",
+      'facile',
+      'moyen'
+    ],
+    prepTime: 20,
+    totalTime: 80,
+    people: 10
+  },
+  {
+    name: 'Crème de citron (Lemon curd)',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_creme-de-citron-lemon-curd_11210.aspx',
+    ingredients: [
+      '150 g de sucre',
+      '1 c.à.s de maïzena',
+      '4 citrons de taille moyenne',
+      '3 oeufs'
+    ],
+    author: 'Ricou',
+    images: [
+      'https://assets.afcdn.com/recipe/20160405/21836_w1024h576c1 cx2338cy1548.webp',
+      'https://assets.afcdn.com/recipe/20160405/21836_w1024h768c1cx2338cy1548.webp',
+      'https://assets.afcdn.com/recipe/20160405/21836_w1024h1024c1cx2338cy1548.webp',
+      'https://assets.afcdn.com/recipe/20160405/21836_w1024h576c1cx2338cy1548.jpg',
+      'https://assets.afcdn.com/recipe/20160405/21836_w1024h768c1cx2338cy1548.jpg',
+      'https://assets.afcdn.com/recipe/20160405/21836_w1024h1024c1cx2338cy1548.jpg'
+    ],
+    steps: [
+      "Laver les citrons et en 'zester' 2, mettre les zestes très fins dans une casserole.",
+      'Presser les citrons et mettre le jus avec les zestes dans la casserole. ',
+      'Verser le sucre et la Maïzena',
+      'Remuer, et chauffer à feu doux',
+      'Battre les oeufs dans un récipient séparé. ',
+      'Une fois les oeufs battus, incorporer tout en remuant le jus de citron, le sucre, la maïzena et les zestes.',
+      "Mettre à feu fort et continuer à remuer à l'aide d'un fouet. Le mélange va commencer à s'épaissir. \r\n" +
+        'Attention : toujours remuer lorsque les oeufs sont ajoutés, car sinon la crème de citron pourrait brûler !',
+      'Oter du feu et mettre en pots (pots à confiture).\r\n' +
+        'Laisser refroidir, et conserver au réfrigérateur.',
+      'Voici 3 idées de recettes minute pour utiliser votre lemon curd.',
+      '1- verrines minute : biscuit émiétté, lemon curd, meringue émiettée',
+      '2- tartelettes minute : palet breton, lemon curd, chantilly',
+      '3- mousse minute : émulsionner le lemon curd avec de la chantilly'
+    ],
+    description: 'sucre, maïzena, citron, oeuf',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Crème de citron (Lemon curd)',
+      'sucre',
+      'maïzena',
+      'citron',
+      'oeuf',
+      'curd',
+      'moyenne',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 20,
+    totalTime: 30,
+    people: 4
+  },
+  {
+    name: 'Galette des rois',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_galette-des-rois_10832.aspx',
+    ingredients: [
+      '2 pâtes feuilletées',
+      '75 g de sucre semoule',
+      '50 g de beurre tendre',
+      "d'extrait d'amande amère",
+      "100 g d'amandes en poudre",
+      '1 oeuf',
+      "1 jaune d'oeuf pour dorer",
+      '1 fèves !'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20161206/9654_w1024h576c1 cx2792cy1861.webp',
+      'https://assets.afcdn.com/recipe/20161206/9654_w1024h768c1cx2792cy1861.webp',
+      'https://assets.afcdn.com/recipe/20161206/9654_w1024h1024c1cx2792cy1861.webp',
+      'https://assets.afcdn.com/recipe/20161206/9654_w1024h576c1cx2792cy1861.jpg',
+      'https://assets.afcdn.com/recipe/20161206/9654_w1024h768c1cx2792cy1861.jpg',
+      'https://assets.afcdn.com/recipe/20161206/9654_w1024h1024c1cx2792cy1861.jpg'
+    ],
+    steps: [
+      'Préchauffer le four à 210°C (thermostat 7).',
+      'Disposer une pâte sur une plaque à four, la piquer avec 1 fourchette.',
+      "Mélanger dans un saladier tous les ingrédients (poudre d'amandes, sucre, oeuf, beurre mou et extrait d'amande amère).",
+      'Etaler la préparation sur la pâte, y mettre la fève (sur un bord, pour minimiser les chances de tomber dessus en coupant la galette!).',
+      'Refermer la galette avec la seconde pâte et bien souder les bords.',
+      "A l'aide d'un couteau, décorer la pâte en y traçant des dessins et dorer au jaune d'oeuf (dilué dans un peu d'eau). ",
+      "Percer le dessus de petits trous pour laisser l'air s'échapper, sinon elle risque de gonfler et de se dessécher.",
+      "Enfourner pendant 30 minutes environ (surveiller la cuisson dès 25 minutes, mais ne pas hésiter à laisser jusqu'à 40 minutes si nécessaire).",
+      'Déguster.'
+    ],
+    description: "pâte feuilletée, sucre semoule, beurre tendre, extrait d'amande amère, amandes en poudre, oeuf, jaune d'oeuf, fèves",
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Galette des rois',
+      'pâte feuilletée',
+      'sucre semoule',
+      'beurre tendre',
+      "extrait d'amande amère",
+      'amandes en poudre',
+      'oeuf',
+      "jaune d'oeuf",
+      'fèves',
+      'galette frangipane',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 55,
+    people: 6
+  },
+  {
+    name: 'Gâteau au chocolat des écoliers',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_gateau-au-chocolat-des-ecoliers_20654.aspx',
+    ingredients: [
+      '200 g de chocolat noir',
+      '125 g de beurre doux',
+      '200 g de sucre en poudre',
+      '100 g de farine',
+      '1 sachet de levure chimique',
+      '4 oeufs'
+    ],
+    author: 'anna_17167660',
+    images: [
+      'https://assets.afcdn.com/recipe/20171220/76165_w1024h576c1 cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20171220/76165_w1024h768c1cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20171220/76165_w1024h1024c1cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20171220/76165_w1024h576c1cx2000cy3000cxb4000cyb6000.jpg',
+      'https://assets.afcdn.com/recipe/20171220/76165_w1024h768c1cx2000cy3000cxb4000cyb6000.jpg',
+      'https://assets.afcdn.com/recipe/20171220/76165_w1024h1024c1cx2000cy3000cxb4000cyb6000.jpg'
+    ],
+    steps: [
+      'Préchauffez le four à 180°C (thermostat 6). ',
+      "Faites fondre le chocolat au bain-marie ou au micro-ondes. Si vous le faites fondre au micro-ondes, ajoutez 3 cuillères à soupe d'eau pour 200 g de chocolat.",
+      "Ajoutez le beurre au chocolat fondu et fouetter énergiquement jusqu'à ce que le mélange soit lisse et bien fondu.",
+      "Dans un saladier, fouettez les oeufs et le sucre jusqu'à ce que le mélange blanchisse et incorporez la levure puis la farine. ",
+      "Versez le chocolat et le beurre fondus dans la préparation puis mélangez jusqu'à l'obtention d'une pâte homogène. ",
+      'Versez la préparation dans un moule à manqué beurré et fariné.',
+      'Faites cuire environ 25 minutes (adaptez le temps de cuisson pour obtenir un cœur plus ou moins fondant).'
+    ],
+    description: 'chocolat noir, beurre doux, sucre en poudre, farine, levure chimique, oeuf',
+    difficulty: 2,
+    budget: 1,
+    tags: [
+      'Gâteau au chocolat des écoliers ',
+      'chocolat noir',
+      'beurre doux',
+      'sucre en poudre',
+      'farine',
+      'levure chimique',
+      'oeuf',
+      'gâteau au chocolat',
+      'facile',
+      'bon marché'
+    ],
+    prepTime: 10,
+    totalTime: 35,
+    people: 8
+  },
+  {
+    name: 'Pâte à crêpes (des plus raffinées)',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_pate-a-crepes-des-plus-raffinees_49665.aspx',
+    ingredients: [
+      '375 g de farine tamisée',
+      '3 pincées de sel',
+      '75 g de sucre en poudre',
+      '90 g de beurre fondu',
+      '6 oeufs entiers',
+      '1 l de lait',
+      '3 grand-marnier ou de rhum'
+    ],
+    author: 'james_13805019',
+    images: [
+      'https://assets.afcdn.com/recipe/20171020/73720_w1024h576c1 cx2282cy1500cxb4564cyb3000.webp',
+      'https://assets.afcdn.com/recipe/20171020/73720_w1024h768c1cx2282cy1500cxb4564cyb3000.webp',
+      'https://assets.afcdn.com/recipe/20171020/73720_w1024h1024c1cx2282cy1500cxb4564cyb3000.webp',
+      'https://assets.afcdn.com/recipe/20171020/73720_w1024h576c1cx2282cy1500cxb4564cyb3000.jpg',
+      'https://assets.afcdn.com/recipe/20171020/73720_w1024h768c1cx2282cy1500cxb4564cyb3000.jpg',
+      'https://assets.afcdn.com/recipe/20171020/73720_w1024h1024c1cx2282cy1500cxb4564cyb3000.jpg'
+    ],
+    steps: [
+      'Dans un saladier, mélanger la farine, le sel et le sucre.',
+      'Faire une fontaine.',
+      'Ajouter les oeufs et commencer à les incorporer à la farine avec une cuillère en bois, ajouter le beure fondu (tiédi) peu à peu et bien malaxer.',
+      'Incorporer le lait (par petites quantités au début pour éviter les grumeaux), ajouter le parfum.',
+      'Faire cuire les crêpes dans une poêle chaude huilée.'
+    ],
+    description: 'farine, sel, sucre en poudre, beurre, oeuf, lait, grand-marnier',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Pâte à crêpes (des plus raffinées)',
+      'farine',
+      'sel',
+      'sucre en poudre',
+      'beurre',
+      'oeuf',
+      'lait',
+      'grand-marnier',
+      'pâte à crêpes',
+      'facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 17,
+    people: 6
+  },
+  {
+    name: 'Gâteau Banane de Stéph',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_gateau-banane-de-steph_31190.aspx',
+    ingredients: [
+      '150 g de farine',
+      '100 g de sucre',
+      '1/2 paquet de levure',
+      '125 g de beurre',
+      '4 bananes ou 2 grandes',
+      'rhum',
+      'vanille',
+      '3 oeufs'
+    ],
+    author: 'agathe_15605765',
+    images: [
+      'https://assets.afcdn.com/recipe/20180827/81950_w1024h576c1 cx1000cy750cxb2000cyb1500.webp',
+      'https://assets.afcdn.com/recipe/20180827/81950_w1024h768c1cx1000cy750cxb2000cyb1500.webp',
+      'https://assets.afcdn.com/recipe/20180827/81950_w1024h1024c1cx1000cy750cxb2000cyb1500.webp',
+      'https://assets.afcdn.com/recipe/20180827/81950_w1024h576c1cx1000cy750cxb2000cyb1500.jpg',
+      'https://assets.afcdn.com/recipe/20180827/81950_w1024h768c1cx1000cy750cxb2000cyb1500.jpg',
+      'https://assets.afcdn.com/recipe/20180827/81950_w1024h1024c1cx1000cy750cxb2000cyb1500.jpg'
+    ],
+    steps: [
+      'Mélanger les oeufs et le sucre. ',
+      'Ajouter le beurre fondu, puis la farine et la levure. ',
+      'Couper les bananes en tous petits morceaux (ou les écraser au choix), et les ajouter au mélange. ',
+      'Aromatiser avec le rhum et la vanille selon les goûts.... ',
+      'Verser le tout dans un moule à cake beurré et fariné.',
+      'Laisser cuire environ 30 mn à four thermostat 6.'
+    ],
+    description: 'farine, sucre, levure, beurre, banane, rhum, vanille, oeuf',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Gâteau Banane de Stéph',
+      'farine',
+      'sucre',
+      'levure',
+      'beurre',
+      'banane',
+      'rhum',
+      'vanille',
+      'oeuf',
+      'gâteau à la banane',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 45,
+    people: 6
+  },
+  {
+    name: 'Baba au rhum express',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_baba-au-rhum-express_13608.aspx',
+    ingredients: [
+      '120 g de farine',
+      '50 g de beurre',
+      '150 g de sucre en poudre',
+      '1 sachet de levure chimique',
+      "1/4 l d'eau",
+      '10 cl de rhum',
+      '3 c.à.s de lait',
+      '3 oeufs',
+      '1/4 l de sirop de sucre de canne'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20160527/53994_w1024h576c1 cx1812cy2718.webp',
+      'https://assets.afcdn.com/recipe/20160527/53994_w1024h768c1cx1812cy2718.webp',
+      'https://assets.afcdn.com/recipe/20160527/53994_w1024h1024c1cx1812cy2718.webp',
+      'https://assets.afcdn.com/recipe/20160527/53994_w1024h576c1cx1812cy2718.jpg',
+      'https://assets.afcdn.com/recipe/20160527/53994_w1024h768c1cx1812cy2718.jpg',
+      'https://assets.afcdn.com/recipe/20160527/53994_w1024h1024c1cx1812cy2718.jpg'
+    ],
+    steps: [
+      'Faire préchauffer le four thermostat 6 (180°C).\r\n' +
+        "Travailler au fouet les jaunes d'oeufs avec le sucre jusqu'à ce que le mélange blanchisse.",
+      'Ajouter le lait chaud,',
+      'le beurre fondu,',
+      'la farine et la levure.',
+      'Battre les blancs en neige ferme.',
+      'Mélanger les délicatement à la pâte.',
+      'Verser la pâte dans un moule en couronne préalablement beurré ou dans des moules individuels. Enfourner et laisser cuire 25 min puis démouler aussitôt.',
+      "Faire le sirop chaud avec l'eau, le sirop de sucre de canne et le rhum",
+      "et en arroser le baba jusqu'à complète absorbtion.",
+      'Server frais avec une salade de fruits ou/et de la chantilly.',
+      'Et déguster'
+    ],
+    description: 'farine, beurre, sucre en poudre, levure chimique, eau, rhum, lait, oeuf, sirop de sucre de canne',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Baba au rhum express',
+      'farine',
+      'beurre',
+      'sucre en poudre',
+      'levure chimique',
+      'eau',
+      'rhum',
+      'lait',
+      'oeuf',
+      'sirop de sucre de canne',
+      'baba au rhum',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 20,
+    totalTime: 45,
+    people: 1
+  },
+  {
+    name: 'Pancakes : la vraie recette',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_pancakes-la-vraie-recette_69412.aspx',
+    ingredients: [
+      '250 g de farine',
+      '1 pincée de sel',
+      '1 c.à.s de sucre',
+      '1 sachet de sucre vanillé',
+      '1/2 sachet de levure chimique',
+      '50 g de beurre fondu',
+      '2 oeufs',
+      '37.5 cl de lait'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20221013/136076_w1024h576c1 cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20221013/136076_w1024h768c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20221013/136076_w1024h1024c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20221013/136076_w1024h576c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20221013/136076_w1024h768c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20221013/136076_w1024h1024c1cx3072cy1728cxb6144cyb3456.jpg'
+    ],
+    steps: [
+      'Dans un saladier, mélanger farine + sucre + sucre vanillé + levure + sel.',
+      "Dans un autre récipient, mélanger jaunes d'œufs + lait.",
+      'Verser ce mélange dans le premier saladier petit à petit afin d’éviter les grumeaux.',
+      'Ajouter le beurre fondu et bien mélanger.',
+      'Battre les blancs en neige ferme avec 1 pincée de sel.',
+      'Les incorporer à la préparation délicatement afin de ne pas les casser.',
+      'Pour la cuisson, à feu très doux : huiler une petite poêle, mettre 1 louche de préparation puis attendre que toute la surface soit couverte de trous et qu’elle paraisse « sèche » et la retourner pour qu’elle cuise de l’autre côté environ 1 minute.'
+    ],
+    description: 'farine, sel, sucre, sucre vanillé, levure chimique, beurre, oeuf, lait',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Pancakes : la vraie recette',
+      'farine',
+      'sel',
+      'sucre',
+      'sucre vanillé',
+      'levure chimique',
+      'beurre',
+      'oeuf',
+      'lait',
+      'pancake',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 5,
+    totalTime: 41,
+    people: 18
+  },
+  {
+    name: 'Mousse au citron et au Mascarpone (très facile)',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_mousse-au-citron-et-au-mascarpone-tres-facile_23974.aspx',
+    ingredients: [
+      '100 g de sucre',
+      '2 dl de crème fraîche',
+      '250 g de mascarpone',
+      '100 g de jus de citron'
+    ],
+    author: 'Estale',
+    images: [
+      'https://assets.afcdn.com/recipe/20201203/116055_w1024h576c1 cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20201203/116055_w1024h768c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20201203/116055_w1024h1024c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20201203/116055_w1024h576c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20201203/116055_w1024h768c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20201203/116055_w1024h1024c1cx960cy540cxb1920cyb1080.jpg'
+    ],
+    steps: [
+      'Mélanger le mascarpone avec le sucre, le jus et le zeste du citron. ',
+      'Incorporer la crème fouettée, et placer au freezer pendant 2 h.',
+      'Dresser dans des petits pots.'
+    ],
+    description: 'sucre, crème fraîche, mascarpone, jus de citron',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Mousse au citron et au Mascarpone (très facile)',
+      'sucre',
+      'crème fraîche',
+      'mascarpone',
+      'jus de citron',
+      'mousse citron',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 6
+  },
+  {
+    name: 'Ramequins au chocolat aux coeurs fondants',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_ramequins-au-chocolat-aux-coeurs-fondants_14734.aspx',
+    ingredients: [
+      '100 g de chocolat pâtissier',
+      '8 carrés de chocolat',
+      '60 g de beurre',
+      '20 g de farine',
+      '80 g de sucre',
+      '3 oeufs'
+    ],
+    author: 'cecile',
+    images: [
+      'https://assets.afcdn.com/recipe/20130319/29847_w1024h576c1 cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20130319/29847_w1024h768c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20130319/29847_w1024h1024c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20130319/29847_w1024h576c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20130319/29847_w1024h768c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20130319/29847_w1024h1024c1cx256cy192.jpg'
+    ],
+    steps: [
+      'Préchauffez le four à thermostat 8 (250°C).',
+      'Faites fondre les 100 g de chocolat. Ajoutez le beurre.',
+      'Dans un saladier, mélangez les oeufs, le sucre et la farine. Incorporez-y le chocolat et mélangez.',
+      'Beurrez et farinez les ramequins. Versez-y le tiers de la préparation, puis déposez 2 carrés de chocolat dans chaque ramequin. Recouvrez du reste de la préparation.',
+      'Placez les ramequins au four 10 mn à 15 mn. ',
+      'Dégustez les ramequins tièdes, démoulés ou non.'
+    ],
+    description: 'chocolat pâtissier, chocolat, beurre, farine, sucre, oeuf',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Ramequins au chocolat aux coeurs fondants',
+      'chocolat pâtissier',
+      'chocolat',
+      'beurre',
+      'farine',
+      'sucre',
+      'oeuf',
+      'fondant au chocolat',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 30,
+    people: 4
+  },
+  {
+    name: 'Canelés bordelais',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_canneles-bordelais_11439.aspx',
+    ingredients: [
+      '1/2 gousse de vanille',
+      '1 c.à.s de rhum',
+      '100 g de farine',
+      '250 g de sucre en poudre',
+      '50 g de beurre doux (+ 50 g pour beurrer les moules)',
+      '1 pincée de sel',
+      '50 cl de lait',
+      '2 oeufs entiers',
+      "2 jaunes d'oeuf"
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20230621/143653_w1024h576c1 cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143653_w1024h768c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143653_w1024h1024c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143653_w1024h576c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20230621/143653_w1024h768c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20230621/143653_w1024h1024c1cx960cy540cxb1920cyb1080.jpg'
+    ],
+    steps: [
+      'Faire bouillir le lait avec la gousse de vanille préalablement fendue et égrainée et le beurre.',
+      'Pendant ce temps, mélanger la farine et le sucre dans un saladier ',
+      "puis incorporer les oeufs d'un seul coup ",
+      'et verser ensuite le lait bouillant.',
+      "Mélanger doucement afin d'obtenir une pâte fluide comme une pâte à crêpes. Laisser refroidir.",
+      'Puis ajouter le rhum',
+      'Avant de placer au réfrigérateur et de laisser reposer une heure.',
+      'Préchauffer le four à 240°C (thermostat 8) avec la tôle sur laquelle cuiront les canelés [si vous utilisez un moule en silicone, mettez le four à maximum 220°C (thermostat 6-7)].\n' +
+        '\n' +
+        "Verser la pâte bien refroidie dans les moules bien beurrés, en ne les remplissant qu'à moitié.",
+      'rapidement, disposer les canelés sur la tôle du four préchauffé, à 240°C, pendant 12 minutes (20 minutes à 220°C avec un moule en silicone), puis baisser la température à 180°C (thermostat 6) et continuer la cuisson pendant 1 heure : le cannelé doit avoir une croûte brune et un intérieur bien moelleux.',
+      'Démouler encore chaud. ',
+      'Déguster !'
+    ],
+    description: "vanille, rhum, farine, sucre en poudre, beurre doux, sel, lait, oeuf, jaune d'oeuf",
+    difficulty: 3,
+    budget: 1,
+    tags: [
+      'Canelés bordelais',
+      'vanille',
+      'rhum',
+      'farine',
+      'sucre en poudre',
+      'beurre doux',
+      'sel',
+      'lait',
+      'oeuf',
+      "jaune d'oeuf",
+      'cannelés',
+      'moyenne',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 90,
+    people: 16
+  },
+  {
+    name: 'Tarte chocolat - poires facile',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_tarte-chocolat-poires-facile_14023.aspx',
+    ingredients: [
+      '80 g de chocolat noir',
+      '6 c.à.s de crème fraîche',
+      '70 g de sucre',
+      '1 pâte sablée',
+      '2 c.à.s de lait',
+      '3 oeufs',
+      '1 grosse boîte de poire'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20171024/73829_w1024h576c1 cx2592cy1728cxb5184cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20171024/73829_w1024h768c1cx2592cy1728cxb5184cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20171024/73829_w1024h1024c1cx2592cy1728cxb5184cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20171024/73829_w1024h576c1cx2592cy1728cxb5184cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20171024/73829_w1024h768c1cx2592cy1728cxb5184cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20171024/73829_w1024h1024c1cx2592cy1728cxb5184cyb3456.jpg'
+    ],
+    steps: [
+      'Préchauffer le four à 180°C (thermostat 6).',
+      'Faire fondre le chocolat avec le lait, dans une casserole (ou au micro-ondes).',
+      'Ajouter 3 bonnes cuillères de crème fraîche, mélanger, et verser sur la pâte.',
+      'Déposer ensuite les demi-poires sur le nappage.',
+      'Mélanger les oeufs, le sucre et les 3 cuillères à soupe de crème fraîche restantes, puis le déposer sur le tout.',
+      'Mettre au four pendant 30 min.'
+    ],
+    description: 'chocolat noir, crème fraîche, sucre, pâte sablée, lait, oeuf, poire',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Tarte chocolat - poires facile',
+      'chocolat noir',
+      'crème fraîche',
+      'sucre',
+      'pâte sablée',
+      'lait',
+      'oeuf',
+      'poire',
+      'tarte',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 45,
+    people: 6
+  },
+  {
+    name: 'Galette des rois à la frangipane',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_galette-des-rois-a-la-frangipane_20147.aspx',
+    ingredients: [
+      '2 pâtes feuilletées',
+      '100 g de sucre fin',
+      '75 g de beurre tendre',
+      "140 g d'amandes en poudre",
+      '2 oeufs',
+      "1 jaune d'oeuf",
+      '1 fèves'
+    ],
+    author: 'Marmiton_Recettes',
+    images: [
+      'https://assets.afcdn.com/recipe/20230620/143627_w1024h576c1 cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20230620/143627_w1024h768c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20230620/143627_w1024h1024c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20230620/143627_w1024h576c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20230620/143627_w1024h768c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20230620/143627_w1024h1024c1cx3072cy1728cxb6144cyb3456.jpg'
+    ],
+    steps: [
+      'Placer une pâte feuilletée dans un moule à tarte, piquer la pâte avec une fourchette. ',
+      "Dans un saladier, mélanger la poudre d'amandes, le sucre, les 2 oeufs et le beurre mou.",
+      'Placer la pâte obtenue dans le moule à tarte et y cacher la fève.',
+      'Recouvrir avec la 2ème pâte feuilletée, en collant bien les bords. ',
+      "Faire des dessins sur le couvercle et badigeonner avec le jaune d'oeuf. ",
+      'Enfourner pendant 20 à 30 min à 200°C (thermostat 6-7); vérifier régulièrement la cuisson !'
+    ],
+    description: "pâte feuilletée, sucre fin, beurre tendre, amandes en poudre, oeuf, jaune d'oeuf, fèves",
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Galette des rois à la frangipane',
+      'pâte feuilletée',
+      'sucre fin',
+      'beurre tendre',
+      'amandes en poudre',
+      'oeuf',
+      "jaune d'oeuf",
+      'fèves',
+      'galette frangipane',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 10,
+    totalTime: 30,
+    people: 6
+  },
+  {
+    name: 'Tiramisu aux framboises : la recette inratable',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_tiramisu-aux-framboises_28919.aspx',
+    ingredients: [
+      '100 g de sucre roux (à doser en fonction du sucre des framboises)',
+      '1 sachet de sucre vanillé',
+      '24 biscuits à la cuillère',
+      '3 oeufs (4 si petits)',
+      '250 g de mascarpone',
+      'lait',
+      '500 g de framboises (fraîches ou surgelées)'
+    ],
+    author: 'anna_15213124',
+    images: [
+      'https://assets.afcdn.com/recipe/20190704/94699_w1024h576c1 cx2625cy3362cxb5251cyb6725.webp',
+      'https://assets.afcdn.com/recipe/20190704/94699_w1024h768c1cx2625cy3362cxb5251cyb6725.webp',
+      'https://assets.afcdn.com/recipe/20190704/94699_w1024h1024c1cx2625cy3362cxb5251cyb6725.webp',
+      'https://assets.afcdn.com/recipe/20190704/94699_w1024h576c1cx2625cy3362cxb5251cyb6725.jpg',
+      'https://assets.afcdn.com/recipe/20190704/94699_w1024h768c1cx2625cy3362cxb5251cyb6725.jpg',
+      'https://assets.afcdn.com/recipe/20190704/94699_w1024h1024c1cx2625cy3362cxb5251cyb6725.jpg'
+    ],
+    steps: [
+      "Dans le fond d'un plat, disposer des biscuits cuillère trempés dans du lait (cette étape n'est pas obligatoire car ils absorberont le jus des framboises). ",
+      'Dans un saladier, écraser les framboises avec 30 g de sucre avec une fourchette ou presse-purée. Les répartir sur le fond de biscuits et mettre au réfrigérateur. En garder quelques-unes entières pour la décoration. ',
+      "Pendant ce temps, séparer les blancs des jaunes d'oeufs. ",
+      "Battre les jaunes avec le sucre et le sucre vanillé jusqu'à blanchiment du mélange. Rajouter le mascarpone au fouet. ",
+      'Monter les blancs en neige bien fermes et les incorporer délicatement au mélange précédent avec une cuillère en bois. ',
+      'Verser la préparation sur les framboises. ',
+      'Mettre au réfrigérateur 24 heures avant de servir, voire 48h.'
+    ],
+    description: 'sucre roux, sucre vanillé, biscuits à la cuillère, oeuf, mascarpone, lait, framboises',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Tiramisu aux framboises : la recette inratable',
+      'sucre roux',
+      'sucre vanillé',
+      'biscuits à la cuillère',
+      'oeuf',
+      'mascarpone',
+      'lait',
+      'framboises',
+      'tiramisu',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 25,
+    totalTime: 25,
+    people: 6
+  },
+  {
+    name: 'Muffins de Sandrine',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_muffins-de-sandrine_57367.aspx',
+    ingredients: [
+      '180 g de beurre',
+      '180 g de sucre',
+      '3 sachets de sucre vanillé',
+      '360 g de farine de blé',
+      '3 c.à.c de miel liquide',
+      '1 paquet de levure chimique',
+      'chocolat',
+      'sel',
+      '3 oeufs',
+      '240 g de lait'
+    ],
+    author: 'sandrine_3543',
+    images: [
+      'https://assets.afcdn.com/recipe/20140608/61945_w1024h576c1 cx480cy360.webp',
+      'https://assets.afcdn.com/recipe/20140608/61945_w1024h768c1cx480cy360.webp',
+      'https://assets.afcdn.com/recipe/20140608/61945_w1024h1024c1cx480cy360.webp',
+      'https://assets.afcdn.com/recipe/20140608/61945_w1024h576c1cx480cy360.jpg',
+      'https://assets.afcdn.com/recipe/20140608/61945_w1024h768c1cx480cy360.jpg',
+      'https://assets.afcdn.com/recipe/20140608/61945_w1024h1024c1cx480cy360.jpg'
+    ],
+    steps: [
+      'Préchauffer le four à 175°C (thermostat 5-6).',
+      "Faire fondre le beurre, puis le battre avec le sucre jusqu'à ce que le mélange blanchisse puis mettre le sucre vanillé et le sel.",
+      'Mélanger bien.',
+      'Ajouter les oeufs et le miel, melanger et ajoutez le lait.',
+      'Mélanger bien le tout.',
+      'Ajouter la farine, la levure et les pépites de chocolat.',
+      'Enfourner pour 20 à 25 minutes de cuisson.'
+    ],
+    description: 'beurre, sucre, sucre vanillé, farine de blé, miel liquide, levure chimique, chocolat, sel, oeuf, lait',
+    difficulty: 2,
+    budget: 1,
+    tags: [
+      'Muffins de Sandrine',
+      'beurre',
+      'sucre',
+      'sucre vanillé',
+      'farine de blé',
+      'miel liquide',
+      'levure chimique',
+      'chocolat',
+      'sel',
+      'oeuf',
+      'lait',
+      'muffin',
+      'facile',
+      'bon marché'
+    ],
+    prepTime: 20,
+    totalTime: 40,
+    people: 15
+  },
+  {
+    name: 'Moelleux au chocolat',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_moelleux-au-chocolat_17982.aspx',
+    ingredients: [
+      '250 g de chocolat',
+      '175 g de beurre',
+      '125 g de sucre glace',
+      '75 g de farine',
+      '5 oeufs'
+    ],
+    author: 'Jojo_0712',
+    images: [
+      'https://assets.afcdn.com/recipe/20171019/73301_w1024h576c1 cx1800cy1200cxb3600cyb2400.webp',
+      'https://assets.afcdn.com/recipe/20171019/73301_w1024h768c1cx1800cy1200cxb3600cyb2400.webp',
+      'https://assets.afcdn.com/recipe/20171019/73301_w1024h1024c1cx1800cy1200cxb3600cyb2400.webp',
+      'https://assets.afcdn.com/recipe/20171019/73301_w1024h576c1cx1800cy1200cxb3600cyb2400.jpg',
+      'https://assets.afcdn.com/recipe/20171019/73301_w1024h768c1cx1800cy1200cxb3600cyb2400.jpg',
+      'https://assets.afcdn.com/recipe/20171019/73301_w1024h1024c1cx1800cy1200cxb3600cyb2400.jpg'
+    ],
+    steps: [
+      'faire fondre le chocolat.',
+      "Ajouter le beurre en morceaux peu à peu et l'incorporer pour obtenir un crème bien lisse.",
+      "Mettre la farine et le sucre glace dans un saladier. Ajouter les oeufs entiers et mélanger jusqu'à obtention d'une émulsion homogène.",
+      'Verser le mélange chocolat-beurre sur cette préparation. Mélanger.',
+      'Beurrer et fariner 6 moules individuels ou un grand moule.',
+      'Verser la préparation et mettre à four chaud (200°C) - 10 min pour les petits gâteaux, 15 pour le grand.',
+      'Servir tiède avec une crème anglaise (le centre doit être coulant) ou servir froid nappé de ganache au chocolat.'
+    ],
+    description: 'chocolat, beurre, sucre glace, farine, oeuf',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Moelleux au chocolat',
+      'chocolat',
+      'beurre',
+      'sucre glace',
+      'farine',
+      'oeuf',
+      'gâteau au chocolat',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 25,
+    people: 6
+  },
+  {
+    name: "Charlotte aux fruits d'été",
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_charlotte-aux-fruits-d-ete_20546.aspx',
+    ingredients: [
+      '200 g de biscuits à la cuillère',
+      '400 g de fromage blanc',
+      '100 g de sucre glace',
+      "30 cl de jus d'orange",
+      '200 g de mascarpone',
+      '150 g de framboises',
+      '2 pêches'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20171019/73623_w1024h576c1 cx2215cy1476cxb4430cyb2953.webp',
+      'https://assets.afcdn.com/recipe/20171019/73623_w1024h768c1cx2215cy1476cxb4430cyb2953.webp',
+      'https://assets.afcdn.com/recipe/20171019/73623_w1024h1024c1cx2215cy1476cxb4430cyb2953.webp',
+      'https://assets.afcdn.com/recipe/20171019/73623_w1024h576c1cx2215cy1476cxb4430cyb2953.jpg',
+      'https://assets.afcdn.com/recipe/20171019/73623_w1024h768c1cx2215cy1476cxb4430cyb2953.jpg',
+      'https://assets.afcdn.com/recipe/20171019/73623_w1024h1024c1cx2215cy1476cxb4430cyb2953.jpg'
+    ],
+    steps: [
+      'Mélanger le fromage blanc, le sucre et le Mascarpone. ',
+      'Rincer les framboises, puis éplucher et couper les pêches. ',
+      "Tremper rapidement les biscuits dans le jus d'orange et poser les contre le bord du moule, côté sucré vers l'extérieur. ",
+      'Alterner une couche de préparation au fromage, une couche de fruits et une couche de biscuit tremper dans le jus. ',
+      'Terminer par les biscuits. ',
+      'Couvrir avec une assiette et mettre un poids dessus, puis garder au moins 3 heures au frais. ',
+      'Démouler la charlotte et décorer de framboises.'
+    ],
+    description: "biscuits à la cuillère, fromage blanc, sucre glace, jus d'orange, mascarpone, framboises, pêche",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      "Charlotte aux fruits d'été",
+      'biscuits à la cuillère',
+      'fromage blanc',
+      'sucre glace',
+      "jus d'orange",
+      'mascarpone',
+      'framboises',
+      'pêche',
+      'charlotte aux fruits',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 15,
+    people: 6
+  },
+  {
+    name: 'Fondant au chocolat plus que fondant',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_fondant-au-chocolat-plus-que-fondant_55396.aspx',
+    ingredients: [
+      '200 g de chocolat pâtissier',
+      '200 g de beurre',
+      '200 g de sucre',
+      '100 g de maïzena',
+      '4 oeufs'
+    ],
+    author: 'emmy_16173692',
+    images: [
+      'https://assets.afcdn.com/recipe/20170614/69595_w1024h576c1 cx2000cy3000.webp',
+      'https://assets.afcdn.com/recipe/20170614/69595_w1024h768c1cx2000cy3000.webp',
+      'https://assets.afcdn.com/recipe/20170614/69595_w1024h1024c1cx2000cy3000.webp',
+      'https://assets.afcdn.com/recipe/20170614/69595_w1024h576c1cx2000cy3000.jpg',
+      'https://assets.afcdn.com/recipe/20170614/69595_w1024h768c1cx2000cy3000.jpg',
+      'https://assets.afcdn.com/recipe/20170614/69595_w1024h1024c1cx2000cy3000.jpg'
+    ],
+    steps: [
+      'Préchauffer le four à 150°C (thermostat 5).',
+      'Faire fondre le chocolat avec le beurre dans une casserole.',
+      'Puis verser dans une terrine. ',
+      'Ajouter le sucre et mélanger.',
+      'Laisser tiédir, puis ajouter les oeufs et la maïzena.',
+      "Mélanger jusqu'à l'obtention d'une pâte lisse et la verser dans un moule beurré ou muni d'un papier sulfurisé.",
+      'Mettre au four et laisser cuire 15 à 20 min.',
+      'Attendre que le fondant ait refroidi avant de le démouler sinon celui-ci risquerait de se décomposer et le chocolat fondu de couler !!'
+    ],
+    description: 'chocolat pâtissier, beurre, sucre, maïzena, oeuf',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Fondant au chocolat plus que fondant',
+      'chocolat pâtissier',
+      'beurre',
+      'sucre',
+      'maïzena',
+      'oeuf',
+      'fondant au chocolat',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 35,
+    people: 6
+  },
+  {
+    name: 'Cookies aux pépites de chocolat super moelleux',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_cookies-aux-pepites-de-chocolat-super-moelleux_57330.aspx',
+    ingredients: [
+      '250 g de beurre',
+      '300 g de chocolat',
+      '350 g de farine',
+      '125 g de sucre semoule',
+      '1 c.à.c de levure en poudre',
+      'sel',
+      '2 oeufs',
+      '125 g de sucre brun'
+    ],
+    author: 'lise_16356179',
+    images: [
+      'https://assets.afcdn.com/recipe/20230621/143725_w1024h576c1 cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143725_w1024h768c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143725_w1024h1024c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143725_w1024h576c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20230621/143725_w1024h768c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20230621/143725_w1024h1024c1cx960cy540cxb1920cyb1080.jpg'
+    ],
+    steps: [
+      "Travaillez le beurre mou avec les deux sucres jusqu'à obtention d'un mélange homogène.",
+      'Ajoutez les œufs et mélangez bien.',
+      'Joignez la farine tamisée, le sel et la levure en poudre.',
+      'Mélangez à nouveau.',
+      'Rajoutez les pépites de chocolat et mélangez.',
+      "Recouvrez le plateau du four de papier cuisson ou sulfurisé, et à l'aide de 2 cuillères à café, disposez-y des petits tas de pâte de la valeur d'une noix.",
+      "Veillez à bien les espacer car la pâte s'étale assez fort.",
+      'Enfournez et comptez une dizaine de minutes de cuisson (four préchauffé à 180°C).',
+      'Laissez les cookies cuits sur une grille pour les laisser refroidir.',
+      'Bon appétit !'
+    ],
+    description: 'beurre, chocolat, farine, sucre semoule, levure, sel, oeuf, sucre brun',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Cookies aux pépites de chocolat super moelleux',
+      'beurre',
+      'chocolat',
+      'farine',
+      'sucre semoule',
+      'levure',
+      'sel',
+      'oeuf',
+      'sucre brun',
+      'gâteau au chocolat',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 25,
+    people: 45
+  },
+  {
+    name: 'Clafoutis grand-mère aux cerises',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_clafoutis-grand-mere-aux-cerises_29896.aspx',
+    ingredients: [
+      '40 g de beurre semi-sel + 20 g pour le moule',
+      '100 g de farine',
+      '60 g de sucre en poudre',
+      '1 sachet de sucre vanillé',
+      '1 pincée de sel',
+      'sucre glace',
+      '600 g de cerises fraîches ou surgelées',
+      '4 oeufs',
+      '20 cl de lait'
+    ],
+    author: 'hannah_14988716',
+    images: [
+      'https://assets.afcdn.com/recipe/20190529/93128_w1024h576c1 cx2880cy1920cxb5760cyb3840.webp',
+      'https://assets.afcdn.com/recipe/20190529/93128_w1024h768c1cx2880cy1920cxb5760cyb3840.webp',
+      'https://assets.afcdn.com/recipe/20190529/93128_w1024h1024c1cx2880cy1920cxb5760cyb3840.webp',
+      'https://assets.afcdn.com/recipe/20190529/93128_w1024h576c1cx2880cy1920cxb5760cyb3840.jpg',
+      'https://assets.afcdn.com/recipe/20190529/93128_w1024h768c1cx2880cy1920cxb5760cyb3840.jpg',
+      'https://assets.afcdn.com/recipe/20190529/93128_w1024h1024c1cx2880cy1920cxb5760cyb3840.jpg'
+    ],
+    steps: [
+      'Préchauffez le four à 210°C (thermostat 7).\n' +
+        "Lavez rapidement les cerises sous un filet d'eau fraîche, équeutez-les et égouttez-les. Personnellement j'enlève les noyaux, mais la recette traditionnelle veut qu'on les laisse, donc c'est à vous de voir si vous les laissez ou pas...\n" +
+        '\n' +
+        'Faites fondre les 40 g de beurre dans une petite casserole à fond épais. Mélangez dans un grand bol la farine, le sucre, le sel et le sucre vanillé. Incorporez les oeufs peu à peu puis le lait petit à petit en continuant de mélanger. Ajoutez le beurre fondu.',
+      'Beurrez grassement le plat, rangez les cerises puis versez la pâte à clafoutis. \n' +
+        'Mettez au four pendant 10 mn à 210°C puis baissez à 180°C et cuisez encore 20 mn.',
+      'Servez le clafoutis froid ou tiède, saupoudré de sucre glace.'
+    ],
+    description: 'beurre, farine, sucre en poudre, sucre vanillé, sel, sucre glace, cerises, oeuf, lait',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Clafoutis grand-mère aux cerises',
+      'beurre',
+      'farine',
+      'sucre en poudre',
+      'sucre vanillé',
+      'sel',
+      'sucre glace',
+      'cerises',
+      'oeuf',
+      'lait',
+      'clafoutis',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 10,
+    totalTime: 40,
+    people: 8
+  },
+  {
+    name: 'Petits gâteaux tout chocolat',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_petits-gateaux-tout-chocolat_36095.aspx',
+    ingredients: [
+      '100 g de beurre',
+      '100 g de farine',
+      '100 g de sucre',
+      '3 oeufs',
+      '200 g de crème dessert au chocolat'
+    ],
+    author: 'margot_17339740',
+    images: [
+      'https://assets.afcdn.com/recipe/20180302/77829_w1024h576c1 cx2592cy1728cxb5184cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20180302/77829_w1024h768c1cx2592cy1728cxb5184cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20180302/77829_w1024h1024c1cx2592cy1728cxb5184cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20180302/77829_w1024h576c1cx2592cy1728cxb5184cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20180302/77829_w1024h768c1cx2592cy1728cxb5184cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20180302/77829_w1024h1024c1cx2592cy1728cxb5184cyb3456.jpg'
+    ],
+    steps: [
+      'Préchauffez le four à 200°C (thermostat 6-7)',
+      'Au bain marie ou micro-ondes, faire fondre 160 g de chocolat cassé en morceaux avec le beurre.',
+      'Mélanger les oeufs avec le sucre et la farine et ajouter petit à petit le chocolat fondu.',
+      'Remplir les moules ou caissettes en papier, préalablement beurrés, au 3/4 de pâte et enfoncer un carré de chocolat (ou 1/4 du carré) au centre.',
+      "A l'aide d'un couteau, hacher le reste du chocolat en pépite, à saupoudrer sur chaque muffins.",
+      'Faire cuire à mi-hauteur environ 10 minutes.'
+    ],
+    description: 'beurre, farine, sucre, oeuf, crème dessert au chocolat',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Petits gâteaux tout chocolat',
+      'beurre',
+      'farine',
+      'sucre',
+      'oeuf',
+      'crème dessert au chocolat',
+      'autres biscuits et petits gâteaux ',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 10,
+    totalTime: 25,
+    people: 9
+  },
+  {
+    name: 'Tarte à la rhubarbe rapide',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_tarte-a-la-rhubarbe-rapide_22715.aspx',
+    ingredients: [
+      '150 g de sucre en poudre',
+      '125 g de crème fraîche',
+      '800 g de rhubarbe',
+      '2 oeufs',
+      '200 g de farine',
+      '100 g de beurre',
+      "5 cl d'eau",
+      '1 pincée de sel',
+      "1 jaune d'oeuf"
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20160520/36773_w1024h576c1 cx2000cy3000.webp',
+      'https://assets.afcdn.com/recipe/20160520/36773_w1024h768c1cx2000cy3000.webp',
+      'https://assets.afcdn.com/recipe/20160520/36773_w1024h1024c1cx2000cy3000.webp',
+      'https://assets.afcdn.com/recipe/20160520/36773_w1024h576c1cx2000cy3000.jpg',
+      'https://assets.afcdn.com/recipe/20160520/36773_w1024h768c1cx2000cy3000.jpg',
+      'https://assets.afcdn.com/recipe/20160520/36773_w1024h1024c1cx2000cy3000.jpg'
+    ],
+    steps: [
+      'Epluchez la rhubarbe et coupez-la en tronçons de 2 cm, mettez-les dans un récipient avec 50 g de sucre. Laissez macérer 1 h. ',
+      'Egouttez la rhubarbe dans une passoire. ',
+      'Etalez la pâte dans un moule à tarte beurré. ',
+      'Garnissez avec la rhubarbe et faites cuire à four chaud 20 min, 200°C (thermostat 6-7). ',
+      'Battez les oeufs et le sucre dans un bol, ajoutez la crème fraîche et versez le tout sur la tarte. ',
+      "Remettez à cuire 15 min jusqu'à ce que le dessus soit doré. ",
+      'Servez tiède ou froid selon les préférences.'
+    ],
+    description: "sucre en poudre, crème fraîche, rhubarbe, oeuf, farine, beurre, eau, sel, jaune d'oeuf",
+    difficulty: 2,
+    budget: 1,
+    tags: [
+      'Tarte à la rhubarbe rapide',
+      'sucre en poudre',
+      'crème fraîche',
+      'rhubarbe',
+      'oeuf',
+      'farine',
+      'beurre',
+      'eau',
+      'sel',
+      "jaune d'oeuf",
+      'tarte à la rhubarbe',
+      'facile',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 50,
+    people: 6
+  },
+  {
+    name: 'Pain perdu',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_pain-perdu_10975.aspx',
+    ingredients: [
+      '75 g de sucre de canne',
+      '25 cl de lait',
+      '3 oeufs',
+      '6 tranches épaisses de pain paysan'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20170112/30531_w1024h576c1 cx1500cy1000.webp',
+      'https://assets.afcdn.com/recipe/20170112/30531_w1024h768c1cx1500cy1000.webp',
+      'https://assets.afcdn.com/recipe/20170112/30531_w1024h1024c1cx1500cy1000.webp',
+      'https://assets.afcdn.com/recipe/20170112/30531_w1024h576c1cx1500cy1000.jpg',
+      'https://assets.afcdn.com/recipe/20170112/30531_w1024h768c1cx1500cy1000.jpg',
+      'https://assets.afcdn.com/recipe/20170112/30531_w1024h1024c1cx1500cy1000.jpg'
+    ],
+    steps: [
+      'Fouetter les oeufs avec le sucre et le lait.',
+      'Y tremper les tranches de pain.',
+      "Deux solutions pour la cuisson : les cuire à la poêle dans du beurre en les faisant dorer de chaque côté, ou, les cuire au four : beurrer légèrement un plat à  gratin, y répartir les tranches, verser le reste du mélange (ajouter du sucre si envie), laisser cuire à 180°C (thermostat 6) jusqu'à que les tranches soient dorées."
+    ],
+    description: 'sucre de canne, lait, oeuf, pain',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Pain perdu',
+      'sucre de canne',
+      'lait',
+      'oeuf',
+      'pain',
+      'Pain perdu',
+      'moyenne',
+      'moyen'
+    ],
+    prepTime: 15,
+    totalTime: 30,
+    people: 4
+  },
+  {
+    name: "Amour de petit train d'anniversaire",
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_amour-de-petit-train-d-anniversaire_30359.aspx',
+    ingredients: [
+      "1 biscuit rond type Pim's",
+      '12 palets bretons',
+      '1 cigarette russe',
+      '2 petits beurre carrés',
+      "1 paquet de Paille d'Or",
+      '1 paquet de dragibus (bonbons)',
+      '125 g de sucre glace',
+      '80 g de chocolat pâtissier',
+      '20 g de beurre',
+      '3 c.à.s de lait',
+      '2 gâteaux en forme de cake de taille identique et pas trop bombés pour que les "wagons" soient jolis, Il est important de choisir des quatre quarts bretons pur beurre et non des barres pâtissières qui sont beaucoup moins savoureuses)'
+    ],
+    author: 'Elodie_49',
+    images: [
+      'https://assets.afcdn.com/recipe/20140428/41882_w1024h576c1 cx2144cy1424.webp',
+      'https://assets.afcdn.com/recipe/20140428/41882_w1024h768c1cx2144cy1424.webp',
+      'https://assets.afcdn.com/recipe/20140428/41882_w1024h1024c1cx2144cy1424.webp',
+      'https://assets.afcdn.com/recipe/20140428/41882_w1024h576c1cx2144cy1424.jpg',
+      'https://assets.afcdn.com/recipe/20140428/41882_w1024h768c1cx2144cy1424.jpg',
+      'https://assets.afcdn.com/recipe/20140428/41882_w1024h1024c1cx2144cy1424.jpg'
+    ],
+    steps: [
+      "N'oubliez pas d'ajouter à la liste des ingrédients :",
+      "- Beaucoup d'amour !!!",
+      'Pour le glaçage : faire fondre le chocolat avec le beurre et rajouter le sucre glace et le lait préalablement mélangés. Remuer le tout pour avoir un nappage bien lisse. ',
+      "Pour l'assemblage du train : couper les cakes en 4 morceaux de manière à obtenir une locomotive et 2 wagons de taille identique et un petit morceau qu'il faut poser sur la locomotive de façon à avoir une cabine (voir photo pour plus de clarté ;-)).",
+      'Napper les wagons de glaçage au chocolat et les poser sur un plat en les espaçant.',
+      "Pendant que le nappage chocolat n'est pas encore sec, coller de chaque côté des wagons 2 palets bretons pour faire les roues, et 1 petit beurre de chaque côté de la cabine de la locomotive pour avoir les fenêtres.",
+      'Planter la cigarette russe sur le devant de la locomotive et la recouvrir du biscuit rond pour faire la cheminée.',
+      "Entre les wagons, poser les gaufrettes paille d'or pour réaliser les rails du train.",
+      'Parsemer les mini m&ms pour faire les graviers entre les rails.',
+      'Décorer le train avec les dragibus ® ou autres bonbons.',
+      'Admirer... Et déguster!'
+    ],
+    description: "biscuit, palets bretons, cigarette russe, petit beurre, Paille d'Or, dragibus (bonbons), sucre glace, chocolat pâtissier, beurre, lait, gâteaux",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      "Amour de petit train d'anniversaire",
+      'biscuit',
+      'palets bretons',
+      'cigarette russe',
+      'petit beurre',
+      "Paille d'Or",
+      'dragibus (bonbons)',
+      'sucre glace',
+      'chocolat pâtissier',
+      'beurre',
+      'lait',
+      'gâteaux',
+      '',
+      'facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 30,
+    totalTime: 35,
+    people: 10
+  },
+  {
+    name: 'Brownie vite fait',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_brownie-vite-fait_12890.aspx',
+    ingredients: [
+      '100 g de sucre en poudre',
+      '100 g de chocolat pâtissier',
+      '100 g de beurre',
+      '50 g de farine',
+      '2 oeufs'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20170213/40208_w1024h576c1 cx2000cy3000.webp',
+      'https://assets.afcdn.com/recipe/20170213/40208_w1024h768c1cx2000cy3000.webp',
+      'https://assets.afcdn.com/recipe/20170213/40208_w1024h1024c1cx2000cy3000.webp',
+      'https://assets.afcdn.com/recipe/20170213/40208_w1024h576c1cx2000cy3000.jpg',
+      'https://assets.afcdn.com/recipe/20170213/40208_w1024h768c1cx2000cy3000.jpg',
+      'https://assets.afcdn.com/recipe/20170213/40208_w1024h1024c1cx2000cy3000.jpg'
+    ],
+    steps: [
+      'Préchauffer le four à 200°C (thermostat 6-7).\r\n' +
+        '\r\n' +
+        'Mélanger les oeufs entiers avec le sucre et la farine.',
+      'Faire fondre le chocolat avec le beurre.',
+      'Concasser grossièrement des noix ou des amandes ou des noix de pécan. Mélanger le tout.',
+      'Beurrer un moule. Verser dans le moule (ça ne doit pas être trop épais).',
+      'Mettre au four pensant 15 à 20 min, selon le moelleux souhaité (le gâteau est cuit quand le dessus se crevasse).',
+      'Facultatif : découper des morceaux de brownies : de gros rectangles individuels',
+      'Glisser des bâtonnets dedans pour en faire des sucettes.',
+      'Décorer de chocolat fondu et de petites décos en sucre.',
+      'Déguster'
+    ],
+    description: 'sucre en poudre, chocolat pâtissier, beurre, farine, oeuf',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Brownie vite fait',
+      'sucre en poudre',
+      'chocolat pâtissier',
+      'beurre',
+      'farine',
+      'oeuf',
+      'brownie',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 35,
+    people: 4
+  },
+  {
+    name: 'Brownies aux noix',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_brownies-aux-noix_11807.aspx',
+    ingredients: [
+      '200 g de chocolat',
+      '125 g de beurre',
+      '200 g de sucre en poudre',
+      '2 c.à.s de farine',
+      '1 c.à.s de sucre glace',
+      '1 grosse poignée de cerneau de noix',
+      '4 oeufs frais'
+    ],
+    author: 'gaie-luron',
+    images: [
+      'https://assets.afcdn.com/recipe/20161215/125_w1024h576c1 cx2184cy1456.webp',
+      'https://assets.afcdn.com/recipe/20161215/125_w1024h768c1cx2184cy1456.webp',
+      'https://assets.afcdn.com/recipe/20161215/125_w1024h1024c1cx2184cy1456.webp',
+      'https://assets.afcdn.com/recipe/20161215/125_w1024h576c1cx2184cy1456.jpg',
+      'https://assets.afcdn.com/recipe/20161215/125_w1024h768c1cx2184cy1456.jpg',
+      'https://assets.afcdn.com/recipe/20161215/125_w1024h1024c1cx2184cy1456.jpg'
+    ],
+    steps: [
+      'Mettre le chocolat et le beurre en petits morceaux dans une casserole. Faire fondre au bain-marie tout en remuant.',
+      'Retirer la casserole du feu, ajouter le sucre et mélanger. Allumer le four à 180°C (thermostat 6).',
+      'Verser un oeuf entier dans la casserole et le mélanger aussitôt. Incorporer de la même façon les autres oeufs.',
+      'Ajouter les 2 cuillères à soupe de farine tout en mélangeant.',
+      'Casser les cerneaux de noix en 2 ou 3. Les mélanger à la pâte.',
+      'Etaler la noix de beurre dans un moule rectangulaire. Verser la pâte dedans.',
+      'Mettre le moule au four et laisser cuire 20 mn.',
+      'Une fois cuit, sortir le gâteau du four et le laisser refroidir.',
+      'Le démouler ensuite sur un plat. Couper le gâteau en 6 ou 8 carrés et saupoudrer de sucre glace.\n' +
+        'Vous pouvez aussi remplacer les cerneaux de noix, par des noix de Pécan.'
+    ],
+    description: 'chocolat, beurre, sucre en poudre, farine, sucre glace, cerneau de noix, oeuf',
+    difficulty: 2,
+    budget: 1,
+    tags: [
+      'Brownies aux noix',
+      'chocolat',
+      'beurre',
+      'sucre en poudre',
+      'farine',
+      'sucre glace',
+      'cerneau de noix',
+      'oeuf',
+      'brownie',
+      'facile',
+      'bon marché'
+    ],
+    prepTime: 20,
+    totalTime: 40,
+    people: 8
+  },
+  {
+    name: 'Petits biscuits de Noël',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_petits-biscuits-de-noel_19726.aspx',
+    ingredients: [
+      'gingembre',
+      'cannelle',
+      'muscade',
+      'girofle ...',
+      'de citron (orange ou mandarine)',
+      "1 jaune d'oeuf (mélangé à un peu d'eau)",
+      '250 g de farine',
+      '100 g de beurre tendre',
+      '125 g de sucre',
+      '1 c.à.c de levure',
+      "50 g d'amandes en poudre",
+      '1 oeuf'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20191025/101187_w1024h576c1 cx1000cy666cxb2000cyb1333.webp',
+      'https://assets.afcdn.com/recipe/20191025/101187_w1024h768c1cx1000cy666cxb2000cyb1333.webp',
+      'https://assets.afcdn.com/recipe/20191025/101187_w1024h1024c1cx1000cy666cxb2000cyb1333.webp',
+      'https://assets.afcdn.com/recipe/20191025/101187_w1024h576c1cx1000cy666cxb2000cyb1333.jpg',
+      'https://assets.afcdn.com/recipe/20191025/101187_w1024h768c1cx1000cy666cxb2000cyb1333.jpg',
+      'https://assets.afcdn.com/recipe/20191025/101187_w1024h1024c1cx1000cy666cxb2000cyb1333.jpg'
+    ],
+    steps: [
+      "Mélanger dans une grande jatte la farine, la levure, le sucre et la poudre d'amandes. ",
+      "Ajouter le beurre et les oeufs; puis travailler d'abord avec une fourchette puis avec les mains.",
+      'Assaisonner au choix avec : 4 épices, cannelle/orange, citron... ',
+      'Moi, je coupe la boule en 3, et je fais 3 assaisonnements différents ! ',
+      'Préchauffer le four à 200°C (thermostat 6-7). ',
+      "Etaler la pâte avec un rouleau et découper des formes à l'emporte-pièce (sapins, lunes, étoiles......).",
+      'Les disposer sur une plaque garnie de papier sulfurisé. ',
+      "Etaler un peu de jaune d'oeuf avec de la cannelle sur les biscuits, pour qu'ils soient bien dorés.",
+      'Enfourner 7 à 10 min (à surveiller).'
+    ],
+    description: "gingembre, cannelle, muscade, girofle, citron, jaune d'oeuf, farine, beurre tendre, sucre, levure, amandes, oeuf",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Petits biscuits de Noël',
+      'gingembre',
+      'cannelle',
+      'muscade',
+      'girofle',
+      'citron',
+      "jaune d'oeuf",
+      'farine',
+      'beurre tendre',
+      'sucre',
+      'levure',
+      'amandes',
+      'oeuf',
+      'biscuits de Noël',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 23,
+    people: 6
+  },
+  {
+    name: "'The' tarte aux fraises",
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_the-tarte-aux-fraises_22726.aspx',
+    ingredients: [
+      '30 g de farine',
+      '40 g de sucre',
+      '1 sachet de sucre vanillé',
+      '500 g de fraises (ou plus ;)',
+      '25 cl de lait',
+      '1 oeuf',
+      '250 g de farine',
+      '125 g de beurre',
+      '70 g de sucre',
+      "5 cl d'eau",
+      '1 pincée de sel',
+      "2 jaunes d'oeuf"
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20190529/93119_w1024h576c1 cx1928cy2951cxb3856cyb5903.webp',
+      'https://assets.afcdn.com/recipe/20190529/93119_w1024h768c1cx1928cy2951cxb3856cyb5903.webp',
+      'https://assets.afcdn.com/recipe/20190529/93119_w1024h1024c1cx1928cy2951cxb3856cyb5903.webp',
+      'https://assets.afcdn.com/recipe/20190529/93119_w1024h576c1cx1928cy2951cxb3856cyb5903.jpg',
+      'https://assets.afcdn.com/recipe/20190529/93119_w1024h768c1cx1928cy2951cxb3856cyb5903.jpg',
+      'https://assets.afcdn.com/recipe/20190529/93119_w1024h1024c1cx1928cy2951cxb3856cyb5903.jpg'
+    ],
+    steps: [
+      'PÂTE: \n' +
+        '\n' +
+        "Blanchir les jaunes et le sucre au fouet et détendre le mélange avec un peu d'eau.",
+      'Mélanger au doigt la farine et le beurre coupé en petites parcelles pour obtenir une consistance sableuse et que tout le beurre soit absorbé (!!! Il faut faire vite pour que le mélange ne ramollisse pas trop!).',
+      'Verser au milieu de ce "sable" le mélange liquide. \n' +
+        'Incorporer au couteau les éléments rapidement sans leur donner de corps.',
+      'Former une boule avec les paumes et fraiser 1 ou 2 fois pour rendre la boule + homogène. ',
+      'Foncer un moule de 25 cm de diamètre avec la pâte, garnissez la de papier sulfurisé et de haricots secs. \n' +
+        '\n' +
+        'Faire cuire à blanc 20 à 25 min, à 180°C (thermostat 6).',
+      'CRÈME PÂTISSIÈRE : \n' +
+        '\n' +
+        'Mettre le lait à  bouillir avec le parfum choisi (vanille ou autre).',
+      "Travailler l'oeuf avec le sucre jusqu'à ce que la pâte fasse le ruban, ajouter la farine. ",
+      'Verser le lait bouillant sur le mélange en tournant bien. ',
+      'Remettre dans la casserole sur le feu. \n' +
+        'Faire cuire en tournant très soigneusement. \n' +
+        'Retirer après ébullition.',
+      'Verser la crème sur le fond de tarte et disposer joliment les fraises coupées en 2.'
+    ],
+    description: "farine, sucre, sucre vanillé, fraises, lait, oeuf, farine, beurre, sucre, eau, sel, jaune d'oeuf",
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      "'The' tarte aux fraises",
+      'farine',
+      'sucre',
+      'sucre vanillé',
+      'fraises',
+      'lait',
+      'oeuf',
+      'farine',
+      'beurre',
+      'sucre',
+      'eau',
+      'sel',
+      "jaune d'oeuf",
+      'tarte aux fraises',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 35,
+    people: 6
+  },
+  {
+    name: 'Langues de chat',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_langues-de-chat_14760.aspx',
+    ingredients: [
+      '60 g de beurre',
+      '60 g de sucre en poudre',
+      '60 g de farine',
+      '2 gouttes de vanille ou 1 sachet de sucre vanillé',
+      "2 blancs d'oeuf"
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20170510/25424_w1024h576c1 cx1920cy1280.webp',
+      'https://assets.afcdn.com/recipe/20170510/25424_w1024h768c1cx1920cy1280.webp',
+      'https://assets.afcdn.com/recipe/20170510/25424_w1024h1024c1cx1920cy1280.webp',
+      'https://assets.afcdn.com/recipe/20170510/25424_w1024h576c1cx1920cy1280.jpg',
+      'https://assets.afcdn.com/recipe/20170510/25424_w1024h768c1cx1920cy1280.jpg',
+      'https://assets.afcdn.com/recipe/20170510/25424_w1024h1024c1cx1920cy1280.jpg'
+    ],
+    steps: [
+      'Travailler le beurre pour le rendre crémeux,',
+      'ajouter le sucre, la vanille et la farine.',
+      'Bien mélanger.',
+      "Incorporer les blancs d'oeufs.",
+      'Beurrer la plaque du four et la fariner. Mettre la pâte dans une poche a douille. Etaler des bâtonnets de pâte suffisamment espacés sur la plaque.',
+      'Faire cuire 7 à 8 min à four chaud (200°C). \r\n' +
+        'Décoller aussitôt et faire refroidir.'
+    ],
+    description: "beurre, sucre en poudre, farine, vanille, blanc d'oeuf",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Langues de chat',
+      'beurre',
+      'sucre en poudre',
+      'farine',
+      'vanille',
+      "blanc d'oeuf",
+      'palets et langues de chat',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 23,
+    people: 6
+  },
+  {
+    name: 'Charlotte aux fraises',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_the-charlotte-aux-fraises_31214.aspx',
+    ingredients: [
+      '140 g de sucre en poudre',
+      '6 feuilles de gélatine',
+      '500 g de fraises',
+      '1 sachet de sucre vanillé',
+      '26 biscuits à la cuillère',
+      "1 c.à.s d'Alcool de fraise",
+      '1 citron',
+      '40 cl de crème liquide',
+      'glaçons'
+    ],
+    author: 'sarah_15080558',
+    images: [
+      'https://assets.afcdn.com/recipe/20170615/69534_w1024h576c1 cx3000cy2000.webp',
+      'https://assets.afcdn.com/recipe/20170615/69534_w1024h768c1cx3000cy2000.webp',
+      'https://assets.afcdn.com/recipe/20170615/69534_w1024h1024c1cx3000cy2000.webp',
+      'https://assets.afcdn.com/recipe/20170615/69534_w1024h576c1cx3000cy2000.jpg',
+      'https://assets.afcdn.com/recipe/20170615/69534_w1024h768c1cx3000cy2000.jpg',
+      'https://assets.afcdn.com/recipe/20170615/69534_w1024h1024c1cx3000cy2000.jpg'
+    ],
+    steps: [
+      "Préparer un sirop en portant à ébullition 15 cl d'eau et 80 g de sucre. Oter du feu et laisser refroidir, ensuite y mettre l'alcool de fraise.",
+      "Faire tremper la gélatine dans un bol d'eau froide.",
+      'Laver et équeuter les fraises et en mettre 8 entières de côté.\n' +
+        "Mettre les autres fraises dans un mixeur avec le jus de citron et mixer jusqu'à obtenir une puréee lisse. Tranvaser cette purée dans une passoire afin de récolter le coulis et retenir les grains.",
+      'Prélever un quart de ce coulis et le faire chauffer doucement dans une casserole en y incorporant la gélatine essorée et le restant de sucre. ',
+      'Ensuite, mélanger le coulis obtenu (chaud) avec le coulis froid. Laisser tiédir à température ambiante. ',
+      'Mettre la crème liquide dans un saladier et mettre au congelateur 20 mn. Puis la fouetter de façon à obtenir une crème "chantilly". Mettre le sucre vanillé, remuer doucement et mettre en attente au frais. ',
+      "Placer le récipient où se trouve le coulis dans un récipient + grand rempli de glaçons. Remuer le coulis jusqu'à constater son épaississement. A ce moment, l'ôter des glaçons et y ajouter la chantilly en tournant délicatement. Laisser à température ambiante.",
+      'Couper les 8 fraises mises de côté dans leur hauteur.\n' +
+        'Tapisser le fond et les parois du moule avec des biscuits trempés (vite fait) dans le sirop (les tailler si besoin). Pour les parois : côté bombé contre le moule.',
+      'Verser un tiers de la crème puis parsemer de fraises coupées (la moitié). ',
+      'Couvrir du second tiers de crème, disposer le restant de fraises coupées. Terminer par le dernier tiers de crème. Finir par une couche de biscuits (toujours trempés dans le sirop). ',
+      "Mettre du film plastique sur le plat et laisser au frais 6h (une nuit est l'idéal) avant de démouler."
+    ],
+    description: 'sucre en poudre, gélatine, fraises, sucre vanillé, biscuits à la cuillère, Alcool, citron, crème liquide, glaçons',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Charlotte aux fraises',
+      'sucre en poudre',
+      'gélatine',
+      'fraises',
+      'sucre vanillé',
+      'biscuits à la cuillère',
+      'Alcool',
+      'citron',
+      'crème liquide',
+      'glaçons',
+      'charlotte aux fraises',
+      'difficile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 60,
+    totalTime: 60,
+    people: 6
+  },
+  {
+    name: 'Madeleines au miel',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_madeleines-au-miel_19756.aspx',
+    ingredients: [
+      '125 g de beurre fondu',
+      '130 g de sucre en poudre',
+      '1 c.à.s rase de miel',
+      '150 g de farine',
+      '1/2 sachet de levure',
+      '1 pincée de sel',
+      '3 oeufs',
+      '1 citron non traité'
+    ],
+    author: 'robin_16948398',
+    images: [
+      'https://assets.afcdn.com/recipe/20180208/77425_w1024h576c1 cx1837cy2783cxb3674cyb5567.webp',
+      'https://assets.afcdn.com/recipe/20180208/77425_w1024h768c1cx1837cy2783cxb3674cyb5567.webp',
+      'https://assets.afcdn.com/recipe/20180208/77425_w1024h1024c1cx1837cy2783cxb3674cyb5567.webp',
+      'https://assets.afcdn.com/recipe/20180208/77425_w1024h576c1cx1837cy2783cxb3674cyb5567.jpg',
+      'https://assets.afcdn.com/recipe/20180208/77425_w1024h768c1cx1837cy2783cxb3674cyb5567.jpg',
+      'https://assets.afcdn.com/recipe/20180208/77425_w1024h1024c1cx1837cy2783cxb3674cyb5567.jpg'
+    ],
+    steps: [
+      'Allumer le four thermostat 7-8 . ',
+      "Fouettez à la main les œufs, le sucre et le miel, jusqu'à ce que le mélange blanchisse. ",
+      'Ajouter alors la farine, le sel, le levure, le beurre fondu et le zeste du citron. Bien mélanger. ',
+      'Beurrer les moules et les remplir à moitié avec la préparation. ',
+      "Enfourner 5 à 10 min, jusqu'à ce que les madeleines soient dorées."
+    ],
+    description: 'beurre, sucre en poudre, miel, farine, levure, sel, oeuf, citron',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Madeleines au miel',
+      'beurre',
+      'sucre en poudre',
+      'miel',
+      'farine',
+      'levure',
+      'sel',
+      'oeuf',
+      'citron',
+      'madeleine',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 20,
+    people: 24
+  },
+  {
+    name: 'Fondant à la crème de marrons et au chocolat',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_fondant-a-la-creme-de-marrons-et-au-chocolat_17518.aspx',
+    ingredients: [
+      '100 g de chocolat noir dessert (à 61 ou 65% de cacao)',
+      '100 g de beurre + 10 g pour le moule',
+      '500 g de crème de marrons vanillée',
+      '3 oeufs'
+    ],
+    author: 'Tiloui',
+    images: [
+      'https://assets.afcdn.com/recipe/20230620/143603_w1024h576c1 cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20230620/143603_w1024h768c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20230620/143603_w1024h1024c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20230620/143603_w1024h576c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20230620/143603_w1024h768c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20230620/143603_w1024h1024c1cx3072cy1728cxb6144cyb3456.jpg'
+    ],
+    steps: [
+      'Préchauffer le four à thermostat 5 (150°C).',
+      'Faire fondre le chocolat au bain-marie avec le beurre. Lisser le mélange.',
+      'Ajouter à la crème de marron en fouettant. Battre les oeufs entiers, et incorporer progressivement au mélange en remuant très vivement pour obtenir une préparation homogène.',
+      'Verser dans un moule à gâteau beurré et fariné.',
+      "Cuire entre 20 et 30 minutes (toujours à 150°C): à chacun de calibrer sa cuisson... Pour moi, il est toujours ressorti fondant du coeur jusqu'aux bords!"
+    ],
+    description: 'chocolat noir, beurre, crème de marrons, oeuf',
+    difficulty: 2,
+    budget: 2,
+    tags: [
+      'Fondant à la crème de marrons et au chocolat',
+      'chocolat noir',
+      'beurre',
+      'crème de marrons',
+      'oeuf',
+      'crème de marrons',
+      'facile',
+      'moyen'
+    ],
+    prepTime: 10,
+    totalTime: 35,
+    people: 8
+  },
+  {
+    name: 'Muffins à la banane',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_muffins-a-la-banane_14745.aspx',
+    ingredients: [
+      '3 bananes',
+      '75 g de sucre blanc',
+      '1 c.à.c de bicarbonate',
+      '1 c.à.c de levure',
+      '1/2 c.à.c de sel',
+      '150 g de farine',
+      '70 g de beurre fondu',
+      '1 oeuf'
+    ],
+    author: 'BIGSTAR MEMEL',
+    images: [
+      'https://assets.afcdn.com/recipe/20150225/373_w1024h576c1 cx1250cy1745.webp',
+      'https://assets.afcdn.com/recipe/20150225/373_w1024h768c1cx1250cy1745.webp',
+      'https://assets.afcdn.com/recipe/20150225/373_w1024h1024c1cx1250cy1745.webp',
+      'https://assets.afcdn.com/recipe/20150225/373_w1024h576c1cx1250cy1745.jpg',
+      'https://assets.afcdn.com/recipe/20150225/373_w1024h768c1cx1250cy1745.jpg',
+      'https://assets.afcdn.com/recipe/20150225/373_w1024h1024c1cx1250cy1745.jpg'
+    ],
+    steps: [
+      "Ecraser les bananes. Ajouter le sucre et l'oeuf légèrement battu. Ajouter le beurre fondu, puis les ingrédients secs (farine, levure, bicarbonate).",
+      'Placer dans des moules à muffin.',
+      'Cuire à 190°C pendant 20 min.'
+    ],
+    description: 'banane, sucre, bicarbonate, levure, sel, farine, beurre, oeuf',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Muffins à la banane',
+      'banane',
+      'sucre',
+      'bicarbonate',
+      'levure',
+      'sel',
+      'farine',
+      'beurre',
+      'oeuf',
+      'muffin',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 10,
+    totalTime: 30,
+    people: 6
+  },
+  {
+    name: "Cookies pépites aux flocons d'avoine",
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_cookies-pepites-aux-flocons-d-avoine_22230.aspx',
+    ingredients: [
+      '240 g de farine',
+      '1 sachet de levure',
+      '1 sachet de sucre vanillé',
+      '120 g de chocolat',
+      '150 g de sucre roux',
+      '75 g de beurre tendre',
+      "120 g de flocons d'avoine",
+      '2 oeufs',
+      '75 g de margarine'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20140814/55564_w1024h576c1 cx900cy1350.webp',
+      'https://assets.afcdn.com/recipe/20140814/55564_w1024h768c1cx900cy1350.webp',
+      'https://assets.afcdn.com/recipe/20140814/55564_w1024h1024c1cx900cy1350.webp',
+      'https://assets.afcdn.com/recipe/20140814/55564_w1024h576c1cx900cy1350.jpg',
+      'https://assets.afcdn.com/recipe/20140814/55564_w1024h768c1cx900cy1350.jpg',
+      'https://assets.afcdn.com/recipe/20140814/55564_w1024h1024c1cx900cy1350.jpg'
+    ],
+    steps: [
+      'Préchauffer le four à 180°C. ',
+      'Mélanger flocons, farine et sucre (vanillé et roux), puis malaxer à la main avec oeufs, levure, sucre et beurre/margarine, ajouter ensuite les pépites. ',
+      "Mettre de petites boules de pâte légèrement applaties sur une plaque à pâtisserie recouverte d'une feuille de cuisson, bien espacées. ",
+      'Enfourner 10 mn environ, pas plus, ça continue de cuire après être sorti du four.'
+    ],
+    description: "farine, levure, sucre vanillé, chocolat, sucre roux, beurre tendre, flocons d'avoine, oeuf, margarine",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      "Cookies pépites aux flocons d'avoine",
+      'farine',
+      'levure',
+      'sucre vanillé',
+      'chocolat',
+      'sucre roux',
+      'beurre tendre',
+      "flocons d'avoine",
+      'oeuf',
+      'margarine',
+      'cookie',
+      'difficile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 20,
+    people: 26
+  },
+  {
+    name: 'Bavarois aux fraises sur génoise',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_bavarois-aux-fraises-sur-genoise_58126.aspx',
+    ingredients: [
+      '3 feuilles de gélatine',
+      '1 coulis de fruits rouges',
+      '500 g de fraises',
+      '6 feuilles de gélatine',
+      '220 g de sucre',
+      '1 citron',
+      '40 cl de crème liquide fleurette',
+      '125 g de sucre',
+      '125 g de farine',
+      "4 jaunes d'oeuf",
+      "4 blancs d'oeuf"
+    ],
+    author: 'agathe_14245204',
+    images: [
+      'https://assets.afcdn.com/recipe/20190529/93148_w1024h576c1 cx2437cy1622cxb4874cyb3244.webp',
+      'https://assets.afcdn.com/recipe/20190529/93148_w1024h768c1cx2437cy1622cxb4874cyb3244.webp',
+      'https://assets.afcdn.com/recipe/20190529/93148_w1024h1024c1cx2437cy1622cxb4874cyb3244.webp',
+      'https://assets.afcdn.com/recipe/20190529/93148_w1024h576c1cx2437cy1622cxb4874cyb3244.jpg',
+      'https://assets.afcdn.com/recipe/20190529/93148_w1024h768c1cx2437cy1622cxb4874cyb3244.jpg',
+      'https://assets.afcdn.com/recipe/20190529/93148_w1024h1024c1cx2437cy1622cxb4874cyb3244.jpg'
+    ],
+    steps: [
+      'Attention, cette recette est à préparer la veille !',
+      "Génoise : mélanger les jaunes d’œufs avec le sucre et travailler jusqu'à ce que le mélange blanchisse.",
+      'Ajouter la farine et mélanger.',
+      'Monter les blancs en neige et les mêler délicatement à la pâte.',
+      "Étaler cette pâte en couche régulière dans un cercle à pâtisserie à bords hauts, sur une plaque garnie d'une feuille de papier cuisson.",
+      "Faire cuire une dizaine de minutes à 220°C (thermostat 7-8) jusqu'à ce que la pâte soit cuite (planter la pointe du couteau). Lorsque la génoise est cuite, la glisser sur un plat à dessert et ôter le papier cuisson en la laissant dans le cercle à pâtisserie.",
+      "Bavarois : faire ramollir les 6 feuilles de gélatine dans un bol d'eau bien froide.",
+      'Laver et équeuter les fraises.',
+      'Les mixer avec le jus du citron et ajouter les 220 g de sucre (ajuster au besoin).',
+      "Verser ce mélange dans une casserole, faire chauffer à feu doux et y ajouter les feuilles de gélatine ramollies et essorées. Remuer jusqu'à ce qu'elles fondent, puis laisser refroidir.",
+      'Monter les 40 cl de crème en chantilly (il faut que la crème soit très froide).',
+      'Quand la mixture de fraise est refroidie et avant que la gélatine ne prenne, y ajouter délicatement la crème fouettée.',
+      "Verser le tout sur la génoise dans le cercle à pâtisserie et mettre au réfrigérateur jusqu'au lendemain.",
+      "Le lendemain, on prépare le nappage : faire ramollir les 3 feuilles de gélatine dans de l'eau.",
+      'Chauffer le coulis dans une casserole, y ajouter les feuilles de gélatine en les faisant bien fondre et laisser un peu refroidir.',
+      "Passer la lame d'un couteau sur le bord du cercle à pâtisserie pour démouler le bavarois, puis le napper.",
+      'Mettre un peu au réfrigérateur et... Régalez-vous !'
+    ],
+    description: "gélatine, coulis de fruits rouges, fraises, gélatine, sucre, citron, crème liquide, sucre, farine, jaune d'oeuf, blanc d'oeuf",
+    difficulty: 2,
+    budget: 2,
+    tags: [
+      'Bavarois aux fraises sur génoise',
+      'gélatine',
+      'coulis de fruits rouges',
+      'fraises',
+      'gélatine',
+      'sucre',
+      'citron',
+      'crème liquide',
+      'sucre',
+      'farine',
+      "jaune d'oeuf",
+      "blanc d'oeuf",
+      'génoise',
+      'facile',
+      'moyen'
+    ],
+    prepTime: 50,
+    totalTime: 550,
+    people: 12
+  },
+  {
+    name: 'Amour de crumble aux pommes',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_amour-de-crumble-aux-pommes_29119.aspx',
+    ingredients: [
+      '150 g de farine',
+      '1 sachet de sucre vanillé',
+      '60 g de beurre + un chouïa pour la poêle',
+      '1 pincée de sel',
+      'orange',
+      '6 pommes (ne pas hésiter à mélanger les variétés, choisir par exemple 1 Pink Lady, 2 Fuji, 2 canada et 1 Red Chief)',
+      '150 g de cassonade',
+      '1 pincée de cannelle'
+    ],
+    author: 'Elodie_49',
+    images: [
+      'https://assets.afcdn.com/recipe/20161207/55382_w1024h576c1 cx2808cy1872.webp',
+      'https://assets.afcdn.com/recipe/20161207/55382_w1024h768c1cx2808cy1872.webp',
+      'https://assets.afcdn.com/recipe/20161207/55382_w1024h1024c1cx2808cy1872.webp',
+      'https://assets.afcdn.com/recipe/20161207/55382_w1024h576c1cx2808cy1872.jpg',
+      'https://assets.afcdn.com/recipe/20161207/55382_w1024h768c1cx2808cy1872.jpg',
+      'https://assets.afcdn.com/recipe/20161207/55382_w1024h1024c1cx2808cy1872.jpg'
+    ],
+    steps: [
+      'Peler les pommes et les couper en gros dés. ',
+      "Faire caraméliser les cubes de pommes dans une poêle avec un chouïa de beurre et un sachet de sucre vanillé, y rajouter le jus d'orange et la pincée de cannelle et laisser réduire quelques instants. ",
+      'Dans un bol, travailler avec les doigts la farine, le beurre froid préalablement coupé en morceaux, le sucre et la pincée de sel, de façon à obtenir une semoule grossière. ',
+      'Dans un plat allant au four, disposer les pommes puis les recouvrir de la pâte à crumble. Parsemer sur le dessus des minuscules copeaux de beurre çà et là.... ',
+      "Laisser cuire 10-15 mn jusqu'à ce que le crumble soit doré. ",
+      'Déguster en se léchant les babines.'
+    ],
+    description: 'farine, sucre vanillé, beurre, sel, orange, pomme, cassonade, cannelle',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Amour de crumble aux pommes',
+      'farine',
+      'sucre vanillé',
+      'beurre',
+      'sel',
+      'orange',
+      'pomme',
+      'cassonade',
+      'cannelle',
+      'crumble aux pommes',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 45,
+    people: 6
   }
 ]
