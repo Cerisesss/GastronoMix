@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #807777;
+    background-color: #d9b9b9;
 }
 
 .container {
@@ -14,10 +14,10 @@ body {
 
 .recette {
     position: relative;
-    background-color: #1e1717;
+    background-color: #d6cdd2;
     border-radius: 4px;
     padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(255, 0, 157, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -28,7 +28,7 @@ body {
     left: -10px;
     right: -10px;
     bottom: -10px;
-    background-color: #000;
+    background-color: #060505;
     opacity: 0.1;
     z-index: -1;
 }
@@ -48,4 +48,13 @@ body {
     font-weight: bold;
     text-align: center;
     color: #fff;
+}
+
+.nom-recette a {
+    color: #090909; /* Couleur des liens */
+    text-decoration: none; /* Supprimer le soulignement */
+}
+
+.nom-recette a:hover {
+    color: #f3d6e5; /* Couleur des liens au survol */
 }
