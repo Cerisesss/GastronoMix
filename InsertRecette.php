@@ -4,6 +4,13 @@
 
 <?php
     $mysqli = ConnectionDatabase();
+
+    //ajout des categories n'exitant pas dans la database
+    $query_categorie = "INSERT INTO categorie(libelle_categorie) 
+    VALUES ('entree'), ('plat'), ('dessert'), ('boisson');";
+
+    $result_categorie = $mysqli->query($query_categorie);
+    
     
     $entreeJson = json_decode(file_get_contents("newentree.json"));
     $platJson = json_decode(file_get_contents("newplat.json"));
