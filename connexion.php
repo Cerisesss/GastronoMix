@@ -61,7 +61,7 @@ require 'Function.php';
         <input type="submit" class="Button" value="Se connecter" />
     </form>
 
-    <p>Nouveau sur notre site ? <a href="http://localhost/gastronomix/test/CreationCompte.php"><button class="Button">Créer un compte</button></a></p>
+    <p>Nouveau sur notre site ? <a href="http://localhost/gastronomix/CreationCompte.php"><button class="Button">Créer un compte</button></a></p>
 </body>
 
 </html>

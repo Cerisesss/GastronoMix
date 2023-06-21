@@ -1,7 +1,7 @@
 <?php
     session_start(); // Démarrage de la session
     $pseudo = $_GET['pseudo'];
-    $_SESSION['pseudo_user'] = '$pseudo';
+    $_SESSION['pseudo_user'] = $pseudo;
 
     // Supprimer toutes les variables de session
     $_SESSION = array();

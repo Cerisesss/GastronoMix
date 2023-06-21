@@ -56,6 +56,6 @@ require 'Function.php';
             <input type="submit" class="Button" value="S'inscrire" />
         </form>
 
-        <p>Déjà inscrit ?<a href="http://localhost/gastronomix/test/connexion.php"><button class="Button">Se connecter</button></a></p>
+        <p>Déjà inscrit ?<a href="http://localhost/gastronomix/connexion.php"><button class="Button">Se connecter</button></a></p>
     </body>
 </html>
