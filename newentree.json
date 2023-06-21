@@ -37,7 +37,8 @@
         "tempspreparation": 20,
         "tempstotal": 35,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "pâte feuilletée, fromage de chèvre, oeuf, basilic"
     },
     {
         "nom": "Quiche tatin",
@@ -89,7 +90,8 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "crème fraîche, gruyère râpé, pâte feuilletée, sel, poivre, pomme de terre, lard, oeuf, fromage de chèvre"
     },
     {
         "nom": "Quiche lorraine traditionnelle",
@@ -135,7 +137,8 @@
         "tempspreparation": 5,
         "tempstotal": 35,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "pâte brisée, crème fraîche, lardons, poivre, sel, oeuf, muscade"
     },
     {
         "nom": "Quiche au poireau et saumon fumé",
@@ -186,7 +189,8 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "pâte brisée, poireau, gruyère râpé, crème fraîche, poivre, sel, saumon fumé, oeuf, lait, muscade"
     },
     {
         "nom": "Verrine fraîcheur au carré frais",
@@ -251,7 +255,8 @@
         "tempspreparation": 20,
         "tempstotal": 20,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "aneth, oeufs de saumon, aneth, poivre, sel, maïs, avocat, surimi, jus de citron, carré frais, crème fleurette, saumon fumé, couteau"
     },
     {
         "nom": "Soufflé au fromage",
@@ -295,7 +300,8 @@
         "tempspreparation": 15,
         "tempstotal": 50,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "emmental, beurre, farine, oeuf, lait, muscade"
     },
     {
         "nom": "Velouté de Potiron et Carottes",
@@ -359,7 +365,8 @@
         "tempspreparation": 30,
         "tempstotal": 60,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "carotte, oignon, huile d'olive, persil, poivre, sel, potiron, pomme de terre, ail, lait, bouillon de volaille, muscade, crème liquide"
     },
     {
         "nom": "Velouté de potiron",
@@ -406,7 +413,8 @@
         "tempspreparation": 30,
         "tempstotal": 75,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "oignon, poivre, sel, huile, persil, potiron, brique, muscade"
     },
     {
         "nom": "Velouté de carottes au cumin",
@@ -456,7 +464,8 @@
         "tempspreparation": 10,
         "tempstotal": 35,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "carotte, oignon, eau, beurre, curry, cumin, sel, pomme de terre, crème liquide"
     },
     {
         "nom": "Verrine avocat et saumon fumé",
@@ -502,7 +511,8 @@
         "tempspreparation": 15,
         "tempstotal": 15,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "avocat, truite, fromage frais, citron, fromage ail et fines herbes, ciboulette, oeuf de truite"
     },
     {
         "nom": "Roulade de saumon fumé aux asperges, sauce aux crevettes et au chèvre frais",
@@ -546,7 +556,8 @@
         "tempspreparation": 15,
         "tempstotal": 30,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "asperge, persil, poivre, saumon fumé, fromage de chèvre, crevettes, crème liquide"
     },
     {
         "nom": "Soupe veloutée à la carotte",
@@ -604,7 +615,8 @@
         "tempspreparation": 15,
         "tempstotal": 105,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "carotte, oignon, poireau, huile d'olive, cumin en poudre, persil, eau, ail, crème liquide, bouillon de volaille"
     },
     {
         "nom": "Soupe à la courgette et au curry",
@@ -656,7 +668,8 @@
         "tempspreparation": 30,
         "tempstotal": 60,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "courgette, oignon, curry, poivre, sel, huile, pomme de terre, ail, bouillon de volaille"
     },
     {
         "nom": "Velouté de courgettes",
@@ -687,7 +700,8 @@
         "tempspreparation": 10,
         "tempstotal": 25,
         "nombredepersonne": 2,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "courgette, bouillon, Vache qui rit®"
     },
     {
         "nom": "Potage velouté poireaux pommes de terre",
@@ -735,7 +749,8 @@
         "tempspreparation": 10,
         "tempstotal": 40,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "poireau, eau, crème fraîche, poivre, sel, beurre, pomme de terre, lait, basilic"
     },
     {
         "nom": "Soupe de légumes poêlés",
@@ -776,7 +791,8 @@
         "tempspreparation": 15,
         "tempstotal": 75,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "carotte, oignon, tomate, poireau, cube de bouillon, pomme de terre"
     },
     {
         "nom": "Tarte légère courgettes, jambon et chèvre gratiné",
@@ -827,7 +843,8 @@
         "tempspreparation": 30,
         "tempstotal": 85,
         "nombredepersonne": 8,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "courgette, poivre, sel, gruyère râpé, pâte brisée, chèvre, oeuf, crème liquide, jambon"
     },
     {
         "nom": "Petite soupe de carottes au lait de coco",
@@ -863,7 +880,8 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "carotte, oignon, eau, lait de coco"
     },
     {
         "nom": "Verrines bicolores kiwi-saumon",
@@ -901,7 +919,8 @@
         "tempspreparation": 15,
         "tempstotal": 15,
         "nombredepersonne": 8,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "crème fraîche liquide, mayonnaise, ciboulette, kiwi, saumon fumé"
     },
     {
         "nom": "Velouté aux poivrons et au boursin",
@@ -937,7 +956,8 @@
         "tempspreparation": 30,
         "tempstotal": 50,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "poivron rouge, oignon, cube de bouillon, pomme de terre, fromage ail et fines herbes"
     },
     {
         "nom": "La salade piémontaise de Jean-Pierre",
@@ -994,7 +1014,8 @@
         "tempspreparation": 45,
         "tempstotal": 75,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "huile, vinaigre, poivre, sel, moutarde, mayonnaise, tomate, oeuf, pomme de terre, jambon, cornichons"
     },
     {
         "nom": "Samoussa rapide au boeuf",
@@ -1052,7 +1073,8 @@
         "tempspreparation": 15,
         "tempstotal": 30,
         "nombredepersonne": 10,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "carotte, oignon, curry, gingembre, huile d'olive, huile de friture, brick, boeuf haché, ail, sauce soja, jaune d'oeuf"
     },
     {
         "nom": "Velouté de chou- fleur",
@@ -1103,7 +1125,8 @@
         "tempspreparation": 15,
         "tempstotal": 35,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "eau, origan, poivre, sel, beurre, crème fraîche, chou-fleur, pomme de terre, bouillon de volaille"
     },
     {
         "nom": "Terrine de canard noisettes et pistaches de Brigitte",
@@ -1189,7 +1212,8 @@
         "tempspreparation": 30,
         "tempstotal": 90,
         "nombredepersonne": 1,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "farine, persil, huile d'olive, sel, poivre, poivre vert, liqueur, orange, feuille de laurier, Magret de Canard, chair à saucisse, oeuf, échalote, ail, herbes de Provence, noisettes, pistaches, pistaches"
     },
     {
         "nom": "Soupe de cresson",
@@ -1234,7 +1258,8 @@
         "tempspreparation": 15,
         "tempstotal": 55,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "thym, beurre, bouillon, eau, cresson, pomme de terre, échalote"
     },
     {
         "nom": "Pâte pour cake salé",
@@ -1273,7 +1298,8 @@
         "tempspreparation": 10,
         "tempstotal": 50,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "farine, huile d'olive, levure chimique, oeuf, lait"
     },
     {
         "nom": "Salade melon, feta, jambon",
@@ -1327,7 +1353,8 @@
         "tempspreparation": 15,
         "tempstotal": 15,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "melon, feta, huile d'olive, thym, poivre, sel, eau, salade, jambon cru, jus de citron"
     },
     {
         "nom": "Quiche provençale",
@@ -1388,7 +1415,8 @@
         "tempspreparation": 30,
         "tempstotal": 75,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "pâte feuilletée, crème fraîche, oignon, poivron, tomate, poivre, sel, oeuf, gruyère, thon, olives vertes, herbes de Provence"
     },
     {
         "nom": "Croque monsieur d'aubergines",
@@ -1431,7 +1459,8 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 2,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "aubergine, tomate, moutarde, crème liquide, gruyère, herbes de Provence"
     },
     {
         "nom": "Velouté de brocolis",
@@ -1474,6 +1503,7 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": "oignon, poivre, sel, brocoli, bouillon de volaille, bouquet garni, crème"
     }
 ]

@@ -28,7 +28,8 @@
         "tempspreparation": 30,
         "tempstotal": 40,
         "nombredepersonne": 2,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "sucre, eau, citron"
     },
     {
         "nom": "Soupe champenoise",
@@ -59,7 +60,8 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 6,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "vin, sucre de canne, citron vert, cointreau"
     },
     {
         "nom": "Chocolat chaud du Père Noël",
@@ -89,7 +91,8 @@
         "tempspreparation": 10,
         "tempstotal": 20,
         "nombredepersonne": 4,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "chocolat pâtissier, lait entier, crème liquide"
     },
     {
         "nom": "Cocktail litchi, gingembre et champagne",
@@ -128,7 +131,8 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 20,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "gingembre confit, fraises, Alcool, litchi au sirop, litchi, champagne"
     },
     {
         "nom": "Soupe Champagne",
@@ -161,7 +165,8 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 6,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "sucre de canne, cointreau, citron, mousseux"
     },
     {
         "nom": "Liqueur de Lait aux Carambars façon Clochette",
@@ -214,7 +219,8 @@
         "tempspreparation": 30,
         "tempstotal": 30,
         "nombredepersonne": 6,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "rhum, sucre, gingembre, lait, cannelle, citron, citron vert, carambar©, autres"
     },
     {
         "nom": "Mojito cubain",
@@ -257,7 +263,8 @@
         "tempspreparation": 5,
         "tempstotal": 5,
         "nombredepersonne": 1,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "sucre de canne, rhum, citron vert, menthe, eau gazeuse, glaçons"
     },
     {
         "nom": "Limoncello (liqueur de citron)",
@@ -292,7 +299,8 @@
         "tempspreparation": 15,
         "tempstotal": 15,
         "nombredepersonne": 4,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "sucre, eau, citron, Alcool"
     },
     {
         "nom": "Grog au rhum",
@@ -327,7 +335,8 @@
         "tempspreparation": 5,
         "tempstotal": 8,
         "nombredepersonne": 1,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "rhum, miel, eau, citron"
     },
     {
         "nom": "Lait de poule pour Noël",
@@ -363,7 +372,8 @@
         "tempspreparation": 5,
         "tempstotal": 7,
         "nombredepersonne": 1,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "sucre, jaune d'oeuf, lait, cannelle, muscade"
     },
     {
         "nom": "Milk shake à la vanille",
@@ -399,7 +409,8 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 4,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "vanille, chocolat, lait entier, glace vanille, crème chantilly"
     },
     {
         "nom": "Sirop de menthe",
@@ -432,7 +443,8 @@
         "tempspreparation": 15,
         "tempstotal": 21,
         "nombredepersonne": 3,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "eau, sucre en poudre, menthe"
     },
     {
         "nom": "L'apéritif des bons vivants",
@@ -472,7 +484,8 @@
         "tempspreparation": 5,
         "tempstotal": 5,
         "nombredepersonne": 10,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "rhum, Pisang, jus d'orange, jus d'ananas, sirop de grenadine"
     },
     {
         "nom": "Milkshake glacé à la banane",
@@ -500,7 +513,8 @@
         "tempspreparation": 5,
         "tempstotal": 5,
         "nombredepersonne": 1,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "banane, lait, glace vanille"
     },
     {
         "nom": "Smoothie au kiwi",
@@ -538,7 +552,8 @@
         "tempspreparation": 2,
         "tempstotal": 2,
         "nombredepersonne": 1,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "eau, sucre, kiwi, glaçons, kiwi"
     },
     {
         "nom": "Punch coco de martinique",
@@ -584,7 +599,8 @@
         "tempspreparation": 30,
         "tempstotal": 60,
         "nombredepersonne": 5,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "rhum, sucre de canne, gingembre, vanille, lait de coco, lait concentré sucré, cannelle, muscade"
     },
     {
         "nom": "punch plaisir",
@@ -623,7 +639,8 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 4,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "rhum, vanille, sucre de canne, poivre, goyave, mangue, citron vert"
     },
     {
         "nom": "Smoothie au lait de coco",
@@ -653,7 +670,8 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 2,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "banane, jus d'ananas, lait de coco"
     },
     {
         "nom": "Chocolat chaud créole (par une cuisinière martiniquaise)",
@@ -703,7 +721,8 @@
         "tempspreparation": 45,
         "tempstotal": 55,
         "nombredepersonne": 6,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "lait demi-écrémé, vanille, chocolat noir, maïzena, cannelle, citron vert, lait concentré sucré, lait concentré non sucré"
     },
     {
         "nom": "Milk shake à la banane",
@@ -731,7 +750,8 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 4,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "banane, glace vanille, lait"
     },
     {
         "nom": "Milk shake léger aux fruits rouges",
@@ -760,7 +780,8 @@
         "tempspreparation": 1,
         "tempstotal": 1,
         "nombredepersonne": 2,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "sucre, lait, fruits rouges"
     },
     {
         "nom": "smoothie nectarine",
@@ -790,7 +811,8 @@
         "tempspreparation": 6,
         "tempstotal": 6,
         "nombredepersonne": 1,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "nectarine, yaourt nature, lait"
     },
     {
         "nom": "Sangria des Iles",
@@ -830,7 +852,8 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 10,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "rhum, banane, vanille, vin rouge, fruits, fruits"
     },
     {
         "nom": "Bailey's Maison",
@@ -871,7 +894,8 @@
         "tempspreparation": 15,
         "tempstotal": 15,
         "nombredepersonne": 2,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "sucre, sucre vanillé, whisky, jaune d'oeuf, cacao, café soluble, crème fraîche liquide"
     },
     {
         "nom": "Piña colada",
@@ -915,7 +939,8 @@
         "tempspreparation": 15,
         "tempstotal": 15,
         "nombredepersonne": 2,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "rhum, extrait de vanille, lait de coco, jus d'ananas, jus de banane, cannelle, muscade"
     },
     {
         "nom": "Smoothie bananapple",
@@ -946,7 +971,8 @@
         "tempspreparation": 5,
         "tempstotal": 5,
         "nombredepersonne": 1,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "banane, yaourt, pomme"
     },
     {
         "nom": "Punch lorrain",
@@ -982,7 +1008,8 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 5,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "eau, eau, sucre de canne, citron, glaçons"
     },
     {
         "nom": "Le vrai lassi à la mangue (Inde)",
@@ -1013,7 +1040,8 @@
         "tempspreparation": 2,
         "tempstotal": 2,
         "nombredepersonne": 4,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "sucre, yaourt brassé, mangue, lait"
     },
     {
         "nom": "Godinette à ma façon (apéritif breton)",
@@ -1048,7 +1076,8 @@
         "tempspreparation": 20,
         "tempstotal": 20,
         "nombredepersonne": 15,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "eau, fraises, sucre, muscadet"
     },
     {
         "nom": "Milk shake à la framboise",
@@ -1081,6 +1110,7 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 2,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": "sucre glace, framboises, lait, glaçons"
     }
 ]

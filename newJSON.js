@@ -16,6 +16,7 @@ function getIngredients(fichier_json, categories) {
     let unite = [];
     let newIngredients = [];
     let recettes = [];
+    let description =[];
 
     for (let i = 0; i < fichier.length; i++) {
         let nom = fichier[i].name;
@@ -26,6 +27,7 @@ function getIngredients(fichier_json, categories) {
         let tempspreparation = fichier[i].prepTime;
         let tempstotal = fichier[i].totalTime;
         let nombredepersonne = fichier[i].people;
+        let ingredients_recherche = fichier[i].description;
         output = [];
         quantite = [];
         unite = [];
@@ -43,9 +45,6 @@ function getIngredients(fichier_json, categories) {
         }
 
         //pour enlever les \n, \r et \" du texte des ingredients
-
-
-
 
         //pour les ingredients
         for (let i = 0; i < ingredients.length; i++) {
@@ -107,7 +106,8 @@ function getIngredients(fichier_json, categories) {
             "tempspreparation": tempspreparation,
             "tempstotal": tempstotal,
             "nombredepersonne": nombredepersonne,
-            "categorie": categories
+            "categorie": categories,
+            "ingredients_recherche": ingredients_recherche
         };
 
         quantite = [];

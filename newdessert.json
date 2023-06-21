@@ -41,7 +41,8 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat pâtissier, sucre en poudre, farine, levure, beurre, oeuf, amandes en poudre"
     },
     {
         "nom": "Panna cotta",
@@ -75,7 +76,8 @@
         "tempspreparation": 10,
         "tempstotal": 20,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre, gélatine, vanille, crème fraîche liquide"
     },
     {
         "nom": "Le trianon ou royal de Nadine",
@@ -151,7 +153,8 @@
         "tempspreparation": 120,
         "tempstotal": 135,
         "nombredepersonne": 8,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat noir, crème, Alcool, pralin, pralinoise, crêpe dentelle, sucre en poudre, farine, beurre, levure chimique, oeuf, poudre de noisette"
     },
     {
         "nom": "Tiramisu aux speculoos",
@@ -200,7 +203,8 @@
         "tempspreparation": 25,
         "tempstotal": 25,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre roux, sucre vanillé, spéculoos, amaretto, mascarpone, oeuf, café, cacao"
     },
     {
         "nom": "Cannelés (7ème rencontre Marmiton)",
@@ -250,7 +254,8 @@
         "tempspreparation": 10,
         "tempstotal": 70,
         "nombredepersonne": 16,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "vanille, rhum, farine, sucre en poudre, beurre, lait, oeuf, jaune d'oeuf"
     },
     {
         "nom": "Tarte au citron meringuée",
@@ -331,7 +336,8 @@
         "tempspreparation": 30,
         "tempstotal": 55,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre glace, levure chimique, blanc d'oeuf, sucre semoule, maïzena, citron, oeuf, farine, beurre doux, sucre semoule, eau, sel, jaune d'oeuf"
     },
     {
         "nom": "Gâteau aux pommes facile",
@@ -375,7 +381,8 @@
         "tempspreparation": 10,
         "tempstotal": 50,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre semoule, sucre vanillé, levure chimique, farine, oeuf, huile de colza, pomme"
     },
     {
         "nom": "Tarte frangipane aux poires et au chocolat",
@@ -419,7 +426,8 @@
         "tempspreparation": 10,
         "tempstotal": 40,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat, pâte feuilletée, beurre tendre, sucre en poudre, poire, oeuf, amandes en poudre"
     },
     {
         "nom": "Pain d'épices aux fruits secs facile",
@@ -496,7 +504,8 @@
         "tempspreparation": 15,
         "tempstotal": 50,
         "nombredepersonne": 8,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "miel, beurre, farine, levure, sel, gingembre, clou de girofle, noix, noix de coco, écorce d'orange, lait, cassonade, oeuf, cannelle, muscade, noisettes, amandes"
     },
     {
         "nom": "Galette des rois facile",
@@ -553,7 +562,8 @@
         "tempspreparation": 10,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "pâte feuilletée, beurre, sucre en poudre, vanille, maïzena, rhum, amandes, oeuf, jaune d'oeuf, liqueur d'amande, lait"
     },
     {
         "nom": "Financier minute (pour utiliser des blancs d'oeuf)",
@@ -589,7 +599,8 @@
         "tempspreparation": 10,
         "tempstotal": 30,
         "nombredepersonne": 4,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "farine, beurre, sucre, amandes en poudre, blanc d'oeuf"
     },
     {
         "nom": "Crème anglaise réussie, onctueuse à souhait",
@@ -631,7 +642,8 @@
         "tempspreparation": 15,
         "tempstotal": 25,
         "nombredepersonne": 50,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre, lait demi-écrémé, vanille, maïzena, jaune d'oeuf"
     },
     {
         "nom": "Gâteau au chocolat fondant rapide",
@@ -670,7 +682,8 @@
         "tempspreparation": 10,
         "tempstotal": 40,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat pâtissier, beurre, farine, sucre en poudre, oeuf"
     },
     {
         "nom": "Tarte aux pommes",
@@ -708,7 +721,8 @@
         "tempspreparation": 25,
         "tempstotal": 55,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "pâte brisée, sucre vanillé, beurre, pomme"
     },
     {
         "nom": "Gâteau d'anniversaire",
@@ -754,7 +768,8 @@
         "tempspreparation": 20,
         "tempstotal": 80,
         "nombredepersonne": 10,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "farine, sucre, sucre vanillé, levure chimique, huile, oeuf, lait"
     },
     {
         "nom": "Crème de citron (Lemon curd)",
@@ -796,7 +811,8 @@
         "tempspreparation": 20,
         "tempstotal": 30,
         "nombredepersonne": 4,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre, maïzena, citron, oeuf"
     },
     {
         "nom": "Galette des rois",
@@ -847,7 +863,8 @@
         "tempspreparation": 15,
         "tempstotal": 55,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "pâte feuilletée, sucre semoule, beurre tendre, extrait d'amande amère, amandes en poudre, oeuf, jaune d'oeuf, fèves"
     },
     {
         "nom": "Gâteau au chocolat des écoliers",
@@ -890,7 +907,8 @@
         "tempspreparation": 10,
         "tempstotal": 35,
         "nombredepersonne": 8,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat noir, beurre doux, sucre en poudre, farine, levure chimique, oeuf"
     },
     {
         "nom": "Pâte à crêpes (des plus raffinées)",
@@ -934,7 +952,8 @@
         "tempspreparation": 15,
         "tempstotal": 17,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "farine, sel, sucre en poudre, beurre, oeuf, lait, grand-marnier"
     },
     {
         "nom": "Gâteau Banane de Stéph",
@@ -982,7 +1001,8 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "farine, sucre, levure, beurre, banane, rhum, vanille, oeuf"
     },
     {
         "nom": "Baba au rhum express",
@@ -1038,7 +1058,8 @@
         "tempspreparation": 20,
         "tempstotal": 45,
         "nombredepersonne": 1,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "farine, beurre, sucre en poudre, levure chimique, eau, rhum, lait, oeuf, sirop de sucre de canne"
     },
     {
         "nom": "Pancakes : la vraie recette",
@@ -1087,7 +1108,8 @@
         "tempspreparation": 5,
         "tempstotal": 41,
         "nombredepersonne": 18,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "farine, sel, sucre, sucre vanillé, levure chimique, beurre, oeuf, lait"
     },
     {
         "nom": "Mousse au citron et au Mascarpone (très facile)",
@@ -1120,7 +1142,8 @@
         "tempspreparation": 5,
         "tempstotal": 5,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre, crème fraîche, mascarpone, jus de citron"
     },
     {
         "nom": "Ramequins au chocolat aux coeurs fondants",
@@ -1162,7 +1185,8 @@
         "tempspreparation": 15,
         "tempstotal": 30,
         "nombredepersonne": 4,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat pâtissier, chocolat, beurre, farine, sucre, oeuf"
     },
     {
         "nom": "Canelés bordelais",
@@ -1218,7 +1242,8 @@
         "tempspreparation": 15,
         "tempstotal": 90,
         "nombredepersonne": 16,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "vanille, rhum, farine, sucre en poudre, beurre doux, sel, lait, oeuf, jaune d'oeuf"
     },
     {
         "nom": "Tarte chocolat - poires facile",
@@ -1263,7 +1288,8 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat noir, crème fraîche, sucre, pâte sablée, lait, oeuf, poire"
     },
     {
         "nom": "Galette des rois à la frangipane",
@@ -1308,7 +1334,8 @@
         "tempspreparation": 10,
         "tempstotal": 30,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "pâte feuilletée, sucre fin, beurre tendre, amandes en poudre, oeuf, jaune d'oeuf, fèves"
     },
     {
         "nom": "Tiramisu aux framboises : la recette inratable",
@@ -1354,7 +1381,8 @@
         "tempspreparation": 25,
         "tempstotal": 25,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre roux, sucre vanillé, biscuits à la cuillère, oeuf, mascarpone, lait, framboises"
     },
     {
         "nom": "Muffins de Sandrine",
@@ -1409,7 +1437,8 @@
         "tempspreparation": 20,
         "tempstotal": 40,
         "nombredepersonne": 15,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "beurre, sucre, sucre vanillé, farine de blé, miel liquide, levure chimique, chocolat, sel, oeuf, lait"
     },
     {
         "nom": "Moelleux au chocolat",
@@ -1449,7 +1478,8 @@
         "tempspreparation": 15,
         "tempstotal": 25,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat, beurre, sucre glace, farine, oeuf"
     },
     {
         "nom": "Charlotte aux fruits d'été",
@@ -1495,7 +1525,8 @@
         "tempspreparation": 15,
         "tempstotal": 15,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "biscuits à la cuillère, fromage blanc, sucre glace, jus d'orange, mascarpone, framboises, pêche"
     },
     {
         "nom": "Fondant au chocolat plus que fondant",
@@ -1536,7 +1567,8 @@
         "tempspreparation": 15,
         "tempstotal": 35,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat pâtissier, beurre, sucre, maïzena, oeuf"
     },
     {
         "nom": "Cookies aux pépites de chocolat super moelleux",
@@ -1588,7 +1620,8 @@
         "tempspreparation": 15,
         "tempstotal": 25,
         "nombredepersonne": 45,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "beurre, chocolat, farine, sucre semoule, levure, sel, oeuf, sucre brun"
     },
     {
         "nom": "Clafoutis grand-mère aux cerises",
@@ -1636,7 +1669,8 @@
         "tempspreparation": 10,
         "tempstotal": 40,
         "nombredepersonne": 8,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "beurre, farine, sucre en poudre, sucre vanillé, sel, sucre glace, cerises, oeuf, lait"
     },
     {
         "nom": "Petits gâteaux tout chocolat",
@@ -1675,7 +1709,8 @@
         "tempspreparation": 10,
         "tempstotal": 25,
         "nombredepersonne": 9,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "beurre, farine, sucre, oeuf, crème dessert au chocolat"
     },
     {
         "nom": "Tarte à la rhubarbe rapide",
@@ -1727,7 +1762,8 @@
         "tempspreparation": 15,
         "tempstotal": 50,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre en poudre, crème fraîche, rhubarbe, oeuf, farine, beurre, eau, sel, jaune d'oeuf"
     },
     {
         "nom": "Pain perdu",
@@ -1760,7 +1796,8 @@
         "tempspreparation": 15,
         "tempstotal": 30,
         "nombredepersonne": 4,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre de canne, lait, oeuf, pain"
     },
     {
         "nom": "Amour de petit train d'anniversaire",
@@ -1822,7 +1859,8 @@
         "tempspreparation": 30,
         "tempstotal": 35,
         "nombredepersonne": 10,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "biscuit, palets bretons, cigarette russe, petit beurre, Paille d'Or, dragibus (bonbons), sucre glace, chocolat pâtissier, beurre, lait, gâteaux"
     },
     {
         "nom": "Brownie vite fait",
@@ -1864,7 +1902,8 @@
         "tempspreparation": 15,
         "tempstotal": 35,
         "nombredepersonne": 4,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre en poudre, chocolat pâtissier, beurre, farine, oeuf"
     },
     {
         "nom": "Brownies aux noix",
@@ -1912,7 +1951,8 @@
         "tempspreparation": 20,
         "tempstotal": 40,
         "nombredepersonne": 8,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat, beurre, sucre en poudre, farine, sucre glace, cerneau de noix, oeuf"
     },
     {
         "nom": "Petits biscuits de Noël",
@@ -1975,7 +2015,8 @@
         "tempspreparation": 15,
         "tempstotal": 23,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "gingembre, cannelle, muscade, girofle, citron, jaune d'oeuf, farine, beurre tendre, sucre, levure, amandes, oeuf"
     },
     {
         "nom": "'The' tarte aux fraises",
@@ -2039,7 +2080,8 @@
         "tempspreparation": 15,
         "tempstotal": 35,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "farine, sucre, sucre vanillé, fraises, lait, oeuf, farine, beurre, sucre, eau, sel, jaune d'oeuf"
     },
     {
         "nom": "Langues de chat",
@@ -2078,7 +2120,8 @@
         "tempspreparation": 15,
         "tempstotal": 23,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "beurre, sucre en poudre, farine, vanille, blanc d'oeuf"
     },
     {
         "nom": "Charlotte aux fraises",
@@ -2134,7 +2177,8 @@
         "tempspreparation": 60,
         "tempstotal": 60,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "sucre en poudre, gélatine, fraises, sucre vanillé, biscuits à la cuillère, Alcool, citron, crème liquide, glaçons"
     },
     {
         "nom": "Madeleines au miel",
@@ -2181,7 +2225,8 @@
         "tempspreparation": 15,
         "tempstotal": 20,
         "nombredepersonne": 24,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "beurre, sucre en poudre, miel, farine, levure, sel, oeuf, citron"
     },
     {
         "nom": "Fondant à la crème de marrons et au chocolat",
@@ -2216,7 +2261,8 @@
         "tempspreparation": 10,
         "tempstotal": 35,
         "nombredepersonne": 8,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "chocolat noir, beurre, crème de marrons, oeuf"
     },
     {
         "nom": "Muffins à la banane",
@@ -2261,7 +2307,8 @@
         "tempspreparation": 10,
         "tempstotal": 30,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "banane, sucre, bicarbonate, levure, sel, farine, beurre, oeuf"
     },
     {
         "nom": "Cookies pépites aux flocons d'avoine",
@@ -2310,7 +2357,8 @@
         "tempspreparation": 10,
         "tempstotal": 20,
         "nombredepersonne": 26,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "farine, levure, sucre vanillé, chocolat, sucre roux, beurre tendre, flocons d'avoine, oeuf, margarine"
     },
     {
         "nom": "Bavarois aux fraises sur génoise",
@@ -2378,7 +2426,8 @@
         "tempspreparation": 50,
         "tempstotal": 550,
         "nombredepersonne": 12,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "gélatine, coulis de fruits rouges, fraises, gélatine, sucre, citron, crème liquide, sucre, farine, jaune d'oeuf, blanc d'oeuf"
     },
     {
         "nom": "Amour de crumble aux pommes",
@@ -2426,6 +2475,7 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "dessert"
+        "categorie": "dessert",
+        "ingredients_recherche": "farine, sucre vanillé, beurre, sel, orange, pomme, cassonade, cannelle"
     }
 ]

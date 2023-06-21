@@ -42,7 +42,8 @@
         "tempspreparation": 30,
         "tempstotal": 90,
         "nombredepersonne": 6,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "moutarde de Dijon, poivre, sel, rôti de porc, ail, échalote, crème fraîche allégée"
     },
     {
         "nom": "Chili con carne facile",
@@ -102,7 +103,8 @@
         "tempspreparation": 10,
         "tempstotal": 35,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "beurre, oignon, chili, cumin en poudre, haricots rouges, bouillon de boeuf, sel, poivre, persil, ail, boeuf haché, concentré de tomates"
     },
     {
         "nom": "Couscous poulet et merguez facile",
@@ -164,7 +166,8 @@
         "tempspreparation": 30,
         "tempstotal": 65,
         "nombredepersonne": 6,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "merguez, huile d'olive, harissa, cube de bouillon, tomate, carotte, courgette, pois chiches, pilon de poulet, concentré de tomates, épices à couscous, navet"
     },
     {
         "nom": "Filet mignon de porc à la moutarde",
@@ -214,7 +217,8 @@
         "tempspreparation": 18,
         "tempstotal": 65,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "bouillon de légumes, crème fraîche, moutarde, huile d'olive, beurre, filet mignon, vin blanc sec, champignon"
     },
     {
         "nom": "Carbonades flamandes traditionnelles",
@@ -272,7 +276,8 @@
         "tempspreparation": 30,
         "tempstotal": 220,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, lard fumé, pain d'épices, beurre, sel, moutarde, boeuf, cassonade, bouquet garni, bière brune"
     },
     {
         "nom": "Paupiettes de veau",
@@ -320,7 +325,8 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 2,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "huile d'olive, fond de veau, eau, moutarde de Dijon, vinaigre balsamique, paupiette de veau, ail, vin blanc"
     },
     {
         "nom": "Tarte tatin de légumes",
@@ -376,7 +382,8 @@
         "tempspreparation": 30,
         "tempstotal": 60,
         "nombredepersonne": 6,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "courgette, poivron, oignon, tomate, aubergine, huile d'olive, poivre, sel, Parmesan, pâte brisée, herbes de Provence"
     },
     {
         "nom": "Sauté de veau de Lisbonne",
@@ -436,7 +443,8 @@
         "tempspreparation": 15,
         "tempstotal": 75,
         "nombredepersonne": 3,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "porto, oignon, thym, poivre, sel, sauté de veau, chorizo, pomme de terre, olives noires, concentré de tomates, ail"
     },
     {
         "nom": "Crevettes au curry express",
@@ -469,7 +477,8 @@
         "tempspreparation": 10,
         "tempstotal": 15,
         "nombredepersonne": 2,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "curry, huile d'olive, crevette rose, crème"
     },
     {
         "nom": "Endive jambon",
@@ -509,7 +518,8 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "gruyère râpé, beurre, endive, jambon, crème fraîche liquide, ail"
     },
     {
         "nom": "Pâte à pizza fine",
@@ -547,7 +557,8 @@
         "tempspreparation": 60,
         "tempstotal": 70,
         "nombredepersonne": 3,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "farine, levure, sel, eau, sucre"
     },
     {
         "nom": "Lapin à la moutarde maison",
@@ -613,7 +624,8 @@
         "tempspreparation": 0,
         "tempstotal": 60,
         "nombredepersonne": 1,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "moutarde de Dijon, crème fraîche, huile d'olive, feuille de laurier, thym, persil, poivre, sel, sucre, carotte, lapin, vin blanc sec, ail, échalote"
     },
     {
         "nom": "Pâte à pizza pour MAP (machine à pain)",
@@ -656,7 +668,8 @@
         "tempspreparation": 5,
         "tempstotal": 5,
         "nombredepersonne": 2,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "eau, huile d'olive, sel, farine, levure, fromage râpé, herbes de Provence"
     },
     {
         "nom": "Cuisse de canard à l'orientale",
@@ -725,7 +738,8 @@
         "tempspreparation": 20,
         "tempstotal": 80,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, cumin, gingembre, coriandre, miel, vinaigre balsamique, cube de bouillon, crème fraîche, eau, poivre, sel, cuisse de canard, ail, raisins secs"
     },
     {
         "nom": "Boeuf braisé aux carottes",
@@ -787,7 +801,8 @@
         "tempspreparation": 20,
         "tempstotal": 80,
         "nombredepersonne": 6,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, thym, bouillon de boeuf, poivre, sel, carotte, paleron, lard, matière grasse, concentré de tomates, laurier, sauge, ail"
     },
     {
         "nom": "Filet de poulet au curry",
@@ -840,7 +855,8 @@
         "tempspreparation": 10,
         "tempstotal": 25,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, huile d'olive, curry, sel, poivre, filet de poulet, ail, sauce soja, ciboulette, crème fraîche épaisse"
     },
     {
         "nom": "Quiche lorraine maison",
@@ -895,7 +911,8 @@
         "tempspreparation": 10,
         "tempstotal": 55,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "pâte brisée, lardons, beurre, crème fraîche, sel, poivre, oeuf, lait, muscade"
     },
     {
         "nom": "Pâte brisée vite faite",
@@ -932,7 +949,8 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 1,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "farine, beurre, sel, sucre, eau"
     },
     {
         "nom": "Ratatouille",
@@ -994,7 +1012,8 @@
         "tempspreparation": 25,
         "tempstotal": 80,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "aubergine, courgette, poivron, oignon, tomate, huile d'olive, thym, feuille de laurier, poivre, sel, ail"
     },
     {
         "nom": "Amour de saumon en papillote",
@@ -1051,7 +1070,8 @@
         "tempspreparation": 25,
         "tempstotal": 50,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "tomates cerise, aneth, huile d'olive, sel, poivre, saumon frais, champignon de Paris, ail, citron"
     },
     {
         "nom": "Blanquette de veau maison",
@@ -1124,7 +1144,8 @@
         "tempspreparation": 45,
         "tempstotal": 105,
         "nombredepersonne": 6,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "carotte, poireau, oignon, persil, crème fraîche, farine, beurre, épaule de veau, ail, échalote, céleri, bouquet garni, citron, champignon de Paris, vin blanc sec, jaune d'oeuf"
     },
     {
         "nom": "Poulet à la moutarde, à l'estragon et aux champignons",
@@ -1179,7 +1200,8 @@
         "tempspreparation": 10,
         "tempstotal": 40,
         "nombredepersonne": 2,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "cube de bouillon, moutarde, huile d'olive, sel, poivre, blanc de poulet, champignon de Paris, crème fraîche allégée, estragon, échalote"
     },
     {
         "nom": "Filet mignon de porc aux courgettes",
@@ -1232,7 +1254,8 @@
         "tempspreparation": 20,
         "tempstotal": 45,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "courgette, huile d'olive, beurre, poivre, sel, filet mignon, raisins secs, bouillon de volaille, ail, bouquet garni"
     },
     {
         "nom": "Emincé de poulet aux épices et au miel",
@@ -1286,7 +1309,8 @@
         "tempspreparation": 5,
         "tempstotal": 20,
         "nombredepersonne": 3,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, beurre, huile, miel liquide, poivre, sel, escalope de poulet, ail, cannelle, sauce soja"
     },
     {
         "nom": "Blanc de poulet aux endives, champignons et lardons",
@@ -1346,7 +1370,8 @@
         "tempspreparation": 15,
         "tempstotal": 55,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, crème fraîche, cognac, farine, beurre, persil, poivre, sel, blanc de poulet, endive, lardons fumés, champignon de Paris"
     },
     {
         "nom": "Pâte à pizza inratable",
@@ -1391,7 +1416,8 @@
         "tempspreparation": 15,
         "tempstotal": 30,
         "nombredepersonne": 2,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "farine, sucre, sel, levure de boulanger fraîche, eau, huile d'olive, fécule de pomme de terre"
     },
     {
         "nom": "Quiche poireaux, chèvre lardons",
@@ -1444,7 +1470,8 @@
         "tempspreparation": 20,
         "tempstotal": 55,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "pâte brisée, poireau, crème fraîche, poivre, sel, lardons fumés, fromage de chèvre, oeuf, lait"
     },
     {
         "nom": "Poulet basquaise",
@@ -1497,7 +1524,8 @@
         "tempspreparation": 20,
         "tempstotal": 80,
         "nombredepersonne": 6,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "tomate, poivron, oignon, huile d'olive, sel, poivre, poulet, ail, vin blanc, bouquet garni"
     },
     {
         "nom": "Tagliatelles à la crème de poireaux",
@@ -1547,7 +1575,8 @@
         "tempspreparation": 15,
         "tempstotal": 30,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "poireau, lardons, crème fraîche, beurre, poivre, sel, Parmesan, tagliatelles"
     },
     {
         "nom": "Boeuf bourguignon : la vraie recette",
@@ -1595,7 +1624,8 @@
         "tempspreparation": 60,
         "tempstotal": 300,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, carotte, beurre, sel, poivre, bourguignon, bouquet garni, vin rouge"
     },
     {
         "nom": "Tartiflette : la vraie recette",
@@ -1645,7 +1675,8 @@
         "tempspreparation": 15,
         "tempstotal": 75,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, reblochon, huile, sel, poivre, pomme de terre, lardons fumés, ail"
     },
     {
         "nom": "Chili con carne express",
@@ -1698,7 +1729,8 @@
         "tempspreparation": 5,
         "tempstotal": 35,
         "nombredepersonne": 3,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, haricots rouges, chili, poivre, sel, huile d'olive, ail, viande hachée, tomates pelées"
     },
     {
         "nom": "Papillote de saumon à la mozzarella",
@@ -1755,7 +1787,8 @@
         "tempspreparation": 15,
         "tempstotal": 50,
         "nombredepersonne": 2,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "tomate, poivre, sel, huile d'olive, saumon, mozzarella, herbes de Provence, basilic, olives noires, ail"
     },
     {
         "nom": "Tajine de poulet à la marocaine",
@@ -1832,7 +1865,8 @@
         "tempspreparation": 40,
         "tempstotal": 85,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, cumin, safran, gingembre, pois chiches, eau, miel, poivre, sel, cuisse de poulet, ail, tomates pelées, paprika, mélange 4 épices, cannelle, citron, raisins secs"
     },
     {
         "nom": "Osso bucco milanaise",
@@ -1901,7 +1935,8 @@
         "tempspreparation": 40,
         "tempstotal": 100,
         "nombredepersonne": 6,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, carotte, persil, feuille de laurier, farine, huile d'olive, poivre, sel, jarret de veau, pulpe de tomate, ail, citron, céleri, vin blanc, bouillon de volaille"
     },
     {
         "nom": "Poulet curry et oignons facile",
@@ -1950,7 +1985,8 @@
         "tempspreparation": 5,
         "tempstotal": 20,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon jaune, curry, cumin, piment, poivre, sel, blanc de poulet, crème fraîche allégée"
     },
     {
         "nom": "Tajine traditionnel (Maroc)",
@@ -2017,7 +2053,8 @@
         "tempspreparation": 15,
         "tempstotal": 75,
         "nombredepersonne": 3,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "courgette, tomate, carotte, oignon, huile d'olive, cumin, épices, safran, poivre, sel, eau, selle d'agneau, pomme de terre, olives vertes"
     },
     {
         "nom": "Lasagnes végétariennes (facile)",
@@ -2077,7 +2114,8 @@
         "tempspreparation": 45,
         "tempstotal": 80,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "tomate, courgette, poivre, sel, lasagnes, gruyère râpé, oignon, basilic frais, herbes de Provence, coulis de tomate, béchamel"
     },
     {
         "nom": "Blanquette de crevettes",
@@ -2138,7 +2176,8 @@
         "tempspreparation": 15,
         "tempstotal": 55,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "carotte, tomate, crème fraîche, maïzena, beurre, oignon, poivre, sel, crevette rose, vin blanc sec, bouquet garni, citron vert"
     },
     {
         "nom": "Joue de porc à la bière",
@@ -2189,7 +2228,8 @@
         "tempspreparation": 5,
         "tempstotal": 145,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "beurre, huile, oignon, lardons, miel, bière, poivre, sel, joue de porc"
     },
     {
         "nom": "Paupiettes de veau aux oignons et tomates",
@@ -2250,7 +2290,8 @@
         "tempspreparation": 45,
         "tempstotal": 80,
         "nombredepersonne": 2,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon jaune, tomate, huile d'olive, poivre, sel, paupiette de veau, ail, vin blanc, olives noires, champignon de Paris, herbes de Provence, basilic"
     },
     {
         "nom": "Papillotes de saumon au miel, curry et gingembre",
@@ -2300,7 +2341,8 @@
         "tempspreparation": 10,
         "tempstotal": 30,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "crème fraîche, gingembre, curry, miel, beurre, oignon, sel, poivre, saumon"
     },
     {
         "nom": "Cailles à la moutarde et au miel",
@@ -2342,7 +2384,8 @@
         "tempspreparation": 10,
         "tempstotal": 70,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "miel, beurre, moutarde de Dijon, sel, poivre, caille"
     },
     {
         "nom": "Gratin de Courgettes à la viande",
@@ -2391,7 +2434,8 @@
         "tempspreparation": 60,
         "tempstotal": 120,
         "nombredepersonne": 6,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "courgette, oignon, gruyère râpé, poivre, sel, viande hachée, coulis de tomate, crème fraîche liquide"
     },
     {
         "nom": "Blanquette de veau de la Baronne",
@@ -2452,7 +2496,8 @@
         "tempspreparation": 20,
         "tempstotal": 140,
         "nombredepersonne": 6,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "carotte, oignon, farine, beurre, crème fraîche, gros sel, blanquette de veau, petit os de veau, bouquet garni, citron, jaune d'oeuf"
     },
     {
         "nom": "Brochettes de poulet express aux épices",
@@ -2499,7 +2544,8 @@
         "tempspreparation": 5,
         "tempstotal": 15,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "huile d'olive, moutarde, poivre, sel, miel liquide, curry, cumin, blanc de poulet"
     },
     {
         "nom": "Lasagnes",
@@ -2573,7 +2619,8 @@
         "tempspreparation": 90,
         "tempstotal": 125,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "beurre, maïzena, lait, pâtes à lasagne, tomate, purée de tomate, oignon, carotte, huile d'olive, poivre, sel, boeuf haché, saucisse, céleri, basilic, mozzarella"
     },
     {
         "nom": "risotto aux poireaux",
@@ -2620,7 +2667,8 @@
         "tempspreparation": 10,
         "tempstotal": 30,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "poireau, cube de bouillon, beurre, crème fraîche, riz pour risotto, vin blanc sec, parmesan râpé"
     },
     {
         "nom": "Blanquette de poisson",
@@ -2671,7 +2719,8 @@
         "tempspreparation": 10,
         "tempstotal": 40,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "oignon, poivre, sel, farine, lieu noir, champignon de Paris, vin blanc, crème fraîche liquide, bouquet garni"
     },
     {
         "nom": "Lasagnes à la bolognaise très facile",
@@ -2724,6 +2773,7 @@
         "tempspreparation": 20,
         "tempstotal": 65,
         "nombredepersonne": 4,
-        "categorie": "plat"
+        "categorie": "plat",
+        "ingredients_recherche": "farine, beurre, lait, pâtes à lasagne, sauce bolognaise, oignon, gruyère râpé, viande hachée"
     }
 ]
