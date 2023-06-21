@@ -15,7 +15,9 @@
 
     $result_query = $mysqli->query($query);
 
-    $hashed_password = $result_query['password_user'];
+    $result_password = $result_query->fetch_assoc();
+
+    $hashed_password = $result_password['password_user'];
 
     if ($result_query->num_rows > 0) {
         // check password
@@ -26,7 +28,7 @@
             exit();
         }
     } 
-    
+
     echo "<p>Nom d'utilisateur ou mot de passe incorrect.</p>";
 
     header("Location: connexion.php?error=connexion");
