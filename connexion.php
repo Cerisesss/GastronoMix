@@ -17,11 +17,10 @@ require 'Function.php';
     <div id="menu">
         <ul>
             <h2>Menu</h2>
-            <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
-            <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
-            <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
-            <li><a href="http://localhost/gastronomix/dessert.php">🍽️ Dessert</a></li>
-            <li><a href="http://localhost/gastronomix/boisson.php">🍽️ Boisson</a></li>
+            
+            <?php
+                MenuDeroulantDeconnecter();
+            ?>
         </ul>
     </div>
 

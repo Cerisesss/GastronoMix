@@ -1,5 +1,11 @@
 <?php
-require 'Function.php';
+    require 'Function.php';
+    session_start();
+
+    if (isset($_GET['pseudo'])) {
+        $pseudo = $_GET['pseudo'];
+        $_SESSION['pseudo_user'] = $pseudo;
+    }
 ?>
 
 <!DOCTYPE html>
@@ -15,11 +21,14 @@ require 'Function.php';
         <div id="menu">
             <ul>
                 <h2>Menu</h2>
-                <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
-                <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
-                <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
-                <li><a href="http://localhost/gastronomix/dessert.php">🍽️ Dessert</a></li>
-                <li><a href="http://localhost/gastronomix/boisson.php">🍽️ Boisson</a></li>
+                
+                <?php 
+                    if(isset($_SESSION['pseudo_user'])) {
+                        MenuDeroulantConnecter($pseudo);
+                    } else {
+                        MenuDeroulantDeconnecter();
+                    }
+                ?>
             </ul>
         </div>
 
