@@ -8,26 +8,21 @@
     $mail_user = $_POST['mail_user'];
     $password_user = $_POST['password_user'];
 
-    // Effectuer les validations nécessaires
 
     // Requête pour vérifier les informations de connexion dans la base de données
-    $query = "SELECT * FROM user WHERE mail_user = '$mail_user' AND password_user = '$password_user'";
+    $query = "SELECT * FROM user WHERE pseudo_user = '$pseudo_user' AND mail_user = '$mail_user' AND password_user = '$password_user'";
     $result_query = $mysqli->query($query);
 
-    $pseudo_user = $result_query->fetch_assoc();
-    
     if ($result_query->num_rows > 0) {
-        $pseudo_user = $pseudo_user['pseudo_user'];
+        echo "<p>Connexion réussie.</p>";
 
         header("Location: Accueil.php?pseudo=$pseudo_user");
-        exit("Connexion réussie.");
-
-        echo "<p>Connexion réussie.</p>";
+        exit();
     } else {
-        header("Location: connexion.php?pseudo=$pseudo_user");
-        exit("Nom d'utilisateur ou mot de passe incorrect.");
-
         echo "<p>Nom d'utilisateur ou mot de passe incorrect.</p>";
+
+        header("Location: connexion.php?error=connexion");
+        exit();
     }
 
     $mysqli->close();
