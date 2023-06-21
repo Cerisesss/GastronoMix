@@ -44,8 +44,8 @@ session_start();
 $mysqli = ConnectionDatabase();
 
 // Vérifier si l'utilisateur est connecté
-if (isset($_SESSION['user'])) {
-    $user_id = $_SESSION['user'];
+if (isset($_SESSION['id'])) {
+    $user_id = $_SESSION['id'];
 
     $query = "SELECT r.image_recette, r.titre
               FROM recette AS r

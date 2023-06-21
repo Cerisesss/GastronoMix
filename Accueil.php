@@ -2,10 +2,7 @@
 require 'Function.php';
 session_start();
 
-if (isset($_SESSION['id_user'])) {
-    header('Location: favoris.php');
-    exit;
-}
+
 ?>
 
 <!DOCTYPE html>
@@ -43,7 +40,7 @@ if (isset($_SESSION['id_user'])) {
         <h1>GastronoMix</h1>
 
         <?php
-    if (isset($_SESSION['user'])) {
+    if (isset($_SESSION['id'])) {
         echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
         echo '<div id="compte">';
         echo '<ul>';
@@ -86,14 +83,7 @@ for ($i = 0; $i < count($categorie); $i++) {
         echo '<img src="' . $row['image_recette'] . '" alt="Image de la recette"><br>';
         echo $lienRecette . '<br>';
 
-        // Affichage du bouton d'ajout aux favoris
-        if (isset($_SESSION['id_user'])) {
-            $id_recette = $row['id_recette'];
-            echo '<form action="" method="post">';
-            echo '<input type="hidden" name="favori_recette" value="' . $id_recette . '">';
-            echo '<button class="Button" type="submit">Ajouter aux favoris</button>';
-            echo '</form>';
-        }
+        
 
         echo "<br>";
     }
