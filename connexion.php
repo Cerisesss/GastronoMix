@@ -10,7 +10,7 @@ if (!empty($_POST['mail_user']) && !empty($_POST['password_user'])) {
 
     $mail = strtolower($mail); 
 
-    $check = $bdd->prepare('SELECT pseudo_user, mail_user, password_user FROM user WHERE mail_user = ?');
+    $check = $bdd->prepare('SELECT pseudo_user, mail_user, password_user,id_user FROM user WHERE mail_user = ?');
     $check->bind_param("s", $mail);
     $check->execute();
     $result = $check->get_result(); 
@@ -23,7 +23,8 @@ if (!empty($_POST['mail_user']) && !empty($_POST['password_user'])) {
         if (filter_var($mail, FILTER_VALIDATE_EMAIL)) {
            
             if (password_verify($password, $data['password_user'])) {
-                $_SESSION['user'] = $data['pseudo_user']; // Correction : utilisez le pseudo de l'utilisateur plutôt que le token
+                $_SESSION['user'] = $data['pseudo_user']; 
+                $_SESSION['id'] = $data['id_user']; // Correction : utilisez le pseudo de l'utilisateur plutôt que le token
                 header('Location: Accueil.php');
                 exit();
             } else {

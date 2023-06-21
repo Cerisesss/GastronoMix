@@ -108,12 +108,32 @@ session_start();
 
                 echo "<br>";
 
-                if (isset($_SESSION['user'])) {// L'utilisateur est connecté, afficher le formulaire pour ajouter aux favoris
-                echo '<form id="ajouter-favoris-form" method="post">';
+                if (isset($_SESSION['id'])) {// L'utilisateur est connecté, afficher le formulaire pour ajouter aux favoris
+                echo '<form id="ajouter-favoris-form" method="POST" action="ajouter_aux_favoris.php">';
                 echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
                 echo '<input type="submit" value="Ajouter aux favoris">';
                 echo '</form>';
+                echo '<form id="noter-recette-form" method="POST" action="noter_recette.php">';
+                echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
+                echo '<label for="note">Note :</label>';
+                echo '<select name="note" id="note">';
+                echo '<option value="1">1</option>';
+                echo '<option value="2">2</option>';
+                echo '<option value="3">3</option>';
+                echo '<option value="4">4</option>';
+                echo '<option value="5">5</option>';
+                echo '</select>';
+                echo '<input type="submit" value="Noter">';
+                echo '</form>';
+
+
+                /*echo '<form id="commenter-recette-form" method="POST" action="ajouter_commentaire.php">';
+                echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
+                echo '<textarea name="commentaire" placeholder="Ajouter un commentaire"></textarea>';
+                echo '<input type="submit" value="Ajouter un commentaire">';
+                echo '</form>';*/
             }
+            
         }
         } else {
             echo "<p>Aucun résultat.</p>";
