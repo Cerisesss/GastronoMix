@@ -14,11 +14,17 @@
     
     foreach($recetteJson as $index_nom_json => $nom_json) {
         foreach($nom_json as $index_recette => $recette) {
+            //recup l'id_categorie selon le nom de la categorie (tiens Léa PEDRA c'est pour toi ça)
+            $query_id_categorie = "SELECT id_categorie FROM categorie WHERE libelle_categorie = \"$recette->categorie\";";
+            $result_id_categorie = $mysqli->query($query_id_categorie);
+
+            $result_id_categorie = $result_id_categorie->fetch_assoc();
+            $id_categorie = $result_id_categorie['id_categorie'];
 
             //affiche que la premiere recette
             
-            $query_recette = "INSERT INTO recette(titre, source, categorie_recette, image_recette, nb_personne, temps_prep_recette, temps_total_recette, difficulte)
-                            VALUES(\"$recette->nom\", \"$recette->source\", \"$recette->categorie\", \"$recette->image\", \"$recette->nombredepersonne\", \"$recette->tempspreparation\", \"$recette->tempstotal\", \"$recette->difficulte\");";
+            $query_recette = "INSERT INTO recette(titre, source, categorie_recette, image_recette, nb_personne, temps_prep_recette, temps_total_recette, difficulte, id_categorie)
+                            VALUES(\"$recette->nom\", \"$recette->source\", \"$recette->categorie\", \"$recette->image\", \"$recette->nombredepersonne\", \"$recette->tempspreparation\", \"$recette->tempstotal\", \"$recette->difficulte\", $id_categorie);";
 
             $result_recette = $mysqli->query($query_recette);
 
@@ -71,7 +77,8 @@
                     echo "ajout avec succes  : " . $query_ingredient . "\n";
                 }
             }
-
+            
+            //recup l'id_recette selon le nom de la recette
             $query_id_recette = "SELECT id_recette FROM recette WHERE titre = \"$recette->nom\";";
             $result_id_recette = $mysqli->query($query_id_recette);
 
@@ -100,6 +107,7 @@
             }
 
 
+            //ajout des etapes
             foreach($recette->etapes as $key_etapes => $texte_etapes) {
                 $key_etapes++;
                 $query_etape = "INSERT INTO etape(id_etape, texte_etape, id_recette)
