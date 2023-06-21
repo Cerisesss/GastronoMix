@@ -19,6 +19,36 @@
             exit();
         }
     }
+
+
+    function MenuDeroulantConnecter($pseudo) {
+        echo '<li><a href="http://localhost/gastronomix/Accueil.php?pseudo=' . $pseudo . '">🍽️ Accueil</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/entree.php?pseudo=' . $pseudo . '">🍽️ Entrée</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/plat.php?pseudo=' . $pseudo . '">🍽️ Plat</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/dessert.php?pseudo=' . $pseudo . '">🍽️ Dessert</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/boisson.php?pseudo=' . $pseudo . '">🍽️ Boisson</a></li>';
+    }
+
+    function MenuDeroulantDeconnecter() {
+        echo '<li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/dessert.php">🍽️ Dessert</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/boisson.php">🍽️ Boisson</a></li>';
+    }
+
+    function MenuDeroulantCompte($pseudo) {
+        echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
+        echo '<div id="compte">';
+        echo '<ul>';
+        echo '<li><a href="http://localhost/gastronomix/profil.php?pseudo=' . $pseudo . '">⚙️ Profil</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/favoris.php?pseudo=' . $pseudo . '">🧡 Favoris</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/historique.php?pseudo=' . $pseudo . '">⌛️ Historique</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/deconnexion.php?pseudo=' . $pseudo . '">👋 Déconnexion</a></li>';
+        echo '</ul>';
+        echo '</div>';
+    }
+    
 ?>
 
 <?php
