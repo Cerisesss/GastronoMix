@@ -51,10 +51,10 @@ CREATE TABLE IF NOT EXISTS `user` (
     `nom_user` VARCHAR(50) NULL,
     `prenom_user` VARCHAR(50) NULL,
     `pseudo_user` VARCHAR(50) NULL,
-    `mail_user` VARCHAR(100) NULL,
+    `mail_user` VARCHAR(50) NULL,
     `date_user` DATE NULL,
     `tel_user` VARCHAR(50) NULL,
-    `password_user` VARCHAR(50) NULL,
+    `password_user` VARCHAR(255) NULL,
     PRIMARY KEY (`id_user`)
 );
 
