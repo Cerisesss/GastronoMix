@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS `ingredient` (
     `allergie_ingredient` VARCHAR(100) NULL,
     `nom_ingredient` VARCHAR(500) NULL,
     `categorie_ingredient` VARCHAR(100) NULL,
+    `ingredients_recherche` VARCHAR(500) NULL,
     `id_unite` INT NOT NULL,
     CONSTRAINT `fk_unite_id`
         FOREIGN KEY (`id_unite`)
