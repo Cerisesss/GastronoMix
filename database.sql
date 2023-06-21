@@ -28,10 +28,10 @@ CREATE TABLE IF NOT EXISTS `quantite` (
 
 CREATE TABLE IF NOT EXISTS `ingredient` (
     `id_ingredient` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `image_ingredient` VARCHAR(50) NULL,
-    `allergie_ingredient` VARCHAR(50) NULL,
-    `nom_ingredient` VARCHAR(50) NULL,
-    `categorie_ingredient` VARCHAR(50) NULL,
+    `image_ingredient` VARCHAR(500) NULL,
+    `allergie_ingredient` VARCHAR(100) NULL,
+    `nom_ingredient` VARCHAR(500) NULL,
+    `categorie_ingredient` VARCHAR(100) NULL,
     `id_unite` INT NOT NULL,
     CONSTRAINT `fk_unite_id`
         FOREIGN KEY (`id_unite`)
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `ingredient` (
 
 CREATE TABLE IF NOT EXISTS `materiel` (
     `id_materiel` INT NOT NULL AUTO_INCREMENT,
-    `libelle_materiel` VARCHAR(50) NULL,
+    `libelle_materiel` VARCHAR(100) NULL,
     PRIMARY KEY (`id_materiel`)
 );
 
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS `user` (
     `nom_user` VARCHAR(50) NULL,
     `prenom_user` VARCHAR(50) NULL,
     `pseudo_user` VARCHAR(50) NULL,
-    `mail_user` VARCHAR(50) NULL,
+    `mail_user` VARCHAR(100) NULL,
     `date_user` DATE NULL,
     `tel_user` VARCHAR(50) NULL,
     `password_user` VARCHAR(50) NULL,
@@ -73,11 +73,11 @@ CREATE TABLE IF NOT EXISTS `categorie` (
 
 CREATE TABLE IF NOT EXISTS `recette` (
     `id_recette` BIGINT NOT NULL AUTO_INCREMENT,
-    `titre` VARCHAR(50) NULL,
+    `titre` VARCHAR(100) NULL,
     `source` VARCHAR(50) NULL,
     `date_recette` DATE NULL,
     `categorie_recette` VARCHAR(50) NULL,
-    `image_recette` VARCHAR(50) NULL,
+    `image_recette` VARCHAR(500) NULL,
     `nb_personne` VARCHAR(50) NULL,
     `temps_prep_recette` TIME NOT NULL DEFAULT '00:00:00',
     `temps_total_recette` TIME NULL DEFAULT '00:00:00',
@@ -122,7 +122,7 @@ CREATE TABLE IF NOT EXISTS `recette_materiel` (
 
 CREATE TABLE IF NOT EXISTS `etape` (
     `id_etape` BIGINT NOT NULL,
-    `texte_etape` VARCHAR(400) NULL,
+    `texte_etape` VARCHAR(500) NULL,
     `id_recette` BIGINT NOT NULL,
     CONSTRAINT `fk_etape_recette_id`
         FOREIGN KEY (`id_recette`)
