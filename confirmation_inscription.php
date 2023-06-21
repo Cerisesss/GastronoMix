@@ -35,11 +35,13 @@ require 'Function.php';
             $mail_user = $_POST['mail_user'];
             $password_user = $_POST['password_user'];
 
+            $hashed_password = password_hash($password_user, PASSWORD_DEFAULT);
+
             // Insert les données dans la table user
             $inscription = $mysqli->prepare("INSERT INTO user(nom_user, pseudo_user, prenom_user, tel_user, mail_user, password_user) VALUES (?, ?, ?, ?, ?, ?)");
 
             //"s" pour une chaîne de caractères
-            $inscription->bind_param("ssssss", $nom_user, $pseudo_user, $prenom_user, $tel_user, $mail_user, $password_user);
+            $inscription->bind_param("ssssss", $nom_user, $pseudo_user, $prenom_user, $tel_user, $mail_user, $hashed_password);
 
             if ($inscription->execute()) {
                 echo "Inscription réussie.";

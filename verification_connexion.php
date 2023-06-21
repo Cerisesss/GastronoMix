@@ -9,21 +9,28 @@
     $password_user = $_POST['password_user'];
 
 
+
     // Requête pour vérifier les informations de connexion dans la base de données
-    $query = "SELECT * FROM user WHERE pseudo_user = '$pseudo_user' AND mail_user = '$mail_user' AND password_user = '$password_user'";
+    $query = "SELECT * FROM user WHERE pseudo_user = '$pseudo_user' AND mail_user = '$mail_user'";
+
     $result_query = $mysqli->query($query);
 
+    $hashed_password = $result_query['password_user'];
+
     if ($result_query->num_rows > 0) {
-        echo "<p>Connexion réussie.</p>";
+        // check password
+        if (password_verify($password_user, $hashed_password)) {
+            echo "<p>Connexion réussie.</p>";
 
-        header("Location: Accueil.php?pseudo=$pseudo_user");
-        exit();
-    } else {
-        echo "<p>Nom d'utilisateur ou mot de passe incorrect.</p>";
+            header("Location: Accueil.php?pseudo=$pseudo_user");
+            exit();
+        }
+    } 
+    
+    echo "<p>Nom d'utilisateur ou mot de passe incorrect.</p>";
 
-        header("Location: connexion.php?error=connexion");
-        exit();
-    }
+    header("Location: connexion.php?error=connexion");
+    exit();
 
     $mysqli->close();
 ?>

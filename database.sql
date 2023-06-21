@@ -40,11 +40,6 @@ CREATE TABLE IF NOT EXISTS `ingredient` (
         ON UPDATE NO ACTION
 );
 
-CREATE TABLE IF NOT EXISTS `materiel` (
-    `id_materiel` INT NOT NULL AUTO_INCREMENT,
-    `libelle_materiel` VARCHAR(100) NULL,
-    PRIMARY KEY (`id_materiel`)
-);
 
 CREATE TABLE IF NOT EXISTS `user` (
     `id_user` BIGINT NOT NULL AUTO_INCREMENT,
@@ -54,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `user` (
     `mail_user` VARCHAR(100) NULL,
     `date_user` DATE NULL,
     `tel_user` VARCHAR(50) NULL,
-    `password_user` VARCHAR(50) NULL,
+    `password_user` VARCHAR(255) NULL,
     PRIMARY KEY (`id_user`)
 );
 
@@ -104,21 +99,6 @@ CREATE TABLE IF NOT EXISTS `recette` (
         ON UPDATE NO ACTION
 );
 
-CREATE TABLE IF NOT EXISTS `recette_materiel` (
-    `id_recette` BIGINT NOT NULL,
-    `id_materiel` INT NOT NULL,
-    CONSTRAINT `fk_recette_materiel_recette_id`
-        FOREIGN KEY (`id_recette`)
-        REFERENCES `recette` (`id_recette`)
-        ON DELETE NO ACTION
-        ON UPDATE NO ACTION,
-    CONSTRAINT `fk_recette_materiel_materiel_id`
-        FOREIGN KEY (`id_materiel`)
-        REFERENCES `materiel` (`id_materiel`)
-        ON DELETE NO ACTION
-        ON UPDATE NO ACTION,
-    PRIMARY KEY (`id_recette`, `id_materiel`)
-);
 
 CREATE TABLE IF NOT EXISTS `etape` (
     `id_etape` BIGINT NOT NULL,
