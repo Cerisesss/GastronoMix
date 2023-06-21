@@ -44,7 +44,6 @@ require 'Function.php';
                 echo "<p>Nom d'utilisateur ou mot de passe incorrect.</p>";
             }
         }
-        
         $mysqli->close();
     ?>
 

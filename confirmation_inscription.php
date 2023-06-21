@@ -36,23 +36,30 @@ require 'Function.php';
             $mail_user = $_POST['mail_user'];
             $password_user = $_POST['password_user'];
 
-            // Insert les données dans la table user
-            $inscription = $mysqli->prepare("INSERT INTO user(nom_user, pseudo_user, prenom_user, tel_user, mail_user, password_user) VALUES (?, ?, ?, ?, ?, ?)");
+            $query = "SELECT pseudo_user FROM user WHERE pseudo_user = '$pseudo_user'";
+            $verification = $mysqli->query($query);
 
-            //"s" pour une chaîne de caractères
-            $inscription->bind_param("ssssss", $nom_user, $pseudo_user, $prenom_user, $tel_user, $mail_user, $password_user);
-
-            if ($inscription->execute()) {
-                echo "Inscription réussie.";
+            if($verification->num_rows > 0) {
+                echo "Pseudo déjà existant. ";
             } else {
-                echo "Erreur lors de l'inscription : " . $inscription->error;
+                // Insert les données dans la table user
+                $inscription = $mysqli->prepare("INSERT INTO user(nom_user, pseudo_user, prenom_user, tel_user, mail_user, password_user) VALUES (?, ?, ?, ?, ?, ?)");
+            
+                //"s" pour une chaîne de caractères
+                $inscription->bind_param("ssssss", $nom_user, $pseudo_user, $prenom_user, $tel_user, $mail_user, $password_user);
+
+                if ($inscription->execute()) {
+                    echo "Inscription réussie.";
+                } else {
+                    echo "Erreur lors de l'inscription : " . $inscription->error;
+                }
+                $inscription->close();
             }
 
-            $inscription->close();
             $mysqli->close();
         ?>
 
-        <br>
+        <br><br>
         <a href="http://localhost/gastronomix/test/connexion.php"><button class="Button">Se connecter</button></a>
     </body>
 </html>
