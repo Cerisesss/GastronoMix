@@ -5,11 +5,6 @@
 <?php
     $mysqli = ConnectionDatabase();
 
-    $query_user = "INSERT INTO user(nom_user, prenom_user, pseudo_user, mail_user, tel_user, password_user)
-                VALUES ('Admin', 'Admin', 'Admin', 'AdminGastronoMix@gmail.com', '0000000000', 'AdminGastronoMix');";
-
-    $result_user = $mysqli->query($query_user);
-
     //ajout des categories n'exitant pas dans la database
     $query_categorie = "INSERT INTO categorie(libelle_categorie) 
                         VALUES ('entree'), ('plat'), ('dessert'), ('boisson');";
