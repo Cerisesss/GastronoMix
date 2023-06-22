@@ -5,9 +5,14 @@
 <?php
     $mysqli = ConnectionDatabase();
 
+    $query_user = "INSERT INTO user(nom_user, prenom_user, pseudo_user, mail_user, tel_user, password_user)
+                VALUES ('Admin', 'Admin', 'Admin', 'AdminGastronoMix@gmail.com', '0000000000', 'AdminGastronoMix');";
+
+    $result_user = $mysqli->query($query_user);
+
     //ajout des categories n'exitant pas dans la database
     $query_categorie = "INSERT INTO categorie(libelle_categorie) 
-    VALUES ('entree'), ('plat'), ('dessert'), ('boisson');";
+                        VALUES ('entree'), ('plat'), ('dessert'), ('boisson');";
 
     $result_categorie = $mysqli->query($query_categorie);
     
@@ -35,7 +40,7 @@
 
             $result_recette = $mysqli->query($query_recette);
 
-            echo "ajout avec succes  : " . $query_recette . "\n";
+            //echo "ajout avec succes  : " . $query_recette . "\n";
 
 
             //ajout des unites n'exitant pas dans la database
@@ -51,37 +56,40 @@
                                         VALUES(\"$index_unite\");";
 
                     $result_ajout_unite = $mysqli->query($query_ajout_unite);
-                    echo "ajout avec succes  : " . $query_ajout_unite . "\n";
+                    //echo "ajout avec succes  : " . $query_ajout_unite . "\n";
                     }
                 //}
             }
 
             
             foreach($recette->ingredients as $key_ingredient => $ingredient) {
-                $query = "SELECT * FROM ingredient WHERE nom_ingredient = \"$ingredient\";";
-                $result_ingredient = $mysqli->query($query);
+                foreach($recette->ingredients_recherche as $ingredient_recherche) {
+                    $query = "SELECT * FROM ingredient WHERE nom_ingredient = \"$ingredient\";";
+                    $result_ingredient = $mysqli->query($query);
 
-                //recupere les resultats sous forme de tableau
-                $result_ingredient = $result_ingredient->fetch_assoc();
+                    //recupere les resultats sous forme de tableau
+                    $result_ingredient = $result_ingredient->fetch_assoc();
 
-                //ajout des ingredients n'exitant pas dans la database
-                if($result_ingredient == false) {
-                    $unite = $recette->unite[$key_ingredient];
+                    //ajout des ingredients n'exitant pas dans la database
+                    if($result_ingredient == false) {
+                        $unite = $recette->unite[$key_ingredient];
+                        $ingredient_recherche = $recette->ingredients_recherche[$key_ingredient];
 
-                    if($unite != "") {
-                        $query_id_unite = "SELECT id_unite FROM unite where libelle_unite = \"$unite\";";
-                        $result_id_unite = $mysqli->query($query_id_unite);
-    
-                        //recupere l'id_unite sous forme de tableau
-                        $result_id_unite = $result_id_unite->fetch_assoc();
-                        $id_unite = $result_id_unite['id_unite'];
+                        if($unite != "") {
+                            $query_id_unite = "SELECT id_unite FROM unite where libelle_unite = \"$unite\";";
+                            $result_id_unite = $mysqli->query($query_id_unite);
+        
+                            //recupere l'id_unite sous forme de tableau
+                            $result_id_unite = $result_id_unite->fetch_assoc();
+                            $id_unite = $result_id_unite['id_unite'];
+                        }
+
+                        $query_ingredient = "INSERT INTO ingredient(nom_ingredient, ingredients_recherche, id_unite)
+                                            VALUES(\"$ingredient\", \"$ingredient_recherche\",\"$id_unite\");";
+
+                        $result_ingredient = $mysqli->query($query_ingredient);
+                        echo "ajout avec succes  : " . $query_ingredient . "\n";
                     }
-
-                    $query_ingredient = "INSERT INTO ingredient(nom_ingredient, id_unite)
-                                        VALUES(\"$ingredient\", \"$id_unite\");";
-
-                    $result_ingredient = $mysqli->query($query_ingredient);
-                    echo "ajout avec succes  : " . $query_ingredient . "\n";
                 }
             }
             
@@ -93,7 +101,6 @@
             $id_recette = $result_id_recette['id_recette'];
 
             foreach($recette->quantite as $key_quantite => $quantite) {
-                //foreach($recette->ingredients as $ingredient) {
                 //recupere le nom de l'ingredient selon l'indice de la quantite
                 $ingredient = $recette->ingredients[$key_quantite];  
                 
@@ -109,8 +116,7 @@
                                 
                 $result_quantite = $mysqli->query($query_quantite);
 
-                echo "ajout avec succes  : " . $query_quantite . "\n";
-                //}
+                //echo "ajout avec succes  : " . $query_quantite . "\n";
             }
 
 
@@ -122,7 +128,7 @@
 
                 $result_etape = $mysqli->query($query_etape);
 
-                echo "ajout avec succes  : " . $query_etape . "\n";
+                //echo "ajout avec succes  : " . $query_etape . "\n";
             }
         }
     }
