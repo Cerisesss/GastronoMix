@@ -16,7 +16,7 @@ function getIngredients(fichier_json, categories) {
     let unite = [];
     let newIngredients = [];
     let recettes = [];
-    let description =[];
+    let recherche = [];
 
     for (let i = 0; i < fichier.length; i++) {
         let nom = fichier[i].name;
@@ -37,6 +37,8 @@ function getIngredients(fichier_json, categories) {
         let newEtapes = [];
         let lereste_text = "";
 
+        recherche = ingredients_recherche.split(",");
+        console.log("recherche : ", recherche);
 
         //pour enlever les \n, \r et \" du texte des etapes
         for (let i = 0; i < etapes.length; i++) {
@@ -90,8 +92,6 @@ function getIngredients(fichier_json, categories) {
                 lereste = output[i].join(" ");
                 newIngredients.push(lereste);
             }
-
-
         }
 
         recettes = {
@@ -107,7 +107,7 @@ function getIngredients(fichier_json, categories) {
             "tempstotal": tempstotal,
             "nombredepersonne": nombredepersonne,
             "categorie": categories,
-            "ingredients_recherche": ingredients_recherche
+            "ingredients_recherche": recherche
         };
 
         quantite = [];

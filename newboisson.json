@@ -29,7 +29,11 @@
         "tempstotal": 40,
         "nombredepersonne": 2,
         "categorie": "boisson",
-        "ingredients_recherche": "sucre, eau, citron"
+        "ingredients_recherche": [
+            "sucre",
+            " eau",
+            " citron"
+        ]
     },
     {
         "nom": "Soupe champenoise",
@@ -61,7 +65,12 @@
         "tempstotal": 10,
         "nombredepersonne": 6,
         "categorie": "boisson",
-        "ingredients_recherche": "vin, sucre de canne, citron vert, cointreau"
+        "ingredients_recherche": [
+            "vin",
+            " sucre de canne",
+            " citron vert",
+            " cointreau"
+        ]
     },
     {
         "nom": "Chocolat chaud du Père Noël",
@@ -92,7 +101,11 @@
         "tempstotal": 20,
         "nombredepersonne": 4,
         "categorie": "boisson",
-        "ingredients_recherche": "chocolat pâtissier, lait entier, crème liquide"
+        "ingredients_recherche": [
+            "chocolat pâtissier",
+            " lait entier",
+            " crème liquide"
+        ]
     },
     {
         "nom": "Cocktail litchi, gingembre et champagne",
@@ -132,7 +145,14 @@
         "tempstotal": 10,
         "nombredepersonne": 20,
         "categorie": "boisson",
-        "ingredients_recherche": "gingembre confit, fraises, Alcool, litchi au sirop, litchi, champagne"
+        "ingredients_recherche": [
+            "gingembre confit",
+            " fraises",
+            " Alcool",
+            " litchi au sirop",
+            " litchi",
+            " champagne"
+        ]
     },
     {
         "nom": "Soupe Champagne",
@@ -166,7 +186,12 @@
         "tempstotal": 10,
         "nombredepersonne": 6,
         "categorie": "boisson",
-        "ingredients_recherche": "sucre de canne, cointreau, citron, mousseux"
+        "ingredients_recherche": [
+            "sucre de canne",
+            " cointreau",
+            " citron",
+            " mousseux"
+        ]
     },
     {
         "nom": "Liqueur de Lait aux Carambars façon Clochette",
@@ -220,7 +245,17 @@
         "tempstotal": 30,
         "nombredepersonne": 6,
         "categorie": "boisson",
-        "ingredients_recherche": "rhum, sucre, gingembre, lait, cannelle, citron, citron vert, carambar©, autres"
+        "ingredients_recherche": [
+            "rhum",
+            " sucre",
+            " gingembre",
+            " lait",
+            " cannelle",
+            " citron",
+            " citron vert",
+            " carambar©",
+            " autres"
+        ]
     },
     {
         "nom": "Mojito cubain",
@@ -264,7 +299,14 @@
         "tempstotal": 5,
         "nombredepersonne": 1,
         "categorie": "boisson",
-        "ingredients_recherche": "sucre de canne, rhum, citron vert, menthe, eau gazeuse, glaçons"
+        "ingredients_recherche": [
+            "sucre de canne",
+            " rhum",
+            " citron vert",
+            " menthe",
+            " eau gazeuse",
+            " glaçons"
+        ]
     },
     {
         "nom": "Limoncello (liqueur de citron)",
@@ -300,7 +342,12 @@
         "tempstotal": 15,
         "nombredepersonne": 4,
         "categorie": "boisson",
-        "ingredients_recherche": "sucre, eau, citron, Alcool"
+        "ingredients_recherche": [
+            "sucre",
+            " eau",
+            " citron",
+            " Alcool"
+        ]
     },
     {
         "nom": "Grog au rhum",
@@ -336,7 +383,12 @@
         "tempstotal": 8,
         "nombredepersonne": 1,
         "categorie": "boisson",
-        "ingredients_recherche": "rhum, miel, eau, citron"
+        "ingredients_recherche": [
+            "rhum",
+            " miel",
+            " eau",
+            " citron"
+        ]
     },
     {
         "nom": "Lait de poule pour Noël",
@@ -373,7 +425,13 @@
         "tempstotal": 7,
         "nombredepersonne": 1,
         "categorie": "boisson",
-        "ingredients_recherche": "sucre, jaune d'oeuf, lait, cannelle, muscade"
+        "ingredients_recherche": [
+            "sucre",
+            " jaune d'oeuf",
+            " lait",
+            " cannelle",
+            " muscade"
+        ]
     },
     {
         "nom": "Milk shake à la vanille",
@@ -410,7 +468,13 @@
         "tempstotal": 10,
         "nombredepersonne": 4,
         "categorie": "boisson",
-        "ingredients_recherche": "vanille, chocolat, lait entier, glace vanille, crème chantilly"
+        "ingredients_recherche": [
+            "vanille",
+            " chocolat",
+            " lait entier",
+            " glace vanille",
+            " crème chantilly"
+        ]
     },
     {
         "nom": "Sirop de menthe",
@@ -444,7 +508,11 @@
         "tempstotal": 21,
         "nombredepersonne": 3,
         "categorie": "boisson",
-        "ingredients_recherche": "eau, sucre en poudre, menthe"
+        "ingredients_recherche": [
+            "eau",
+            " sucre en poudre",
+            " menthe"
+        ]
     },
     {
         "nom": "L'apéritif des bons vivants",
@@ -485,7 +553,13 @@
         "tempstotal": 5,
         "nombredepersonne": 10,
         "categorie": "boisson",
-        "ingredients_recherche": "rhum, Pisang, jus d'orange, jus d'ananas, sirop de grenadine"
+        "ingredients_recherche": [
+            "rhum",
+            " Pisang",
+            " jus d'orange",
+            " jus d'ananas",
+            " sirop de grenadine"
+        ]
     },
     {
         "nom": "Milkshake glacé à la banane",
@@ -514,7 +588,11 @@
         "tempstotal": 5,
         "nombredepersonne": 1,
         "categorie": "boisson",
-        "ingredients_recherche": "banane, lait, glace vanille"
+        "ingredients_recherche": [
+            "banane",
+            " lait",
+            " glace vanille"
+        ]
     },
     {
         "nom": "Smoothie au kiwi",
@@ -553,7 +631,13 @@
         "tempstotal": 2,
         "nombredepersonne": 1,
         "categorie": "boisson",
-        "ingredients_recherche": "eau, sucre, kiwi, glaçons, kiwi"
+        "ingredients_recherche": [
+            "eau",
+            " sucre",
+            " kiwi",
+            " glaçons",
+            " kiwi"
+        ]
     },
     {
         "nom": "Punch coco de martinique",
@@ -600,7 +684,16 @@
         "tempstotal": 60,
         "nombredepersonne": 5,
         "categorie": "boisson",
-        "ingredients_recherche": "rhum, sucre de canne, gingembre, vanille, lait de coco, lait concentré sucré, cannelle, muscade"
+        "ingredients_recherche": [
+            "rhum",
+            " sucre de canne",
+            " gingembre",
+            " vanille",
+            " lait de coco",
+            " lait concentré sucré",
+            " cannelle",
+            " muscade"
+        ]
     },
     {
         "nom": "punch plaisir",
@@ -640,7 +733,15 @@
         "tempstotal": 10,
         "nombredepersonne": 4,
         "categorie": "boisson",
-        "ingredients_recherche": "rhum, vanille, sucre de canne, poivre, goyave, mangue, citron vert"
+        "ingredients_recherche": [
+            "rhum",
+            " vanille",
+            " sucre de canne",
+            " poivre",
+            " goyave",
+            " mangue",
+            " citron vert"
+        ]
     },
     {
         "nom": "Smoothie au lait de coco",
@@ -671,7 +772,11 @@
         "tempstotal": 10,
         "nombredepersonne": 2,
         "categorie": "boisson",
-        "ingredients_recherche": "banane, jus d'ananas, lait de coco"
+        "ingredients_recherche": [
+            "banane",
+            " jus d'ananas",
+            " lait de coco"
+        ]
     },
     {
         "nom": "Chocolat chaud créole (par une cuisinière martiniquaise)",
@@ -722,7 +827,16 @@
         "tempstotal": 55,
         "nombredepersonne": 6,
         "categorie": "boisson",
-        "ingredients_recherche": "lait demi-écrémé, vanille, chocolat noir, maïzena, cannelle, citron vert, lait concentré sucré, lait concentré non sucré"
+        "ingredients_recherche": [
+            "lait demi-écrémé",
+            " vanille",
+            " chocolat noir",
+            " maïzena",
+            " cannelle",
+            " citron vert",
+            " lait concentré sucré",
+            " lait concentré non sucré"
+        ]
     },
     {
         "nom": "Milk shake à la banane",
@@ -751,7 +865,11 @@
         "tempstotal": 10,
         "nombredepersonne": 4,
         "categorie": "boisson",
-        "ingredients_recherche": "banane, glace vanille, lait"
+        "ingredients_recherche": [
+            "banane",
+            " glace vanille",
+            " lait"
+        ]
     },
     {
         "nom": "Milk shake léger aux fruits rouges",
@@ -781,7 +899,11 @@
         "tempstotal": 1,
         "nombredepersonne": 2,
         "categorie": "boisson",
-        "ingredients_recherche": "sucre, lait, fruits rouges"
+        "ingredients_recherche": [
+            "sucre",
+            " lait",
+            " fruits rouges"
+        ]
     },
     {
         "nom": "smoothie nectarine",
@@ -812,7 +934,11 @@
         "tempstotal": 6,
         "nombredepersonne": 1,
         "categorie": "boisson",
-        "ingredients_recherche": "nectarine, yaourt nature, lait"
+        "ingredients_recherche": [
+            "nectarine",
+            " yaourt nature",
+            " lait"
+        ]
     },
     {
         "nom": "Sangria des Iles",
@@ -853,7 +979,14 @@
         "tempstotal": 10,
         "nombredepersonne": 10,
         "categorie": "boisson",
-        "ingredients_recherche": "rhum, banane, vanille, vin rouge, fruits, fruits"
+        "ingredients_recherche": [
+            "rhum",
+            " banane",
+            " vanille",
+            " vin rouge",
+            " fruits",
+            " fruits"
+        ]
     },
     {
         "nom": "Bailey's Maison",
@@ -895,7 +1028,15 @@
         "tempstotal": 15,
         "nombredepersonne": 2,
         "categorie": "boisson",
-        "ingredients_recherche": "sucre, sucre vanillé, whisky, jaune d'oeuf, cacao, café soluble, crème fraîche liquide"
+        "ingredients_recherche": [
+            "sucre",
+            " sucre vanillé",
+            " whisky",
+            " jaune d'oeuf",
+            " cacao",
+            " café soluble",
+            " crème fraîche liquide"
+        ]
     },
     {
         "nom": "Piña colada",
@@ -940,7 +1081,15 @@
         "tempstotal": 15,
         "nombredepersonne": 2,
         "categorie": "boisson",
-        "ingredients_recherche": "rhum, extrait de vanille, lait de coco, jus d'ananas, jus de banane, cannelle, muscade"
+        "ingredients_recherche": [
+            "rhum",
+            " extrait de vanille",
+            " lait de coco",
+            " jus d'ananas",
+            " jus de banane",
+            " cannelle",
+            " muscade"
+        ]
     },
     {
         "nom": "Smoothie bananapple",
@@ -972,7 +1121,11 @@
         "tempstotal": 5,
         "nombredepersonne": 1,
         "categorie": "boisson",
-        "ingredients_recherche": "banane, yaourt, pomme"
+        "ingredients_recherche": [
+            "banane",
+            " yaourt",
+            " pomme"
+        ]
     },
     {
         "nom": "Punch lorrain",
@@ -1009,7 +1162,13 @@
         "tempstotal": 10,
         "nombredepersonne": 5,
         "categorie": "boisson",
-        "ingredients_recherche": "eau, eau, sucre de canne, citron, glaçons"
+        "ingredients_recherche": [
+            "eau",
+            " eau",
+            " sucre de canne",
+            " citron",
+            " glaçons"
+        ]
     },
     {
         "nom": "Le vrai lassi à la mangue (Inde)",
@@ -1041,7 +1200,12 @@
         "tempstotal": 2,
         "nombredepersonne": 4,
         "categorie": "boisson",
-        "ingredients_recherche": "sucre, yaourt brassé, mangue, lait"
+        "ingredients_recherche": [
+            "sucre",
+            " yaourt brassé",
+            " mangue",
+            " lait"
+        ]
     },
     {
         "nom": "Godinette à ma façon (apéritif breton)",
@@ -1077,7 +1241,12 @@
         "tempstotal": 20,
         "nombredepersonne": 15,
         "categorie": "boisson",
-        "ingredients_recherche": "eau, fraises, sucre, muscadet"
+        "ingredients_recherche": [
+            "eau",
+            " fraises",
+            " sucre",
+            " muscadet"
+        ]
     },
     {
         "nom": "Milk shake à la framboise",
@@ -1111,6 +1280,11 @@
         "tempstotal": 10,
         "nombredepersonne": 2,
         "categorie": "boisson",
-        "ingredients_recherche": "sucre glace, framboises, lait, glaçons"
+        "ingredients_recherche": [
+            "sucre glace",
+            " framboises",
+            " lait",
+            " glaçons"
+        ]
     }
 ]
