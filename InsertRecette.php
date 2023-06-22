@@ -83,7 +83,7 @@
                                             VALUES(\"$ingredient\", \"$ingredient_recherche\",\"$id_unite\");";
 
                         $result_ingredient = $mysqli->query($query_ingredient);
-                        echo "ajout avec succes  : " . $query_ingredient . "\n";
+                        //echo "ajout avec succes  : " . $query_ingredient . "\n";
                     }
                 }
             }
@@ -126,6 +126,7 @@
                 //echo "ajout avec succes  : " . $query_etape . "\n";
             }
         }
+        echo "ajout avec succes " ;
     }
 
     $mysqli->close();

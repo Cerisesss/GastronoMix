@@ -1,11 +1,5 @@
 <?php
     require 'Function.php';
-    session_start();
-
-    if (isset($_GET['pseudo'])) {
-        $pseudo = $_GET['pseudo'];
-        $_SESSION['pseudo_user'] = $pseudo;
-    }
 ?>
 
 <!DOCTYPE html>
@@ -23,11 +17,7 @@
                 <h2>Menu</h2>
                 
                 <?php 
-                    if(isset($_SESSION['pseudo_user'])) {
-                        MenuDeroulantConnecter($pseudo);
-                    } else {
-                        MenuDeroulantDeconnecter();
-                    }
+                    MenuDeroulantDeconnecter();
                 ?>
             </ul>
         </div>

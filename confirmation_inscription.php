@@ -54,6 +54,6 @@ require 'Function.php';
         ?>
 
         <br>
-        <a href="http://localhost/gastronomix/test/connexion.php"><button class="Button">Se connecter</button></a>
+        <a href="http://localhost/gastronomix/connexion.php"><button class="Button">Se connecter</button></a>
     </body>
 </html>
