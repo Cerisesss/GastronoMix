@@ -33,6 +33,19 @@
 
         <h2>Créer un compte</h2>
 
+        <?php
+           $mysqli = ConnectionDatabase();
+
+           if (isset($_GET['error'])) {
+                if ($_GET['error'] == "createPseudo") {
+                    echo "Pseudo déjà existant. ";
+                } else if ($_GET['error'] == "createMail") {
+                    echo "Mail déjà existant. ";
+                }
+           }
+           $mysqli->close();
+        ?>
+
         <form action="confirmation_inscription.php" method="POST">
             <label for="nom_user">Nom</label>
             <input type="text" class="Button" name="nom_user" required /><br>

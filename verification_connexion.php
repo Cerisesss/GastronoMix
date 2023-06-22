@@ -29,8 +29,7 @@
         }
     } 
 
-    echo "<p>Nom d'utilisateur ou mot de passe incorrect.</p>";
-
+    //Si nom d'utilisateur ou mot de passe incorrect
     header("Location: connexion.php?error=connexion");
     exit();
 
