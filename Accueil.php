@@ -30,8 +30,10 @@
             </ul>
         </div>
 
+        <a href="http://localhost/gastronomix/recherche_avancee.php"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>
+
         <div id="Rechercher">
-            <form action="recette.php" method="GET">
+            <form action="resultat_recherche_avancee.php" method="GET">
                 <input id="RechercherBarre" type="text" name="recherche" value="">
                 <button id="RechercherButton" class="Button" type="submit">🔍</button>
             </form>
@@ -61,9 +63,11 @@
                 echo '<h2>' . $categorie_actuelle . '</h2>';
                 echo '<div class="container">';
 
+                $rand = rand(1, 160);
+
                 $query = "SELECT image_recette, titre, id_recette FROM recette
                                 WHERE categorie_recette = '$categorie_actuelle'
-                                ORDER BY titre asc 
+                                ORDER BY RAND('$rand')
                                 LIMIT 6;";
 
                 $result = $mysqli->query($query);
