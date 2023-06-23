@@ -45,6 +45,7 @@
         echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
         echo '<div id="compte">';
         echo '<ul>';
+        echo '<h3>' . $pseudo .'</h3>';
         echo '<li><a href="http://localhost/gastronomix/profil.php?pseudo=' . $pseudo . '">⚙️ Profil</a></li>';
         echo '<li><a href="http://localhost/gastronomix/favoris.php?pseudo=' . $pseudo . '">🧡 Favoris</a></li>';
         echo '<li><a href="http://localhost/gastronomix/historique.php?pseudo=' . $pseudo . '">⌛️ Historique</a></li>';

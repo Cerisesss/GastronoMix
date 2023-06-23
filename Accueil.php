@@ -19,7 +19,7 @@
         <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
         <div id="menu">
             <ul>
-                <h3>Menu</h3>
+                </br>
                 <?php
                     if (isset($_SESSION['pseudo_user'])) {
                         MenuDeroulantConnecter($pseudo);
@@ -30,9 +30,10 @@
             </ul>
         </div>
 
-        <a href="http://localhost/gastronomix/recherche_avancee.php"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>
 
         <div id="Rechercher">
+        <a href="http://localhost/gastronomix/recherche_avancee.php"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>
+
             <form action="resultat_recherche_avancee.php" method="GET">
                 <input id="RechercherBarre" type="text" name="recherche" value="">
                 <button id="RechercherButton" class="Button" type="submit">🔍</button>
