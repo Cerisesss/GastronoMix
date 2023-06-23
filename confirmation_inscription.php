@@ -6,7 +6,7 @@ require 'Function.php';
 <html>
     <head>
         <title>GastronoMix</title>
-        <link rel="stylesheet" type="text/css" href="styles_1.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="Function.js"></script>
     </head>
     <body>

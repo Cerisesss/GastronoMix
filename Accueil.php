@@ -41,8 +41,6 @@
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
-        <a href="http://localhost/gastronomix/test_Souhila/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>
-
         <h1>GastronoMix</h1>
 
         <?php
