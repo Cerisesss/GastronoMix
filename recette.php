@@ -1,12 +1,15 @@
 <?php
     require 'Function.php';
+    session_start();
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
         <title>GastronoMix</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="styler.css">
+       
+
         <script src="Function.js"></script>
     </head>
     <body>
@@ -32,28 +35,26 @@
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
-        <a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>
 
-        <button id="favori-button" class="Button" type="button">❤</button>
-        
 
         <?php
             $mysqli = ConnectionDatabase();
-            
+
             if (isset($_GET['recherche'])) {
                 $mot_clef = $_GET['recherche'];
 
-                $query = "SELECT image_recette, titre, source, temps_prep_recette, temps_total_recette, nb_personne, difficulte
+                $query = "SELECT id_recette, image_recette, titre, source, temps_prep_recette, temps_total_recette, nb_personne, difficulte
                         FROM recette 
                         WHERE titre LIKE '%$mot_clef%';";
 
-
                 $result_recette = $mysqli->query($query);
 
-                if($result_recette->num_rows > 0) {
-                    //pour la table recettes
-                    while($row = mysqli_fetch_assoc($result_recette)){
-                        echo '<img src="' . $row['image_recette'] . '"><br>';
+                if ($result_recette && $result_recette->num_rows > 0) {
+                    // Pour la table recettes
+                    while ($row = $result_recette->fetch_assoc()) {
+                        $id_recette = $row['id_recette'];
+                        echo '<div id="recette-container">';
+                        echo '<img class="recipe-image" src="' . $row['image_recette'] . '" alt="Recette">';
                         echo "<h2>" . $row["titre"] . "</h2></br>";
                         echo "<h4>Source : " . $row['source']. "</h4>";
                         echo "<p>Temps de préparation : " . $row['temps_prep_recette']. "</p>";
@@ -61,65 +62,66 @@
                         echo "<p>Nombre de personne : " . $row['nb_personne'] . "</br>" ;
                         echo "<p>Difficulté : " . $row['difficulte'] . "</p>";
                     }
-
-                    $query_materiel = "SELECT m.libelle_materiel FROM recette r
-                            JOIN recette_materiel rm ON rm.id_recette = r.id_recette
-                            JOIN materiel m ON m.id_materiel = rm.id_materiel
-                            WHERE r.titre LIKE '%$mot_clef%';";
-
-
-                    $result_materiel = $mysqli->query($query_materiel);
-
-                    //pour les materiels
-                    echo "<h3>Matériel</h3>";
                     
-                    while ($row = mysqli_fetch_assoc($result_materiel)) {
-                        echo "<li>" . $row['libelle_materiel'] . "</li>" ; 
-                    }
-
-
-                    //pour les ingredients
+                    // Pour les ingrédients
                     $query_ingredient = "SELECT i.nom_ingredient, q.quantite, u.libelle_unite FROM recette r
                             JOIN quantite q ON q.id_recette = r.id_recette
                             JOIN ingredient i ON i.id_ingredient = q.id_ingredient
                             JOIN unite u ON u.id_unite = i.id_unite
                             WHERE r.titre LIKE '%$mot_clef%';";
 
-
                     $result_ingredient = $mysqli->query($query_ingredient);
 
                     echo "<h3>Ingrédients</h3>";
-                    
-                    while ($row = mysqli_fetch_assoc($result_ingredient)) {
+
+                    while ($row = $result_ingredient->fetch_assoc()) {
                         if ($row['quantite'] == 0) {
                             $row['quantite'] = "";
                         }
-                        
-                        echo "<li>" . $row['quantite'] . " " . $row['libelle_unite'] . " " . $row['nom_ingredient'] . "</li>" ; 
+
+                        echo "<li>" . $row['quantite'] . " " . $row['libelle_unite'] . " " . $row['nom_ingredient'] . "</li>" ;
                     }
 
-
-                    //pour les etapes
+                    // Pour les étapes
                     $query_etape = "SELECT e.id_etape, e.texte_etape FROM recette r 
                             JOIN etape e ON e.id_recette = r.id_recette
-                            WHERE r.titre LIKE '%$mot_clef%';";
+                            WHERE r.id_recette = " . $id_recette . ";";
 
-                    $result_ingredient = $mysqli->query($query_etape);
+                    $result_etape = $mysqli->query($query_etape);
 
                     echo "<h3>Étapes</h3>";
-                    
-                    while ($row = mysqli_fetch_assoc($result_ingredient)) {
-                        echo "<li>" . "Etape " . $row['id_etape'] . " : " . $row['texte_etape'] . "</li>" ; 
+
+                    while ($row = $result_etape->fetch_assoc()) {
+                        echo "<li>" . "Etape " . $row['id_etape'] . " : " . $row['texte_etape'] . "</li>" ;
                     }
 
                     echo "</br>";
 
-                    if (isset($_SESSION['user'])) {
+                    if (isset($_SESSION['id'])) {
                         // L'utilisateur est connecté, afficher le formulaire pour ajouter aux favoris
                         echo '<form id="ajouter-favoris-form" method="post">';
                         echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
-                        echo '<input type="submit" value="Ajouter aux favoris">';
+                        echo '<input type="submit" value="🧡">';
                         echo '</form>';
+                        echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
+                        echo '<div id="compte">';
+                        echo '<ul>';
+                        echo '<li><a href="http://localhost/gastronomix/profil.php">⚙️ Profil</a></li>';
+                        echo '<li><a href="http://localhost/gastronomix/favoris.php">🧡 Favoris</a></li>';
+                        echo '<li><a href="http://localhost/gastronomix/historique.php">⌛️ Historique</a></li>';
+                        echo '<li><a href="http://localhost/gastronomix/deconnexion.php">👋 Déconnexion</a></li>';
+                        echo '</ul>';
+                        echo '</div>';
+                        
+                        echo '<form action="historique.php" method="POST">';
+                       for ($i = 1; $i <= 5; $i++) {
+                     // Afficher les 5 étoiles cliquables qui permettent de noter la recette
+                     echo '<input type="radio" id="star' . $i . '" name="note" value="' . $i . '" style="display: none;">';
+                     echo '<label for="star' . $i . '"><span class="star">&#9734;</span></label>';
+                    }    
+               echo '</form>';
+
+
                     }
 
                 } else {
@@ -131,6 +133,7 @@
 
             $mysqli->close();
         ?>
+
         <script>
             document.getElementById('ajouter-favoris-form').addEventListener('submit', function(event) {
                 event.preventDefault(); // Empêche le rechargement de la page
@@ -145,9 +148,9 @@
                 .then(function(response) {
                     if (response.ok) {
                         // Le script PHP a terminé avec succès
-                        alert("La recette a été ajoutée aux favoris !");   
+                        alert("La recette a été ajoutée aux favoris !");
                     } else {
-                        throw new Error("Erreur lors de l'ajout aux favoris.");  
+                        throw new Error("Erreur lors de l'ajout aux favoris.");
                     }
                 })
                 .catch(function(error) {
@@ -158,3 +161,8 @@
         </script>
     </body>
 </html>
+
+
+
+
+

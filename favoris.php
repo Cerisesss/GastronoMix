@@ -7,10 +7,39 @@ session_start();
 <html>
 <head>
     <title>GastronoMix</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="stylesr.css">
     <script src="Function.js"></script>
 </head>
 <body>
+<script>
+    // Fonction pour retirer une recette aux favoris sans utiliser ajax
+    function retirerDesFavoris(idRecette) {
+    var formData = new FormData();
+    formData.append('id_recette', idRecette);
+
+    fetch('retirer_des_favoris.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(function(response) {
+        if (response.ok) {
+            // La recette a été retirée des favoris avec succès
+            alert("La recette a été retirée des favoris !");
+            // Effectuer d'autres actions si nécessaire, comme mettre à jour l'interface utilisateur.
+        } else {
+            // Une erreur s'est produite lors de la suppression des favoris
+            alert("Erreur lors du retrait des favoris.");
+        }
+    })
+    .catch(function(error) {
+        // Une erreur s'est produite lors de la requête AJAX
+        alert("Une erreur s'est produite lors de la requête AJAX.");
+    });
+}
+    
+
+</script>
+
 <div id="header">
     <button id="MenuButton" class="Button" onclick="toggleMenu()">=</button>
 
@@ -47,22 +76,25 @@ $mysqli = ConnectionDatabase();
 if (isset($_SESSION['id'])) {
     $user_id = $_SESSION['id'];
 
-    $query = "SELECT r.image_recette, r.titre
-              FROM recette AS r
-              INNER JOIN favoris AS f ON r.id_recette = f.id_recette
-              WHERE f.id_user = '$user_id'";
+    $query = "SELECT r.id_recette, r.image_recette, r.titre
+    FROM recette AS r
+    INNER JOIN favoris AS f ON r.id_recette = f.id_recette
+    WHERE f.id_user = '$user_id'";
 
     $result = $mysqli->query($query);
 
     $recettes_favorites = array();
-
+    
     while ($row = mysqli_fetch_assoc($result)) {
+        $id_recette = $row['id_recette'];
         $image_recette = $row["image_recette"];
         $titre = $row['titre'];
+        
 
         $recette = array(
             'image_recette' => $image_recette,
-            'titre' => $titre
+            'titre' => $titre,
+            'id_recette' => $id_recette
         );
 
         $recettes_favorites[] = $recette;
@@ -73,8 +105,11 @@ if (isset($_SESSION['id'])) {
             echo '<div>';
             echo '<img src="' . $recette['image_recette'] . '" alt="' . $recette['titre'] . '">';
             echo '<h3>' . $recette['titre'] . '</h3>';
-            echo '</div>';
+            echo '<button onclick="retirerDesFavoris(' . $recette['id_recette'] . ')">Retirer des favoris</button>';
+       echo '</div>';
         }
+
+
     } else {
         echo 'Aucune recette favorite trouvée.';
     }
