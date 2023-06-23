@@ -12,18 +12,16 @@
 <html>
     <head>
         <title>GastronoMix</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="accueil.css">
         <script src="Function.js"></script>
     </head>
     <body>
         <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
-
         <div id="menu">
             <ul>
-                <h2>Menu</h2>
-
-                <?php 
-                    if(isset($_SESSION['pseudo_user'])) {
+                <h3>Menu</h3>
+                <?php
+                    if (isset($_SESSION['pseudo_user'])) {
                         MenuDeroulantConnecter($pseudo);
                     } else {
                         MenuDeroulantDeconnecter();
@@ -52,19 +50,21 @@
                 echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
             }
 
-
             $mysqli = ConnectionDatabase();
 
             $categorie = ["Entree", "Plat", "Dessert", "Boisson"];
 
             for ($i = 0; $i < count($categorie); $i++) {
                 $categorie_actuelle = $categorie[$i];
-
-                echo $categorie_actuelle . "</br>";
+                
+                echo '<div class="recette-categorie">';
+                echo '<h2>' . $categorie_actuelle . '</h2>';
+                echo '<div class="container">';
 
                 $query = "SELECT image_recette, titre, id_recette FROM recette
-                        WHERE categorie_recette = '$categorie_actuelle'
-                        ORDER BY titre asc ;";
+                                WHERE categorie_recette = '$categorie_actuelle'
+                                ORDER BY titre asc 
+                                LIMIT 6;";
 
                 $result = $mysqli->query($query);
 
@@ -72,26 +72,29 @@
                     $image_recette = $row["image_recette"];
                     $titre = $row['titre'];
 
-                    $lienRecette = '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>';
-
-                    echo '<img src="' . $row['image_recette'] . '" alt="Image de la recette"><br>';
-                    echo $lienRecette . '<br>';
+                    echo '<div class="recette zoom">';
+                    // Image cliquable
+                    echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">';
+                    echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                    echo '</a>';
+                    echo '<div class="nom-recette">';
+                    // Titre cliquable
+                    echo  '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>' . '<br>';
+                    echo '</div>';
+                    echo '</div>';
 
                     // Affichage du bouton d'ajout aux favoris
                     if (isset($_SESSION['pseudo_user'])) {
                         $id_recette = $row['id_recette'];
                         echo '<form action="" method="post">';
                         echo '<input type="hidden" name="favori_recette" value="' . $id_recette . '">';
-                        echo '<button class="Button" type="submit">🧡</button>';
+                        echo '<button type="submit" class="favori-button" name="ajout_favori"><img src="favori.png"></button>';
                         echo '</form>';
                     }
-
-                    echo "<br>";
                 }
-
-                echo "</br>";
+                echo '</div>';
+                echo '</div>';
             }
-
             $mysqli->close();
         ?>
 
