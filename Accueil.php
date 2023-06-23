@@ -1,28 +1,32 @@
 <?php
-require 'Function.php';
-session_start();
+    require 'Function.php';
+    session_start();
 
-
+    if (isset($_GET['pseudo'])) {
+        $pseudo = $_GET['pseudo'];
+        $_SESSION['pseudo_user'] = $pseudo;
+    }
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
         <title>GastronoMix</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="Function.js"></script>
     </head>
     <body>
         <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
-
         <div id="menu">
             <ul>
-                <h2>Menu</h2>
-                <li><a href="http://localhost/gastronomix/test_Souhila/Accueil.php">🍽️ Accueil</a></li>
-                <li><a href="http://localhost/gastronomix/test_Souhila/entree.php">🍽️ Entrée</a></li>
-                <li><a href="http://localhost/gastronomix/test_Souhila/plat.php">🍽️ Plat</a></li>
-                <li><a href="http://localhost/gastronomix/test_Souhila/dessert.php">🍽️ Dessert</a></li>
-                <li><a href="http://localhost/gastronomix/test_Souhila/boisson.php">🍽️ Boisson</a></li>
+                <h3>Menu</h3>
+                <?php
+                    if (isset($_SESSION['pseudo_user'])) {
+                        MenuDeroulantConnecter($pseudo);
+                    } else {
+                        MenuDeroulantDeconnecter();
+                    }
+                ?>
             </ul>
         </div>
 
@@ -40,60 +44,59 @@ session_start();
         <h1>GastronoMix</h1>
 
         <?php
-    if (isset($_SESSION['id'])) {
-        echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
-        echo '<div id="compte">';
-        echo '<ul>';
-        echo '<li><a href="http://localhost/gastronomix/test_Souhila/profil.php">⚙️ Profil</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/test_Souhila/favoris.php">🧡 Favoris</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/test_Souhila/historique.php">⌛️ Historique</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/test_Souhila/deconnexion.php">👋 Déconnexion</a></li>';
-        echo '</ul>';
-        echo '</div>';
-    }
-    ?>
+            if (isset($_SESSION['pseudo_user'])) {
+                MenuDeroulantCompte($pseudo);
+            } else {
+                echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
+            }
 
-	
-        </br></br>
+            $mysqli = ConnectionDatabase();
 
-<br><br>
+            $categorie = ["Entree", "Plat", "Dessert", "Boisson"];
 
-<?php
-$mysqli = ConnectionDatabase();
+            for ($i = 0; $i < count($categorie); $i++) {
+                $categorie_actuelle = $categorie[$i];
+                
+                echo '<div class="recette-categorie">';
+                echo '<h2>' . $categorie_actuelle . '</h2>';
+                echo '<div class="container">';
 
-$categorie = ["Entree", "Plat", "Dessert", "Boisson"];
+                $query = "SELECT image_recette, titre, id_recette FROM recette
+                                WHERE categorie_recette = '$categorie_actuelle'
+                                ORDER BY titre asc 
+                                LIMIT 6;";
 
-for ($i = 0; $i < count($categorie); $i++) {
-    $categorie_actuelle = $categorie[$i];
+                $result = $mysqli->query($query);
 
-    echo $categorie_actuelle . "</br>";
+                while ($row = mysqli_fetch_assoc($result)) {
+                    $image_recette = $row["image_recette"];
+                    $titre = $row['titre'];
 
-    $query = "SELECT image_recette, titre, id_recette FROM recette
-            WHERE categorie_recette = '$categorie_actuelle'
-            ORDER BY titre asc ;";
+                    echo '<div class="recette zoom">';
+                    // Image cliquable
+                    echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">';
+                    echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                    echo '</a>';
+                    echo '<div class="nom-recette">';
+                    // Titre cliquable
+                    echo  '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>' . '<br>';
+                    echo '</div>';
+                    echo '</div>';
 
-    $result = $mysqli->query($query);
+                    // Affichage du bouton d'ajout aux favoris
+                    if (isset($_SESSION['pseudo_user'])) {
+                        $id_recette = $row['id_recette'];
+                        echo '<form action="" method="post">';
+                        echo '<input type="hidden" name="favori_recette" value="' . $id_recette . '">';
+                        echo '<button type="submit" class="favori-button" name="ajout_favori"><img src="favori.png"></button>';
+                        echo '</form>';
+                    }
+                }
+                echo '</div>';
+                echo '</div>';
+            }
+            $mysqli->close();
+        ?>
 
-    while ($row = mysqli_fetch_assoc($result)) {
-        $image_recette = $row["image_recette"];
-        $titre = $row['titre'];
-
-        $lienRecette = '<a href="http://localhost/gastronomix/test_Souhila/recette.php?recherche=' . $titre . '">' . $titre . '</a>';
-        echo '<a href="http://localhost/gastronomix/test_Souhila/recette.php?recherche=' . $titre . '">';
-    echo '<img src="' . $row['image_recette'] . '" alt="Image de la recette"><br>';
-    echo '</a>';
-    echo $lienRecette . '<br>';
-       
-        
-
-        echo "<br>";
-    }
-
-    echo "</br>";
-}
-
-$mysqli->close();
-?>
-
-</body>
+    </body>
 </html>
