@@ -1,5 +1,5 @@
 <?php
-require 'Function.php';
+    require 'Function.php';
 ?>
 
 <!DOCTYPE html>
@@ -15,11 +15,10 @@ require 'Function.php';
         <div id="menu">
             <ul>
                 <h2>Menu</h2>
-                <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
-                <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
-                <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
-                <li><a href="http://localhost/gastronomix/dessert.php">🍽️ Dessert</a></li>
-                <li><a href="http://localhost/gastronomix/boisson.php">🍽️ Boisson</a></li>
+                
+                <?php 
+                    MenuDeroulantDeconnecter();
+                ?>
             </ul>
         </div>
 
@@ -33,6 +32,19 @@ require 'Function.php';
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
         <h2>Créer un compte</h2>
+
+        <?php
+           $mysqli = ConnectionDatabase();
+
+           if (isset($_GET['error'])) {
+                if ($_GET['error'] == "createPseudo") {
+                    echo "Pseudo déjà existant. ";
+                } else if ($_GET['error'] == "createMail") {
+                    echo "Mail déjà existant. ";
+                }
+           }
+           $mysqli->close();
+        ?>
 
         <form action="confirmation_inscription.php" method="POST">
             <label for="nom_user">Nom</label>
@@ -56,6 +68,6 @@ require 'Function.php';
             <input type="submit" class="Button" value="S'inscrire" />
         </form>
 
-        <p>Déjà inscrit ?<a href="http://localhost/gastronomix/test/connexion.php"><button class="Button">Se connecter</button></a></p>
+        <p>Déjà inscrit ?<a href="http://localhost/gastronomix/connexion.php"><button class="Button">Se connecter</button></a></p>
     </body>
 </html>

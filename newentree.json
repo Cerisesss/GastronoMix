@@ -37,7 +37,13 @@
         "tempspreparation": 20,
         "tempstotal": 35,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "pâte feuilletée",
+            " fromage de chèvre",
+            " oeuf",
+            " basilic"
+        ]
     },
     {
         "nom": "Quiche tatin",
@@ -89,7 +95,18 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "crème fraîche",
+            " gruyère râpé",
+            " pâte feuilletée",
+            " sel",
+            " poivre",
+            " pomme de terre",
+            " lard",
+            " oeuf",
+            " fromage de chèvre"
+        ]
     },
     {
         "nom": "Quiche lorraine traditionnelle",
@@ -135,7 +152,16 @@
         "tempspreparation": 5,
         "tempstotal": 35,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "pâte brisée",
+            " crème fraîche",
+            " lardons",
+            " poivre",
+            " sel",
+            " oeuf",
+            " muscade"
+        ]
     },
     {
         "nom": "Quiche au poireau et saumon fumé",
@@ -186,7 +212,19 @@
         "tempspreparation": 15,
         "tempstotal": 45,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "pâte brisée",
+            " poireau",
+            " gruyère râpé",
+            " crème fraîche",
+            " poivre",
+            " sel",
+            " saumon fumé",
+            " oeuf",
+            " lait",
+            " muscade"
+        ]
     },
     {
         "nom": "Verrine fraîcheur au carré frais",
@@ -251,7 +289,22 @@
         "tempspreparation": 20,
         "tempstotal": 20,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "aneth",
+            " oeufs de saumon",
+            " aneth",
+            " poivre",
+            " sel",
+            " maïs",
+            " avocat",
+            " surimi",
+            " jus de citron",
+            " carré frais",
+            " crème fleurette",
+            " saumon fumé",
+            " couteau"
+        ]
     },
     {
         "nom": "Soufflé au fromage",
@@ -295,7 +348,15 @@
         "tempspreparation": 15,
         "tempstotal": 50,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "emmental",
+            " beurre",
+            " farine",
+            " oeuf",
+            " lait",
+            " muscade"
+        ]
     },
     {
         "nom": "Velouté de Potiron et Carottes",
@@ -359,7 +420,22 @@
         "tempspreparation": 30,
         "tempstotal": 60,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "carotte",
+            " oignon",
+            " huile d'olive",
+            " persil",
+            " poivre",
+            " sel",
+            " potiron",
+            " pomme de terre",
+            " ail",
+            " lait",
+            " bouillon de volaille",
+            " muscade",
+            " crème liquide"
+        ]
     },
     {
         "nom": "Velouté de potiron",
@@ -406,7 +482,17 @@
         "tempspreparation": 30,
         "tempstotal": 75,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "oignon",
+            " poivre",
+            " sel",
+            " huile",
+            " persil",
+            " potiron",
+            " brique",
+            " muscade"
+        ]
     },
     {
         "nom": "Velouté de carottes au cumin",
@@ -445,7 +531,7 @@
             "pomme de terre moyenne",
             "crème liquide"
         ],
-        "image": "https://assets.afcdn.com/recipe/20160325/48385_w1024h1024c1cx1500cy1000.jpg",
+        "image": "https://assets.afcdn.com/recipe/20230620/143606_w1024h1024c1cx3072cy1728cxb6144cyb3456.jpg",
         "etapes": [
             "Emincez l'oignon. Faites fondre le beurre dans une cocotte minute, puis ajoutez l'oignon. Faites dorer. ",
             "Ajoutez les carottes et la pomme de terre préalablement coupés en morceaux. Faites cuire ainsi 5 minutes.",
@@ -456,7 +542,18 @@
         "tempspreparation": 10,
         "tempstotal": 35,
         "nombredepersonne": 6,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "carotte",
+            " oignon",
+            " eau",
+            " beurre",
+            " curry",
+            " cumin",
+            " sel",
+            " pomme de terre",
+            " crème liquide"
+        ]
     },
     {
         "nom": "Verrine avocat et saumon fumé",
@@ -502,6 +599,1190 @@
         "tempspreparation": 15,
         "tempstotal": 15,
         "nombredepersonne": 4,
-        "categorie": "entree"
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "avocat",
+            " truite",
+            " fromage frais",
+            " citron",
+            " fromage ail et fines herbes",
+            " ciboulette",
+            " oeuf de truite"
+        ]
+    },
+    {
+        "nom": "Roulade de saumon fumé aux asperges, sauce aux crevettes et au chèvre frais",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "220",
+            "1",
+            " ",
+            "4",
+            "200",
+            "100",
+            "20"
+        ],
+        "unite": [
+            "g",
+            "c.à.s",
+            " ",
+            "tranches",
+            "g",
+            "g",
+            "cl"
+        ],
+        "ingredients": [
+            "d'asperge (1 boîte)",
+            "persil haché",
+            "poivre",
+            "saumon fumé",
+            "fromage de chèvre frais",
+            "crevettes",
+            "crème liquide"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160404/27869_w1024h1024c1cx1500cy1000.jpg",
+        "etapes": [
+            "Préchauffez le four à 180°C (thermostat 6).",
+            "Egouttez les asperges et répartir 3 asperges sur chaque tranche de saumon, enroulez et disposez dans un grand plat à gratin ou dans des petits plats individuels.",
+            "Ecrasez le fromage de chèvre, ajoutez 4 cuillères à soupe de jus d'asperge, le persil et la crème. Poivrez (ne salez pas).",
+            "Fouettez pour obtenir une sauce onctueuse, ajoutez les crevettes et nappez les roulades de cette sauce.",
+            "Enfournez pour 15 min."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 30,
+        "nombredepersonne": 4,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "asperge",
+            " persil",
+            " poivre",
+            " saumon fumé",
+            " fromage de chèvre",
+            " crevettes",
+            " crème liquide"
+        ]
+    },
+    {
+        "nom": "Soupe veloutée à la carotte",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "6",
+            "1",
+            "1",
+            "3",
+            "1",
+            "1/2",
+            "1.5",
+            "1",
+            "20",
+            "1"
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            "c.à.s",
+            "c.à.s",
+            "botte",
+            "l",
+            "gousse",
+            "cl",
+            "cube"
+        ],
+        "ingredients": [
+            "carottes",
+            "oignon",
+            "poireau",
+            "d'huile d'olive",
+            "cumin en poudre",
+            "persil",
+            "d'eau",
+            "d'ail",
+            "crème liquide",
+            "bouillon de volaille"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160404/2388_w1024h1024c1cx1500cy1000.jpg",
+        "etapes": [
+            "Éplucher les carottes et les couper en rondelles pas trop grosses afin qu'elles cuisent plus vite. ",
+            "Découper le poireau en morceaux ainsi que l'oignon, puis écraser la gousse d'ail.",
+            "Faire revenir tous les légumes dans la marmite 5 min dans 3 cuillères à soupe d'huile d'olive.",
+            "Préparer le bouillon de volaille puis le verser sur les légumes. ",
+            "Au 1er bouillon, baisser la cuisson sur feu moyen et laisser  ",
+            "Cuire ainsi pendant au moins 1h15 . ",
+            "Surveiller de temps en temps afin de vérifier qu'il ne manque pas de l'eau. Allonger le temps de cuisson si les carottes ne sont pas assez cuites pour être mixées.",
+            "Une fois tous les légumes cuits, mixer puis ajouter la crème liquide. Mixer de nouveau. ",
+            "Équeuter le persil, puis l'ajouter dans la soupe (ne pas le faire cuire en même temps que les autres légumes). Ajouter la cuillère à soupe de cumin, puis mixer encore une fois. ",
+            "Saler et poivrer selon votre goût."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 105,
+        "nombredepersonne": 4,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "carotte",
+            " oignon",
+            " poireau",
+            " huile d'olive",
+            " cumin en poudre",
+            " persil",
+            " eau",
+            " ail",
+            " crème liquide",
+            " bouillon de volaille"
+        ]
+    },
+    {
+        "nom": "Soupe à la courgette et au curry",
+        "source": "Marmiton",
+        "difficulte": 2,
+        "quantite": [
+            "1",
+            "1",
+            " ",
+            " ",
+            " ",
+            " ",
+            "300",
+            "1",
+            " "
+        ],
+        "unite": [
+            "kg",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            "g",
+            "gousse",
+            " "
+        ],
+        "ingredients": [
+            "courgette",
+            "oignon",
+            "curry",
+            "poivre",
+            "sel",
+            "huile",
+            "pomme de terre",
+            "d'ail",
+            "bouillon de volaille"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20181017/82783_w1024h1024c1cx1944cy2592cxb3888cyb5184.jpg",
+        "etapes": [
+            "Découpez en cubes les courgettes et les pommes de terre épluchées. Coupez les oignons grossièrement.",
+            "Préparez du bouillon de volaille (frais ou lyophilisé).",
+            "Dans une cocotte, faites chauffez 2 cuillères à soupe d'huile. Quand celle ci est bien chaude, versez les oignons et l'ail et saupoudrez de curry (vous pouvez être généreux mais si la présence du curry vous surprend, mettez en peu la 1ère fois).",
+            "Remuez constamment, le temps que les oignons s'imprègnent de curry. Versez 1 l d'eau (y compris le bouillon).",
+            "Ajoutez les pommes de terre et 5 à 10 mn plus tard, les dés de courgettes. ",
+            "Laissez cuire 20 min. La soupe ne doit pas bouillir. Salez et poivrez.",
+            "Mixez (de préférence le plus possible, cette soupe est meilleure lisse). C'est prêt!"
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 60,
+        "nombredepersonne": 6,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "courgette",
+            " oignon",
+            " curry",
+            " poivre",
+            " sel",
+            " huile",
+            " pomme de terre",
+            " ail",
+            " bouillon de volaille"
+        ]
+    },
+    {
+        "nom": "Velouté de courgettes",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "1",
+            "1",
+            "2"
+        ],
+        "unite": [
+            "kg",
+            " ",
+            "portions"
+        ],
+        "ingredients": [
+            "courgette",
+            "bouillon",
+            "Vache qui rit® ' ou équivalent"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20161215/23777_w1024h1024c1cx1224cy1632.jpg",
+        "etapes": [
+            "Laver les courgettes les couper en dés (ne pas éplucher) placer tous les ingrédients dans une cocotte minute sur un fond d'eau  (pour ne pas attraper au démarrage de la cuisson) ",
+            " (ne surtout pas saler, le bouillon cube s'en charge). ",
+            ", fermer la cocotte, démarrer la cuisson. ",
+            "Au sifflement laisser cuire 5 mn. Mixer le tout, et bon appétit"
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 25,
+        "nombredepersonne": 2,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "courgette",
+            " bouillon",
+            " Vache qui rit®"
+        ]
+    },
+    {
+        "nom": "Potage velouté poireaux pommes de terre",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "2",
+            "1/2",
+            " ",
+            " ",
+            " ",
+            "50",
+            "2",
+            "1/2",
+            " "
+        ],
+        "unite": [
+            " ",
+            "l",
+            " ",
+            " ",
+            " ",
+            "g",
+            " ",
+            "l",
+            " "
+        ],
+        "ingredients": [
+            "poireaux",
+            "d'eau",
+            "crème fraîche",
+            "poivre",
+            "sel",
+            "beurre",
+            "pommes de terre",
+            "lait",
+            "basilic ciselé"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20130204/37054_w1024h1024c1cx888cy1264.jpg",
+        "etapes": [
+            "Faire revenir les poireaux (bien lavés et émincés) avec le morceau de beurre, puis ajouter les pommes de terre.",
+            "Remuer et ajouter l'eau et le lait. Saler, poivrer. Cuire 1/2 heure.",
+            "Mixer le potage, puis ajouter la crème fraîche et le basilic ciselé."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 40,
+        "nombredepersonne": 4,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "poireau",
+            " eau",
+            " crème fraîche",
+            " poivre",
+            " sel",
+            " beurre",
+            " pomme de terre",
+            " lait",
+            " basilic"
+        ]
+    },
+    {
+        "nom": "Soupe de légumes poêlés",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "3",
+            "1",
+            "1",
+            "1",
+            "1",
+            "3"
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            " ",
+            "cube",
+            " "
+        ],
+        "ingredients": [
+            "carottes",
+            "oignon (taille moyenne)",
+            "tomate",
+            "poireau",
+            "bouillon (légume ou volaille)",
+            "pommes de terre"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20161122/19877_w1024h1024c1cx1872cy2808.jpg",
+        "etapes": [
+            "Epluchez, lavez et coupez vos légumes.",
+            "Faites revenir dans une cocotte - avec trois cuillères huile et un morceau de beurre - les carottes, les pommes de terre et le poireau, avec deux grosses pincées de sel, pendant 10 minutes.",
+            "Rajoutez l'oignon coupé en rondelles et laissez sur le feu encore 5 min en remuant régulièrement.",
+            "Ajoutez de l'eau de façon à ce qu'elle recouvre largement les légumes, portez à ébullition, ajoutez le cube de volaille et la tomate coupée en quartier.",
+            "Mettez le couvercle et laissez cuire à feu doux pendant environ une heure, puis passez les légumes au mixeur."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 75,
+        "nombredepersonne": 4,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "carotte",
+            " oignon",
+            " tomate",
+            " poireau",
+            " cube de bouillon",
+            " pomme de terre"
+        ]
+    },
+    {
+        "nom": "Tarte légère courgettes, jambon et chèvre gratiné",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "1",
+            " ",
+            " ",
+            "30",
+            "1",
+            "100",
+            "4",
+            "20",
+            "4"
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            "g",
+            " ",
+            "g",
+            " ",
+            "cl",
+            "tranches"
+        ],
+        "ingredients": [
+            "courgette ou 2 petites",
+            "poivre",
+            "sel",
+            "gruyère râpé",
+            "pâte brisée",
+            "chèvre en bûche",
+            "oeufs",
+            "crème liquide à 5% de M.G",
+            "jambon"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160223/7856_w1024h1024c1cx270cy270.jpg",
+        "etapes": [
+            "Eplucher la courgette, la laver, la vider et la couper en cubes. La faire blanchir une quinzaine de minutes dans de l'eau salée.Bien laisser égoutter.",
+            "Pendant ce temps, dérouler la pâte brisée sur un moule à tarte, la piquer avec une fourchette.",
+            "Préparer la migaine en mélangeant les oeufs, la crème liquide, sel et poivre.",
+            "Couper le jambon en petits carrés, puis les disposer dans le fond de la tarte, étaler dessus bien uniformément les courgettes en cubes, puis la migaine.",
+            "Pour finir, couper quelques rondelles de chèvre et les disposer sur le dessus de la tarte, puis saupoudrer d'un peu de gruyère.",
+            "Enfourner dans le four préalablement chauffé à 180°C (thermostat 6) pendant environ 40 min."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 85,
+        "nombredepersonne": 8,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "courgette",
+            " poivre",
+            " sel",
+            " gruyère râpé",
+            " pâte brisée",
+            " chèvre",
+            " oeuf",
+            " crème liquide",
+            " jambon"
+        ]
+    },
+    {
+        "nom": "Petite soupe de carottes au lait de coco",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "600",
+            "1",
+            "1",
+            "20"
+        ],
+        "unite": [
+            "g",
+            " ",
+            " ",
+            "cl"
+        ],
+        "ingredients": [
+            "carotte",
+            "oignon",
+            "eau",
+            "lait de coco"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20130122/23866_w1024h1024c1cx750cy910.jpg",
+        "etapes": [
+            "Faites bouillir l'eau. ",
+            "Brossez les carottes, puis coupez-les en rondelle. ",
+            "Epluchez l'oignon et coupez-le en morceaux. ",
+            "Placez le tout dans l'eau bouillante et salée, et laissez cuire pendant 30 min à feu moyen. ",
+            "Mixez, puis versez le lait de coco. ",
+            "C'est prêt !"
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 45,
+        "nombredepersonne": 6,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "carotte",
+            " oignon",
+            " eau",
+            " lait de coco"
+        ]
+    },
+    {
+        "nom": "Verrines bicolores kiwi-saumon",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "5",
+            "10",
+            " ",
+            "4",
+            "6"
+        ],
+        "unite": [
+            "cl",
+            "g",
+            " ",
+            " ",
+            "tranches"
+        ],
+        "ingredients": [
+            "crème fraîche liquide",
+            "mayonnaise",
+            "ciboulette",
+            "kiwis",
+            "saumon fumé"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20180209/77481_w1024h1024c1cx1806cy1200cxb3613cyb2400.jpg",
+        "etapes": [
+            "Couper les kiwis et les traches de saumon en dés. ",
+            "Disposer dans les verrines. (kiwi en-dessous, saumon au-dessus.",
+            "Pour la sauce, mélanger la crème liquide et la mayonnaise avec la ciboulette et un filet de jus de citron.",
+            "Verser la sauce sur le saumon.",
+            "Et voilà !"
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 15,
+        "nombredepersonne": 8,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "crème fraîche liquide",
+            " mayonnaise",
+            " ciboulette",
+            " kiwi",
+            " saumon fumé"
+        ]
+    },
+    {
+        "nom": "Velouté aux poivrons et au boursin",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "3",
+            "2",
+            "2",
+            "2",
+            "1"
+        ],
+        "unite": [
+            " ",
+            " ",
+            "cubes",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "poivrons rouges",
+            "oignons",
+            "bouillon de poule",
+            "pommes de terre (de taille moyenne)",
+            "fromage ail et fines herbes"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160404/1368_w1024h1024c1cx1500cy1060.jpg",
+        "etapes": [
+            "Couper finement tous les légumes.",
+            "Dans une cocotte-minute, verser eau, poivrons, oignons, pommes de terre, et les cubes. Laisser cuire 10 à 15 mn.",
+            "Mixer le tout avec un boursin et rajouter de l'eau si nécessaire."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 50,
+        "nombredepersonne": 4,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "poivron rouge",
+            " oignon",
+            " cube de bouillon",
+            " pomme de terre",
+            " fromage ail et fines herbes"
+        ]
+    },
+    {
+        "nom": "La salade piémontaise de Jean-Pierre",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            "1",
+            "2",
+            "2",
+            "4",
+            "1",
+            "8"
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            "pot",
+            " ",
+            " ",
+            " ",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "huile",
+            "vinaigre",
+            "poivre",
+            "sel",
+            "moutarde",
+            "mayonnaise",
+            "tomates",
+            "oeufs",
+            "pommes de terre",
+            "jambon",
+            "cornichons"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20150706/1376_w1024h1024c1cx1520cy2260.jpg",
+        "etapes": [
+            "Faire cuire les pommes de terre à l'eau et les éplucher. ",
+            "Faire cuire dans le même temps les oeufs pour qu'ils deviennent durs soit 10 min. Les mettre dans l'eau froide pour qu'ils s'écalent plus facilement.",
+            "Couper les tomates, le jambon et les pommes de terre en dés. Les mettre dans un saladier et ajouter les oeufs durs ainsi que les cornichons coupés en rondelles.",
+            "Pour la sauce :",
+            "Faire une vinaigrette bien relevée et délayer avec au moins 2 grosses cuillères à soupe de mayonnaise. Arroser votre salade de cette sauce. ",
+            "Mélanger et laisser au réfrigérateur pour que les pommes de terre s'imprègnent de sauce."
+        ],
+        "tempspreparation": 45,
+        "tempstotal": 75,
+        "nombredepersonne": 4,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "huile",
+            " vinaigre",
+            " poivre",
+            " sel",
+            " moutarde",
+            " mayonnaise",
+            " tomate",
+            " oeuf",
+            " pomme de terre",
+            " jambon",
+            " cornichons"
+        ]
+    },
+    {
+        "nom": "Samoussa rapide au boeuf",
+        "source": "Marmiton",
+        "difficulte": 2,
+        "quantite": [
+            "1",
+            "1",
+            "2",
+            "1",
+            " ",
+            " ",
+            "5",
+            "250",
+            "1",
+            "5",
+            "1"
+        ],
+        "unite": [
+            " ",
+            " ",
+            "c.à.c",
+            "c.à.c",
+            " ",
+            " ",
+            "feuilles",
+            "g",
+            "gousse",
+            "c.à.s",
+            " "
+        ],
+        "ingredients": [
+            "carotte",
+            "oignon",
+            "curry",
+            "gingembre en poudre",
+            "huile d'olive",
+            "huile de friture",
+            "brick",
+            "boeuf haché",
+            "d'ail",
+            "sauce soja (sucrée de préférence)",
+            "jaune d'oeuf"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20181017/82772_w1024h1024c1cx1795cy2394cxb3591cyb4788.jpg",
+        "etapes": [
+            "Dans une poêle à feu vif, faire revenir l'oignon, l'ail et la carotte hachés dans de l'huile d'olive.",
+            "Ajouter la viande de bœuf et laisser dorer un peu.",
+            "Assaisonner avec le curry, le gingembre puis ajouter la sauce soja. Bien mélanger et laisser cuire à feu doux 2 à 3 min.",
+            "Répartir la farce dans les feuilles de brick (2 samoussas par feuille) et procéder au pliage (souvent expliqué sur les paquets de feuilles de brick). ",
+            "Coller le dernier revers avec un jaune d'œuf.",
+            "Faire cuire dans un fond d'huile de friture, 2 min de chaque côté.",
+            "En fin de cuisson, déposer les samoussas sur une assiette avec du papier absorbant afin de retirer l'excès d'huile de cuisson. Bon appétit !"
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 30,
+        "nombredepersonne": 10,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "carotte",
+            " oignon",
+            " curry",
+            " gingembre",
+            " huile d'olive",
+            " huile de friture",
+            " brick",
+            " boeuf haché",
+            " ail",
+            " sauce soja",
+            " jaune d'oeuf"
+        ]
+    },
+    {
+        "nom": "Velouté de chou- fleur",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "750",
+            " ",
+            " ",
+            " ",
+            "50",
+            "2",
+            "1",
+            "2",
+            "1"
+        ],
+        "unite": [
+            "ml",
+            " ",
+            " ",
+            " ",
+            "g",
+            "c.à.s",
+            " ",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "d'eau",
+            "origan",
+            "poivre",
+            "sel",
+            "beurre",
+            "crème fraîche",
+            "chou-fleur",
+            "pommes de terre",
+            "bouillon de volaille"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160404/63539_w1024h1024c1cx1500cy1001.jpg",
+        "etapes": [
+            "Détailler le chou-fleur. ",
+            "Mettre dans une casserole, le chou-fleur découpé (en fleurs), les pommes de terre, le bouillon cube, 750 ml d'eau, l'origan et le sel. ",
+            "Faire cuire jusqu'à ce que le tout soit cuit (piquer avec un couteau, qui doit rentrer facilement). ",
+            "Mixer le tout avec le beurre et la crème fraîche. ",
+            "Assaisonner avec du sel et du poivre. ",
+            "Bon appétit !"
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 35,
+        "nombredepersonne": 6,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "eau",
+            " origan",
+            " poivre",
+            " sel",
+            " beurre",
+            " crème fraîche",
+            " chou-fleur",
+            " pomme de terre",
+            " bouillon de volaille"
+        ]
+    },
+    {
+        "nom": "Terrine de canard noisettes et pistaches de Brigitte",
+        "source": "Marmiton",
+        "difficulte": 2,
+        "quantite": [
+            "1",
+            "1",
+            "3",
+            "2",
+            "2",
+            "2",
+            "1",
+            "1",
+            "3",
+            "2",
+            "500",
+            "1",
+            "3",
+            "2",
+            "1",
+            "40",
+            "40",
+            "1"
+        ],
+        "unite": [
+            "c.à.s",
+            " ",
+            "c.à.s",
+            " ",
+            "c.à.c",
+            "c.à.c",
+            "verre",
+            "c.à.s",
+            "feuilles",
+            " ",
+            "g",
+            " ",
+            " ",
+            "gousses",
+            "c.à.s",
+            "g",
+            "g",
+            "c.à.s"
+        ],
+        "ingredients": [
+            "farine",
+            "bouquet de persil",
+            "d'huile d'olive",
+            "biscuits à la cuillère bien bombée de sel de Guérande",
+            "poivre concassé fin",
+            "poivre vert égoutté",
+            "liqueur de Cognac (ou d'Armagnac)",
+            "d'orange confits",
+            "laurier",
+            "Magrets de Canard (300 ou 350 g chacun)",
+            "chair à saucisse",
+            "oeuf",
+            "échalotes",
+            "d'ail",
+            "herbes de Provence",
+            "noisettes grossièrement concassées",
+            "pistaches grossièrement concassées",
+            "pistaches entières"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160404/587_w1024h1024c1cx1111cy1500.jpg",
+        "etapes": [
+            "Cuisson et repos : 1h de cuisson + 2h de repos au four + 1 nuit (ou 24 h) au réfrigérateur",
+            "Détacher avec un couteau effilé la peau des deux magrets. ",
+            "Tapisser le fond de la terrine avec les deux peaux, se chevauchant légèrement et remontant sur les bords en épousant bien la forme de la terrine. Puis déposer l'un des deux magrets. ",
+            "Hacher le persil, les échalotes et l'ail. ",
+            "Hacher grossièrement le deuxième magret et le mélanger à la chair de porc hachée. ",
+            "Mélanger. ",
+            "Ajouter l’oeuf, la farine, le mélange persil-échalotes-ail, l’huile d’olive. Puis les herbes de Provence, le sel, le poivre. Mélanger. ",
+            "Enfin les noisettes et les pistaches concassées, les baies de poivre vert, les zestes d’orange confite coupés en petits morceaux et le petit verre d’alcool. ",
+            "Malaxer bien le tout jusqu’à complète homogénéïté. ",
+            "Poser cette farce sur le magret dans la terrine. Appuyer. Presser bien pour que tout soit bien tassé. Disposer quelques feuilles de laurier à la surface. ",
+            "Fermer et enfourner dans un four non préchauffé, pour 1 heure à 220/230°C (thermostat 7-8). Puis laisser la terrine dans le four éteint pendant 2 ou 3 heures. ",
+            "Au bout de ce laps de temps, préparer un sachet de gelée au Porto. ",
+            "Vider doucement le gras liquide de la terrine. Remplacer par la gelée de manière à recouvrir légèrement l’ensemble. ",
+            "Laisser une nuit au réfrigérateur."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 90,
+        "nombredepersonne": 1,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "farine",
+            " persil",
+            " huile d'olive",
+            " sel",
+            " poivre",
+            " poivre vert",
+            " liqueur",
+            " orange",
+            " feuille de laurier",
+            " Magret de Canard",
+            " chair à saucisse",
+            " oeuf",
+            " échalote",
+            " ail",
+            " herbes de Provence",
+            " noisettes",
+            " pistaches",
+            " pistaches"
+        ]
+    },
+    {
+        "nom": "Soupe de cresson",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "3",
+            "1"
+        ],
+        "unite": [
+            " ",
+            "c.à.s",
+            " ",
+            "l",
+            "botte",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "belle branche de thym",
+            "beurre",
+            "bouillon",
+            "d'eau (ou plus selon la quantité de cresson)",
+            "cresson",
+            "pommes de terre moyennes",
+            "échalote"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20181017/82796_w1024h1024c1cx1623cy2290cxb3309cyb4414.jpg",
+        "etapes": [
+            "Laver, nettoyer le cresson pour enlever les trop grosses tiges. ",
+            "Eplucher les pommes de terre, et les détailler en cubes.",
+            "Dans une grande casserole, mettre le beurre à chauffer. Lorsqu'il commence à grésiller (sans brûler), ajouter le cresson, les pommes de terre, l'échalote hachée grossièrement et le thym. ",
+            "Laisser le cresson ramollir et ajouter l'eau et le bouillon cube. Il faut que l'eau recouvre les légumes d'au moins 2 doigts.",
+            "Arrêter la cuisson, lorsque les pommes de terre sont très tendres et s'écrasent avec une cuillère en bois. Une fois la préparation tiédie, enlever et garder un peu de bouillon.",
+            "Mixer les légumes et rajouter le bouillon mis de côté, pour obtenir la consistance désirée."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 55,
+        "nombredepersonne": 4,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "thym",
+            " beurre",
+            " bouillon",
+            " eau",
+            " cresson",
+            " pomme de terre",
+            " échalote"
+        ]
+    },
+    {
+        "nom": "Pâte pour cake salé",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "200",
+            "5",
+            "1",
+            "3",
+            "10"
+        ],
+        "unite": [
+            "g",
+            "cl",
+            "sachet",
+            " ",
+            "cl"
+        ],
+        "ingredients": [
+            "farine",
+            "d'huile d'olive",
+            "levure chimique",
+            "oeufs",
+            "lait"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20230621/143715_w1024h1024c1cx960cy540cxb1920cyb1080.jpg",
+        "etapes": [
+            "Mélangez le tout dans un grand saladier et place à la création !",
+            "Rajoutez-y vos ingrédients du moments !",
+            "Jambon en dé, gruyère rapé, ciboulette, chorizo...",
+            "Laissez parler vos envies !",
+            "Mettre ensuite la préparation dans un moule à cake beurré et fariné, et laissez cuire 40 minutes, thermostat 7 (210°C).",
+            "Démoulez chaud, c'est prêt !"
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 50,
+        "nombredepersonne": 6,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "farine",
+            " huile d'olive",
+            " levure chimique",
+            " oeuf",
+            " lait"
+        ]
+    },
+    {
+        "nom": "Salade melon, feta, jambon",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "200",
+            "4",
+            "1",
+            " ",
+            " ",
+            "2",
+            "1",
+            "4",
+            "4"
+        ],
+        "unite": [
+            " ",
+            "g",
+            "c.à.s",
+            "c.à.c",
+            " ",
+            " ",
+            "c.à.s",
+            " ",
+            "tranches",
+            "c.à.s"
+        ],
+        "ingredients": [
+            "melon moyen",
+            "feta",
+            "d'huile d'olive",
+            "thym",
+            "poivre du moulin",
+            "sel",
+            "d'eau pour une sauce allégée",
+            "coeur de salade (feuille de chêne)",
+            "jambon cru",
+            "jus de citron"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20220620/132948_w1024h1024c1cx1079cy694cxb2158cyb1389.jpg",
+        "etapes": [
+            "Eplucher le melon, et couper la chair en petits cubes. ",
+            "Couper les tranches de jambon cru en fines lanières. ",
+            "Couper la feta en cubes. ",
+            "Pour la sauce : verser le jus de citron dans un bol, saler, poivrer (allonger d'eau si désiré); bien mélanger. ",
+            "Ajouter l'huile d'olive, mélanger énergiquement, afin d'obtenir une belle émulsion et incorporer le thym. ",
+            "Mettre la salade, le melon, le jambon, la feta et la sauce dans un saladier, et remuer juste avant de servir."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 15,
+        "nombredepersonne": 4,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "melon",
+            " feta",
+            " huile d'olive",
+            " thym",
+            " poivre",
+            " sel",
+            " eau",
+            " salade",
+            " jambon cru",
+            " jus de citron"
+        ]
+    },
+    {
+        "nom": "Quiche provençale",
+        "source": "Marmiton",
+        "difficulte": 2,
+        "quantite": [
+            "1",
+            "1",
+            "2",
+            "1",
+            "3",
+            " ",
+            " ",
+            "3",
+            "100",
+            "1",
+            "10",
+            " "
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            " ",
+            "g",
+            "boîte",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "pâte feuilletée",
+            "petit pot de crème fraîche",
+            "oignons",
+            "poivron",
+            "tomates",
+            "poivre",
+            "sel",
+            "oeufs",
+            "gruyère",
+            "thon",
+            "olives vertes dénoyautées",
+            "herbes de Provence"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160325/24217_w1024h1024c1cx1244cy829.jpg",
+        "etapes": [
+            "Dérouler la pate feuilletée en gardant le papier sulfurisé, étaler-là dans un moule à tarte. ",
+            "Couper les 3 tomates en rondelles. Bien les disposer dans le plat. Mettre au frais.",
+            "Dans une terrine, couper l'oignon en petits dés ainsi que le poivron en fines lamelles.",
+            "Rajouter les miettes de thon, les 3 oeufs, la creme fraiche, le gruyère et les olives coupées en lamelles.",
+            "Saler, poivrer. Mettre un peu d'herbes de Provence.Mélanger.",
+            "Etaler la préparation dans le plat à tarte. Mettre au four 45 mn à thermostat 6 (180°C).",
+            "Servez légèrement tiède accompagnée d'une salade."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 75,
+        "nombredepersonne": 6,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "pâte feuilletée",
+            " crème fraîche",
+            " oignon",
+            " poivron",
+            " tomate",
+            " poivre",
+            " sel",
+            " oeuf",
+            " gruyère",
+            " thon",
+            " olives vertes",
+            " herbes de Provence"
+        ]
+    },
+    {
+        "nom": "Croque monsieur d'aubergines",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "1",
+            "2",
+            "1",
+            "10",
+            "50",
+            " "
+        ],
+        "unite": [
+            " ",
+            " ",
+            "cuillère",
+            "cl",
+            "g",
+            " "
+        ],
+        "ingredients": [
+            "aubergine",
+            "tomates",
+            "à dessert de moutarde",
+            "crème liquide",
+            "gruyère",
+            "herbes de Provence"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160404/5041_w1024h1024c1cx1500cy1000.jpg",
+        "etapes": [
+            "Couper les aubergines en tranches de 1 cm d'épaisseur, dans le sens de la longueur. ",
+            "Mélanger la moutarde avec la crème dans un bol. Etalez cette prépération sur une face des aubergines. ",
+            "Faire des lamelles de fromage que vous placez sur les aubergines pour recouvrir toute la surface.",
+            "Couper les tomates en tranches de 5 mm d'épaisseur.",
+            "Mettre 1 ou 2 tranches de tomate sur les aubergines. ",
+            "Saupoudrez d'herbes de Provence. ",
+            "Passez au four à 180°C (themostat 6) pendant 30 mn (à voir en fait selon la cuisson désirée)."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 45,
+        "nombredepersonne": 2,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "aubergine",
+            " tomate",
+            " moutarde",
+            " crème liquide",
+            " gruyère",
+            " herbes de Provence"
+        ]
+    },
+    {
+        "nom": "Velouté de brocolis",
+        "source": "Marmiton",
+        "difficulte": 1,
+        "quantite": [
+            "2",
+            " ",
+            " ",
+            "1",
+            "1.5",
+            "1",
+            "2.5"
+        ],
+        "unite": [
+            " ",
+            " ",
+            " ",
+            "kg",
+            "l",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "oignons",
+            "poivre",
+            "sel",
+            "brocoli",
+            "bouillon de volaille (eau + 3 cubes)",
+            "bouquet garni",
+            "dl de crème"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20160404/46025_w1024h1024c1cx1500cy1000.jpg",
+        "etapes": [
+            "Nettoyez les bouquets de brocolis, raccourcissez les trognons de 5 cm et retirez les feuilles.",
+            "Faites fondre les oignons à feu doux dans une noix de beurre. Ajoutez les brocolis.",
+            "Mouillez du bouillon de volaille et portez à ébullition. Ajoutez le bouquet garni et laissez mijoter 30 mn, jusqu'à ce que les brocolis soient cuits à points.",
+            "Mixez le tout et ajouter la crème, assaisonnez à votre goût."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 45,
+        "nombredepersonne": 6,
+        "categorie": "entree",
+        "ingredients_recherche": [
+            "oignon",
+            " poivre",
+            " sel",
+            " brocoli",
+            " bouillon de volaille",
+            " bouquet garni",
+            " crème"
+        ]
     }
 ]

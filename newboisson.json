@@ -28,7 +28,12 @@
         "tempspreparation": 30,
         "tempstotal": 40,
         "nombredepersonne": 2,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "sucre",
+            " eau",
+            " citron"
+        ]
     },
     {
         "nom": "Soupe champenoise",
@@ -59,7 +64,13 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 6,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "vin",
+            " sucre de canne",
+            " citron vert",
+            " cointreau"
+        ]
     },
     {
         "nom": "Chocolat chaud du Père Noël",
@@ -89,7 +100,12 @@
         "tempspreparation": 10,
         "tempstotal": 20,
         "nombredepersonne": 4,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "chocolat pâtissier",
+            " lait entier",
+            " crème liquide"
+        ]
     },
     {
         "nom": "Cocktail litchi, gingembre et champagne",
@@ -119,7 +135,7 @@
             "litchi (25 cl chacune) non gazeuse",
             "champagne brut ou blanc de blanc très frais, limite glacées"
         ],
-        "image": "https://assets.afcdn.com/recipe/20210311/118498_w1024h1024c1cx707cy1060cxb1414cyb2121.jpg",
+        "image": "https://assets.afcdn.com/recipe/20230621/143692_w1024h1024c1cx960cy540cxb1920cyb1080.jpg",
         "etapes": [
             "La veille, verser dans un grand récipient la liqueur de litcho,  le jus des deux boîtes de litchis, les deux boîtes de boisson aux litchis et le gingembre. Réfrigérer.",
             "Avant de servir, verser les deux bouteilles de champagne.",
@@ -128,7 +144,15 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 20,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "gingembre confit",
+            " fraises",
+            " Alcool",
+            " litchi au sirop",
+            " litchi",
+            " champagne"
+        ]
     },
     {
         "nom": "Soupe Champagne",
@@ -161,7 +185,13 @@
         "tempspreparation": 10,
         "tempstotal": 10,
         "nombredepersonne": 6,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "sucre de canne",
+            " cointreau",
+            " citron",
+            " mousseux"
+        ]
     },
     {
         "nom": "Liqueur de Lait aux Carambars façon Clochette",
@@ -214,7 +244,18 @@
         "tempspreparation": 30,
         "tempstotal": 30,
         "nombredepersonne": 6,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "rhum",
+            " sucre",
+            " gingembre",
+            " lait",
+            " cannelle",
+            " citron",
+            " citron vert",
+            " carambar©",
+            " autres"
+        ]
     },
     {
         "nom": "Mojito cubain",
@@ -257,7 +298,15 @@
         "tempspreparation": 5,
         "tempstotal": 5,
         "nombredepersonne": 1,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "sucre de canne",
+            " rhum",
+            " citron vert",
+            " menthe",
+            " eau gazeuse",
+            " glaçons"
+        ]
     },
     {
         "nom": "Limoncello (liqueur de citron)",
@@ -292,7 +341,13 @@
         "tempspreparation": 15,
         "tempstotal": 15,
         "nombredepersonne": 4,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "sucre",
+            " eau",
+            " citron",
+            " Alcool"
+        ]
     },
     {
         "nom": "Grog au rhum",
@@ -327,7 +382,13 @@
         "tempspreparation": 5,
         "tempstotal": 8,
         "nombredepersonne": 1,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "rhum",
+            " miel",
+            " eau",
+            " citron"
+        ]
     },
     {
         "nom": "Lait de poule pour Noël",
@@ -363,6 +424,867 @@
         "tempspreparation": 5,
         "tempstotal": 7,
         "nombredepersonne": 1,
-        "categorie": "boisson"
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "sucre",
+            " jaune d'oeuf",
+            " lait",
+            " cannelle",
+            " muscade"
+        ]
+    },
+    {
+        "nom": "Milk shake à la vanille",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "3",
+            " ",
+            "50",
+            "1",
+            " "
+        ],
+        "unite": [
+            " ",
+            " ",
+            "cl",
+            "l",
+            " "
+        ],
+        "ingredients": [
+            "gouttes de vanille liquide",
+            "chocolat",
+            "lait entier",
+            "glace vanille",
+            "crème chantilly"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20130722/11177_w1024h1024c1cx1720cy2404.jpg",
+        "etapes": [
+            "Mixez (à froid) le lait avec la glace vanille. ",
+            "Ajoutez 2 à 3 gouttes de vanille liquide, puis servez dans 4 grands verres que je vous conseille de décorer avec des copeaux de chocolat et de la chantilly.",
+            "Voilà, vous pouvez déguster vos milk shakes vanille..."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 4,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "vanille",
+            " chocolat",
+            " lait entier",
+            " glace vanille",
+            " crème chantilly"
+        ]
+    },
+    {
+        "nom": "Sirop de menthe",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "2",
+            "2",
+            "1"
+        ],
+        "unite": [
+            "l",
+            "kg",
+            "tasse"
+        ],
+        "ingredients": [
+            "d'eau",
+            "sucre en poudre",
+            "menthe dont on aura retiré les tiges"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20100120/1954_w1024h1024c1cx192cy256.jpg",
+        "etapes": [
+            "Laver les feuilles, les égoutter et les mettre dans un récipient d'une contenance de 3 ou 4 l environ.",
+            "Porter l'eau à ébullition, puis la verser sur les feuilles. Ajouter le sucre, bien mélanger.",
+            "Laisser macérer 1 à 2 jours. Remuer de temps en temps afin que le sucre se dissolve mais aussi pour éviter qu'il ne reste au fond.",
+            "Puis, passer ce sirop au tamis ou au travers d'une mousseline. Porter à ébullition.",
+            "Remplir à ras-bord des bouteilles préchauffées. Boucher immédiatement et conserver dans un endroit frais et sombre.",
+            "Consommer avant la prochaine saison."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 21,
+        "nombredepersonne": 3,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "eau",
+            " sucre en poudre",
+            " menthe"
+        ]
+    },
+    {
+        "nom": "L'apéritif des bons vivants",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "25",
+            "25",
+            "1",
+            "1",
+            " "
+        ],
+        "unite": [
+            "cl",
+            "cl",
+            "l",
+            "l",
+            " "
+        ],
+        "ingredients": [
+            "rhum blanc",
+            "Pisang Ambon (liqueur de banane)",
+            "jus d'orange",
+            "jus d'ananas",
+            "sirop de grenadine"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20100120/55069_w1024h1024c1cx256cy192.jpg",
+        "etapes": [
+            "C'est super simple.",
+            "Prévoir un grand saladier.",
+            "Dans ce saladier, mélanger le rhum et le pisang.",
+            "Ajouter les deux jus.",
+            "Mettre au réfrigérateur.",
+            "Une fois le verre servi (bien frais), ajouter un filet de grenadine dans celui-ci.",
+            "Bonne dégustation... avec modération!"
+        ],
+        "tempspreparation": 5,
+        "tempstotal": 5,
+        "nombredepersonne": 10,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "rhum",
+            " Pisang",
+            " jus d'orange",
+            " jus d'ananas",
+            " sirop de grenadine"
+        ]
+    },
+    {
+        "nom": "Milkshake glacé à la banane",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "40",
+            "1"
+        ],
+        "unite": [
+            " ",
+            "cl",
+            "boule"
+        ],
+        "ingredients": [
+            "banane",
+            "lait",
+            "glace vanille"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20130813/41160_w1024h1024c1cx1872cy2384.jpg",
+        "etapes": [
+            "Par personne, mixer une banane bien mûre avec un verre de lait et une boule de glace à la vanille."
+        ],
+        "tempspreparation": 5,
+        "tempstotal": 5,
+        "nombredepersonne": 1,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "banane",
+            " lait",
+            " glace vanille"
+        ]
+    },
+    {
+        "nom": "Smoothie au kiwi",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1/3",
+            "1",
+            "1",
+            "2/3",
+            "3"
+        ],
+        "unite": [
+            "verre",
+            "c.à.s",
+            " ",
+            "verre",
+            "c.à.s"
+        ],
+        "ingredients": [
+            "d'eau",
+            "sucre",
+            "kiwi",
+            "glaçons",
+            "kiwi"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20130813/26394_w1024h1024c1cx1872cy2808.jpg",
+        "etapes": [
+            "Pour obtenir un grand verre de smoothie :",
+            "Peler le kiwi",
+            "Mixer le kiwi avec les glaçons, l'eau, le sucre et le jus de kiwi jusqu'à ce que les glaçons soient entièrement mixés.",
+            "Verser dans un grand verre.",
+            "Petite astuce : rajouter un zeste de jus de citron pour acidifier le mélange."
+        ],
+        "tempspreparation": 2,
+        "tempstotal": 2,
+        "nombredepersonne": 1,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "eau",
+            " sucre",
+            " kiwi",
+            " glaçons",
+            " kiwi"
+        ]
+    },
+    {
+        "nom": "Punch coco de martinique",
+        "source": "Marmiton",
+        "difficulte": 2,
+        "quantite": [
+            "500",
+            "100",
+            "1",
+            "2",
+            "800",
+            "400",
+            "1",
+            "1"
+        ],
+        "unite": [
+            "ml",
+            "g",
+            "cuillère",
+            "gousses",
+            "ml",
+            "ml",
+            "c.à.c",
+            " "
+        ],
+        "ingredients": [
+            "rhum blanc (50/55°)",
+            "sucre de canne en poudre",
+            "gingembre en poudre",
+            "vanille",
+            "lait de coco en boite",
+            "lait concentré sucré",
+            "cannelle en poudre",
+            "muscade"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20161019/2580_w1024h1024c1cx1512cy2016.jpg",
+        "etapes": [
+            "dans une casserole, faire chauffer à feu moyen le lait concentré ,le lait de coco, et le sucre de canne en poudre,et les 2 gousses de vanille ouverte en deux (pour que les grains de vanille se libèrent dans le mélange).mélanger le tout avec une cuillère en bois.",
+            "Quand le mélange est devenue homogène,rajouter les épices( tamisés,à l'aide d'une petite passoire )pour éliminer les éventuels grumeaux . ",
+            "Enlever du feu ,et laisser refroidir le mélange obtenue ,en remuant de temps en temps pour vérifier qu'il n'y à pas grumeaux avec les épices.",
+            "Quand le mélange est froid ,rajouter le demi litre de rhum. bien mélanger le tout et mettre en bouteille (de verre de préférence ).récupérer les gousses de vanille du mélange pour les mettre dans les bouteilles avec le punch coco ."
+        ],
+        "tempspreparation": 30,
+        "tempstotal": 60,
+        "nombredepersonne": 5,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "rhum",
+            " sucre de canne",
+            " gingembre",
+            " vanille",
+            " lait de coco",
+            " lait concentré sucré",
+            " cannelle",
+            " muscade"
+        ]
+    },
+    {
+        "nom": "punch plaisir",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "2",
+            "1"
+        ],
+        "unite": [
+            "l",
+            " ",
+            " ",
+            "pincées",
+            "l",
+            "l",
+            " "
+        ],
+        "ingredients": [
+            "rhum 50°",
+            "bouteille de vanille liquide",
+            "demi de sucre de canne liquide",
+            "poivre",
+            "goyave",
+            "mangue",
+            "citron vert"
+        ],
+        "etapes": [
+            "Mélangez le rhum et les jus de fruits, la vanille liquide, le sucre. Coupez le citron en quartier puis pressez-le dans le mélange et laissez les fruits dedans, ajoutez le poivre, remuer, laissez reposer à température ambiante, et à la vôtre...."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 4,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "rhum",
+            " vanille",
+            " sucre de canne",
+            " poivre",
+            " goyave",
+            " mangue",
+            " citron vert"
+        ]
+    },
+    {
+        "nom": "Smoothie au lait de coco",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "2",
+            "1",
+            "40"
+        ],
+        "unite": [
+            " ",
+            "l",
+            "cl"
+        ],
+        "ingredients": [
+            "bananes bien mûres (mais pas noires quand-même!)",
+            "jus d'ananas",
+            "lait de coco"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20131009/5352_w1024h1024c1cx1728cy2592.jpg",
+        "etapes": [
+            "Ecrasez les bananes en purée assez fine, puis les passer au mixer. ",
+            "Ajoutez le jus d'ananas et le lait de coco. Mixez de nouveau.",
+            "Et voilà, c'est déjà prêt!"
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 2,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "banane",
+            " jus d'ananas",
+            " lait de coco"
+        ]
+    },
+    {
+        "nom": "Chocolat chaud créole (par une cuisinière martiniquaise)",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "1",
+            "3",
+            " ",
+            "2",
+            "1",
+            "397",
+            "410"
+        ],
+        "unite": [
+            "l",
+            "gousse",
+            "c.à.s",
+            " ",
+            " ",
+            "zeste",
+            "g",
+            "g"
+        ],
+        "ingredients": [
+            "lait demi-écrémé",
+            "vanille",
+            "chocolat noir en poudre (quantité selon le goût de chacun)",
+            "maïzena (au jugé, selon épaississement voulu)",
+            "bâtons de cannelle",
+            "citron vert non traité",
+            "lait concentré sucré",
+            "lait concentré non sucré"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20131009/52840_w1024h1024c1cx1456cy2184.jpg",
+        "etapes": [
+            "Faire chauffer le lait 1/2 écrémé avec le lait concentré non sucré,la cannelle, le zeste de citron, la vanille. Ne pas laisser bouillir.",
+            "Il faut que le lait s'imprègne des arômes lentement.",
+            "Ensuite, ajoutez le chocolat délayé dans un peu ce ce lait chaud.",
+            "Laisser consommer 10 minutes, toujours sans ébullition.",
+            "Ajoutez du lait concentré sucré selon votre goût. Normalement une demi boîte suffit. Il vaut mieux qu'il soit peu sucré que trop : vous rectifierez...",
+            "Laissez consommer encore dix minutes.",
+            "Délayez votre maïzena dans un peu d'eau froide et ajoutez à la préparation. Au bout de quelques minutes, le chocolat doit épaissir lègèrement, juste pour donner de l'onctueusité. Ne forcez donc pas sur la maïzena. ",
+            "Eteignez le feu, c'est prêt."
+        ],
+        "tempspreparation": 45,
+        "tempstotal": 55,
+        "nombredepersonne": 6,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "lait demi-écrémé",
+            " vanille",
+            " chocolat noir",
+            " maïzena",
+            " cannelle",
+            " citron vert",
+            " lait concentré sucré",
+            " lait concentré non sucré"
+        ]
+    },
+    {
+        "nom": "Milk shake à la banane",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "3",
+            "1",
+            "500"
+        ],
+        "unite": [
+            " ",
+            "boule",
+            "ml"
+        ],
+        "ingredients": [
+            "bananes",
+            "glace vanille",
+            "lait"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20121113/40973_w1024h1024c1cx256cy192.jpg",
+        "etapes": [
+            "Coupez les bananes en morceau et versez-les dans un pot gradué. Ajoutez la boule vanille et le lait. Mixez pour obtenir une pâte liquide et homogène. Voilà votre milk shake!"
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 4,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "banane",
+            " glace vanille",
+            " lait"
+        ]
+    },
+    {
+        "nom": "Milk shake léger aux fruits rouges",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "2",
+            "1",
+            " "
+        ],
+        "unite": [
+            "c.à.s",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "sucre ou d'édulcorant (selon les goûts...)",
+            "grand verre de lait (40 cl)",
+            "fruits rouges congelés (framboise, myrtille)"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20100120/42648_w1024h1024c1cx256cy192.jpg",
+        "etapes": [
+            "Versez le contenu d'1 verre de lait dans un mixer (ou blender), le même verre généreusement rempli de fruits congelés (ils doivent absolument être congelés pour la texture à la fin), et 2 à 3 cuillères a soupe de sucre (ou d'édulcorant).",
+            "Hop, un coup de mixer, et voila un milk shake onctueux et bien frais!"
+        ],
+        "tempspreparation": 1,
+        "tempstotal": 1,
+        "nombredepersonne": 2,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "sucre",
+            " lait",
+            " fruits rouges"
+        ]
+    },
+    {
+        "nom": "smoothie nectarine",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "1",
+            "5"
+        ],
+        "unite": [
+            " ",
+            " ",
+            "c.à.s"
+        ],
+        "ingredients": [
+            "nectarine",
+            "yaourt nature",
+            "lait"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20130823/63411_w1024h1024c1cx1872cy2808.jpg",
+        "etapes": [
+            "Mettre le yaourt, le lait et la nectarine lavée et dénoyautée dans un mixeur et mixer jusqu'à obtenir une substance crémeuse ou liquide. Puis servir dans un verre avec 1 ou 2 glaçons. ",
+            "Savourer!!! ",
+            "PS: La nectarine peut être remplacée par n'importe quel autre fruit mais ne pas modiier les quantités."
+        ],
+        "tempspreparation": 6,
+        "tempstotal": 6,
+        "nombredepersonne": 1,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "nectarine",
+            " yaourt nature",
+            " lait"
+        ]
+    },
+    {
+        "nom": "Sangria des Iles",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1/2",
+            "2",
+            " ",
+            "3",
+            "2",
+            " "
+        ],
+        "unite": [
+            "l",
+            " ",
+            " ",
+            "l",
+            "l",
+            " "
+        ],
+        "ingredients": [
+            "rhum (rhum arrangé aussi)",
+            "bananes",
+            "vanille + cannelle",
+            "vin rouge (courant)",
+            "fruits (mélangés)",
+            "fruits 2 pommes"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20150806/56977_w1024h1024c1cx4592cy3056.jpg",
+        "etapes": [
+            "Mélanger tous les ingrédients, ne pas oublier la cannelle (en écorce ou en poudre sinon). ",
+            "Au moment de servir, rajouter 2 ou 3 poignées de glaçon dans le bol à Sangria directement. ",
+            "On peut aussi rajouter soit de la limonade ou de l'eau pétillante en même temps que les glaçons (vérifier le sucrage si c'est de l'eau pétillante. ",
+            "Voilà, bon apéritif !!!"
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 10,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "rhum",
+            " banane",
+            " vanille",
+            " vin rouge",
+            " fruits",
+            " fruits"
+        ]
+    },
+    {
+        "nom": "Bailey's Maison",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "100",
+            "2",
+            "25",
+            "2",
+            "1",
+            "1",
+            "50"
+        ],
+        "unite": [
+            "g",
+            "sachets",
+            "cl",
+            " ",
+            "c.à.s",
+            "cuillère",
+            "cl"
+        ],
+        "ingredients": [
+            "sucre",
+            "sucre vanillé",
+            "whisky",
+            "jaunes d'oeuf",
+            "cacao",
+            "café soluble dissout",
+            "crème fraîche liquide allégée"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20131025/29778_w1024h1024c1cx1120cy1681.jpg",
+        "etapes": [
+            "Délayez les jaunes d'oeuf et le sucre. Ajoutez le sucre vanillé, le cacao, le café et le whisky. Terminez par la cème fraîche.",
+            "Servez bien frais !"
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 15,
+        "nombredepersonne": 2,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "sucre",
+            " sucre vanillé",
+            " whisky",
+            " jaune d'oeuf",
+            " cacao",
+            " café soluble",
+            " crème fraîche liquide"
+        ]
+    },
+    {
+        "nom": "Piña colada",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "25",
+            "2",
+            "400",
+            "1",
+            "1/2",
+            "1",
+            "1"
+        ],
+        "unite": [
+            "cl",
+            "c.à.c",
+            "ml",
+            "l",
+            "l",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "rhum blanc",
+            "d'extrait de vanille",
+            "lait de coco (grande surface, rayon exotique)",
+            "jus d'ananas",
+            "jus de banane",
+            "bâton de cannelle",
+            "muscade râpée"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20130502/51822_w1024h1024c1cx192cy256.jpg",
+        "etapes": [
+            "Ustensiles : 1 blender ou à défaut un mixer",
+            "La veille verser les jus d'ananas et de banane ainsi que le rhum dans un grand saladier, rajouter la vanille, le bâton de cannelle et le râpé de noix de muscade, le tout étant bien sûr facultatif mais après quelques essais je la trouve meilleure ainsi. ",
+            "Mélanger le tout puis passer au blender avec le lait de coco, mettez ensuite le saladier au frigo jusqu'à environ 10 mn de l'apéro. ",
+            "Au moment de servir verser dans le blender à travers une passoire afin de récuperer la cannelle (pas forcément agréable sous la dent) puis faites mousser avant de remplir les verres sans avoir oublié le lit de glace pilée et enfin déguster. ",
+            "Alors bien sûr comme c'est frais le rhum ne se sent pas de suite mais il est bien présent, vous pouvez donc diminuer ou même enlever le rhum, ce serra toujours aussi bon et les enfants pourront en profiter."
+        ],
+        "tempspreparation": 15,
+        "tempstotal": 15,
+        "nombredepersonne": 2,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "rhum",
+            " extrait de vanille",
+            " lait de coco",
+            " jus d'ananas",
+            " jus de banane",
+            " cannelle",
+            " muscade"
+        ]
+    },
+    {
+        "nom": "Smoothie bananapple",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "1",
+            "1"
+        ],
+        "unite": [
+            " ",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "banane",
+            "yaourt onctueux (genre Perle de Lait à la vanille)",
+            "pomme"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20131009/60349_w1024h1024c1cx1296cy1944.jpg",
+        "etapes": [
+            "Coupez en fines rondelles la banane puis épluchez, épépinez et coupez en petits morceaux votre pomme.",
+            "Mettez le tout dans votre mixeur, avec le yaourt.",
+            "Appuyez sur le bouton, puis patientez le temps que le mélange devienne bien homogène et lisse (il ne doit pas rester de morceaux de fruits !).",
+            "Enfin, versez le tout dans un grand verre et dégustez à l'aide d'une paille ou d'une cuillère ;)"
+        ],
+        "tempspreparation": 5,
+        "tempstotal": 5,
+        "nombredepersonne": 1,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "banane",
+            " yaourt",
+            " pomme"
+        ]
+    },
+    {
+        "nom": "Punch lorrain",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "70",
+            "3",
+            "50",
+            "1",
+            " "
+        ],
+        "unite": [
+            "cl",
+            "l",
+            "cl",
+            " ",
+            " "
+        ],
+        "ingredients": [
+            "d'eau de vie de mirabelle",
+            "d'eau pétillante",
+            "sucre de canne liquide",
+            "bouteille de citron",
+            "glaçons"
+        ],
+        "etapes": [
+            "Verser l'eau de vie dans un grand récipient (doser entre 70 et 100 cl, suivant le degré d'alcool désiré).",
+            "Ajouter toute la bouteille de concentré de citron et les 3l d'eau gazeuse.",
+            "Mélanger le tout et doser le sucre de canne suivant vos préférences. Ajouter les glaçons.",
+            "Placer au réfrigérateur au moins 2 heures pour servir très frais."
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 5,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "eau",
+            " eau",
+            " sucre de canne",
+            " citron",
+            " glaçons"
+        ]
+    },
+    {
+        "nom": "Le vrai lassi à la mangue (Inde)",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "2",
+            "2",
+            "1",
+            "1"
+        ],
+        "unite": [
+            "c.à.s",
+            " ",
+            "verre",
+            "verre"
+        ],
+        "ingredients": [
+            "sucre",
+            "yaourts brassés",
+            "mangue",
+            "lait"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20130304/55207_w1024h1024c1cx750cy777.jpg",
+        "etapes": [
+            "Mélangez le tout et laissez au frigidaire...hummm !!"
+        ],
+        "tempspreparation": 2,
+        "tempstotal": 2,
+        "nombredepersonne": 4,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "sucre",
+            " yaourt brassé",
+            " mangue",
+            " lait"
+        ]
+    },
+    {
+        "nom": "Godinette à ma façon (apéritif breton)",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "50",
+            "1",
+            "500",
+            "375"
+        ],
+        "unite": [
+            "cl",
+            "kg",
+            "g",
+            "cl"
+        ],
+        "ingredients": [
+            "d'eau -de-vie (à voir selon votre région)",
+            "fraises",
+            "sucre",
+            "muscadet (choisir un petit prix)"
+        ],
+        "etapes": [
+            "48 heures avant :",
+            "Equeuter les fraises et les couper en morceaux dans un grand saladier.",
+            "Ajouter le sucre et l'eau-de-vie.",
+            "La veille :",
+            "Ajouter le vin blanc. Mettre au frais.",
+            "Servir avec les morceaux de fruits, comme pour un punch ou une sangria."
+        ],
+        "tempspreparation": 20,
+        "tempstotal": 20,
+        "nombredepersonne": 15,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "eau",
+            " fraises",
+            " sucre",
+            " muscadet"
+        ]
+    },
+    {
+        "nom": "Milk shake à la framboise",
+        "source": "Marmiton",
+        "difficulte": 3,
+        "quantite": [
+            "1",
+            "100",
+            "25",
+            "5"
+        ],
+        "unite": [
+            "c.à.s",
+            "g",
+            "cl",
+            " "
+        ],
+        "ingredients": [
+            "sucre glace",
+            "framboises surgelées",
+            "lait",
+            "glaçons"
+        ],
+        "image": "https://assets.afcdn.com/recipe/20130813/236_w1024h1024c1cx1872cy1872.jpg",
+        "etapes": [
+            "Mixer la totalité des ingrédients. ",
+            "Répartir dans deux verres. ",
+            "Déguster!"
+        ],
+        "tempspreparation": 10,
+        "tempstotal": 10,
+        "nombredepersonne": 2,
+        "categorie": "boisson",
+        "ingredients_recherche": [
+            "sucre glace",
+            " framboises",
+            " lait",
+            " glaçons"
+        ]
     }
 ]

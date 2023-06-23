@@ -134,12 +134,12 @@
     ],
     author: 'jade_15196431',
     images: [
-      'https://assets.afcdn.com/recipe/20210311/118498_w1024h576c1 cx707cy1060cxb1414cyb2121.webp',
-      'https://assets.afcdn.com/recipe/20210311/118498_w1024h768c1cx707cy1060cxb1414cyb2121.webp',
-      'https://assets.afcdn.com/recipe/20210311/118498_w1024h1024c1cx707cy1060cxb1414cyb2121.webp',
-      'https://assets.afcdn.com/recipe/20210311/118498_w1024h576c1cx707cy1060cxb1414cyb2121.jpg',
-      'https://assets.afcdn.com/recipe/20210311/118498_w1024h768c1cx707cy1060cxb1414cyb2121.jpg',
-      'https://assets.afcdn.com/recipe/20210311/118498_w1024h1024c1cx707cy1060cxb1414cyb2121.jpg'
+      'https://assets.afcdn.com/recipe/20230621/143692_w1024h576c1 cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143692_w1024h768c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143692_w1024h1024c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143692_w1024h576c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20230621/143692_w1024h768c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20230621/143692_w1024h1024c1cx960cy540cxb1920cyb1080.jpg'
     ],
     steps: [
       'La veille, verser dans un grand récipient la liqueur de litcho,  le jus des deux boîtes de litchis, les deux boîtes de boisson aux litchis et le gingembre. Réfrigérer.',
@@ -442,5 +442,854 @@
     prepTime: 5,
     totalTime: 7,
     people: 1
+  },
+  {
+    name: 'Milk shake à la vanille',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_milk-shake-a-la-vanille_45416.aspx',
+    ingredients: [
+      '3 gouttes de vanille liquide',
+      'de chocolat',
+      '50 cl de lait entier',
+      '1 l de glace vanille',
+      'crème chantilly'
+    ],
+    author: 'alya_15996115',
+    images: [
+      'https://assets.afcdn.com/recipe/20130722/11177_w1024h576c1 cx1720cy2404.webp',
+      'https://assets.afcdn.com/recipe/20130722/11177_w1024h768c1cx1720cy2404.webp',
+      'https://assets.afcdn.com/recipe/20130722/11177_w1024h1024c1cx1720cy2404.webp',
+      'https://assets.afcdn.com/recipe/20130722/11177_w1024h576c1cx1720cy2404.jpg',
+      'https://assets.afcdn.com/recipe/20130722/11177_w1024h768c1cx1720cy2404.jpg',
+      'https://assets.afcdn.com/recipe/20130722/11177_w1024h1024c1cx1720cy2404.jpg'
+    ],
+    steps: [
+      'Mixez (à froid) le lait avec la glace vanille. ',
+      'Ajoutez 2 à 3 gouttes de vanille liquide, puis servez dans 4 grands verres que je vous conseille de décorer avec des copeaux de chocolat et de la chantilly.',
+      'Voilà, vous pouvez déguster vos milk shakes vanille...'
+    ],
+    description: 'vanille, chocolat, lait entier, glace vanille, crème chantilly',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Milk shake à la vanille',
+      'vanille',
+      'chocolat',
+      'lait entier',
+      'glace vanille',
+      'crème chantilly',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 4
+  },
+  {
+    name: 'Sirop de menthe',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_sirop-de-menthe_14315.aspx',
+    ingredients: [
+      "2 l d'eau",
+      '2 kg de sucre en poudre',
+      '1 tasse de menthe dont on aura retiré les tiges'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20100120/1954_w1024h576c1 cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20100120/1954_w1024h768c1cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20100120/1954_w1024h1024c1cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20100120/1954_w1024h576c1cx192cy256.jpg',
+      'https://assets.afcdn.com/recipe/20100120/1954_w1024h768c1cx192cy256.jpg',
+      'https://assets.afcdn.com/recipe/20100120/1954_w1024h1024c1cx192cy256.jpg'
+    ],
+    steps: [
+      "Laver les feuilles, les égoutter et les mettre dans un récipient d'une contenance de 3 ou 4 l environ.",
+      "Porter l'eau à ébullition, puis la verser sur les feuilles. Ajouter le sucre, bien mélanger.",
+      "Laisser macérer 1 à 2 jours. Remuer de temps en temps afin que le sucre se dissolve mais aussi pour éviter qu'il ne reste au fond.",
+      "Puis, passer ce sirop au tamis ou au travers d'une mousseline. Porter à ébullition.",
+      'Remplir à ras-bord des bouteilles préchauffées. Boucher immédiatement et conserver dans un endroit frais et sombre.',
+      'Consommer avant la prochaine saison.'
+    ],
+    description: 'eau, sucre en poudre, menthe',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Sirop de menthe',
+      'eau',
+      'sucre en poudre',
+      'menthe',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 21,
+    people: 3
+  },
+  {
+    name: "L'apéritif des bons vivants",
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_l-aperitif-des-bons-vivants_45814.aspx',
+    ingredients: [
+      '25 cl de rhum blanc',
+      '25 cl de Pisang Ambon (liqueur de banane)',
+      "1 l de jus d'orange",
+      "1 l de jus d'ananas",
+      'sirop de grenadine'
+    ],
+    author: 'hannah_16641025',
+    images: [
+      'https://assets.afcdn.com/recipe/20100120/55069_w1024h576c1 cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/55069_w1024h768c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/55069_w1024h1024c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/55069_w1024h576c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/55069_w1024h768c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/55069_w1024h1024c1cx256cy192.jpg'
+    ],
+    steps: [
+      "C'est super simple.",
+      'Prévoir un grand saladier.',
+      'Dans ce saladier, mélanger le rhum et le pisang.',
+      'Ajouter les deux jus.',
+      'Mettre au réfrigérateur.',
+      'Une fois le verre servi (bien frais), ajouter un filet de grenadine dans celui-ci.',
+      'Bonne dégustation... avec modération!'
+    ],
+    description: "rhum, Pisang, jus d'orange, jus d'ananas, sirop de grenadine",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      "L'apéritif des bons vivants",
+      'rhum',
+      'Pisang',
+      "jus d'orange",
+      "jus d'ananas",
+      'sirop de grenadine',
+      'cocktail apéritif',
+      'très facile',
+      'assez cher',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 10
+  },
+  {
+    name: 'Milkshake glacé à la banane',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_milk-shake-a-la-banane_13498.aspx',
+    ingredients: [ '1 banane', '40 cl de lait', '1 boule de glace vanille' ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20130813/41160_w1024h576c1 cx1872cy2384.webp',
+      'https://assets.afcdn.com/recipe/20130813/41160_w1024h768c1cx1872cy2384.webp',
+      'https://assets.afcdn.com/recipe/20130813/41160_w1024h1024c1cx1872cy2384.webp',
+      'https://assets.afcdn.com/recipe/20130813/41160_w1024h576c1cx1872cy2384.jpg',
+      'https://assets.afcdn.com/recipe/20130813/41160_w1024h768c1cx1872cy2384.jpg',
+      'https://assets.afcdn.com/recipe/20130813/41160_w1024h1024c1cx1872cy2384.jpg'
+    ],
+    steps: [
+      'Par personne, mixer une banane bien mûre avec un verre de lait et une boule de glace à la vanille.'
+    ],
+    description: 'banane, lait, glace vanille',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Milkshake glacé à la banane',
+      'banane',
+      'lait',
+      'glace vanille',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: 'Smoothie au kiwi',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_smoothie-au-kiwi_61128.aspx',
+    ingredients: [
+      "1/3 verre d'eau",
+      '1 c.à.s de sucre',
+      '1 kiwi',
+      '2/3 verre de glaçons',
+      '3 c.à.s de kiwi'
+    ],
+    author: 'roxane_14305773',
+    images: [
+      'https://assets.afcdn.com/recipe/20130813/26394_w1024h576c1 cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130813/26394_w1024h768c1cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130813/26394_w1024h1024c1cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130813/26394_w1024h576c1cx1872cy2808.jpg',
+      'https://assets.afcdn.com/recipe/20130813/26394_w1024h768c1cx1872cy2808.jpg',
+      'https://assets.afcdn.com/recipe/20130813/26394_w1024h1024c1cx1872cy2808.jpg'
+    ],
+    steps: [
+      'Pour obtenir un grand verre de smoothie :',
+      'Peler le kiwi',
+      "Mixer le kiwi avec les glaçons, l'eau, le sucre et le jus de kiwi jusqu'à ce que les glaçons soient entièrement mixés.",
+      'Verser dans un grand verre.',
+      'Petite astuce : rajouter un zeste de jus de citron pour acidifier le mélange.'
+    ],
+    description: 'eau, sucre, kiwi, glaçons, kiwi',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Smoothie au kiwi',
+      'eau',
+      'sucre',
+      'kiwi',
+      'glaçons',
+      'kiwi',
+      'smoothies',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 2,
+    totalTime: 2,
+    people: 1
+  },
+  {
+    name: 'Punch coco de martinique',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_punch-coco-de-martinique_95580.aspx',
+    ingredients: [
+      '500 ml de rhum blanc (50/55°)',
+      '100 g de sucre de canne en poudre',
+      '1 cuillère de gingembre en poudre',
+      '2 gousses de vanille',
+      '800 ml de lait de coco en boite',
+      '400 ml de lait concentré sucré',
+      '1 c.à.c de cannelle en poudre',
+      '1 muscade'
+    ],
+    author: 'kylijade',
+    images: [
+      'https://assets.afcdn.com/recipe/20161019/2580_w1024h576c1 cx1512cy2016.webp',
+      'https://assets.afcdn.com/recipe/20161019/2580_w1024h768c1cx1512cy2016.webp',
+      'https://assets.afcdn.com/recipe/20161019/2580_w1024h1024c1cx1512cy2016.webp',
+      'https://assets.afcdn.com/recipe/20161019/2580_w1024h576c1cx1512cy2016.jpg',
+      'https://assets.afcdn.com/recipe/20161019/2580_w1024h768c1cx1512cy2016.jpg',
+      'https://assets.afcdn.com/recipe/20161019/2580_w1024h1024c1cx1512cy2016.jpg'
+    ],
+    steps: [
+      'dans une casserole, faire chauffer à feu moyen le lait concentré ,le lait de coco, et le sucre de canne en poudre,et les 2 gousses de vanille ouverte en deux (pour que les grains de vanille se libèrent dans le mélange).mélanger le tout avec une cuillère en bois.',
+      "Quand le mélange est devenue homogène,rajouter les épices( tamisés,à l'aide d'une petite passoire )pour éliminer les éventuels grumeaux . ",
+      "Enlever du feu ,et laisser refroidir le mélange obtenue ,en remuant de temps en temps pour vérifier qu'il n'y à pas grumeaux avec les épices.",
+      'Quand le mélange est froid ,rajouter le demi litre de rhum. bien mélanger le tout et mettre en bouteille (de verre de préférence ).récupérer les gousses de vanille du mélange pour les mettre dans les bouteilles avec le punch coco .'
+    ],
+    description: 'rhum, sucre de canne, gingembre, vanille, lait de coco, lait concentré sucré, cannelle, muscade',
+    difficulty: 2,
+    budget: 1,
+    tags: [
+      'Punch coco de martinique',
+      'rhum',
+      'sucre de canne',
+      'gingembre',
+      'vanille',
+      'lait de coco',
+      'lait concentré sucré',
+      'cannelle',
+      'muscade',
+      'punch',
+      'facile',
+      'bon marché'
+    ],
+    prepTime: 30,
+    totalTime: 60,
+    people: 5
+  },
+  {
+    name: 'punch plaisir',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_punch-plaisir_26029.aspx',
+    ingredients: [
+      '1 l de rhum 50°',
+      '1 bouteille de vanille liquide',
+      '1 demi de sucre de canne liquide',
+      '2 pincées de poivre',
+      '2 l de goyave',
+      '2 l de mangue',
+      '1 citron vert'
+    ],
+    author: 'PAPI',
+    images: [
+      'https://assets.afcdn.com/recipe/20100101/recipe_default_img_blurred_3.jpg'
+    ],
+    steps: [
+      'Mélangez le rhum et les jus de fruits, la vanille liquide, le sucre. Coupez le citron en quartier puis pressez-le dans le mélange et laissez les fruits dedans, ajoutez le poivre, remuer, laissez reposer à température ambiante, et à la vôtre....'
+    ],
+    description: 'rhum, vanille, sucre de canne, poivre, goyave, mangue, citron vert',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'punch plaisir', 'rhum',
+      'vanille',       'sucre de canne',
+      'poivre',        'goyave',
+      'mangue',        'citron vert',
+      'punch',         'très facile',
+      'moyen',         'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 4
+  },
+  {
+    name: 'Smoothie au lait de coco',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_smoothie-au-lait-de-coco_44427.aspx',
+    ingredients: [
+      '2 bananes bien mûres (mais pas noires quand-même!)',
+      "1 l de jus d'ananas",
+      '40 cl de lait de coco'
+    ],
+    author: 'laura_16249972',
+    images: [
+      'https://assets.afcdn.com/recipe/20131009/5352_w1024h576c1 cx1728cy2592.webp',
+      'https://assets.afcdn.com/recipe/20131009/5352_w1024h768c1cx1728cy2592.webp',
+      'https://assets.afcdn.com/recipe/20131009/5352_w1024h1024c1cx1728cy2592.webp',
+      'https://assets.afcdn.com/recipe/20131009/5352_w1024h576c1cx1728cy2592.jpg',
+      'https://assets.afcdn.com/recipe/20131009/5352_w1024h768c1cx1728cy2592.jpg',
+      'https://assets.afcdn.com/recipe/20131009/5352_w1024h1024c1cx1728cy2592.jpg'
+    ],
+    steps: [
+      'Ecrasez les bananes en purée assez fine, puis les passer au mixer. ',
+      "Ajoutez le jus d'ananas et le lait de coco. Mixez de nouveau.",
+      "Et voilà, c'est déjà prêt!"
+    ],
+    description: "banane, jus d'ananas, lait de coco",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Smoothie au lait de coco',
+      'banane',
+      "jus d'ananas",
+      'lait de coco',
+      'smoothies',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 2
+  },
+  {
+    name: 'Chocolat chaud créole (par une cuisinière martiniquaise)',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_chocolat-chaud-creole-par-une-cuisiniere-martiniquaise_14128.aspx',
+    ingredients: [
+      '1 l de lait demi-écrémé',
+      '1 gousse de vanille',
+      '3 c.à.s de chocolat noir en poudre (quantité selon le goût de chacun)',
+      'maïzena (au jugé, selon épaississement voulu)',
+      '2 bâtons de cannelle',
+      '1 zeste de citron vert non traité',
+      '397 g de lait concentré sucré',
+      '410 g de lait concentré non sucré'
+    ],
+    author: 'Nathy',
+    images: [
+      'https://assets.afcdn.com/recipe/20131009/52840_w1024h576c1 cx1456cy2184.webp',
+      'https://assets.afcdn.com/recipe/20131009/52840_w1024h768c1cx1456cy2184.webp',
+      'https://assets.afcdn.com/recipe/20131009/52840_w1024h1024c1cx1456cy2184.webp',
+      'https://assets.afcdn.com/recipe/20131009/52840_w1024h576c1cx1456cy2184.jpg',
+      'https://assets.afcdn.com/recipe/20131009/52840_w1024h768c1cx1456cy2184.jpg',
+      'https://assets.afcdn.com/recipe/20131009/52840_w1024h1024c1cx1456cy2184.jpg'
+    ],
+    steps: [
+      'Faire chauffer le lait 1/2 écrémé avec le lait concentré non sucré,la cannelle, le zeste de citron, la vanille. Ne pas laisser bouillir.',
+      "Il faut que le lait s'imprègne des arômes lentement.",
+      'Ensuite, ajoutez le chocolat délayé dans un peu ce ce lait chaud.',
+      'Laisser consommer 10 minutes, toujours sans ébullition.',
+      "Ajoutez du lait concentré sucré selon votre goût. Normalement une demi boîte suffit. Il vaut mieux qu'il soit peu sucré que trop : vous rectifierez...",
+      'Laissez consommer encore dix minutes.',
+      "Délayez votre maïzena dans un peu d'eau froide et ajoutez à la préparation. Au bout de quelques minutes, le chocolat doit épaissir lègèrement, juste pour donner de l'onctueusité. Ne forcez donc pas sur la maïzena. ",
+      "Eteignez le feu, c'est prêt."
+    ],
+    description: 'lait demi-écrémé, vanille, chocolat noir, maïzena, cannelle, citron vert, lait concentré sucré, lait concentré non sucré',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Chocolat chaud créole (par une cuisinière martiniquaise)',
+      'lait demi-écrémé',
+      'vanille',
+      'chocolat noir',
+      'maïzena',
+      'cannelle',
+      'citron vert',
+      'lait concentré sucré',
+      'lait concentré non sucré',
+      'chocolat chaud',
+      'moyenne',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 45,
+    totalTime: 55,
+    people: 6
+  },
+  {
+    name: 'Milk shake à la banane',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_milk-shake-a-la-banane_21606.aspx',
+    ingredients: [ '3 bananes', '1 boule de glace vanille', '500 ml de lait' ],
+    author: 'naadoo',
+    images: [
+      'https://assets.afcdn.com/recipe/20121113/40973_w1024h576c1 cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20121113/40973_w1024h768c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20121113/40973_w1024h1024c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20121113/40973_w1024h576c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20121113/40973_w1024h768c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20121113/40973_w1024h1024c1cx256cy192.jpg'
+    ],
+    steps: [
+      'Coupez les bananes en morceau et versez-les dans un pot gradué. Ajoutez la boule vanille et le lait. Mixez pour obtenir une pâte liquide et homogène. Voilà votre milk shake!'
+    ],
+    description: 'banane, glace vanille, lait',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Milk shake à la banane',
+      'banane',
+      'glace vanille',
+      'lait',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 4
+  },
+  {
+    name: 'Milk shake léger aux fruits rouges',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_milk-shake-leger-aux-fruits-rouges_36408.aspx',
+    ingredients: [
+      "2 c.à.s de sucre ou d'édulcorant (selon les goûts...)",
+      '1 grand verre de lait (40 cl)',
+      'de fruits rouges congelés (framboise, myrtille)'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20100120/42648_w1024h576c1 cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/42648_w1024h768c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/42648_w1024h1024c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/42648_w1024h576c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/42648_w1024h768c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/42648_w1024h1024c1cx256cy192.jpg'
+    ],
+    steps: [
+      "Versez le contenu d'1 verre de lait dans un mixer (ou blender), le même verre généreusement rempli de fruits congelés (ils doivent absolument être congelés pour la texture à la fin), et 2 à 3 cuillères a soupe de sucre (ou d'édulcorant).",
+      'Hop, un coup de mixer, et voila un milk shake onctueux et bien frais!'
+    ],
+    description: 'sucre, lait, fruits rouges',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Milk shake léger aux fruits rouges',
+      'sucre',
+      'lait',
+      'fruits rouges',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 1,
+    totalTime: 1,
+    people: 2
+  },
+  {
+    name: 'smoothie nectarine',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_smoothie-nectarine_73852.aspx',
+    ingredients: [ '1 nectarine', '1 yaourt nature', '5 c.à.s de lait' ],
+    author: 'rose_15577404',
+    images: [
+      'https://assets.afcdn.com/recipe/20130823/63411_w1024h576c1 cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130823/63411_w1024h768c1cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130823/63411_w1024h1024c1cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130823/63411_w1024h576c1cx1872cy2808.jpg',
+      'https://assets.afcdn.com/recipe/20130823/63411_w1024h768c1cx1872cy2808.jpg',
+      'https://assets.afcdn.com/recipe/20130823/63411_w1024h1024c1cx1872cy2808.jpg'
+    ],
+    steps: [
+      "Mettre le yaourt, le lait et la nectarine lavée et dénoyautée dans un mixeur et mixer jusqu'à obtenir une substance crémeuse ou liquide. Puis servir dans un verre avec 1 ou 2 glaçons. ",
+      'Savourer!!! ',
+      "PS: La nectarine peut être remplacée par n'importe quel autre fruit mais ne pas modiier les quantités."
+    ],
+    description: 'nectarine, yaourt nature, lait',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'smoothie nectarine',
+      'nectarine',
+      'yaourt nature',
+      'lait',
+      'smoothies',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 6,
+    totalTime: 6,
+    people: 1
+  },
+  {
+    name: 'Sangria des Iles',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_sangria-des-iles_19908.aspx',
+    ingredients: [
+      '1/2 l de rhum (rhum arrangé aussi)',
+      '2 bananes',
+      'vanille + cannelle',
+      '3 l de vin rouge (courant)',
+      '2 l de fruits (mélangés)',
+      'fruits 2 pommes'
+    ],
+    author: 'oscar_14644796',
+    images: [
+      'https://assets.afcdn.com/recipe/20150806/56977_w1024h576c1 cx4592cy3056.webp',
+      'https://assets.afcdn.com/recipe/20150806/56977_w1024h768c1cx4592cy3056.webp',
+      'https://assets.afcdn.com/recipe/20150806/56977_w1024h1024c1cx4592cy3056.webp',
+      'https://assets.afcdn.com/recipe/20150806/56977_w1024h576c1cx4592cy3056.jpg',
+      'https://assets.afcdn.com/recipe/20150806/56977_w1024h768c1cx4592cy3056.jpg',
+      'https://assets.afcdn.com/recipe/20150806/56977_w1024h1024c1cx4592cy3056.jpg'
+    ],
+    steps: [
+      'Mélanger tous les ingrédients, ne pas oublier la cannelle (en écorce ou en poudre sinon). ',
+      'Au moment de servir, rajouter 2 ou 3 poignées de glaçon dans le bol à Sangria directement. ',
+      "On peut aussi rajouter soit de la limonade ou de l'eau pétillante en même temps que les glaçons (vérifier le sucrage si c'est de l'eau pétillante. ",
+      'Voilà, bon apéritif !!!'
+    ],
+    description: 'rhum, banane, vanille, vin rouge, fruits, fruits',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Sangria des Iles',
+      'rhum',
+      'banane',
+      'vanille',
+      'vin rouge',
+      'fruits',
+      'fruits',
+      'sangria',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 10
+  },
+  {
+    name: "Bailey's Maison",
+    rate: 5,
+    url: 'https://www.marmiton.org/recettes/recette_bailey-s-maison_63626.aspx',
+    ingredients: [
+      '100 g de sucre',
+      '2 sachets de sucre vanillé',
+      '25 cl de whisky',
+      "2 jaunes d'oeuf",
+      '1 c.à.s de cacao',
+      '1 cuillère de café soluble dissout',
+      '50 cl de crème fraîche liquide allégée'
+    ],
+    author: 'camila_15588557',
+    images: [
+      'https://assets.afcdn.com/recipe/20131025/29778_w1024h576c1 cx1120cy1681.webp',
+      'https://assets.afcdn.com/recipe/20131025/29778_w1024h768c1cx1120cy1681.webp',
+      'https://assets.afcdn.com/recipe/20131025/29778_w1024h1024c1cx1120cy1681.webp',
+      'https://assets.afcdn.com/recipe/20131025/29778_w1024h576c1cx1120cy1681.jpg',
+      'https://assets.afcdn.com/recipe/20131025/29778_w1024h768c1cx1120cy1681.jpg',
+      'https://assets.afcdn.com/recipe/20131025/29778_w1024h1024c1cx1120cy1681.jpg'
+    ],
+    steps: [
+      "Délayez les jaunes d'oeuf et le sucre. Ajoutez le sucre vanillé, le cacao, le café et le whisky. Terminez par la cème fraîche.",
+      'Servez bien frais !'
+    ],
+    description: "sucre, sucre vanillé, whisky, jaune d'oeuf, cacao, café soluble, crème fraîche liquide",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      "Bailey's Maison",
+      'sucre',
+      'sucre vanillé',
+      'whisky',
+      "jaune d'oeuf",
+      'cacao',
+      'café soluble',
+      'crème fraîche liquide',
+      '',
+      'très facile',
+      'assez cher',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 15,
+    people: 2
+  },
+  {
+    name: 'Piña colada',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_pina-colada_23077.aspx',
+    ingredients: [
+      '25 cl de rhum blanc',
+      "2 c.à.c d'extrait de vanille",
+      '400 ml de lait de coco (grande surface, rayon exotique)',
+      "1 l de jus d'ananas",
+      '1/2 l de jus de banane',
+      '1 bâton de cannelle',
+      '1 muscade râpée'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20130502/51822_w1024h576c1 cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20130502/51822_w1024h768c1cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20130502/51822_w1024h1024c1cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20130502/51822_w1024h576c1cx192cy256.jpg',
+      'https://assets.afcdn.com/recipe/20130502/51822_w1024h768c1cx192cy256.jpg',
+      'https://assets.afcdn.com/recipe/20130502/51822_w1024h1024c1cx192cy256.jpg'
+    ],
+    steps: [
+      'Ustensiles : 1 blender ou à défaut un mixer',
+      "La veille verser les jus d'ananas et de banane ainsi que le rhum dans un grand saladier, rajouter la vanille, le bâton de cannelle et le râpé de noix de muscade, le tout étant bien sûr facultatif mais après quelques essais je la trouve meilleure ainsi. ",
+      "Mélanger le tout puis passer au blender avec le lait de coco, mettez ensuite le saladier au frigo jusqu'à environ 10 mn de l'apéro. ",
+      'Au moment de servir verser dans le blender à travers une passoire afin de récuperer la cannelle (pas forcément agréable sous la dent) puis faites mousser avant de remplir les verres sans avoir oublié le lit de glace pilée et enfin déguster. ',
+      "Alors bien sûr comme c'est frais le rhum ne se sent pas de suite mais il est bien présent, vous pouvez donc diminuer ou même enlever le rhum, ce serra toujours aussi bon et les enfants pourront en profiter."
+    ],
+    description: "rhum, extrait de vanille, lait de coco, jus d'ananas, jus de banane, cannelle, muscade",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Piña colada',
+      'rhum',
+      'extrait de vanille',
+      'lait de coco',
+      "jus d'ananas",
+      'jus de banane',
+      'cannelle',
+      'muscade',
+      'Piña colada',
+      'facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 15,
+    people: 2
+  },
+  {
+    name: 'Smoothie bananapple',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_smoothie-bananapple_84545.aspx',
+    ingredients: [
+      '1 banane',
+      '1 yaourt onctueux (genre "Perle de Lait" à la vanille)',
+      '1 pomme'
+    ],
+    author: 'lise_15651993',
+    images: [
+      'https://assets.afcdn.com/recipe/20131009/60349_w1024h576c1 cx1296cy1944.webp',
+      'https://assets.afcdn.com/recipe/20131009/60349_w1024h768c1cx1296cy1944.webp',
+      'https://assets.afcdn.com/recipe/20131009/60349_w1024h1024c1cx1296cy1944.webp',
+      'https://assets.afcdn.com/recipe/20131009/60349_w1024h576c1cx1296cy1944.jpg',
+      'https://assets.afcdn.com/recipe/20131009/60349_w1024h768c1cx1296cy1944.jpg',
+      'https://assets.afcdn.com/recipe/20131009/60349_w1024h1024c1cx1296cy1944.jpg'
+    ],
+    steps: [
+      'Coupez en fines rondelles la banane puis épluchez, épépinez et coupez en petits morceaux votre pomme.',
+      'Mettez le tout dans votre mixeur, avec le yaourt.',
+      'Appuyez sur le bouton, puis patientez le temps que le mélange devienne bien homogène et lisse (il ne doit pas rester de morceaux de fruits !).',
+      "Enfin, versez le tout dans un grand verre et dégustez à l'aide d'une paille ou d'une cuillère ;)"
+    ],
+    description: 'banane, yaourt, pomme',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Smoothie bananapple',
+      'banane',
+      'yaourt',
+      'pomme',
+      'smoothies',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: 'Punch lorrain',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_punch-lorrain_16395.aspx',
+    ingredients: [
+      "70 cl d'eau de vie de mirabelle",
+      "3 l d'eau pétillante",
+      '50 cl de sucre de canne liquide',
+      '1 bouteille de citron',
+      'glaçons'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20100101/recipe_default_img_blurred_2.jpg'
+    ],
+    steps: [
+      "Verser l'eau de vie dans un grand récipient (doser entre 70 et 100 cl, suivant le degré d'alcool désiré).",
+      "Ajouter toute la bouteille de concentré de citron et les 3l d'eau gazeuse.",
+      'Mélanger le tout et doser le sucre de canne suivant vos préférences. Ajouter les glaçons.',
+      'Placer au réfrigérateur au moins 2 heures pour servir très frais.'
+    ],
+    description: 'eau, eau, sucre de canne, citron, glaçons',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Punch lorrain',
+      'eau',
+      'eau',
+      'sucre de canne',
+      'citron',
+      'glaçons',
+      'punch',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 5
+  },
+  {
+    name: 'Le vrai lassi à la mangue (Inde)',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_le-vrai-lassi-a-la-mangue-inde_39153.aspx',
+    ingredients: [
+      '2 c.à.s de sucre',
+      '2 yaourts brassés',
+      '1 verre de mangue',
+      '1 verre de lait'
+    ],
+    author: 'roxane_15790024',
+    images: [
+      'https://assets.afcdn.com/recipe/20130304/55207_w1024h576c1 cx750cy777.webp',
+      'https://assets.afcdn.com/recipe/20130304/55207_w1024h768c1cx750cy777.webp',
+      'https://assets.afcdn.com/recipe/20130304/55207_w1024h1024c1cx750cy777.webp',
+      'https://assets.afcdn.com/recipe/20130304/55207_w1024h576c1cx750cy777.jpg',
+      'https://assets.afcdn.com/recipe/20130304/55207_w1024h768c1cx750cy777.jpg',
+      'https://assets.afcdn.com/recipe/20130304/55207_w1024h1024c1cx750cy777.jpg'
+    ],
+    steps: [ 'Mélangez le tout et laissez au frigidaire...hummm !!' ],
+    description: 'sucre, yaourt brassé, mangue, lait',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Le vrai lassi à la mangue (Inde)',
+      'sucre',
+      'yaourt brassé',
+      'mangue',
+      'lait',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 2,
+    totalTime: 2,
+    people: 4
+  },
+  {
+    name: 'Godinette à ma façon (apéritif breton)',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_godinette-aperitif-breton_17619.aspx',
+    ingredients: [
+      "50 cl d'eau -de-vie (à voir selon votre région)",
+      '1 kg de fraises',
+      '500 g de sucre',
+      '375 cl de muscadet (choisir un petit prix)'
+    ],
+    author: 'Hortense',
+    images: [
+      'https://assets.afcdn.com/recipe/20100101/recipe_default_img_blurred_2.jpg'
+    ],
+    steps: [
+      '48 heures avant :',
+      'Equeuter les fraises et les couper en morceaux dans un grand saladier.',
+      "Ajouter le sucre et l'eau-de-vie.",
+      'La veille :',
+      'Ajouter le vin blanc. Mettre au frais.',
+      'Servir avec les morceaux de fruits, comme pour un punch ou une sangria.'
+    ],
+    description: 'eau, fraises, sucre, muscadet',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Godinette à ma façon (apéritif breton)',
+      'eau',
+      'fraises',
+      'sucre',
+      'muscadet',
+      'cocktail apéritif',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 20,
+    totalTime: 20,
+    people: 15
+  },
+  {
+    name: 'Milk shake à la framboise',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_milk-shake-a-la-framboise_22004.aspx',
+    ingredients: [
+      '1 c.à.s de sucre glace',
+      '100 g de framboises surgelées',
+      '25 cl de lait',
+      '5 glaçons'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20130813/236_w1024h576c1 cx1872cy1872.webp',
+      'https://assets.afcdn.com/recipe/20130813/236_w1024h768c1cx1872cy1872.webp',
+      'https://assets.afcdn.com/recipe/20130813/236_w1024h1024c1cx1872cy1872.webp',
+      'https://assets.afcdn.com/recipe/20130813/236_w1024h576c1cx1872cy1872.jpg',
+      'https://assets.afcdn.com/recipe/20130813/236_w1024h768c1cx1872cy1872.jpg',
+      'https://assets.afcdn.com/recipe/20130813/236_w1024h1024c1cx1872cy1872.jpg'
+    ],
+    steps: [
+      'Mixer la totalité des ingrédients. ',
+      'Répartir dans deux verres. ',
+      'Déguster!'
+    ],
+    description: 'sucre glace, framboises, lait, glaçons',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Milk shake à la framboise',
+      'sucre glace',
+      'framboises',
+      'lait',
+      'glaçons',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 2
   }
 ]

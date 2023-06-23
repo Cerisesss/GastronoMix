@@ -1,5 +1,11 @@
 <?php
     require 'Function.php';
+    session_start();
+
+    if (isset($_GET['pseudo'])) {
+        $pseudo = $_GET['pseudo'];
+        $_SESSION['pseudo_user'] = $pseudo;
+    }
 ?>
 
 <!DOCTYPE html>
@@ -15,11 +21,14 @@
         <div id="menu">
             <ul>
                 <h2>Menu</h2>
-                <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
-                <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
-                <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
-                <li><a href="http://localhost/gastronomix/dessert.php">🍽️ Dessert</a></li>
-                <li><a href="http://localhost/gastronomix/boisson.php">🍽️ Boisson</a></li>
+                
+                <?php 
+                    if(isset($_SESSION['pseudo_user'])) {
+                        MenuDeroulantConnecter($pseudo);
+                    } else {
+                        MenuDeroulantDeconnecter();
+                    }
+                ?>
             </ul>
         </div>
 
@@ -38,32 +47,38 @@
         <h1>Plats</h1>
 
         <?php
-    $mysqli = ConnectionDatabase();
-    
-    $query = "SELECT r.id_recette, r.titre, r.image_recette
-              FROM recette r
-              JOIN categorie c ON c.id_categorie = r.id_categorie
-              WHERE c.libelle_categorie = 'plat'";
-    
-    $result = $mysqli->query($query);
-    
-    if ($result !== false && $result->num_rows > 0) {
-        while ($row = $result->fetch_assoc()) {
-           
-            $titre = $row['titre'];
-            $imageLink = $row['image_recette'];
+            if (isset($_SESSION['pseudo_user'])) {
+                MenuDeroulantCompte($pseudo);
+            } else {
+                echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
+            }
             
-            echo "<a href=\"recette.php?recherche=$titre\">";
-            echo "<h2>$titre</h2>";
-            echo "<img src=\"$imageLink\" alt=\"Description de l'image\">";
-            echo "</a>";
-        }
-    } else {
-        echo "Aucun plat trouvé.";
-    }
-    
-    $mysqli->close();
-    ?>
+            $mysqli = ConnectionDatabase();
+            
+            $query = "SELECT r.id_recette, r.titre, r.image_recette
+                    FROM recette r
+                    JOIN categorie c ON c.id_categorie = r.id_categorie
+                    WHERE c.libelle_categorie = 'plat'";
+            
+            $result = $mysqli->query($query);
+            
+            if ($result !== false && $result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                
+                    $titre = $row['titre'];
+                    $imageLink = $row['image_recette'];
+                    
+                    echo "<a href=\"recette.php?recherche=$titre\">";
+                    echo "<h2>$titre</h2>";
+                    echo "<img src=\"$imageLink\" alt=\"Description de l'image\">";
+                    echo "</a>";
+                }
+            } else {
+                echo "Aucun plat trouvé.";
+            }
+            
+            $mysqli->close();
+        ?>
         
     </body>
 </html>
