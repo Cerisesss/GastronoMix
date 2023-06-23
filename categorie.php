@@ -11,13 +11,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Liste des entrées</title>
+        <title>Liste des boissons</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="Function.js"></script>
     </head>
     <body>
-        <h1>GastronoMix</h1>
         <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
+
         <div id="menu">
             <ul>
                 <h3>Menu</h3>
@@ -39,10 +39,11 @@
         </div>
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
-
+        
         <a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>
-
-        <h2>Entrée</h2>
+        
+        <h1>GastronoMix</h1>
+        <h2>Boisson</h2>
 
         <?php
             if (isset($_SESSION['pseudo_user'])) {
@@ -52,12 +53,16 @@
             }
             
             $mysqli = ConnectionDatabase();
+
+            if (isset($_GET['categorie'])) {
+                $categorie = $_GET['categorie'];
+            }
             
             echo '<div class="container">';
             $query = "SELECT r.id_recette, r.titre, r.image_recette
                     FROM recette r
                     JOIN categorie c ON c.id_categorie = r.id_categorie
-                    WHERE c.libelle_categorie = 'entree'
+                    WHERE c.libelle_categorie = '$categorie'
                     ORDER BY r.titre ASC";
             
             $result = $mysqli->query($query);

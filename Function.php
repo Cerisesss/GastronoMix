@@ -20,21 +20,25 @@
         }
     }
 
+    function MenuDeroulantDeconnecter() {
+        $categories = ['Entrée', 'Plat', 'Dessert', 'Boisson'];
 
-    function MenuDeroulantConnecter($pseudo) {
-        echo '<li><a href="http://localhost/gastronomix/Accueil.php?pseudo=' . $pseudo . '">🍽️ Accueil</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/entree.php?pseudo=' . $pseudo . '">🍽️ Entrée</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/plat.php?pseudo=' . $pseudo . '">🍽️ Plat</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/dessert.php?pseudo=' . $pseudo . '">🍽️ Dessert</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/boisson.php?pseudo=' . $pseudo . '">🍽️ Boisson</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>';
+
+        foreach ($categories as $categorie) {
+            echo '<li><a href="http://localhost/gastronomix/categorie.php?categorie=' . $categorie .'">🍽️ ' . $categorie . '</a></li>';
+        }
     }
 
-    function MenuDeroulantDeconnecter() {
-        echo '<li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/dessert.php">🍽️ Dessert</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/boisson.php">🍽️ Boisson</a></li>';
+    function MenuDeroulantConnecter($pseudo) {
+        $categories = ['Entrée', 'Plat', 'Dessert', 'Boisson'];
+
+        echo '<li><a href="http://localhost/gastronomix/Accueil.php?pseudo=' . $pseudo . '">🍽️ Accueil</a></li>';
+
+        foreach ($categories as $categorie) {
+            echo '<li><a href="http://localhost/gastronomix/categorie.php?categorie=' . $categorie .'&pseudo=' . $pseudo . '">🍽️ ' . $categorie . '</a></li>';
+        }
+
     }
 
     function MenuDeroulantCompte($pseudo) {
