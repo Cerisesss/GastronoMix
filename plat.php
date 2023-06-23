@@ -42,7 +42,7 @@
         <a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>
 
         <h1>GastronoMix</h1>
-        <h2>Plats</h2>
+        <h2>Plat</h2>
 
         <?php
             if (isset($_SESSION['pseudo_user'])) {
