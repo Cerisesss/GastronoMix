@@ -7,11 +7,50 @@
     <head>
         <title>Resultat recherche avancée</title>
         <link rel="stylesheet" type="text/css" href="affichage_recettes.css">
+        <script src="Function.js"></script>
     </head>
 
     <body>
+    <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
+        <div id="menu">
+            <ul>
+                </br>
+                <?php
+                    if (isset($_SESSION['pseudo_user'])) {
+                        MenuDeroulantConnecter($pseudo);
+                    } else {
+                        MenuDeroulantDeconnecter();
+                    }
+                ?>
+            </ul>
+        </div>
+
+        <div id="Rechercher">
+        <a href="http://localhost/gastronomix/recherche_avancee.php"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>
+
+            <form action="resultat_recherche_avancee.php" method="GET">
+                <input id="RechercherBarre" type="text" name="recherche" value="">
+                <button id="RechercherButton" class="Button" type="submit">🔍</button>
+            </form>
+        </div>
+
+        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
+
+        <h1>GastronoMix</h1>
+
+        <?php
+            if (isset($_SESSION['pseudo_user'])) {
+                if($_SESSION['pseudo_user'] == "admin" || $_SESSION['pseudo_user'] == "Admin") {
+                    MenuDeroulantAdmin($pseudo);
+                }else {
+                    MenuDeroulantCompte($pseudo);
+                }
+            } else {
+                echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
+            }
+        ?>
         <center>
-            <h1>Résultat recherche avancée</h1>
+            <h2>Résultat recherche avancée</h2>
         </center>
             <div class="container">
                 <?php
