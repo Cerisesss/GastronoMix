@@ -66,17 +66,17 @@
 
                     // Si les deux tableaux ne sont pas vides, on ajoute les deux conditions
                     if (!empty($aliments_ok_string) && !empty($aliments_ko_string)) {
-                        $sql .= "i.nom_ingredient IN ('$aliments_ok_string') AND
+                        $sql .= "i.ingredients_recherche IN ('$aliments_ok_string') AND
                             NOT EXISTS (
                             SELECT 1
                             FROM quantite q2
                             JOIN ingredient i2 ON i2.id_ingredient = q2.id_ingredient
                             WHERE q2.id_recette = r.id_recette
-                            AND i2.nom_ingredient IN ('$aliments_ko_string')
+                            AND i2.ingredients_recherche IN ('$aliments_ko_string')
                             )";
                     } else if (!empty($aliments_ok_string) && empty($aliments_ko_string)) { 
                         // Sinon, on ajoute la condition correspondante
-                        $sql .= "i.nom_ingredient IN ('$aliments_ok_string')";
+                        $sql .= "i.ingredients_recherche IN ('$aliments_ok_string')"; 
                     } else if (!empty($aliments_ko_string) && empty($aliments_ok_string)) {
                         // Idem pour les aliments à exclure
                         $sql .= "NOT EXISTS (
@@ -84,7 +84,7 @@
                                         FROM quantite q2
                                         JOIN ingredient i2 ON i2.id_ingredient = q2.id_ingredient
                                         WHERE q2.id_recette = r.id_recette
-                                        AND i2.nom_ingredient IN ('$aliments_ko_string')
+                                        AND i2.ingredients_recherche IN ('$aliments_ko_string')
                                     )";
                     } else {
                         // Aucun filtre sur les aliments

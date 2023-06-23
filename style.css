@@ -1,26 +1,95 @@
 html{
-    background-color : white ;
+    background-color : #d9b9b9 ;
 }
 
-
-
-
-body{
-	margin : auto;
+/* fond et taille de police*/
+body {
+    font-family: Arial, sans-serif;
+    margin : auto;
     margin-top: 5%;
     line-height: 30px;
     text-align: center;
-    width: 800px;
+    /*width: 800px;*/
     padding: 1em;
-    border: 1px solid white;
-    background-color : white;
-    opacity : 0.8;
-	font-family: "avion", sans-serif;
+    /*border: 1px solid rgb(210, 32, 201);*/
+    /*opacity : 0.8;*/
     display : block;
 }
 
+h1 {
+    position: absolute;
+    top: 12px;
+    left: 125px;
+}
 
+h2 {
+    width: 95vw; /* Prend toute la largeur horizontale de l'écran */
+    border: 2px solid black; /* Bordure de 2 pixels de largeur et de couleur noire */
+    background-color: #f3d6e5; /* Couleur d'arrière-plan foncée */
+    padding: 10px; /* Espace intérieur de 10 pixels autour du texte */
+    /*text-align: left;  Alignement du texte à gauche */
+    border-radius: 5px; /* Rayon de courbure des bordures de 10 pixels */
+  }
+  
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.recette {
+    position: relative;
+    background-color: #d6cdd2;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(255, 0, 157, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.recette:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #060505;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.recette:hover {
+    transform: translateY(-5px);
+}
+
+.recette img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.titre-recette {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.nom-recette a {
+    color: #090909; /* Couleur des liens */
+    font-weight: bold;
+    text-decoration: none; /* Supprimer le soulignement */
+}
+
+.nom-recette a:hover {
+    color: #f3d6e5; /* Couleur des liens au survol */
+}
+
+/*pas a moi*/
 
 /*css du menu deroulant du menu*/
 #menu {
@@ -158,50 +227,3 @@ body{
 .Button:hover {
     box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
 }
-
-
-
-
-/*css du lien et l'image de recette*/
-.Lien1RecetteAccueil {
-    text-decoration: none;
-    color: #0f0e0e;
-    list-style-type: none;
-    left : 5px;
-    padding: 0;
-    margin: 0;
-}
-
-.Lien2RecetteAccueil {
-    text-decoration: none;
-    color: #0f0e0e;
-    list-style-type: none;
-    right : 5px;
-    padding: 0;
-    margin: 0;
-}
-
-.ImageRecetteAccueil{
-    text-decoration: none;
-    color: #0f0e0e;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-/* Style du cœur initial */
-.jaime-icon {
-    color: red;
-    transition: color 0.3s;
-    cursor: pointer;
-  }
-  
-  .favori {
-    color: red;
-  }
-  
-  .non-favori {
-    color: gray;
-  }
-  
-  
