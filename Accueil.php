@@ -18,11 +18,11 @@ session_start();
         <div id="menu">
             <ul>
                 <h2>Menu</h2>
-                <li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>
-                <li><a href="http://localhost/gastronomix/entree.php">🍽️ Entrée</a></li>
-                <li><a href="http://localhost/gastronomix/plat.php">🍽️ Plat</a></li>
-                <li><a href="http://localhost/gastronomix/dessert.php">🍽️ Dessert</a></li>
-                <li><a href="http://localhost/gastronomix/boisson.php">🍽️ Boisson</a></li>
+                <li><a href="http://localhost/gastronomix/test_Souhila/Accueil.php">🍽️ Accueil</a></li>
+                <li><a href="http://localhost/gastronomix/test_Souhila/entree.php">🍽️ Entrée</a></li>
+                <li><a href="http://localhost/gastronomix/test_Souhila/plat.php">🍽️ Plat</a></li>
+                <li><a href="http://localhost/gastronomix/test_Souhila/dessert.php">🍽️ Dessert</a></li>
+                <li><a href="http://localhost/gastronomix/test_Souhila/boisson.php">🍽️ Boisson</a></li>
             </ul>
         </div>
 
@@ -35,7 +35,7 @@ session_start();
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
-        <a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>
+        <a href="http://localhost/gastronomix/test_Souhila/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>
 
         <h1>GastronoMix</h1>
 
@@ -44,10 +44,10 @@ session_start();
         echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
         echo '<div id="compte">';
         echo '<ul>';
-        echo '<li><a href="http://localhost/gastronomix/profil.php">⚙️ Profil</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/favoris.php">🧡 Favoris</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/historique.php">⌛️ Historique</a></li>';
-        echo '<li><a href="http://localhost/gastronomix/deconnexion.php">👋 Déconnexion</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/test_Souhila/profil.php">⚙️ Profil</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/test_Souhila/favoris.php">🧡 Favoris</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/test_Souhila/historique.php">⌛️ Historique</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/test_Souhila/deconnexion.php">👋 Déconnexion</a></li>';
         echo '</ul>';
         echo '</div>';
     }
@@ -78,11 +78,12 @@ for ($i = 0; $i < count($categorie); $i++) {
         $image_recette = $row["image_recette"];
         $titre = $row['titre'];
 
-        $lienRecette = '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>';
-
-        echo '<img src="' . $row['image_recette'] . '" alt="Image de la recette"><br>';
-        echo $lienRecette . '<br>';
-
+        $lienRecette = '<a href="http://localhost/gastronomix/test_Souhila/recette.php?recherche=' . $titre . '">' . $titre . '</a>';
+        echo '<a href="http://localhost/gastronomix/test_Souhila/recette.php?recherche=' . $titre . '">';
+    echo '<img src="' . $row['image_recette'] . '" alt="Image de la recette"><br>';
+    echo '</a>';
+    echo $lienRecette . '<br>';
+       
         
 
         echo "<br>";
