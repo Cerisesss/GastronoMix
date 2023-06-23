@@ -35,7 +35,7 @@
 
             $result_recette = $mysqli->query($query_recette);
 
-            //echo "ajout avec succes  : " . $query_recette . "\n";
+            //echo "ajout recette " . $index_recette . " avec succes  : " . $query_recette . "\n";
 
 
             //ajout des unites n'exitant pas dans la database

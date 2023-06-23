@@ -123,6 +123,36 @@
                         echo "Aucune recette trouvée.";
                     }
                 }
+
+                //resultat barre de recherche 
+                if (isset($_GET['recherche'])) {
+                    $mot_clef = $_GET['recherche'];
+    
+                    $query_recherche = "SELECT titre, image_recette
+                            FROM recette 
+                            WHERE titre LIKE '%$mot_clef%';";
+
+                    $result_recherche = $mysqli->query($query_recherche);
+
+                    if ($result_recherche->num_rows > 0) {
+                        while ($row = mysqli_fetch_assoc($result_recherche)) {
+                            echo '<div class="recette zoom">';
+                            // Image cliquable
+                            echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($row['titre']) . '">';
+                            echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
+                            echo '</a>';
+                            echo '<div class="nom-recette">';
+                            // Titre cliquable
+                            echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($row['titre']) . '">';
+                            echo $row['titre'];
+                            echo '</a>';
+                            echo '</div>';
+                            echo '</div>';
+                        }
+                    } else {
+                        echo "Aucune recette trouvée.";
+                    }
+                }
             ?>
         </div>
     </body>
