@@ -45,7 +45,11 @@
 
         <?php
             if (isset($_SESSION['pseudo_user'])) {
-                MenuDeroulantCompte($pseudo);
+                if($_SESSION['pseudo_user'] == "admin" || $_SESSION['pseudo_user'] == "Admin") {
+                    MenuDeroulantAdmin($pseudo);
+                }else {
+                    MenuDeroulantCompte($pseudo);
+                }
             } else {
                 echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
             }

@@ -23,7 +23,7 @@
         </div>
 
         <div id="Rechercher">
-            <form action="recette.php" method="GET">
+            <form action="resultat_recherche_avancee.php" method="GET">
                 <input id="RechercherBarre" type="text" name="recherche" value="">
                 <button id="RechercherButton" class="Button" type="submit">🔍</button>
             </form>
