@@ -48,6 +48,15 @@
         echo '</ul>';
         echo '</div>';
     }
+
+    function MenuDeroulantAdmin($pseudo) {
+        echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
+        echo '<div id="compte">';
+        echo '<ul>';
+        echo '<li><a href="http://localhost/gastronomix/deconnexion.php?pseudo=' . $pseudo . '">👋 Déconnexion</a></li>';
+        echo '</ul>';
+        echo '</div>';
+    }
     
 ?>
 

@@ -14,7 +14,7 @@
 
         <div id="menu">
             <ul>
-                <h2>Menu</h2>
+                <h3>Menu</h3>
                 
                 <?php 
                     MenuDeroulantDeconnecter();
