@@ -7,7 +7,7 @@ require 'Function.php';
 
 <head>
     <title>Connexion</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles_1.css">
     <script src="Function.js"></script>
 </head>
 

@@ -54,7 +54,7 @@
 
             $mysqli = ConnectionDatabase();
 
-            $categorie = ["Entree", "Plat", "Dessert", "Boisson"];
+            $categorie = ["Entrée", "Plat", "Dessert", "Boisson"];
 
             for ($i = 0; $i < count($categorie); $i++) {
                 $categorie_actuelle = $categorie[$i];
