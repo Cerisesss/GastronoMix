@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Liste des boissons</title>
+        <title>Liste des catégories</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="Function.js"></script>
     </head>
@@ -20,7 +20,7 @@
 
         <div id="menu">
             <ul>
-                <h3>Menu</h3>
+                </br>
                 <?php 
                     if(isset($_SESSION['pseudo_user'])) {
                         MenuDeroulantConnecter($pseudo);
@@ -43,7 +43,6 @@
         <a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>
         
         <h1>GastronoMix</h1>
-        <h2>Boisson</h2>
 
         <?php
             if (isset($_SESSION['pseudo_user'])) {
@@ -57,6 +56,8 @@
             if (isset($_GET['categorie'])) {
                 $categorie = $_GET['categorie'];
             }
+
+            echo '<h2>' . $categorie . '</h2>';
             
             echo '<div class="container">';
             $query = "SELECT r.id_recette, r.titre, r.image_recette
