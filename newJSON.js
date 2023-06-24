@@ -1,10 +1,10 @@
-// Version théorique
-
 "use strict";
 
 const fs = require('fs');
+const path = require('path');
+const telecharger_image = require('./Function.js');
 
-function getIngredients(fichier_json, categories) {
+async function getIngredients(fichier_json, categories) {
     let unitesArray = ['g', 'kg', 'c.à.s', 'l', 'cl', 'ml', 'c.à.c', 'sachet', 'sachetnodes', 'boîte', 'boîtes', 'feuille', 'feuilles', 'pincée', 'pincées', 'tranche', 'tranches', 'verre', 'verres', 'boule', 'boules', 'cube', 'cubes', 'filet', 'filets', 'gousse', 'gousses', 'noix', 'noisette', 'noisettes', 'poignée', 'poignées', 'pot', 'pots', 'rouleau', 'rouleaux', 'tasse', 'tasses', 'zeste', 'zestes', 'barquette', 'barquettes', 'bocal', 'bocaux', 'botte', 'bottes', 'branche', 'branches', 'brique', 'briques', 'bûche', 'bûches', 'couteau à lame lisse', 'cagette', 'cagettes', 'caissette', 'caissettes', 'carré', 'carrés', 'cuillère', 'cuillères', 'dose', 'doses', 'entonnoir', 'entonnoirs', 'escalope', 'escalopes', 'étui', 'étuis', 'feuillet', 'feuillets', 'flacon', 'flacons', 'flûte', 'flûtes', 'fond', 'fonds', 'galet', 'galets', 'gobelet', 'gobelets', 'grappe', 'grappes', 'lamelle', 'lamelles', 'morceau', 'morceaux', 'paquet', 'paquets', 'part', 'parts', 'plaque', 'plaques', 'portion', 'portions', 'pot', 'pots', 'rondelle', 'rondelles', 'sachet', 'sachets', 'tablette', 'tablettes', 'talon', 'talons', 'tige', 'tiges', 'tranche', 'tranches', 'troupeau', 'troupeaux', 'verre', 'verres', 'zeste', 'zestes'];
     let output = [];
     let contenu = fs.readFileSync(fichier_json, "UTF-8");
@@ -17,6 +17,7 @@ function getIngredients(fichier_json, categories) {
     let newIngredients = [];
     let recettes = [];
     let recherche = [];
+    let fichierExiste = false;
 
     for (let i = 0; i < fichier.length; i++) {
         let nom = fichier[i].name;
@@ -28,27 +29,39 @@ function getIngredients(fichier_json, categories) {
         let tempstotal = fichier[i].totalTime;
         let nombredepersonne = fichier[i].people;
         let ingredients_recherche = fichier[i].description;
+        let newEtapes = [];
         output = [];
         quantite = [];
         unite = [];
         newIngredients = [];
 
-        let textOutput = [];
-        let newEtapes = [];
-        let lereste_text = "";
+        // Converti en minuscules, remplace les : par des underscores, enleve les accents, remplace les espaces par des underscores et supprime les espaces en fin de chaîne
+        let new_image = nom.toLowerCase().replace(/:/g, "a").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ /g, "_");
+        let imageFilePath = path.resolve(__dirname, 'images_recettes', new_image + '.jpg');
+
+        // Partie pour les images
+        // Vérifie si l'image existe déjà
+        if (!fs.existsSync(imageFilePath)) {
+            try {
+                // Télécharge l'image
+                imageFilePath = await telecharger_image(image, new_image);
+                console.log('L\'image a été téléchargée :', imageFilePath);
+            } catch (error) {
+                console.error('Erreur lors du téléchargement de l\'image :', error);
+                continue;
+            }
+        } else {
+            // L'image existe déjà
+            console.log('L\'image existe déjà :', imageFilePath);
+        }
 
         recherche = ingredients_recherche.split(",");
-        console.log("recherche : ", recherche);
 
-        //pour enlever les \n, \r et \" du texte des etapes
         for (let i = 0; i < etapes.length; i++) {
             let texte = etapes[i];
             newEtapes[i] = texte.replace(/\n|\r|\"/g, "");
         }
 
-        //pour enlever les \n, \r et \" du texte des ingredients
-
-        //pour les ingredients
         for (let i = 0; i < ingredients.length; i++) {
             let ingredient = ingredients[i];
             ingredient = ingredient.replace(/\"/g, "");
@@ -59,22 +72,17 @@ function getIngredients(fichier_json, categories) {
         for (let i = 0; i < output.length; i++) {
             let firstWord = output[i][0];
 
-            // Le premier mot est un chiffre ?
             if (/^\d/.test(firstWord)) {
                 quantite.push(firstWord);
-                // Supprime le premier mot de output
                 output[i].shift();
             } else {
                 quantite.push(" ");
             }
 
-            // Trouve l'index de la première occurrence du premier mot de la variable output[i] dans le tableau unitesArray
             let uniteIndex = unitesArray.indexOf(output[i][0]);
 
-            // Compare pour savoir si le premier mot est dans unitesArray
             if (uniteIndex !== -1) {
                 unite.push(output[i][0]);
-                // Supprime le premier mot de output
                 output[i].shift();
             } else {
                 unite.push(" ");
@@ -82,9 +90,7 @@ function getIngredients(fichier_json, categories) {
 
             let lereste = "";
 
-            // Si le premier mot est "de"
             if (output[i][0] === "de") {
-                // Supprimer le "de" de output
                 output[i].shift();
                 lereste = output[i].join(" ");
                 newIngredients.push(lereste);
@@ -101,7 +107,7 @@ function getIngredients(fichier_json, categories) {
             "quantite": quantite,
             "unite": unite,
             "ingredients": newIngredients,
-            "image": image,
+            "image": "images_recettes/" + new_image + ".jpg",
             "etapes": newEtapes,
             "tempspreparation": tempspreparation,
             "tempstotal": tempstotal,
@@ -115,17 +121,11 @@ function getIngredients(fichier_json, categories) {
         newIngredients = [];
 
         newJson.push(recettes);
-
-        //console.log("quantite: ", quantite);
-        //console.log("unite: ", unite);
-        //console.log("newIngredients : ", newIngredients);
-        //console.log("output: ", output);
     }
 
     let newfichier = [];
     let filenName = "new" + fichier_json;
 
-    // check if fichier_json is created, if not create one
     if (!fs.existsSync(filenName)) {
         fs.writeFileSync(filenName, JSON.stringify(newJson), "UTF-8");
     } else {
