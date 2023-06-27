@@ -9,26 +9,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['avis_historique'])) {
         $id_recette = $_POST['id_recette'];
 
         $query = "SELECT id_user FROM user WHERE pseudo_user = '$pseudo';";
+        //verifier si cette utilisateur a mis un avis sur cette recette il le mets pas deux fois
+        
         $result = $mysqli->query($query);
         $row = $result->fetch_assoc();
         $id_user = $row['id_user'];
-
         $avis = $_POST['avis_historique'];
-
-        $query = "INSERT INTO historique (id_user, id_recette, avis_historique) VALUES ($id_user, $id_recette, $avis);";
-        $result = $mysqli->query($query);
-
-        if ($result) {
-    //deriger vert la page historique
-    header('Location: http://localhost/gastronomix/historique.php');
-    
-    
+        if($mysqli->query("SELECT * FROM historique WHERE id_recette = '$id_recette' AND id_user = '$id_user'")->num_rows > 0){
+            echo "recette  deja noter";
+         }
+         else{
+            $query = "INSERT INTO historique (id_user, id_recette, avis_historique) VALUES ($id_user, $id_recette, $avis);";
+     
+             if ($mysqli->query($query)) {
+                header('Location: http://localhost/gastronomix/historique.php');
  
-    exit();
-} else {
-    echo "Une erreur s'est produite lors de l'insertion de l'avis dans la table historique.";
-}
-
+             exit();
+         } else {
+             http_response_code(500); 
+             exit();
+         }
+         }
+    } else {    
 
         $mysqli->close();
     }
