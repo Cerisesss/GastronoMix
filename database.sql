@@ -28,10 +28,7 @@ CREATE TABLE IF NOT EXISTS `quantite` (
 
 CREATE TABLE IF NOT EXISTS `ingredient` (
     `id_ingredient` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `image_ingredient` VARCHAR(500) NULL,
-    `allergie_ingredient` VARCHAR(100) NULL,
     `nom_ingredient` VARCHAR(500) NULL,
-    `categorie_ingredient` VARCHAR(100) NULL,
     `ingredients_recherche` VARCHAR(500) NULL,
     `id_unite` INT NOT NULL,
     CONSTRAINT `fk_unite_id`
@@ -48,17 +45,9 @@ CREATE TABLE IF NOT EXISTS `user` (
     `prenom_user` VARCHAR(50) NULL,
     `pseudo_user` VARCHAR(50) NULL,
     `mail_user` VARCHAR(50) NULL,
-    `date_user` DATE NULL,
     `tel_user` VARCHAR(50) NULL,
     `password_user` VARCHAR(255) NULL,
     PRIMARY KEY (`id_user`)
-);
-
-CREATE TABLE IF NOT EXISTS `pays` (
-    `id_pays` BIGINT NOT NULL AUTO_INCREMENT,
-    `nom_pays` VARCHAR(50) NULL,
-    `abrev_pays` VARCHAR(50) NULL,
-    PRIMARY KEY (`id_pays`)
 );
 
 CREATE TABLE IF NOT EXISTS `categorie` (
@@ -71,7 +60,6 @@ CREATE TABLE IF NOT EXISTS `recette` (
     `id_recette` BIGINT NOT NULL AUTO_INCREMENT,
     `titre` VARCHAR(100) NULL,
     `source` VARCHAR(50) NULL,
-    `date_recette` DATE NULL,
     `categorie_recette` VARCHAR(50) NULL,
     `image_recette` VARCHAR(500) NULL,
     `nb_personne` VARCHAR(50) NULL,
@@ -79,7 +67,6 @@ CREATE TABLE IF NOT EXISTS `recette` (
     `temps_total_recette` TIME NULL DEFAULT '00:00:00',
     `difficulte` VARCHAR(50) NULL,
     `id_user` BIGINT NOT NULL,
-    `id_pays` BIGINT NOT NULL,
     `id_categorie` BIGINT NOT NULL,
     PRIMARY KEY (`id_recette`),
     

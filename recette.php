@@ -10,7 +10,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['avis_historique'])) {
 
         $query = "SELECT id_user FROM user WHERE pseudo_user = '$pseudo';";
         //verifier si cette utilisateur a mis un avis sur cette recette il le mets pas deux fois
-        
         $result = $mysqli->query($query);
         $row = $result->fetch_assoc();
         $id_user = $row['id_user'];
