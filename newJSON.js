@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const telecharger_image = require('./Function.js');
+const { telecharger_image } = require('./Function.js');
 
 async function getIngredients(fichier_json, categories) {
     let unitesArray = ['g', 'kg', 'c.à.s', 'l', 'cl', 'ml', 'c.à.c', 'sachet', 'sachetnodes', 'boîte', 'boîtes', 'feuille', 'feuilles', 'pincée', 'pincées', 'tranche', 'tranches', 'verre', 'verres', 'boule', 'boules', 'cube', 'cubes', 'filet', 'filets', 'gousse', 'gousses', 'noix', 'noisette', 'noisettes', 'poignée', 'poignées', 'pot', 'pots', 'rouleau', 'rouleaux', 'tasse', 'tasses', 'zeste', 'zestes', 'barquette', 'barquettes', 'bocal', 'bocaux', 'botte', 'bottes', 'branche', 'branches', 'brique', 'briques', 'bûche', 'bûches', 'couteau à lame lisse', 'cagette', 'cagettes', 'caissette', 'caissettes', 'carré', 'carrés', 'cuillère', 'cuillères', 'dose', 'doses', 'entonnoir', 'entonnoirs', 'escalope', 'escalopes', 'étui', 'étuis', 'feuillet', 'feuillets', 'flacon', 'flacons', 'flûte', 'flûtes', 'fond', 'fonds', 'galet', 'galets', 'gobelet', 'gobelets', 'grappe', 'grappes', 'lamelle', 'lamelles', 'morceau', 'morceaux', 'paquet', 'paquets', 'part', 'parts', 'plaque', 'plaques', 'portion', 'portions', 'pot', 'pots', 'rondelle', 'rondelles', 'sachet', 'sachets', 'tablette', 'tablettes', 'talon', 'talons', 'tige', 'tiges', 'tranche', 'tranches', 'troupeau', 'troupeaux', 'verre', 'verres', 'zeste', 'zestes'];
@@ -36,7 +36,7 @@ async function getIngredients(fichier_json, categories) {
         newIngredients = [];
 
         // Converti en minuscules, remplace les : par des underscores, enleve les accents, remplace les espaces par des underscores et supprime les espaces en fin de chaîne
-        let new_image = nom.toLowerCase().replace(/:/g, "a").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ /g, "_");
+        let new_image = nom.toLowerCase().replace(/:/g, "a").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ /g, "_").replace(/\//g, "a");
         let imageFilePath = path.resolve(__dirname, 'images_recettes', new_image + '.jpg');
 
         // Partie pour les images
