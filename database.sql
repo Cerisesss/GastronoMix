@@ -75,11 +75,6 @@ CREATE TABLE IF NOT EXISTS `recette` (
         REFERENCES `user` (`id_user`)
         ON DELETE NO ACTION
         ON UPDATE NO ACTION,
-    CONSTRAINT `fk_recette_pays_id`
-        FOREIGN KEY (`id_pays`)
-        REFERENCES `pays` (`id_pays`)
-        ON DELETE NO ACTION
-        ON UPDATE NO ACTION,
     CONSTRAINT `fk_recette_categorie_id`
         FOREIGN KEY (`id_categorie`)
         REFERENCES `categorie` (`id_categorie`)
