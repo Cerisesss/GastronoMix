@@ -1686,48 +1686,6 @@
     people: 3
   },
   {
-    name: 'Ciocolatta / chocolat chaud épais (Italie)',
-    rate: 4.4,
-    url: 'https://www.marmiton.org/recettes/recette_ciocolatta-chocolat-chaud-epais-italie_17482.aspx',
-    ingredients: [
-      'chocolat ou cacao (pour ceux qui aiment)',
-      'farine',
-      'beurre',
-      'lait'
-    ],
-    author: 'elena_15822295',
-    images: [
-      'https://assets.afcdn.com/recipe/20131009/18733_w1024h576c1 cx1477cy1692.webp',
-      'https://assets.afcdn.com/recipe/20131009/18733_w1024h768c1cx1477cy1692.webp',
-      'https://assets.afcdn.com/recipe/20131009/18733_w1024h1024c1cx1477cy1692.webp',
-      'https://assets.afcdn.com/recipe/20131009/18733_w1024h576c1cx1477cy1692.jpg',
-      'https://assets.afcdn.com/recipe/20131009/18733_w1024h768c1cx1477cy1692.jpg',
-      'https://assets.afcdn.com/recipe/20131009/18733_w1024h1024c1cx1477cy1692.jpg'
-    ],
-    steps: [
-      'Préparer un chocolat chaud avec du lait et du chocolat (évidemment).',
-      "Dans un bol faire une pommade avec de la farine et le beurre, puis mettre dans le chocolat chaud sur le feu et mélanger jusqu'à épaississement (avec un fouet pour eviter les grumeaux).",
-      'Sevir bien chaud.'
-    ],
-    description: 'chocolat, farine, beurre, lait',
-    difficulty: 3,
-    budget: 2,
-    tags: [
-      'Ciocolatta  / chocolat chaud épais (Italie)',
-      'chocolat',
-      'farine',
-      'beurre',
-      'lait',
-      'chocolat chaud',
-      'très facile',
-      'bon marché',
-      'rapide'
-    ],
-    prepTime: 5,
-    totalTime: 15,
-    people: 1
-  },
-  {
     name: 'Chocolat chaud aux guimauves',
     rate: 4.7,
     url: 'https://www.marmiton.org/recettes/recette_chocolat-chaud-aux-guimauves_50740.aspx',
