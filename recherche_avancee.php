@@ -7,16 +7,6 @@
         $_SESSION['pseudo_user'] = $pseudo;
     }
 
-    if (isset($_SESSION['pseudo_user'])) {
-        if($_SESSION['pseudo_user'] == "admin" || $_SESSION['pseudo_user'] == "Admin") {
-            MenuDeroulantAdmin($pseudo);
-        }else {
-            MenuDeroulantCompte($pseudo);
-        }
-    } else {
-        echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
-    }
-
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $query_strings = array();
         $categorie = $_POST['categorie'];
@@ -55,7 +45,8 @@
         }
 
         $query_string = implode('&', $query_strings);
-        $url = "resultat_recherche_avancee.php?" . $query_string;
+        $url = "resultat_recherche_avancee.php?pseudo=" . $pseudo . "&". $query_string;
+
         header("Location: " . $url);
         exit();
     }
@@ -101,19 +92,18 @@
             </ul>
         </div>
 
-
-        <div id="Rechercher">
-        <a href="http://localhost/gastronomix/recherche_avancee.php"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>
-
-            <form action="resultat_recherche_avancee.php" method="GET">
-                <input id="RechercherBarre" type="text" name="recherche" value="">
-                <button id="RechercherButton" class="Button" type="submit">🔍</button>
-            </form>
-        </div>
+        <?php
+            if (isset($_SESSION['pseudo_user'])) {
+                RechercheAvanceeConnecter($pseudo);
+            } else {
+                RechercheAvancee();
+            }
+        ?>
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
         <h1>GastronoMix</h1>
+    
         <h2>Recherche avancée</h2>
         <form method="post" style="user-select: none;">
             <div class="centered">

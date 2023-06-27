@@ -30,15 +30,13 @@
             </ul>
         </div>
 
-
-        <div id="Rechercher">
-        <a href="http://localhost/gastronomix/recherche_avancee.php"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>
-
-            <form action="resultat_recherche_avancee.php" method="GET">
-                <input id="RechercherBarre" type="text" name="recherche" value="">
-                <button id="RechercherButton" class="Button" type="submit">🔍</button>
-            </form>
-        </div>
+        <?php
+            if (isset($_SESSION['pseudo_user'])) {
+                RechercheAvanceeConnecter($pseudo);
+            } else {
+                RechercheAvancee();
+            }
+        ?>
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
@@ -54,7 +52,9 @@
             } else {
                 echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
             }
-
+        ?>
+        
+        <?php
             $mysqli = ConnectionDatabase();
 
             $categorie = ["Entrée", "Plat", "Dessert", "Boisson"];
@@ -79,25 +79,37 @@
                     $image_recette = $row["image_recette"];
                     $titre = $row['titre'];
 
-                    echo '<div class="recette zoom">';
-                    // Image cliquable
-                    echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">';
-                    echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
-                    echo '</a>';
-                    echo '<div class="nom-recette">';
-                    // Titre cliquable
-                    echo  '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>' . '<br>';
-                    echo '</div>';
-                    echo '</div>';
-
                     // Affichage du bouton d'ajout aux favoris
                     if (isset($_SESSION['pseudo_user'])) {
+                        echo '<div class="recette zoom">';
+                        // Image cliquable
+                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">';
+                        echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                        echo '</a>';
+                        echo '<div class="nom-recette">';
+                        // Titre cliquable
+                        echo  '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">' . $titre . '</a>' . '<br>';
+                        echo '</div>';
+                        echo '</div>';
+
                         $id_recette = $row['id_recette'];
                         echo '<form action="" method="post">';
                         echo '<input type="hidden" name="favori_recette" value="' . $id_recette . '">';
                         echo '<button type="submit" class="favori-button" name="ajout_favori"><img src="favori.png"></button>';
                         echo '</form>';
+                    } else {
+                        echo '<div class="recette zoom">';
+                        // Image cliquable
+                        echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">';
+                        echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                        echo '</a>';
+                        echo '<div class="nom-recette">';
+                        // Titre cliquable
+                        echo  '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>' . '<br>';
+                        echo '</div>';
+                        echo '</div>';
                     }
+
                 }
                 echo '</div>';
                 echo '</div>';

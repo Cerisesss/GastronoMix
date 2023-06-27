@@ -1,5 +1,12 @@
 <?php
     require 'Function.php';
+    session_start();
+
+    if (isset($_GET['pseudo'])) {
+        $pseudo = $_GET['pseudo'];
+        $_SESSION['pseudo_user'] = $pseudo;
+    }
+    
 ?>
 
 <!DOCTYPE html>
@@ -25,18 +32,29 @@
             </ul>
         </div>
 
-        <div id="Rechercher">
-        <a href="http://localhost/gastronomix/recherche_avancee.php"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>
-
-            <form action="resultat_recherche_avancee.php" method="GET">
-                <input id="RechercherBarre" type="text" name="recherche" value="">
-                <button id="RechercherButton" class="Button" type="submit">🔍</button>
-            </form>
-        </div>
+        <?php
+            if (isset($_SESSION['pseudo_user'])) {
+                RechercheAvanceeConnecter($pseudo);
+            } else {
+                RechercheAvancee();
+            }
+        ?>
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
         <h1>GastronoMix</h1>
+
+        <?php
+            if (isset($_SESSION['pseudo_user'])) {
+                if($_SESSION['pseudo_user'] == "admin" || $_SESSION['pseudo_user'] == "Admin") {
+                    MenuDeroulantAdmin($pseudo);
+                }else {
+                    MenuDeroulantCompte($pseudo);
+                }
+            } else {
+                echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
+            }
+        ?>
 
         <?php
             if (isset($_SESSION['pseudo_user'])) {
@@ -163,7 +181,7 @@
                     }
                 }
 
-                //resultat barre de recherche 
+                //resultat barre de recherche lorsu'un utilisateur est connecté
                 if (isset($_GET['recherche'])) {
                     $mot_clef = $_GET['recherche'];
     
@@ -175,18 +193,33 @@
 
                     if ($result_recherche->num_rows > 0) {
                         while ($row = mysqli_fetch_assoc($result_recherche)) {
-                            echo '<div class="recette zoom">';
-                            // Image cliquable
-                            echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($row['titre']) . '">';
-                            echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
-                            echo '</a>';
-                            echo '<div class="nom-recette">';
-                            // Titre cliquable
-                            echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($row['titre']) . '">';
-                            echo $row['titre'];
-                            echo '</a>';
-                            echo '</div>';
-                            echo '</div>';
+                            if (isset($_SESSION['pseudo_user'])) {
+                                echo '<div class="recette zoom">';
+                                // Image cliquable
+                                echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . urlencode($row['titre']) . '">';
+                                echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
+                                echo '</a>';
+                                echo '<div class="nom-recette">';
+                                // Titre cliquable
+                                echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . urlencode($row['titre']) . '">';
+                                echo $row['titre'];
+                                echo '</a>';
+                                echo '</div>';
+                                echo '</div>';
+                            } else {
+                                echo '<div class="recette zoom">';
+                                // Image cliquable
+                                echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($row['titre']) . '">';
+                                echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
+                                echo '</a>';
+                                echo '<div class="nom-recette">';
+                                // Titre cliquable
+                                echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($row['titre']) . '">';
+                                echo $row['titre'];
+                                echo '</a>';
+                                echo '</div>';
+                                echo '</div>';
+                            }
                         }
                     } else {
                         echo "Aucune recette trouvée.";

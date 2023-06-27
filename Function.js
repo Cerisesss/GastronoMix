@@ -16,14 +16,25 @@ function toggleCompte() {
     }
 }
 
+function toggleRechercheAvancee() {
+  var letter = document.getElementById("letter");
+  if (letter.style.display === "block") {
+      letter.style.display = "none";
+  } else {
+      letter.style.display = "block";
+  }
+}
+
+
+
 function ChangeBackgroundColor() {
     var html = document.documentElement;
     backgroundColor = html.style.backgroundColor;
-
-    if (backgroundColor === '#white' || backgroundColor === '') {
+  
+    if (backgroundColor === 'white' || backgroundColor === '') {
         html.style.backgroundColor = '#d9b9b9';
     } else {
-        html.style.backgroundColor = '#white';
+        html.style.backgroundColor = 'white';
     }
 }
 

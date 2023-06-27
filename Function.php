@@ -36,7 +36,7 @@
         echo '<li><a href="http://localhost/gastronomix/Accueil.php?pseudo=' . $pseudo . '">🍽️ Accueil</a></li>';
 
         foreach ($categories as $categorie) {
-            echo '<li><a href="http://localhost/gastronomix/categorie.php?categorie=' . $categorie .'&pseudo=' . $pseudo . '">🍽️ ' . $categorie . '</a></li>';
+            echo '<li><a href="http://localhost/gastronomix/categorie.php?pseudo=' .  $pseudo . '&categorie='. $categorie . '">🍽️ ' . $categorie . '</a></li>';
         }
 
     }
@@ -46,7 +46,6 @@
         echo '<div id="compte">';
         echo '<ul>';
         echo '<h3>' . $pseudo .'</h3>';
-        echo '<li><a href="http://localhost/gastronomix/profil.php?pseudo=' . $pseudo . '">⚙️ Profil</a></li>';
         echo '<li><a href="http://localhost/gastronomix/favoris.php?pseudo=' . $pseudo . '">🧡 Favoris</a></li>';
         echo '<li><a href="http://localhost/gastronomix/historique.php?pseudo=' . $pseudo . '">⌛️ Historique</a></li>';
         echo '<li><a href="http://localhost/gastronomix/deconnexion.php?pseudo=' . $pseudo . '">👋 Déconnexion</a></li>';
@@ -62,6 +61,28 @@
         echo '</ul>';
         echo '</div>';
     }
+
+    function RechercheAvancee() {
+        echo '<div id="Rechercher">';
+        echo '<a href="http://localhost/gastronomix/recherche_avancee.php"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>';
+        echo '<form action="resultat_recherche_avancee.php" method="GET">';
+        echo '<input id="RechercherBarre" type="text" name="recherche" value="">';
+        echo '<button id="RechercherButton" class="Button" type="submit">🔍</button>';
+        echo '</form>';
+        echo '</div>';
+    }
+
+    function RechercheAvanceeConnecter($pseudo) {
+        echo '<div id="Rechercher">';
+        echo '<a href="http://localhost/gastronomix/recherche_avancee.php?pseudo=' . $pseudo . '"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>';
+        echo '<form action="resultat_recherche_avancee.php" method="GET">';
+        echo '<input type="hidden" name="pseudo" value="' . $pseudo . '">';
+        echo '<input id="RechercherBarre" type="text" name="recherche" value="">';
+        echo '<button id="RechercherButton" class="Button" type="submit">🔍</button>';
+        echo '</form>';
+        echo '</div>';
+    }
+
     
 ?>
 
