@@ -1291,5 +1291,3095 @@
     prepTime: 10,
     totalTime: 10,
     people: 2
+  },
+  {
+    name: 'Smoothie vitaminé du petit-déjeuner',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_smoothie-vitamine-du-petit-dejeuner_72591.aspx',
+    ingredients: [ '2 bananes', '2 oranges', '25 cl de lait de soja', '4 kiwis' ],
+    author: 'lina_15625220',
+    images: [
+      'https://assets.afcdn.com/recipe/20150204/46028_w1024h576c1 cx1250cy1672.webp',
+      'https://assets.afcdn.com/recipe/20150204/46028_w1024h768c1cx1250cy1672.webp',
+      'https://assets.afcdn.com/recipe/20150204/46028_w1024h1024c1cx1250cy1672.webp',
+      'https://assets.afcdn.com/recipe/20150204/46028_w1024h576c1cx1250cy1672.jpg',
+      'https://assets.afcdn.com/recipe/20150204/46028_w1024h768c1cx1250cy1672.jpg',
+      'https://assets.afcdn.com/recipe/20150204/46028_w1024h1024c1cx1250cy1672.jpg'
+    ],
+    steps: [
+      'mettre dans un mixer les bananes coupées en morceaux et la chair des kiwis.',
+      'Presser les oranges et rajouter le jus dans le mixer.',
+      'Rajouter le lait de soja (il peut être nature ou vanillé).'
+    ],
+    description: 'banane, orange, lait de soja, kiwi',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Smoothie vitaminé du petit-déjeuner',
+      'banane',
+      'orange',
+      'lait de soja',
+      'kiwi',
+      'smoothies',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 2
+  },
+  {
+    name: 'Crème de whisky facile',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_creme-de-whisky-facile_28192.aspx',
+    ingredients: [
+      '20 cl de whisky',
+      '2 caramel',
+      '250 g de lait concentré',
+      '1 café corsé très court (ristretto très apprécié en Italie)',
+      "1 tasse de thé d'eau"
+    ],
+    author: 'edussud',
+    images: [
+      'https://assets.afcdn.com/recipe/20151224/4558_w1024h576c1 cx1152cy1728.webp',
+      'https://assets.afcdn.com/recipe/20151224/4558_w1024h768c1cx1152cy1728.webp',
+      'https://assets.afcdn.com/recipe/20151224/4558_w1024h1024c1cx1152cy1728.webp',
+      'https://assets.afcdn.com/recipe/20151224/4558_w1024h576c1cx1152cy1728.jpg',
+      'https://assets.afcdn.com/recipe/20151224/4558_w1024h768c1cx1152cy1728.jpg',
+      'https://assets.afcdn.com/recipe/20151224/4558_w1024h1024c1cx1152cy1728.jpg'
+    ],
+    steps: [
+      'Mettre tous vos ingrédients dans votre mixer. ',
+      'Placer le tout dans une jolie bouteille. ',
+      "Après 1 heure contrôler si le liquide n'est pas trop épais, ajouter de l'eau si nécessaire. ",
+      'Secouer et replacer la bouteille au frigidaire.'
+    ],
+    description: 'whisky, caramel, lait concentré, café, thé',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Crème de whisky facile',
+      'whisky',
+      'caramel',
+      'lait concentré',
+      'café',
+      'thé',
+      'cocktail whisky',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: 'Smoothie vert kiwi épinard banane',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_smoothie-vert-kiwi-epinard-banane_224655.aspx',
+    ingredients: [
+      '1 banane',
+      '1 gingembre (1 à 3 cm)',
+      '1 kiwi',
+      "2 poignées d'épinards (peut être remplacé par un mélange de pousses type roquette, mâche, etc.)",
+      '5 feuilles de basilic',
+      "20 cl de lait d'amande",
+      'graines germées (facultatif)'
+    ],
+    author: 'noor_16987623',
+    images: [
+      'https://assets.afcdn.com/recipe/20140416/754_w1024h576c1 cx1000cy1321.webp',
+      'https://assets.afcdn.com/recipe/20140416/754_w1024h768c1cx1000cy1321.webp',
+      'https://assets.afcdn.com/recipe/20140416/754_w1024h1024c1cx1000cy1321.webp',
+      'https://assets.afcdn.com/recipe/20140416/754_w1024h576c1cx1000cy1321.jpg',
+      'https://assets.afcdn.com/recipe/20140416/754_w1024h768c1cx1000cy1321.jpg',
+      'https://assets.afcdn.com/recipe/20140416/754_w1024h1024c1cx1000cy1321.jpg'
+    ],
+    steps: [
+      'Coupez banane, kiwi, gingembre et insérez-les dans votre blender. Mixez une première fois. Ajoutez y le basilic et remixez. ',
+      "Ajoutez les pousses et les 20 cl de lait d'amande. Mixez le tout pendant quelques minutes et dégustez !"
+    ],
+    description: "banane, gingembre, kiwi, épinards, basilic, lait d'amande, graines germées",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Smoothie vert kiwi épinard banane',
+      'banane',
+      'gingembre',
+      'kiwi',
+      'épinards',
+      'basilic',
+      "lait d'amande",
+      'graines germées',
+      'smoothies',
+      'facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 40
+  },
+  {
+    name: 'Soupe Champenoise (Cocktail)',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_soupe-champenoise-cocktail_19915.aspx',
+    ingredients: [
+      '75 cl de vin mousseux brut',
+      '1 louche de sucre de canne (liquide)',
+      '1 louche de cointreau',
+      '1 louche de citron'
+    ],
+    author: 'helgil',
+    images: [
+      'https://assets.afcdn.com/recipe/20140127/32447_w1024h576c1 cx1280cy720.webp',
+      'https://assets.afcdn.com/recipe/20140127/32447_w1024h768c1cx1280cy720.webp',
+      'https://assets.afcdn.com/recipe/20140127/32447_w1024h1024c1cx1280cy720.webp',
+      'https://assets.afcdn.com/recipe/20140127/32447_w1024h576c1cx1280cy720.jpg',
+      'https://assets.afcdn.com/recipe/20140127/32447_w1024h768c1cx1280cy720.jpg',
+      'https://assets.afcdn.com/recipe/20140127/32447_w1024h1024c1cx1280cy720.jpg'
+    ],
+    steps: [
+      'Au préalable, mettre les ingrédients au frais.',
+      'Les mélanger délicatement afin de préserver les bulles et servir immédiatement.',
+      'A consommer avec modération.'
+    ],
+    description: 'vin, sucre de canne, cointreau, citron',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Soupe Champenoise (Cocktail) ',
+      'vin',
+      'sucre de canne',
+      'cointreau',
+      'citron',
+      '',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 10
+  },
+  {
+    name: 'Smoothie à la banane et au miel',
+    rate: 4.3,
+    url: 'https://www.marmiton.org/recettes/recette_smoothie-a-la-banane-et-au-miel_48199.aspx',
+    ingredients: [
+      '1 banane bien mûre',
+      '1 c.à.c de miel',
+      '25 cl de lait demi-écrémé',
+      '1/2 citron pressé'
+    ],
+    author: 'sofia_16317088',
+    images: [
+      'https://assets.afcdn.com/recipe/20131009/63238_w1024h576c1 cx1872cy2657.webp',
+      'https://assets.afcdn.com/recipe/20131009/63238_w1024h768c1cx1872cy2657.webp',
+      'https://assets.afcdn.com/recipe/20131009/63238_w1024h1024c1cx1872cy2657.webp',
+      'https://assets.afcdn.com/recipe/20131009/63238_w1024h576c1cx1872cy2657.jpg',
+      'https://assets.afcdn.com/recipe/20131009/63238_w1024h768c1cx1872cy2657.jpg',
+      'https://assets.afcdn.com/recipe/20131009/63238_w1024h1024c1cx1872cy2657.jpg'
+    ],
+    steps: [
+      'Tranchez la banane en gros morceaux, puis placez-la dans le mixeur avec le miel, le citron et le lait. ',
+      "Mixez jusqu'à l'obtention d'un liquide épais."
+    ],
+    description: 'banane, miel, lait demi-écrémé, citron',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Smoothie à la banane et au miel',
+      'banane',
+      'miel',
+      'lait demi-écrémé',
+      'citron',
+      'smoothies',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: "La Marquisette - Apéritif drômois à l'orange et au citron",
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_la-marquisette-aperitif-dromois-a-l-orange-et-au-citron_31016.aspx',
+    ingredients: [
+      '1 orange',
+      '1 gousse de vanille',
+      '10 cl de rhum',
+      '200 g de sucre',
+      '1 citron',
+      '75 cl de limonade',
+      '75 cl de vin blanc sec'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20180808/81721_w1024h576c1 cx1060cy707cxb2121cyb1414.webp',
+      'https://assets.afcdn.com/recipe/20180808/81721_w1024h768c1cx1060cy707cxb2121cyb1414.webp',
+      'https://assets.afcdn.com/recipe/20180808/81721_w1024h1024c1cx1060cy707cxb2121cyb1414.webp',
+      'https://assets.afcdn.com/recipe/20180808/81721_w1024h576c1cx1060cy707cxb2121cyb1414.jpg',
+      'https://assets.afcdn.com/recipe/20180808/81721_w1024h768c1cx1060cy707cxb2121cyb1414.jpg',
+      'https://assets.afcdn.com/recipe/20180808/81721_w1024h1024c1cx1060cy707cxb2121cyb1414.jpg'
+    ],
+    steps: [
+      'A préparer la veille: ',
+      "Mélangez le vin blanc, le rhum et le sucre. Ajoutez l'orange et le citron coupés en petits morceaux, ainsi que la gousse de vanille fendue. Laissez macérer toute une nuit au frais. ",
+      'Au moment de servir, ajoutez la limonade très très fraîche, mélangez et servez dans de jolis verres pour un apéritif rafraîchissant sous les oliviers ou les tilleuls.'
+    ],
+    description: 'orange, vanille, rhum, sucre, citron, limonade, vin blanc sec',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      "La Marquisette - Apéritif drômois à l'orange et au citron",
+      'orange',
+      'vanille',
+      'rhum',
+      'sucre',
+      'citron',
+      'limonade',
+      'vin blanc sec',
+      'cocktail apéritif',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 30,
+    totalTime: 30,
+    people: 6
+  },
+  {
+    name: 'Vin de cerise',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_vin-de-cerise_12576.aspx',
+    ingredients: [
+      '250 g de sucre',
+      'vanille',
+      '1 l de vin rosé ou rouge',
+      '75 feuilles de cerisier',
+      "10 cl d'Alcool à 45°"
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20131009/1421_w1024h576c1 cx1666cy2500.webp',
+      'https://assets.afcdn.com/recipe/20131009/1421_w1024h768c1cx1666cy2500.webp',
+      'https://assets.afcdn.com/recipe/20131009/1421_w1024h1024c1cx1666cy2500.webp',
+      'https://assets.afcdn.com/recipe/20131009/1421_w1024h576c1cx1666cy2500.jpg',
+      'https://assets.afcdn.com/recipe/20131009/1421_w1024h768c1cx1666cy2500.jpg',
+      'https://assets.afcdn.com/recipe/20131009/1421_w1024h1024c1cx1666cy2500.jpg'
+    ],
+    steps: [
+      'Cueillir les feuilles de cerisier après la fructification.',
+      'Mélanger tous les ingrédients dans un pot en grès, couvrir et laisser macérer quinze jours à trois semaines.',
+      'Filtrer et mettre en bouteille, laisser un peu vieillir avant de consommer.'
+    ],
+    description: 'sucre, vanille, vin rosé, feuille de cerisier, Alcool',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Vin de cerise',
+      'sucre',
+      'vanille',
+      'vin rosé',
+      'feuille de cerisier',
+      'Alcool',
+      'vins de fruits',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 70,
+    totalTime: 70,
+    people: 1
+  },
+  {
+    name: 'milk shake aux fraises light',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_milk-shake-aux-fraises-light_22206.aspx',
+    ingredients: [
+      '200 g de fromage blanc zero pour cent de matiere grasse',
+      '150 g de fraises (ou de framboises, myrtilles, cassis etc)',
+      "2 biscuits à la cuillère d'édulcorant (aspartam)",
+      '8 glaçons'
+    ],
+    author: 'roxane_14628425',
+    images: [
+      'https://assets.afcdn.com/recipe/20130813/55048_w1024h576c1 cx1456cy2184.webp',
+      'https://assets.afcdn.com/recipe/20130813/55048_w1024h768c1cx1456cy2184.webp',
+      'https://assets.afcdn.com/recipe/20130813/55048_w1024h1024c1cx1456cy2184.webp',
+      'https://assets.afcdn.com/recipe/20130813/55048_w1024h576c1cx1456cy2184.jpg',
+      'https://assets.afcdn.com/recipe/20130813/55048_w1024h768c1cx1456cy2184.jpg',
+      'https://assets.afcdn.com/recipe/20130813/55048_w1024h1024c1cx1456cy2184.jpg'
+    ],
+    steps: [
+      'Laver les fraises les nettoyer et les couper en deux. ',
+      "Mélanger dans le bol du robot les ingrédients et c'est parti.... mixer jusqu'à obtenir de la mousse. ",
+      "Verser sans attendre dans de grands verres et sirotez votre délicieux milk shake à l'aide d'une paille."
+    ],
+    description: 'fromage blanc, fraises, édulcorant, glaçons',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'milk shake aux fraises light',
+      'fromage blanc',
+      'fraises',
+      'édulcorant',
+      'glaçons',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 2
+  },
+  {
+    name: 'VIN de NOIX',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_vin-de-noix_27195.aspx',
+    ingredients: [
+      '4 clous de girofle',
+      "1 l d'eau de vie de fruits (ou 50 cl d'alcool à 90°C + 50 cl d'eau)",
+      '1 kg de sucre en poudre (1,2 kg si on préfère + sucré)',
+      '40 noix vertes (cueillies vers le 14 Juillet)',
+      '4 l de vin rouge'
+    ],
+    author: 'emmy_15146921',
+    images: [
+      'https://assets.afcdn.com/recipe/20110117/32382_w1024h576c1 cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20110117/32382_w1024h768c1cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20110117/32382_w1024h1024c1cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20110117/32382_w1024h576c1cx192cy256.jpg',
+      'https://assets.afcdn.com/recipe/20110117/32382_w1024h768c1cx192cy256.jpg',
+      'https://assets.afcdn.com/recipe/20110117/32382_w1024h1024c1cx192cy256.jpg'
+    ],
+    steps: [
+      '2 mois macération+1 semaine',
+      "Couper les noix en 4 , les mettre dans un bocal d'au moins 2 litres ou dans une bonbonne avec les clous de girofle et l'eau de vie. ",
+      'Laisser macérer 2 mois. ',
+      'Ajouter le vin rouge et le sucre et laisser macérer 1 semaine en remuant pour bien dissoudre le sucre. ',
+      'Mettre en bouteilles. Tenir au frais. ',
+      'Attendre 1 an avant de le boire.'
+    ],
+    description: 'clou de girofle, eau, sucre en poudre, noix vertes, vin rouge',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'VIN de NOIX',
+      'clou de girofle',
+      'eau',
+      'sucre en poudre',
+      'noix vertes',
+      'vin rouge',
+      'vins de fruits',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 30,
+    totalTime: 30,
+    people: 3
+  },
+  {
+    name: 'Ciocolatta / chocolat chaud épais (Italie)',
+    rate: 4.4,
+    url: 'https://www.marmiton.org/recettes/recette_ciocolatta-chocolat-chaud-epais-italie_17482.aspx',
+    ingredients: [
+      'chocolat ou cacao (pour ceux qui aiment)',
+      'farine',
+      'beurre',
+      'lait'
+    ],
+    author: 'elena_15822295',
+    images: [
+      'https://assets.afcdn.com/recipe/20131009/18733_w1024h576c1 cx1477cy1692.webp',
+      'https://assets.afcdn.com/recipe/20131009/18733_w1024h768c1cx1477cy1692.webp',
+      'https://assets.afcdn.com/recipe/20131009/18733_w1024h1024c1cx1477cy1692.webp',
+      'https://assets.afcdn.com/recipe/20131009/18733_w1024h576c1cx1477cy1692.jpg',
+      'https://assets.afcdn.com/recipe/20131009/18733_w1024h768c1cx1477cy1692.jpg',
+      'https://assets.afcdn.com/recipe/20131009/18733_w1024h1024c1cx1477cy1692.jpg'
+    ],
+    steps: [
+      'Préparer un chocolat chaud avec du lait et du chocolat (évidemment).',
+      "Dans un bol faire une pommade avec de la farine et le beurre, puis mettre dans le chocolat chaud sur le feu et mélanger jusqu'à épaississement (avec un fouet pour eviter les grumeaux).",
+      'Sevir bien chaud.'
+    ],
+    description: 'chocolat, farine, beurre, lait',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Ciocolatta  / chocolat chaud épais (Italie)',
+      'chocolat',
+      'farine',
+      'beurre',
+      'lait',
+      'chocolat chaud',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 15,
+    people: 1
+  },
+  {
+    name: 'Chocolat chaud aux guimauves',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_chocolat-chaud-aux-guimauves_50740.aspx',
+    ingredients: [
+      '1 noisette de beurre',
+      '8 carrés de chocolat noir',
+      'sucre (facultatif)',
+      '50 cl de lait',
+      'guimauve'
+    ],
+    author: 'lina_14357969',
+    images: [
+      'https://assets.afcdn.com/recipe/20191203/103383_w1024h576c1 cx1180cy2550cxb2268cyb4032.webp',
+      'https://assets.afcdn.com/recipe/20191203/103383_w1024h768c1cx1180cy2550cxb2268cyb4032.webp',
+      'https://assets.afcdn.com/recipe/20191203/103383_w1024h1024c1cx1180cy2550cxb2268cyb4032.webp',
+      'https://assets.afcdn.com/recipe/20191203/103383_w1024h576c1cx1180cy2550cxb2268cyb4032.jpg',
+      'https://assets.afcdn.com/recipe/20191203/103383_w1024h768c1cx1180cy2550cxb2268cyb4032.jpg',
+      'https://assets.afcdn.com/recipe/20191203/103383_w1024h1024c1cx1180cy2550cxb2268cyb4032.jpg'
+    ],
+    steps: [
+      'Dans une casserole, faire chauffer le lait avec le beurre à feu moyen.',
+      'Lorsque le lait frémit, ajouter les carrés de chocolat.',
+      'Laisser fondre le chocolat et bien remuer avec un petit fouet. Lorsque le chocolat est bien délayé et que le lait bout, retirer la casserole du feu et verser dans des bols ou des tasses.',
+      "Plonger les guimauves dans le breuvage brûlant et remuer doucement jusqu'à ce que les guimauves soient fondues et qu'une mousse se forme à la surface.",
+      'Déguster chaud et bon appétit !'
+    ],
+    description: 'beurre, chocolat noir, sucre, lait, guimauve',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Chocolat chaud aux guimauves',
+      'beurre',
+      'chocolat noir',
+      'sucre',
+      'lait',
+      'guimauve',
+      'chocolat chaud',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 25,
+    people: 2
+  },
+  {
+    name: 'Vrai planteur martiniquais',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_vrai-planteur-martiniquais_167480.aspx',
+    ingredients: [
+      '1 l de rhum martiniquais',
+      'sucre roux liquide',
+      "1 l de jus d'orange",
+      '1 l de jus de fruit de la passion',
+      '1 l de goyave',
+      '3 citrons verts',
+      '3 bâtons de cannelle'
+    ],
+    author: 'noor_14339603',
+    images: [
+      'https://assets.afcdn.com/recipe/20221013/136055_w1024h576c1 cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20221013/136055_w1024h768c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20221013/136055_w1024h1024c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20221013/136055_w1024h576c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20221013/136055_w1024h768c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20221013/136055_w1024h1024c1cx3072cy1728cxb6144cyb3456.jpg'
+    ],
+    steps: [
+      '4 jours avant la dégustation, mélanger le rhum, la cannelle et les zestes des 3 citrons puis ajouter les jus et les dés de citrons .',
+      "Laissez macérer au frais puis, le matin de la dégustation, ajouter le sucre de canne (j'en mets environ 25/30cl mais il vaut mieux en mettre peu et ajuster à son goût)."
+    ],
+    description: "rhum, sucre roux, jus d'orange, jus de fruit de la passion, goyave, citron vert, cannelle",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Vrai planteur martiniquais',
+      'rhum',
+      'sucre roux',
+      "jus d'orange",
+      'jus de fruit de la passion',
+      'goyave',
+      'citron vert',
+      'cannelle',
+      'punch',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 20,
+    totalTime: 20,
+    people: 12
+  },
+  {
+    name: 'Sangria sans alcool',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_sangria-sans-alcool_36727.aspx',
+    ingredients: [
+      '1 c.à.s de sucre en poudre',
+      '4 l de raisin rouge',
+      "2 l de jus d'orange",
+      '1 l de pêche',
+      '1 bouteille de citron (genre P..co)',
+      '1 bouteille de Coulis de fraise',
+      '1 c.à.s de sirop de framboise',
+      '1 pincée de cannelle',
+      'fruits de saison ou en boîtes pour certains (2 pommes, 2 oranges, 3 poires, 2 pêches, 3 brugnons, 1 melon... à définir suivant les saisons)'
+    ],
+    author: 'hannah_14322714',
+    images: [
+      'https://assets.afcdn.com/recipe/20130909/38300_w1024h576c1 cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130909/38300_w1024h768c1cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130909/38300_w1024h1024c1cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130909/38300_w1024h576c1cx1872cy2808.jpg',
+      'https://assets.afcdn.com/recipe/20130909/38300_w1024h768c1cx1872cy2808.jpg',
+      'https://assets.afcdn.com/recipe/20130909/38300_w1024h1024c1cx1872cy2808.jpg'
+    ],
+    steps: [
+      'La veille, ou 3 heures avant de servir, mettre toutes les bouteilles au frais.',
+      "Une heure avant l'arrivée des invités, transvaser le tout dans une grande jarre et ajouter des fruits de saison coupés en dés (3 poires, 3 brugnons, 3 pêches, 2 pommes, 2 oranges, 1 melon).",
+      'Servir le plus frais possible.'
+    ],
+    description: "sucre en poudre, raisin, jus d'orange, pêche, citron, Coulis de fraise, sirop, cannelle, fruits",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Sangria sans alcool',
+      'sucre en poudre',
+      'raisin',
+      "jus d'orange",
+      'pêche',
+      'citron',
+      'Coulis de fraise',
+      'sirop',
+      'cannelle',
+      'fruits',
+      'sangria',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 10
+  },
+  {
+    name: 'Vin chaud aux épices',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_vin-chaud-aux-epices_25224.aspx',
+    ingredients: [
+      '100 g de sucre roux ou de miel',
+      '3 clous de girofle',
+      '1 bouteille de vin rouge',
+      '2 citrons non traités',
+      '1 bâton de cannelle',
+      '1 pincée de muscade râpée'
+    ],
+    author: 'Michele',
+    images: [
+      'https://assets.afcdn.com/recipe/20130910/9821_w1024h576c1 cx1456cy1456.webp',
+      'https://assets.afcdn.com/recipe/20130910/9821_w1024h768c1cx1456cy1456.webp',
+      'https://assets.afcdn.com/recipe/20130910/9821_w1024h1024c1cx1456cy1456.webp',
+      'https://assets.afcdn.com/recipe/20130910/9821_w1024h576c1cx1456cy1456.jpg',
+      'https://assets.afcdn.com/recipe/20130910/9821_w1024h768c1cx1456cy1456.jpg',
+      'https://assets.afcdn.com/recipe/20130910/9821_w1024h1024c1cx1456cy1456.jpg'
+    ],
+    steps: [
+      'Râpez les zestes des citrons.',
+      'Versez le vin dans une casserole et ajoutez-lui les zestes, le sucre et les épices. Portez à ébullition, coupez le feu et couvrez.',
+      'Laissez infuser 30 minutes puis réchauffez.',
+      'Filtrez et servez.'
+    ],
+    description: 'sucre roux, clou de girofle, vin rouge, citron, cannelle, muscade',
+    difficulty: 2,
+    budget: 2,
+    tags: [
+      'Vin chaud aux épices',
+      'sucre roux',
+      'clou de girofle',
+      'vin rouge',
+      'citron',
+      'cannelle',
+      'muscade',
+      'vin chaud',
+      'facile',
+      'moyen'
+    ],
+    prepTime: 5,
+    totalTime: 20,
+    people: 4
+  },
+  {
+    name: 'Sangria de Madrid',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_sangria-de-madrid_21039.aspx',
+    ingredients: [
+      'orange',
+      'banane',
+      'abricot ...',
+      'porto (ou Cointreau ou Cognac)',
+      'pomme',
+      'citron',
+      'pêche',
+      'poire',
+      'de cannelle',
+      '60 g de sucre en poudre (/litre)',
+      '50 cl de vin rouge (2/3 du liquide)',
+      '12.5 cl de soda orange',
+      '12.5 cl de soda citron (1/3 du liquide)'
+    ],
+    author: 'Mariiie',
+    images: [
+      'https://assets.afcdn.com/recipe/20100120/5657_w1024h576c1 cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/5657_w1024h768c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/5657_w1024h1024c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/5657_w1024h576c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/5657_w1024h768c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/5657_w1024h1024c1cx256cy192.jpg'
+    ],
+    steps: [
+      'Tout mélanger, à préparer au moins la veille et garder au frais.'
+    ],
+    description: 'orange, banane, abricot, porto, pomme, citron, pêche, poire, cannelle, sucre en poudre, vin rouge, soda, soda',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Sangria de Madrid', 'orange',
+      'banane',            'abricot',
+      'porto',             'pomme',
+      'citron',            'pêche',
+      'poire',             'cannelle',
+      'sucre en poudre',   'vin rouge',
+      'soda',              'soda',
+      'sangria',           'facile',
+      'moyen',             'rapide'
+    ],
+    prepTime: 20,
+    totalTime: 20,
+    people: 6
+  },
+  {
+    name: "Apéritif vin d'orange",
+    rate: 5,
+    url: 'https://www.marmiton.org/recettes/recette_aperitif-vin-d-orange_81190.aspx',
+    ingredients: [
+      "1/2 l d'eau de vie de fruits à ~40°",
+      '500 g de sucre critalisé',
+      '1/2 gousse de vanille fendue dans la longueur',
+      '4 oranges (amères ou non)non traitées si possible',
+      '2 clous de girofle',
+      '2.5 l de vin rosé (type Touraine)',
+      '1 citron',
+      'muscade et cannelle selon les goûts'
+    ],
+    author: 'Princeloulou',
+    images: [
+      'https://assets.afcdn.com/recipe/20120403/12945_w1024h576c1 cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20120403/12945_w1024h768c1cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20120403/12945_w1024h1024c1cx192cy256.webp',
+      'https://assets.afcdn.com/recipe/20120403/12945_w1024h576c1cx192cy256.jpg',
+      'https://assets.afcdn.com/recipe/20120403/12945_w1024h768c1cx192cy256.jpg',
+      'https://assets.afcdn.com/recipe/20120403/12945_w1024h1024c1cx192cy256.jpg'
+    ],
+    steps: [
+      'Laver et couper les fruits en quatre et y planter les clous de girofle. Mélanger dans un grand pot (avec couvercle) le vin, le sucre et la vanille. ',
+      "Bien remuer pour faire dissoudre le sucre et ajouter les fruits et l'alcool, et une pincée ou plus de muscade et cannelle.",
+      'Laisser massérer pendant 40 jours en remuant une fois par semaine.',
+      'Filter au moment de la mise en bouteille.',
+      'Servir bien frais!!!'
+    ],
+    description: 'eau, sucre, vanille, orange, clou de girofle, vin rosé, citron, muscade',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      "Apéritif vin d'orange",
+      'eau',
+      'sucre',
+      'vanille',
+      'orange',
+      'clou de girofle',
+      'vin rosé',
+      'citron',
+      'muscade',
+      'vins de fruits',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 20,
+    totalTime: 20,
+    people: 3
+  },
+  {
+    name: 'La batida de coco de gabriel véga-rios',
+    rate: 5,
+    url: 'https://www.marmiton.org/recettes/recette_la-batida-de-coco-de-gabriel-vega-rios_37281.aspx',
+    ingredients: [
+      "20 cl d'eau (facultatif) tout dépend de l'état dans lequel on veut être ! pour info Gabriel n'en met pas !!",
+      '397 g de lait concentré sucré (1 boîte)',
+      '400 g de lait de coco (2 boîtes)',
+      '20 cl de cachaça ou de Rhum Blanc des Antilles ou de Cuba',
+      'glace pilée'
+    ],
+    author: 'alya_14031185',
+    images: [
+      'https://assets.afcdn.com/recipe/20140130/63137_w1024h576c1 cx300cy250.webp',
+      'https://assets.afcdn.com/recipe/20140130/63137_w1024h768c1cx300cy250.webp',
+      'https://assets.afcdn.com/recipe/20140130/63137_w1024h1024c1cx300cy250.webp',
+      'https://assets.afcdn.com/recipe/20140130/63137_w1024h576c1cx300cy250.jpg',
+      'https://assets.afcdn.com/recipe/20140130/63137_w1024h768c1cx300cy250.jpg',
+      'https://assets.afcdn.com/recipe/20140130/63137_w1024h1024c1cx300cy250.jpg'
+    ],
+    steps: [
+      'Tout mélanger et passer au mixer.',
+      'Remplir un verre de glace pilée et recouvrir de batida ou bien mettre 2 glaçons avec un certain nombre de doigts de batida.'
+    ],
+    description: 'eau, lait concentré sucré, lait de coco, cachaça, glace pilée',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'La batida de coco de gabriel véga-rios',
+      'eau',
+      'lait concentré sucré',
+      'lait de coco',
+      'cachaça',
+      'glace pilée',
+      '',
+      'très facile',
+      'assez cher',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 2
+  },
+  {
+    name: 'Smoothie crème de Pêches',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_smoothie-creme-de-peches_73278.aspx',
+    ingredients: [
+      '2 oranges',
+      '1 yaourt natures selon goût',
+      '1 c.à.s de miel',
+      '4 pêches',
+      '5 glaçons'
+    ],
+    author: 'cyberlola',
+    images: [
+      'https://assets.afcdn.com/recipe/20150601/28636_w1024h576c1 cx1241cy1526.webp',
+      'https://assets.afcdn.com/recipe/20150601/28636_w1024h768c1cx1241cy1526.webp',
+      'https://assets.afcdn.com/recipe/20150601/28636_w1024h1024c1cx1241cy1526.webp',
+      'https://assets.afcdn.com/recipe/20150601/28636_w1024h576c1cx1241cy1526.jpg',
+      'https://assets.afcdn.com/recipe/20150601/28636_w1024h768c1cx1241cy1526.jpg',
+      'https://assets.afcdn.com/recipe/20150601/28636_w1024h1024c1cx1241cy1526.jpg'
+    ],
+    steps: [
+      'Presser le jus des oranges et le verser dans le blender avec les pêches épluchées, le yaourt, les glaçons et le miel.',
+      "Bien mixer, c'est prêt!"
+    ],
+    description: 'orange, yaourt, miel, pêche, glaçons',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Smoothie crème de Pêches',
+      'orange',
+      'yaourt',
+      'miel',
+      'pêche',
+      'glaçons',
+      'smoothies',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 2
+  },
+  {
+    name: 'Chocolat chaud à la cannelle',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_chocolat-chaud-a-la-cannelle_36141.aspx',
+    ingredients: [
+      '250 g de chocolat noir',
+      '60 cl de lait entier (600g)',
+      '40 cl de crème fraîche liquide',
+      '2 bâtons de cannelle'
+    ],
+    author: 'romy_16156866',
+    images: [
+      'https://assets.afcdn.com/recipe/20130910/15774_w1024h576c1 cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130910/15774_w1024h768c1cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130910/15774_w1024h1024c1cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20130910/15774_w1024h576c1cx1872cy2808.jpg',
+      'https://assets.afcdn.com/recipe/20130910/15774_w1024h768c1cx1872cy2808.jpg',
+      'https://assets.afcdn.com/recipe/20130910/15774_w1024h1024c1cx1872cy2808.jpg'
+    ],
+    steps: [
+      'Râper le chocolat. Dans une casserole à fond assez épais, faire frémir le lait avec la crème et la cannelle.',
+      'Retirer la casserole du feu et laisser le mélange infuser. Retirer les bâtons de cannelle et intéger le chocolat.',
+      "Remuer doucement à l'aide d'un fouet : le chocolat doit être parfaitement fondu.",
+      'Laisser la cuisson se poursuivre à feu très doux quelques minutes en fouettant doucement : le chocolat sera encore plus onctueux et crémeux...!'
+    ],
+    description: 'chocolat noir, lait entier, crème fraîche liquide, cannelle',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Chocolat chaud à la cannelle',
+      'chocolat noir',
+      'lait entier',
+      'crème fraîche liquide',
+      'cannelle',
+      'chocolat chaud',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 10,
+    totalTime: 25,
+    people: 6
+  },
+  {
+    name: 'Liqueur de coing',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_liqueur-de-coing_53239.aspx',
+    ingredients: [
+      '400 g de sucre',
+      '2 oranges',
+      '1 kg de coing',
+      "1 l d'Alcool de fruit",
+      '1 anis étoilé'
+    ],
+    author: 'mia_16266438',
+    images: [
+      'https://assets.afcdn.com/recipe/20151118/13420_w1024h576c1 cx450cy710.webp',
+      'https://assets.afcdn.com/recipe/20151118/13420_w1024h768c1cx450cy710.webp',
+      'https://assets.afcdn.com/recipe/20151118/13420_w1024h1024c1cx450cy710.webp',
+      'https://assets.afcdn.com/recipe/20151118/13420_w1024h576c1cx450cy710.jpg',
+      'https://assets.afcdn.com/recipe/20151118/13420_w1024h768c1cx450cy710.jpg',
+      'https://assets.afcdn.com/recipe/20151118/13420_w1024h1024c1cx450cy710.jpg'
+    ],
+    steps: [
+      'Cette liqueur doit reposer 1 mois.',
+      'Pelez et coupez les coings.',
+      'Gardez les pépins dans une gaze.',
+      "Ajoutez le tout dans l'alcool de fruit avec les oranges (avec peau) lavées et coupées en rondelles.",
+      "Ajoutez l'anis étoilé et le sucre.",
+      'Laissez macérer 1 mois dans un endroit frais en remuant de temps en temps pour que le sucre se mélange bien.',
+      'Filtrez puis embouteillez.'
+    ],
+    description: 'sucre, orange, coing, Alcool, anis étoilé',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Liqueur de coing',
+      'sucre',
+      'orange',
+      'coing',
+      'Alcool',
+      'anis étoilé',
+      'liqueur',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 10
+  },
+  {
+    name: 'Cocktail tropical délicieux',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_cocktail-tropical-delicieux_26575.aspx',
+    ingredients: [
+      "1/4 l de jus d'orange",
+      '1/4 l de pamplemousse',
+      "1/4 l de jus d'ananas",
+      '1 citron',
+      '20 cl de malibu',
+      'sirop de grenadine'
+    ],
+    author: 'sofia_17191886',
+    images: [
+      'https://assets.afcdn.com/recipe/20100120/29183_w1024h576c1 cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/29183_w1024h768c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/29183_w1024h1024c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/29183_w1024h576c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/29183_w1024h768c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/29183_w1024h1024c1cx256cy192.jpg'
+    ],
+    steps: [
+      'Pour 1 verre : ',
+      "verser 5 cl de malibu, ajouter ensuite 1/3 de pamplemousse, 1/3 d'orange et 1/3 d'ananas ; ajouter ensuite un zeste de jus de citron et 1 trait de grenadine pour la déco."
+    ],
+    description: "jus d'orange, pamplemousse, jus d'ananas, citron, malibu, sirop de grenadine",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Cocktail tropical délicieux',
+      "jus d'orange",
+      'pamplemousse',
+      "jus d'ananas",
+      'citron',
+      'malibu',
+      'sirop de grenadine',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 4
+  },
+  {
+    name: 'Soupe de champagne au cointreau',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_soupe-de-champagne-cointreau_17062.aspx',
+    ingredients: [
+      '50 g de sucre en poudre',
+      '10 cl de cointreau',
+      '7 cl de citron ou de pulco',
+      '20 glaçons',
+      '75 cl de champagne'
+    ],
+    author: 'bibisnake',
+    images: [
+      'https://assets.afcdn.com/recipe/20100101/recipe_default_img_blurred_4.jpg'
+    ],
+    steps: [
+      'Mélanger et ajouter la bouteille de champagne bien rafraîchie.'
+    ],
+    description: 'sucre en poudre, cointreau, citron, glaçons, champagne',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Soupe de champagne au cointreau',
+      'sucre en poudre',
+      'cointreau',
+      'citron',
+      'glaçons',
+      'champagne',
+      'cocktail champagne',
+      'très facile',
+      'assez cher',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 6
+  },
+  {
+    name: 'Thé glacé',
+    rate: 4.4,
+    url: 'https://www.marmiton.org/recettes/recette_the-glace_37303.aspx',
+    ingredients: [
+      '2 c.à.s de sucre',
+      '2 sachets de thé "fruits exotiques" (ou autre, agrumes, fruits rouge,...)',
+      '1 sachet de thé vert',
+      '1 citron',
+      'menthe'
+    ],
+    author: 'camila_14614492',
+    images: [
+      'https://assets.afcdn.com/recipe/20131121/22712_w1024h576c1 cx1323cy1984.webp',
+      'https://assets.afcdn.com/recipe/20131121/22712_w1024h768c1cx1323cy1984.webp',
+      'https://assets.afcdn.com/recipe/20131121/22712_w1024h1024c1cx1323cy1984.webp',
+      'https://assets.afcdn.com/recipe/20131121/22712_w1024h576c1cx1323cy1984.jpg',
+      'https://assets.afcdn.com/recipe/20131121/22712_w1024h768c1cx1323cy1984.jpg',
+      'https://assets.afcdn.com/recipe/20131121/22712_w1024h1024c1cx1323cy1984.jpg'
+    ],
+    steps: [
+      "Faire bouillir 1 litre d'eau et ajouter les sachets de thé. Laisser infuser maximum 15 min.",
+      "Pendant que l'eau est encore chaude, ajouter le sucre (une grosse cuillère à soupe) la peau du citron coupée en gros copeaux et le citron coupé en 4.",
+      'Laisser refroidir avant de mettre au frigo (minimum 6 heures).',
+      'Avant de servir ajouter quelques feuilles de menthe.'
+    ],
+    description: 'sucre, thé, thé vert, citron, menthe',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Thé glacé',
+      'sucre',
+      'thé',
+      'thé vert',
+      'citron',
+      'menthe',
+      'boissons glacées',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 20,
+    totalTime: 20,
+    people: 1
+  },
+  {
+    name: 'Vin médiéval ou hypocras',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_vin-medieval-ou-hypocras_34061.aspx',
+    ingredients: [
+      '100 g de miel',
+      '1 c.à.c de gingembre en poudre',
+      '3 petites gousses de cardamome',
+      '2 clous de girofle',
+      '1 l de vin rouge',
+      '10 g de cannelle en poudre (ou 3 petits bâtons)'
+    ],
+    author: 'eva_16392984',
+    images: [
+      'https://assets.afcdn.com/recipe/20170330/16794_w1024h576c1 cx1394cy2099.webp',
+      'https://assets.afcdn.com/recipe/20170330/16794_w1024h768c1cx1394cy2099.webp',
+      'https://assets.afcdn.com/recipe/20170330/16794_w1024h1024c1cx1394cy2099.webp',
+      'https://assets.afcdn.com/recipe/20170330/16794_w1024h576c1cx1394cy2099.jpg',
+      'https://assets.afcdn.com/recipe/20170330/16794_w1024h768c1cx1394cy2099.jpg',
+      'https://assets.afcdn.com/recipe/20170330/16794_w1024h1024c1cx1394cy2099.jpg'
+    ],
+    steps: [
+      'Broyer ensemble les épices dans un mortier. ',
+      'Mélanger le miel et le vin, ajouter les épices broyées et laisser macérer 3-4 heures. ',
+      'Filtrer avec un fin tamis ou un filtre à café. ',
+      'Réserver au frais.'
+    ],
+    description: 'miel, gingembre, cardamome, clou de girofle, vin rouge, cannelle',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Vin médiéval ou hypocras',
+      'miel',
+      'gingembre',
+      'cardamome',
+      'clou de girofle',
+      'vin rouge',
+      'cannelle',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 6
+  },
+  {
+    name: 'Bissap (Sénégal)',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_bissap-senegal_13796.aspx',
+    ingredients: [
+      "2.5 l d'eau",
+      '100 g de sucre',
+      '2 sachets de sucre vanillé',
+      "2 c.à.s d'eau de fleur d'oranger",
+      "2 tasses de fleur d'hibiscus (bissap)",
+      '1 pincée de muscade'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20170314/46739_w1024h576c1 cx2552cy1592.webp',
+      'https://assets.afcdn.com/recipe/20170314/46739_w1024h768c1cx2552cy1592.webp',
+      'https://assets.afcdn.com/recipe/20170314/46739_w1024h1024c1cx2552cy1592.webp',
+      'https://assets.afcdn.com/recipe/20170314/46739_w1024h576c1cx2552cy1592.jpg',
+      'https://assets.afcdn.com/recipe/20170314/46739_w1024h768c1cx2552cy1592.jpg',
+      'https://assets.afcdn.com/recipe/20170314/46739_w1024h1024c1cx2552cy1592.jpg'
+    ],
+    steps: [
+      'Rincer le bissap. ',
+      "Faire bouillir le bissap et l'eau jusqu'à totale coloration de l'eau.",
+      "Laisser refroidir puis retirer le bissap du jus de cuisson. Ajouter à ce jus les sucres, muscade, eau de fleur d'oranger et mélanger.",
+      'Mettre au frais pendant 5 heures et servir très frais.'
+    ],
+    description: "eau, sucre, sucre vanillé, eau de fleur d'oranger, fleur d'hibiscus, muscade",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Bissap (Sénégal)',
+      'eau',
+      'sucre',
+      'sucre vanillé',
+      "eau de fleur d'oranger",
+      "fleur d'hibiscus",
+      'muscade',
+      "boissons à l'hisiscus",
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 20,
+    totalTime: 30,
+    people: 2
+  },
+  {
+    name: 'Super citronnade maison',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_super-citronnade-maison_94891.aspx',
+    ingredients: [ '50 g de sucre en poudre', '4 citrons', "1 l d'eau gazeuse" ],
+    author: 'adam_15895104',
+    images: [
+      'https://assets.afcdn.com/recipe/20130823/10336_w1024h576c1 cx1367cy2128.webp',
+      'https://assets.afcdn.com/recipe/20130823/10336_w1024h768c1cx1367cy2128.webp',
+      'https://assets.afcdn.com/recipe/20130823/10336_w1024h1024c1cx1367cy2128.webp',
+      'https://assets.afcdn.com/recipe/20130823/10336_w1024h576c1cx1367cy2128.jpg',
+      'https://assets.afcdn.com/recipe/20130823/10336_w1024h768c1cx1367cy2128.jpg',
+      'https://assets.afcdn.com/recipe/20130823/10336_w1024h1024c1cx1367cy2128.jpg'
+    ],
+    steps: [
+      '1',
+      'Coupe les citron en deux et presse-les. Mélange bien le jus de citron avec le sucre dans un bol.',
+      '2',
+      "Verse l'eau gazeuse dans une carafe ou dans une bouteille. Ajoute le jus de citron sucré dans la carafe et mélange un peu. Met la citronnade au frais jusqu'au moment de la boire."
+    ],
+    description: 'sucre en poudre, citron, eau gazeuse',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Super citronnade maison',
+      'sucre en poudre',
+      'citron',
+      'eau gazeuse',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 4
+  },
+  {
+    name: 'Milk-shake léger aux framboises',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_milk-shake-leger-aux-framboises_23391.aspx',
+    ingredients: [
+      '1 c.à.s de sucre en poudre (rase)',
+      '20 cl de lait',
+      'framboises surgelées',
+      '4 feuilles de menthe'
+    ],
+    author: 'Marilyn',
+    images: [
+      'https://assets.afcdn.com/recipe/20161116/1375_w1024h576c1 cx1788cy2682.webp',
+      'https://assets.afcdn.com/recipe/20161116/1375_w1024h768c1cx1788cy2682.webp',
+      'https://assets.afcdn.com/recipe/20161116/1375_w1024h1024c1cx1788cy2682.webp',
+      'https://assets.afcdn.com/recipe/20161116/1375_w1024h576c1cx1788cy2682.jpg',
+      'https://assets.afcdn.com/recipe/20161116/1375_w1024h768c1cx1788cy2682.jpg',
+      'https://assets.afcdn.com/recipe/20161116/1375_w1024h1024c1cx1788cy2682.jpg'
+    ],
+    steps: [
+      'Mettre dans un blender un verre de brisures de framboises pour trois verres de lait environ. Rajouter quelques feuilles de menthe et du sucre à doser selon votre goût. ',
+      'Activer le blender quelques secondes. ',
+      "Vous obtenez un délicieux milk-shake glacé (les framboises sont surgelées) et léger puisqu'il ne contient pas de glace. Idéal pour l'été..."
+    ],
+    description: 'sucre en poudre, lait, framboises, menthe',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Milk-shake léger aux framboises ',
+      'sucre en poudre',
+      'lait',
+      'framboises',
+      'menthe',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: 'Pastèque à siroter',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_pasteque-a-siroter_31235.aspx',
+    ingredients: [ '1/2 pastèque', '1 citron', 'de menthe fraîche' ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20130823/11042_w1024h576c1 cx1762cy1762.webp',
+      'https://assets.afcdn.com/recipe/20130823/11042_w1024h768c1cx1762cy1762.webp',
+      'https://assets.afcdn.com/recipe/20130823/11042_w1024h1024c1cx1762cy1762.webp',
+      'https://assets.afcdn.com/recipe/20130823/11042_w1024h576c1cx1762cy1762.jpg',
+      'https://assets.afcdn.com/recipe/20130823/11042_w1024h768c1cx1762cy1762.jpg',
+      'https://assets.afcdn.com/recipe/20130823/11042_w1024h1024c1cx1762cy1762.jpg'
+    ],
+    steps: [
+      'Avant tout avez vous un mixeur ?',
+      'Si non passez à une autre recette ! ',
+      'Si oui accrochez vous à vos papilles : ',
+      'Préparation :',
+      "Tout d'abord ne conservez que les feuilles de menthe, passez-les sous l'eau, mettez-les dans le mixeur. ",
+      'Ajoutez quelques glaçons. ',
+      "Ajoutez le jus du citron (voir mettre du jus de citron tout prêt, évitez le sirop !) et un verre d'eau. ",
+      'Ajoutez les morceaux de pastèque (sans la peau, faut-il le dire ?). ',
+      "Mixer jusqu'à obtenir un jus délicieux. ",
+      'A consommer sans modération.'
+    ],
+    description: 'pastèque, citron, menthe',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Pastèque à siroter',
+      'pastèque',
+      'citron',
+      'menthe',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 2
+  },
+  {
+    name: 'Sangria verte',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_sangria-verte_30109.aspx',
+    ingredients: [
+      '10 cl de rhum blanc',
+      '1 bouteille de vin blanc (75 cl)',
+      '5 cl de sirop de sucre de canne',
+      '3 kiwis',
+      '1 citron vert',
+      '3 brins de menthe'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20161010/58457_w1024h576c1 cx2184cy1456.webp',
+      'https://assets.afcdn.com/recipe/20161010/58457_w1024h768c1cx2184cy1456.webp',
+      'https://assets.afcdn.com/recipe/20161010/58457_w1024h1024c1cx2184cy1456.webp',
+      'https://assets.afcdn.com/recipe/20161010/58457_w1024h576c1cx2184cy1456.jpg',
+      'https://assets.afcdn.com/recipe/20161010/58457_w1024h768c1cx2184cy1456.jpg',
+      'https://assets.afcdn.com/recipe/20161010/58457_w1024h1024c1cx2184cy1456.jpg'
+    ],
+    steps: [
+      'Verser le vin blanc, le sirop de sucre et le rhum dans un grand bol avec couvercle.',
+      'Ajouter les kiwis pelés et coupés en rondelles. Ajouter les brins de menthe et le citron vert coupé en quartiers.',
+      'Laisser reposer 4 à 6 heures au réfrigérateur.'
+    ],
+    description: 'rhum, vin blanc, sirop de sucre de canne, kiwi, citron vert, menthe',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Sangria verte',
+      'rhum',
+      'vin blanc',
+      'sirop de sucre de canne',
+      'kiwi',
+      'citron vert',
+      'menthe',
+      'sangria',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 6
+  },
+  {
+    name: 'Citronnade tunisienne',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_citronnade-tunisienne_33760.aspx',
+    ingredients: [ '100 g de sucre roux', '2 citrons juteux (non traités)' ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20131121/38065_w1024h576c1 cx1680cy2127.webp',
+      'https://assets.afcdn.com/recipe/20131121/38065_w1024h768c1cx1680cy2127.webp',
+      'https://assets.afcdn.com/recipe/20131121/38065_w1024h1024c1cx1680cy2127.webp',
+      'https://assets.afcdn.com/recipe/20131121/38065_w1024h576c1cx1680cy2127.jpg',
+      'https://assets.afcdn.com/recipe/20131121/38065_w1024h768c1cx1680cy2127.jpg',
+      'https://assets.afcdn.com/recipe/20131121/38065_w1024h1024c1cx1680cy2127.jpg'
+    ],
+    steps: [
+      "Mettre à chauffer 1/4 de litre d'eau. Laver les citrons et prélever les zestes à l'aide d'un économe ou d'un couteau. Lorsque l'eau bout, y mettre les zestes et laisser bouillir pendant 15 mn (à petit bouillon). ",
+      "Pendant ce temps, faire tiédir 1 l d'eau, y ajouter le sucre (bien mélanger) et le jus des deux citrons. ",
+      "Filtrer l'infusion, jeter les zestes et ajouter l'infusion au mélange. ",
+      "Mettre au congélateur. Au bout de deux heures, mélanger à la fourchette pour faire des paillettes. Répéter l'opération toutes les 20 mn pendant une heure, puis servir immédiatement."
+    ],
+    description: 'sucre roux, citron',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Citronnade tunisienne',
+      'sucre roux',
+      'citron',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 20,
+    totalTime: 20,
+    people: 1
+  },
+  {
+    name: 'Punch aux fruits sans alcool',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_punch-aux-fruits-sans-alcool_13764.aspx',
+    ingredients: [
+      '1 orange',
+      '1 banane',
+      '50 cl de limonade blanche',
+      "1.5 l de jus d'orange",
+      "1.5 l de jus d'ananas",
+      '75 cl de sirop de sucre de canne',
+      '2 citrons verts',
+      '1 pomme',
+      '1 poire',
+      '1 pêche',
+      '1 ananas',
+      'fruits à convenance'
+    ],
+    author: 'Mamy Nova',
+    images: [
+      'https://assets.afcdn.com/recipe/20170321/6913_w1024h576c1 cx2880cy1920.webp',
+      'https://assets.afcdn.com/recipe/20170321/6913_w1024h768c1cx2880cy1920.webp',
+      'https://assets.afcdn.com/recipe/20170321/6913_w1024h1024c1cx2880cy1920.webp',
+      'https://assets.afcdn.com/recipe/20170321/6913_w1024h576c1cx2880cy1920.jpg',
+      'https://assets.afcdn.com/recipe/20170321/6913_w1024h768c1cx2880cy1920.jpg',
+      'https://assets.afcdn.com/recipe/20170321/6913_w1024h1024c1cx2880cy1920.jpg'
+    ],
+    steps: [
+      'Verser tous les produits dans une grande coupe.',
+      'Couper les fruits en morceaux et les ajouter au liquide.',
+      'Mélanger et laisser reposer au frais pendant 1 heure.',
+      'Avant de servir, ajouter de la glace pilée ou des glaçons.'
+    ],
+    description: "orange, banane, limonade, jus d'orange, jus d'ananas, sirop de sucre de canne, citron vert, pomme, poire, pêche, ananas, fruits",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Punch aux fruits sans alcool',
+      'orange',
+      'banane',
+      'limonade',
+      "jus d'orange",
+      "jus d'ananas",
+      'sirop de sucre de canne',
+      'citron vert',
+      'pomme',
+      'poire',
+      'pêche',
+      'ananas',
+      'fruits',
+      'cocktail sans alcool',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 15,
+    people: 40
+  },
+  {
+    name: 'Dalgona coffee (café fouetté)',
+    rate: 5,
+    url: 'https://www.marmiton.org/recettes/recette_dalgona-cafe_392418.aspx',
+    ingredients: [
+      '5 c.à.s de sucre',
+      '5 c.à.s de café instantané lyophilisé',
+      "5 c.à.s d'eau très chaude",
+      '2 tasses de lait'
+    ],
+    author: 'Marmiton_Recettes',
+    images: [
+      'https://assets.afcdn.com/recipe/20200505/110641_w1024h576c1 cx1824cy2736cxb3648cyb5472.webp',
+      'https://assets.afcdn.com/recipe/20200505/110641_w1024h768c1cx1824cy2736cxb3648cyb5472.webp',
+      'https://assets.afcdn.com/recipe/20200505/110641_w1024h1024c1cx1824cy2736cxb3648cyb5472.webp',
+      'https://assets.afcdn.com/recipe/20200505/110641_w1024h576c1cx1824cy2736cxb3648cyb5472.jpg',
+      'https://assets.afcdn.com/recipe/20200505/110641_w1024h768c1cx1824cy2736cxb3648cyb5472.jpg',
+      'https://assets.afcdn.com/recipe/20200505/110641_w1024h1024c1cx1824cy2736cxb3648cyb5472.jpg'
+    ],
+    steps: [
+      "Fouetter vigoureusement le café soluble avec le sucre et l'eau chaude jusqu'à ce qu'il change de texture, double de volume et prenne une couleur plus claire (utiliser un émulsionneur ou pas mal d'huile de coude)",
+      'Verser le lait chaud ou à température ambiante dans deux tasses ou verres transparents en laissant de la place pour le café fouetté par dessus.',
+      'Verser le café fouetté par dessus dans chaque tasse puis déguster.'
+    ],
+    description: 'sucre, café instantané lyophilisé, eau, lait',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Dalgona coffee (café fouetté)',
+      'sucre',
+      'café instantané lyophilisé',
+      'eau',
+      'lait',
+      'café',
+      'facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 7,
+    totalTime: 7,
+    people: 2
+  },
+  {
+    name: 'Thé à la menthe marocain',
+    rate: 4.2,
+    url: 'https://www.marmiton.org/recettes/recette_the-a-la-menthe-marocain_11146.aspx',
+    ingredients: [
+      '25 morceaux de sucre',
+      '2 c.à.c de thé vert non parfumé',
+      '1 bouquet de menthe fraîche'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20200504/110609_w1024h576c1 cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20200504/110609_w1024h768c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20200504/110609_w1024h1024c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20200504/110609_w1024h576c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20200504/110609_w1024h768c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20200504/110609_w1024h1024c1cx960cy540cxb1920cyb1080.jpg'
+    ],
+    steps: [
+      "Faire chauffer de l'eau, verser 1 petit verre d'eau bouillante sur 2 cuillères à café de thé vert.",
+      "Après une minute, jeter le liquide, garder le thé. (c'est pour enlever la première amertume du thé), puis verser le reste de l'eau (il faut avoir une petite théière, équipée idéalement d'un filtre dans le bec verseur, c'est + facile).",
+      "Ajouter ensuite la menthe fraîche, en noyant tout de suite les feuilles dans l'eau (si elles surnagent, elles prennent un goût de brûlé, un peu amer -avec l'habitude, vous le reconnaîtrez- c'est pour les marocains quand le thé est brûlé).",
+      'Par dessus, ajouter les sucres (au moins 25-30 sucres pour 4-5 verres).',
+      'Pour mélanger.',
+      "On verse dans les verres en tenant la théière bien haut pour faire 'mousser' le sucre... et on boit très chaud."
+    ],
+    description: 'sucre, thé vert, menthe',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Thé à la menthe marocain',
+      'sucre',
+      'thé vert',
+      'menthe',
+      'thé',
+      'facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 20,
+    people: 4
+  },
+  {
+    name: "Cocktail à la grenadine et à l'orange pour enfants",
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_cocktail-a-la-grenadine-et-a-l-orange-pour-enfants_20044.aspx',
+    ingredients: [ '4 glaçons', "45 cl de jus d'orange", '4 cl de grenadine' ],
+    author: 'the blood angel',
+    images: [
+      'https://assets.afcdn.com/recipe/20100120/57142_w1024h576c1 cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/57142_w1024h768c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/57142_w1024h1024c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/57142_w1024h576c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/57142_w1024h768c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/57142_w1024h1024c1cx256cy192.jpg'
+    ],
+    steps: [
+      "Préparez une carafe, verser le jus d'orange, mettre délicatement le sirop de grenadine en le versant bien au centre de la carafe. ",
+      'Mettez les glaçons dans la carafe, préparer des verres avec des pailles et éventuellement une rondelle de citron. ',
+      "Voici un cocktail sympathique pour que vos enfants fassent comme les grands à l'apéro !!!"
+    ],
+    description: "glaçons, jus d'orange, grenadine",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      "Cocktail à la grenadine et à l'orange pour enfants",
+      'glaçons',
+      "jus d'orange",
+      'grenadine',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 1,
+    totalTime: 1,
+    people: 4
+  },
+  {
+    name: 'Vodka Tagada',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_vodka-tagada_37915.aspx',
+    ingredients: [ '300 g de fraises tagada® ®', '70 cl de vodka' ],
+    author: 'laura_15140362',
+    images: [
+      'https://assets.afcdn.com/recipe/20141214/61068_w1024h576c1 cx800cy600.webp',
+      'https://assets.afcdn.com/recipe/20141214/61068_w1024h768c1cx800cy600.webp',
+      'https://assets.afcdn.com/recipe/20141214/61068_w1024h1024c1cx800cy600.webp',
+      'https://assets.afcdn.com/recipe/20141214/61068_w1024h576c1cx800cy600.jpg',
+      'https://assets.afcdn.com/recipe/20141214/61068_w1024h768c1cx800cy600.jpg',
+      'https://assets.afcdn.com/recipe/20141214/61068_w1024h1024c1cx800cy600.jpg'
+    ],
+    steps: [
+      'Mettre les fraises Tagada ® dans la bouteille et rajouter la vodka.',
+      'Laisser macérer quelques jours et déguster avec modération...'
+    ],
+    description: 'fraises tagada®, vodka',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Vodka Tagada',
+      'fraises tagada®',
+      'vodka',
+      'cocktail vodka',
+      'très facile',
+      'assez cher',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 1
+  },
+  {
+    name: 'Milk shake banane yaourt',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_milk-shake-banane-yaourt_72822.aspx',
+    ingredients: [
+      '2 bananes',
+      '50 g de sucre',
+      'de chocolat',
+      '50 cl de lait',
+      '1 yaourt nature',
+      '4 glaçons',
+      'crème chantilly'
+    ],
+    author: 'ben_16932537',
+    images: [
+      'https://assets.afcdn.com/recipe/20150304/35969_w1024h576c1 cx968cy1296.webp',
+      'https://assets.afcdn.com/recipe/20150304/35969_w1024h768c1cx968cy1296.webp',
+      'https://assets.afcdn.com/recipe/20150304/35969_w1024h1024c1cx968cy1296.webp',
+      'https://assets.afcdn.com/recipe/20150304/35969_w1024h576c1cx968cy1296.jpg',
+      'https://assets.afcdn.com/recipe/20150304/35969_w1024h768c1cx968cy1296.jpg',
+      'https://assets.afcdn.com/recipe/20150304/35969_w1024h1024c1cx968cy1296.jpg'
+    ],
+    steps: [
+      'Dans un shaker, mettre les bananes coupées en rondelles, le lait, le yaourt puis mixer. ',
+      'Ajouter les glaçons et le sucre, mixer à nouveau. ',
+      'Verser dans des verres, recouvrir de chantilly puis saupoudrer de copeaux de chocolat. ',
+      'Bon appétit.'
+    ],
+    description: 'banane, sucre, chocolat, lait, yaourt nature, glaçons, crème chantilly',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Milk shake banane yaourt',
+      'banane',
+      'sucre',
+      'chocolat',
+      'lait',
+      'yaourt nature',
+      'glaçons',
+      'crème chantilly',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 20,
+    totalTime: 20,
+    people: 4
+  },
+  {
+    name: "Gnamakoudji ou jus de gingembre ( Côte d'Ivoire )",
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_gnamakoudji-ou-jus-de-gingembre-cote-d-ivoire_35603.aspx',
+    ingredients: [
+      '1 kg de gingembre frais',
+      "4 l d'eau",
+      '1 kg de sucre semoule',
+      "2 sachets de sucre vanillé ou de l'extrait de vanille",
+      'de menthe',
+      '3 citrons'
+    ],
+    author: 'mia_14903860',
+    images: [
+      'https://assets.afcdn.com/recipe/20131104/39570_w1024h576c1 cx1024cy768.webp',
+      'https://assets.afcdn.com/recipe/20131104/39570_w1024h768c1cx1024cy768.webp',
+      'https://assets.afcdn.com/recipe/20131104/39570_w1024h1024c1cx1024cy768.webp',
+      'https://assets.afcdn.com/recipe/20131104/39570_w1024h576c1cx1024cy768.jpg',
+      'https://assets.afcdn.com/recipe/20131104/39570_w1024h768c1cx1024cy768.jpg',
+      'https://assets.afcdn.com/recipe/20131104/39570_w1024h1024c1cx1024cy768.jpg'
+    ],
+    steps: [
+      "Éplucher le gingembre et le passer au mixeur avec un peu d'eau pour obtenir une pâte. ",
+      "Mettre l'eau dans un grand récipient, y ajouter la pâte de gingembre et les citrons coupés mais pas épluchés. Laisser reposer une bonne demi-heure. ",
+      'Filtrer le jus. Ajouter la vanille, et petit à petit le sucre. Goûter régulièrement pour vérifier si la quantité de sucre est suffisante. Rajouter quelques feuilles de menthe, embouteiller et stocker au frigo. ',
+      'Bien secouer la bouteille avant de servir, car le gingembre se dépose au fond.'
+    ],
+    description: 'gingembre, eau, sucre semoule, sucre vanillé, menthe, citron',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      "Gnamakoudji ou jus de gingembre ( Côte d'Ivoire )",
+      'gingembre',
+      'eau',
+      'sucre semoule',
+      'sucre vanillé',
+      'menthe',
+      'citron',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 60,
+    totalTime: 60,
+    people: 16
+  },
+  {
+    name: 'Sangria légère au vin blanc',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_sangria-legere-au-vin-blanc_29436.aspx',
+    ingredients: [
+      '3 oranges avec peau',
+      '3 sachets de sucre vanillé',
+      '3 cuillères de sucre',
+      '3 vin blanc moelleux',
+      '1.5 citron',
+      '2 girofle',
+      'cannelle'
+    ],
+    author: 'DominiquedeNantes',
+    images: [
+      'https://assets.afcdn.com/recipe/20100120/27532_w1024h576c1 cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/27532_w1024h768c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/27532_w1024h1024c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/27532_w1024h576c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/27532_w1024h768c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/27532_w1024h1024c1cx256cy192.jpg'
+    ],
+    steps: [
+      'Dans une jatte, verser le vin blanc, ajouter les oranges et le citron coupés en rondelles, puis les autres ingrédients. ',
+      'Bien remuer. ',
+      'Conserver au frais.'
+    ],
+    description: 'orange, sucre vanillé, sucre, vin blanc, citron, girofle, cannelle',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Sangria légère au vin blanc',
+      'orange',
+      'sucre vanillé',
+      'sucre',
+      'vin blanc',
+      'citron',
+      'girofle',
+      'cannelle',
+      'sangria',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 10
+  },
+  {
+    name: 'Planteur (Antilles)',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_planteur-antilles_20048.aspx',
+    ingredients: [
+      '70 cl de rhum blanc',
+      '1 gousse de vanille',
+      '20 cl de cointreau',
+      "1 l de jus d'orange",
+      '1 l de jus de fruit de la passion',
+      '1 l de mangue (ou goyave selon les goûts)',
+      'citron vert',
+      '1 bâton de cannelle'
+    ],
+    author: 'gabriel_17611527',
+    images: [
+      'https://assets.afcdn.com/recipe/20100101/recipe_default_img_blurred_1.jpg'
+    ],
+    steps: [
+      'Mélanger tous les ingrédients et laisser reposer au réfrigérateur pendant au moins 24 h (2 à 3 jours étant idéal). ',
+      "Servez bien frais avec des morceaux de fruits (ma préférence va vers les oranges, les pommes et l'ananas frais). ",
+      'Cette recette est antillaise.'
+    ],
+    description: "rhum, vanille, cointreau, jus d'orange, jus de fruit de la passion, mangue, citron vert, cannelle",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Planteur (Antilles)',
+      'rhum',
+      'vanille',
+      'cointreau',
+      "jus d'orange",
+      'jus de fruit de la passion',
+      'mangue',
+      'citron vert',
+      'cannelle',
+      'punch',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 12
+  },
+  {
+    name: 'Soupe de vin pétillant',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_soupe-de-vin-petillant_81044.aspx',
+    ingredients: [
+      '1 bouteille de vin pétillant (style café de paris, volner, crémant... ou champagne)',
+      '1 louche de citron',
+      '1 louche de cointreau',
+      '1 louche de sirop de canne (liquide)'
+    ],
+    author: 'emma_15576750',
+    images: [
+      'https://assets.afcdn.com/recipe/20100101/recipe_default_img_blurred_1.jpg'
+    ],
+    steps: [
+      'Mélanger délicatement les 4 ingrédients que vous aurez préalablement mis au frais.',
+      'Cet apéritif est à préparer au dernier moment (pour préserver les bulles).'
+    ],
+    description: 'vin, citron, cointreau, sirop de canne',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Soupe de vin pétillant',
+      'vin',
+      'citron',
+      'cointreau',
+      'sirop de canne',
+      '',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: 'Irish coffee ( Irlande )',
+    rate: 4.4,
+    url: 'https://www.marmiton.org/recettes/recette_irish-coffee-irlande_12137.aspx',
+    ingredients: [
+      '5 cl de whisky (whisky irlandais)',
+      'sucre (plus pratique, 2 cuillères à café de sirop de canne)',
+      'café assez fort et bien chaud',
+      'crème chantilly',
+      'cacao non sucré pour la déco'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20221013/136051_w1024h576c1 cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20221013/136051_w1024h768c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20221013/136051_w1024h1024c1cx3072cy1728cxb6144cyb3456.webp',
+      'https://assets.afcdn.com/recipe/20221013/136051_w1024h576c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20221013/136051_w1024h768c1cx3072cy1728cxb6144cyb3456.jpg',
+      'https://assets.afcdn.com/recipe/20221013/136051_w1024h1024c1cx3072cy1728cxb6144cyb3456.jpg'
+    ],
+    steps: [
+      "Deux astuces avant de commencer : le whiskey sucré et le café doivent être à la même température, c'est à dire très chauds.",
+      `L'autre astuce est un petit instrument très simple à réaliser, il vous suffit de "sacrifier" une petite cuillère : pliez une cuillère en "L" de façon à former un angle de 90°.`,
+      'Dans un grand verre à pied résistant à la chaleur, versez le whiskey et le sucre de canne bien chaud. Utilisez ensuite votre petite cuillère pliée : il faut la placer dans le verre, à la surface du mélange, versez ensuite le café chaud dans la cuillère, en la remontant au fur et à mesure. Cela permet au café de ne pas "plonger" dans le whiskey, donc de rester au dessus et former une deuxième couche.',
+      'Ajoutez alors la chantilly, qui va former la troisième couche. Eventuellement, saupoudrez de cacao non sucré. Servez avec une paille.'
+    ],
+    description: 'whisky, sucre, café, crème chantilly, cacao',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Irish coffee ( Irlande )',
+      'whisky',
+      'sucre',
+      'café',
+      'crème chantilly',
+      'cacao',
+      'café',
+      'moyenne',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: 'Café frappé (café glacé grec)',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_cafe-frappe-cafe-glace-grec_24820.aspx',
+    ingredients: [
+      "20 cl d'eau fraîche",
+      'sucre selon le goût',
+      '1 c.à.s de café instantané lyophilisé',
+      'glaçons'
+    ],
+    author: 'mia_220955',
+    images: [
+      'https://assets.afcdn.com/recipe/20150827/61703_w1024h576c1 cx1080cy1620.webp',
+      'https://assets.afcdn.com/recipe/20150827/61703_w1024h768c1cx1080cy1620.webp',
+      'https://assets.afcdn.com/recipe/20150827/61703_w1024h1024c1cx1080cy1620.webp',
+      'https://assets.afcdn.com/recipe/20150827/61703_w1024h576c1cx1080cy1620.jpg',
+      'https://assets.afcdn.com/recipe/20150827/61703_w1024h768c1cx1080cy1620.jpg',
+      'https://assets.afcdn.com/recipe/20150827/61703_w1024h1024c1cx1080cy1620.jpg'
+    ],
+    steps: [
+      "Mettre le café, l'eau et les glacons dans un shaker. Ajouter du sucre en poudre selon votre goût. Secouer bien fort jusqu'à la présence d'une mousse bien ferme. ",
+      'Servir dans un verre haut, avec une paille.'
+    ],
+    description: 'eau, sucre, café instantané lyophilisé, glaçons',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Café frappé (café glacé grec)',
+      'eau',
+      'sucre',
+      'café instantané lyophilisé',
+      'glaçons',
+      'boissons frappées',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: 'Infusion revigorante aux épices',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_infusion-revigorante-aux-epices_32169.aspx',
+    ingredients: [
+      '1 clou de girofle',
+      '1 cuillère de miel',
+      "1 grand verre d'eau",
+      'citron',
+      '1 pincée de cannelle'
+    ],
+    author: 'lina_17063981',
+    images: [
+      'https://assets.afcdn.com/recipe/20131121/25090_w1024h576c1 cx1584cy2376.webp',
+      'https://assets.afcdn.com/recipe/20131121/25090_w1024h768c1cx1584cy2376.webp',
+      'https://assets.afcdn.com/recipe/20131121/25090_w1024h1024c1cx1584cy2376.webp',
+      'https://assets.afcdn.com/recipe/20131121/25090_w1024h576c1cx1584cy2376.jpg',
+      'https://assets.afcdn.com/recipe/20131121/25090_w1024h768c1cx1584cy2376.jpg',
+      'https://assets.afcdn.com/recipe/20131121/25090_w1024h1024c1cx1584cy2376.jpg'
+    ],
+    steps: [
+      "Faites bouillir l'eau. Hors du feu, ajoutez le jus de citron, le clou de girofle, la cannelle et le miel.",
+      'Laissez infuser pendant 20 minutes.',
+      'Dégustez.'
+    ],
+    description: 'clou de girofle, miel, eau, citron, cannelle',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Infusion revigorante aux épices',
+      'clou de girofle',
+      'miel',
+      'eau',
+      'citron',
+      'cannelle',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 2,
+    totalTime: 7,
+    people: 1
+  },
+  {
+    name: 'Le vrai Chocolat chaud maison :-)',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_le-vrai-chocolat-chaud-maison_164759.aspx',
+    ingredients: [
+      '2 tablettes de chocolat noir',
+      '3 cuillères de crème fraîche épaisse',
+      '4 c.à.s de sucre',
+      '1 extrait de vanille',
+      '2 l de lait',
+      'de cannelle'
+    ],
+    author: 'rverher',
+    images: [
+      'https://assets.afcdn.com/recipe/20181017/82782_w1024h576c1 cx1903cy2537cxb3806cyb5074.webp',
+      'https://assets.afcdn.com/recipe/20181017/82782_w1024h768c1cx1903cy2537cxb3806cyb5074.webp',
+      'https://assets.afcdn.com/recipe/20181017/82782_w1024h1024c1cx1903cy2537cxb3806cyb5074.webp',
+      'https://assets.afcdn.com/recipe/20181017/82782_w1024h576c1cx1903cy2537cxb3806cyb5074.jpg',
+      'https://assets.afcdn.com/recipe/20181017/82782_w1024h768c1cx1903cy2537cxb3806cyb5074.jpg',
+      'https://assets.afcdn.com/recipe/20181017/82782_w1024h1024c1cx1903cy2537cxb3806cyb5074.jpg'
+    ],
+    steps: [
+      'Mettre dans le lait dans une grande casserole à feu doux et attendre que le lait soit tiède.que vous ajouterez au lait tiède.',
+      'Entretemps, casser en morceaux vos tablettes de chocolat.',
+      "Ajouter le lait tiède et remuer doucement jusqu'à ce que le tout soit mélangé et ajouter la crème fraiche.\n" +
+        'Continuez à remuer avec un fouet pour que la crème fraiche ne fasse aucun grumeaux.',
+      "Finalement, ajouter le sucre, l'extrait de vanille et la cannelle selon votre goût, en faisant attention que cela ne soit pas trop marqué sinon cela masquera un peu le goût du chocolat."
+    ],
+    description: 'chocolat noir, crème fraîche, sucre, extrait de vanille, lait, cannelle',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Le vrai Chocolat chaud maison :-)',
+      'chocolat noir',
+      'crème fraîche',
+      'sucre',
+      'extrait de vanille',
+      'lait',
+      'cannelle',
+      'chocolat chaud',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 15,
+    people: 8
+  },
+  {
+    name: 'Vin de coings de Mireille',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_vin-de-coings-de-mireille_70493.aspx',
+    ingredients: [
+      "1 l d'eau de vie (ou alcool pour fruits)",
+      '1 kg de sucre',
+      '2.5 kg de coing',
+      '5 l de vin blanc'
+    ],
+    author: 'nuria_1',
+    images: [
+      'https://assets.afcdn.com/recipe/20201009/114703_w1024h576c1 cx2981cy1986cxb5962cyb3972.webp',
+      'https://assets.afcdn.com/recipe/20201009/114703_w1024h768c1cx2981cy1986cxb5962cyb3972.webp',
+      'https://assets.afcdn.com/recipe/20201009/114703_w1024h1024c1cx2981cy1986cxb5962cyb3972.webp',
+      'https://assets.afcdn.com/recipe/20201009/114703_w1024h576c1cx2981cy1986cxb5962cyb3972.jpg',
+      'https://assets.afcdn.com/recipe/20201009/114703_w1024h768c1cx2981cy1986cxb5962cyb3972.jpg',
+      'https://assets.afcdn.com/recipe/20201009/114703_w1024h1024c1cx2981cy1986cxb5962cyb3972.jpg'
+    ],
+    steps: [
+      'Frottez les coings pour leur enlever le duvet. Sans les peler et sans enlever le cœur, coupez les coings en morceaux.',
+      'Laissez macérer tous les ingrédients pendant 1 mois.',
+      'Filtrez et mettez en bouteille.',
+      'Servez bien frais.'
+    ],
+    description: 'eau, sucre, coing, vin blanc',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Vin de coings de Mireille',
+      'eau',
+      'sucre',
+      'coing',
+      'vin blanc',
+      '',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 7
+  },
+  {
+    name: 'Café glacé',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_cafe-glace_49856.aspx',
+    ingredients: [
+      '6 c.à.c de sucre en poudre',
+      '1/2 l de lait',
+      '6 glaçons',
+      '6 cuillères de café de "Bonjour" (café au lait à la chicorée)'
+    ],
+    author: 'sarah_17563135',
+    images: [
+      'https://assets.afcdn.com/recipe/20150717/6799_w1024h576c1 cx1708cy2560.webp',
+      'https://assets.afcdn.com/recipe/20150717/6799_w1024h768c1cx1708cy2560.webp',
+      'https://assets.afcdn.com/recipe/20150717/6799_w1024h1024c1cx1708cy2560.webp',
+      'https://assets.afcdn.com/recipe/20150717/6799_w1024h576c1cx1708cy2560.jpg',
+      'https://assets.afcdn.com/recipe/20150717/6799_w1024h768c1cx1708cy2560.jpg',
+      'https://assets.afcdn.com/recipe/20150717/6799_w1024h1024c1cx1708cy2560.jpg'
+    ],
+    steps: [
+      'Versez tous les ingrédients dans un mixeur... Et mixez, tout simplement !',
+      'Servez dans des verres de taille moyenne, avec une paille et des glaçons.'
+    ],
+    description: 'sucre en poudre, lait, glaçons, café',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Café glacé',
+      'sucre en poudre',
+      'lait',
+      'glaçons',
+      'café',
+      'boissons glacées',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 2,
+    totalTime: 2,
+    people: 6
+  },
+  {
+    name: 'Sirop de Cassis de Bourgogne',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_sirop-de-cassis-de-bourgogne_17662.aspx',
+    ingredients: [
+      '1 kg de sucre',
+      '1 bouteille de vin de Bourgogne rouge',
+      '1 kg de cassis'
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20180222/77693_w1024h576c1 cx2692cy1795cxb5385cyb3590.webp',
+      'https://assets.afcdn.com/recipe/20180222/77693_w1024h768c1cx2692cy1795cxb5385cyb3590.webp',
+      'https://assets.afcdn.com/recipe/20180222/77693_w1024h1024c1cx2692cy1795cxb5385cyb3590.webp',
+      'https://assets.afcdn.com/recipe/20180222/77693_w1024h576c1cx2692cy1795cxb5385cyb3590.jpg',
+      'https://assets.afcdn.com/recipe/20180222/77693_w1024h768c1cx2692cy1795cxb5385cyb3590.jpg',
+      'https://assets.afcdn.com/recipe/20180222/77693_w1024h1024c1cx2692cy1795cxb5385cyb3590.jpg'
+    ],
+    steps: [
+      `Juillet, récolte des cassis, voici pour les chaleurs de l'été une recette familiale de ce délicieux "Sirop de Cassis de Bourgogne". `,
+      'Mettre dans une terrine les feuilles et les fruits sans les égrainer. ',
+      'Ecraser les fruits à la main en les mélangeant avec les feuilles. ',
+      "Ajouter le sucre et la bouteille de Bourgogne rouge (un petit Côte de Beaune Monthélie Les Riottes ferait très bien l'affaire) et mélanger le tout. ",
+      'Laisser macérer deux jours. ',
+      'Mettre le tout dans une bassine et laisser cuire un bouillon. ',
+      'Passer dans un linge et mettre en bouteille.',
+      "Boucher et conserver dans un endroit frais dans l'obscurité."
+    ],
+    description: 'sucre, vin, cassis',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Sirop de Cassis de Bourgogne',
+      'sucre',
+      'vin',
+      'cassis',
+      '',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 40,
+    totalTime: 70,
+    people: 2
+  },
+  {
+    name: 'Sirop de fleurs de sureau rapide',
+    rate: 5,
+    url: 'https://www.marmiton.org/recettes/recette_sirop-de-fleurs-de-sureau-rapide_30248.aspx',
+    ingredients: [
+      '5 kg de sucre',
+      "2.5 l d'eau",
+      '60 fleurs de sureau',
+      "5 citrons en rondelles avec l'écorce",
+      "80 g d'acide citrique"
+    ],
+    author: 'Patricia_146',
+    images: [
+      'https://assets.afcdn.com/recipe/20160722/28126_w1024h576c1 cx1001cy1500.webp',
+      'https://assets.afcdn.com/recipe/20160722/28126_w1024h768c1cx1001cy1500.webp',
+      'https://assets.afcdn.com/recipe/20160722/28126_w1024h1024c1cx1001cy1500.webp',
+      'https://assets.afcdn.com/recipe/20160722/28126_w1024h576c1cx1001cy1500.jpg',
+      'https://assets.afcdn.com/recipe/20160722/28126_w1024h768c1cx1001cy1500.jpg',
+      'https://assets.afcdn.com/recipe/20160722/28126_w1024h1024c1cx1001cy1500.jpg'
+    ],
+    steps: [
+      "Bien secouer les ombelles afin d'éliminer les petits insectes.",
+      "Prendre 1 très grand saladier ou 2 plus petits. Cuire l'eau.",
+      "Mettre la moitié des ombelles dans le saladier avec la moitié du sucre, verser l'eau et bien brasser, ajouter le reste des ombelles et du sucre, les rondelles de citron et l'acide citrique. Brasser jusqu'à dissolution complète du sucre (si on met tout en une seule fois, le brassage est pratiquement impossible et le sucre ne fond pas bien).",
+      "Laisser à couvert et à l'abri de la lumière durant 6 jours en remuant bien chaque jour.",
+      "Filtrer (gaze) dans une grande casserolle (ou en 2 fois), donner un bouillon et verser dans des bouteilles stérilisées à l'eau bouillante.",
+      "Se conserve environ 1 an à l'abri de la lumière. Une fois la bouteille entamée, la garder au frigo."
+    ],
+    description: 'sucre, eau, fleur de sureau, citron, acide citrique',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Sirop de fleurs de sureau rapide',
+      'sucre',
+      'eau',
+      'fleur de sureau',
+      'citron',
+      'acide citrique',
+      '',
+      'facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 20,
+    people: 5
+  },
+  {
+    name: "Infusion d'automne",
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_infusion-d-automne_33353.aspx',
+    ingredients: [
+      'eau',
+      '1 poignée de clou de girofle',
+      'extrait de vanille ou gousse',
+      'sucre de canne',
+      '4 bâtons de cannelle',
+      '8 anis étoilé es'
+    ],
+    author: 'hannah_16439707',
+    images: [
+      'https://assets.afcdn.com/recipe/20100120/28096_w1024h576c1 cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/28096_w1024h768c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/28096_w1024h1024c1cx256cy192.webp',
+      'https://assets.afcdn.com/recipe/20100120/28096_w1024h576c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/28096_w1024h768c1cx256cy192.jpg',
+      'https://assets.afcdn.com/recipe/20100120/28096_w1024h1024c1cx256cy192.jpg'
+    ],
+    steps: [
+      "Faire bouillir un litre d'eau. ",
+      "Ajouter toutes les épices et laisser infuser en recouvrant d'un couvercle pendant 5 min. ",
+      'Servir chaud et sucré avec le sucre de canne (on peut aussi y ajouter du miel liquide).'
+    ],
+    description: 'eau, clou de girofle, extrait de vanille, sucre de canne, cannelle, anis étoilé',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      "Infusion d'automne",
+      'eau',
+      'clou de girofle',
+      'extrait de vanille',
+      'sucre de canne',
+      'cannelle',
+      'anis étoilé',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 4
+  },
+  {
+    name: 'Sangria simple',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_sangria-simple_73258.aspx',
+    ingredients: [
+      "75 cl d'eau minérale gazeuse",
+      '1 orange',
+      '4 c.à.s de sucre en poudre',
+      '1 bouteille de vin rouge de la Rioja',
+      '2 citrons',
+      '1 bâton de cannelle (ou 1 grosse pincée de noix de muscade râpée)'
+    ],
+    author: 'eva_17527582',
+    images: [
+      'https://assets.afcdn.com/recipe/20200304/108771_w1024h576c1 cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20200304/108771_w1024h768c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20200304/108771_w1024h1024c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20200304/108771_w1024h576c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20200304/108771_w1024h768c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20200304/108771_w1024h1024c1cx960cy540cxb1920cyb1080.jpg'
+    ],
+    steps: [
+      "Lavez les agrumes. Pressez le jus de 1 citron, émincez l'autre en fines rondelles.",
+      "Prélevez l'écorce de l'orange en longue spirale avec un couteau économe, puis pressez le jus.",
+      "- Versez le vin dans une grande carafe avec les rondelles de citron débarrassées des pépins, le jus de citron et le jus d'orange, le sucre et la cannelle. ",
+      'Tournez pour faire fondre le sucre. ',
+      "Ajoutez l'eau gazeuse. Couvrez. ",
+      'Placez au moins 1 h au frigo avant de servir.',
+      "- Posez le zeste d'orange à cheval sur le bord de la carafe. Dégustez bien froid."
+    ],
+    description: 'eau, orange, sucre en poudre, vin rouge, citron, cannelle',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Sangria simple',
+      'eau',
+      'orange',
+      'sucre en poudre',
+      'vin rouge',
+      'citron',
+      'cannelle',
+      'sangria',
+      'facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 30,
+    totalTime: 30,
+    people: 8
+  },
+  {
+    name: 'Framboisine',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_framboisine_49200.aspx',
+    ingredients: [
+      '2 champagne ou de crémant ou tout autre vin pétillant',
+      '25 cl de sirop de sucre de canne',
+      '1 verre de cointreau',
+      '750 g de framboises congelées'
+    ],
+    author: 'MarieAnne_1941',
+    images: [
+      'https://assets.afcdn.com/recipe/20160424/39166_w1024h576c1 cx1920cy1080.webp',
+      'https://assets.afcdn.com/recipe/20160424/39166_w1024h768c1cx1920cy1080.webp',
+      'https://assets.afcdn.com/recipe/20160424/39166_w1024h1024c1cx1920cy1080.webp',
+      'https://assets.afcdn.com/recipe/20160424/39166_w1024h576c1cx1920cy1080.jpg',
+      'https://assets.afcdn.com/recipe/20160424/39166_w1024h768c1cx1920cy1080.jpg',
+      'https://assets.afcdn.com/recipe/20160424/39166_w1024h1024c1cx1920cy1080.jpg'
+    ],
+    steps: [
+      'Mettre dans un récipient le vin ou le champagne, le sirop de sucre de cannes, le cointreau et enfin les framboises congelées.',
+      'Attendre 1h à 1h30 avant de déguster.'
+    ],
+    description: 'champagne, sirop de sucre de canne, cointreau, framboises',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Framboisine',
+      'champagne',
+      'sirop de sucre de canne',
+      'cointreau',
+      'framboises',
+      '',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 10
+  },
+  {
+    name: 'Lassi indien à la rose',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_lassi-indien-a-la-rose_22932.aspx',
+    ingredients: [
+      'sucre (selon les goûts)',
+      "40 cl d'eau glacée",
+      'cardamome grillés à sec dans une poêle antiadhésive et écrasées',
+      "1 c.à.s de fleur d'oranger",
+      "1 c.à.s d'eau de rose",
+      '75 cl de yaourt nature bien froid'
+    ],
+    author: 'lina_300724',
+    images: [
+      'https://assets.afcdn.com/recipe/20160203/36202_w1024h576c1 cx1000cy1500.webp',
+      'https://assets.afcdn.com/recipe/20160203/36202_w1024h768c1cx1000cy1500.webp',
+      'https://assets.afcdn.com/recipe/20160203/36202_w1024h1024c1cx1000cy1500.webp',
+      'https://assets.afcdn.com/recipe/20160203/36202_w1024h576c1cx1000cy1500.jpg',
+      'https://assets.afcdn.com/recipe/20160203/36202_w1024h768c1cx1000cy1500.jpg',
+      'https://assets.afcdn.com/recipe/20160203/36202_w1024h1024c1cx1000cy1500.jpg'
+    ],
+    steps: [
+      "Fouetter le yaourt pour le rendre liquide, puis ajouter l'eau et le sucre. ",
+      'Fouetter pour faire dissoudre le sucre. ',
+      "Ajouter l'eau de fleur d'oranger et l'eau de rose, et parsemer de la poudre de cardamome. ",
+      'Servir aussitôt dans de grands verres rafraîchis.'
+    ],
+    description: "sucre, eau, cardamome, fleur d'oranger, eau, yaourt nature",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Lassi indien à la rose',
+      'sucre',
+      'eau',
+      'cardamome',
+      "fleur d'oranger",
+      'eau',
+      'yaourt nature',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 4
+  },
+  {
+    name: 'Lassi à la menthe',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_lassi-a-la-menthe_58105.aspx',
+    ingredients: [
+      '1.5 pot de yaourt de lait demi-écrémé',
+      "1.5 pot de yaourt d'eau",
+      'gingembre',
+      'cardamome',
+      'sucre',
+      '1 pot de yaourt nature',
+      '2 feuilles de menthe fraîche',
+      'muscade (1 à 3 cuillères à café)'
+    ],
+    author: 'sofia_14358956',
+    images: [
+      'https://assets.afcdn.com/recipe/20130726/313_w1024h576c1 cx968cy1296.webp',
+      'https://assets.afcdn.com/recipe/20130726/313_w1024h768c1cx968cy1296.webp',
+      'https://assets.afcdn.com/recipe/20130726/313_w1024h1024c1cx968cy1296.webp',
+      'https://assets.afcdn.com/recipe/20130726/313_w1024h576c1cx968cy1296.jpg',
+      'https://assets.afcdn.com/recipe/20130726/313_w1024h768c1cx968cy1296.jpg',
+      'https://assets.afcdn.com/recipe/20130726/313_w1024h1024c1cx968cy1296.jpg'
+    ],
+    steps: [
+      'Versez le yaourt, et un pot de lait dans le mixeur.',
+      'Ajoutez la menthe et les épices.',
+      'Mixez le tout.',
+      "Ajoutez le 1/2 pot de lait restant, l'eau et le sucre.",
+      'Mixez le tout.',
+      'Servir très frais.'
+    ],
+    description: 'yaourt, yaourt, gingembre, cardamome, sucre, yaourt nature, menthe, muscade',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Lassi à la menthe',
+      'yaourt',
+      'yaourt',
+      'gingembre',
+      'cardamome',
+      'sucre',
+      'yaourt nature',
+      'menthe',
+      'muscade',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 3
+  },
+  {
+    name: 'Cocktail Mexicain à ma façon',
+    rate: 5,
+    url: 'https://www.marmiton.org/recettes/recette_cocktail-mexicain-a-ma-facon_51342.aspx',
+    ingredients: [
+      '1 sachet de sucre vanillé',
+      '40 cl de téquila',
+      '1 l de goyave',
+      "1 l de jus d'ananas",
+      '30 cl de jus de pomme',
+      '3 feuilles de menthe'
+    ],
+    author: 'agathe_16575819',
+    images: [
+      'https://assets.afcdn.com/recipe/20100101/recipe_default_img_blurred_1.jpg'
+    ],
+    steps: [
+      "Mélanger les jus de goyave et d'ananas.",
+      'Ajouter la téquila et le jus de pomme.',
+      'Mélanger.',
+      "Ajouter le sucre vanillé et secouer jusqu'à ce que le sucre soit fondu.",
+      'Ciseler les feuilles de menthe et les incorporer au cocktail.',
+      'Réserver au frigo pendant 12 à 24 heures.',
+      "Attention, l'alcool de la téquila s'évanouit vite.",
+      'On ne le sent presque plus au bout de 48 heures, ne le préparer donc pas trop tôt.',
+      'Filtrer le mélange et servir bien frais.'
+    ],
+    description: "sucre vanillé, téquila, goyave, jus d'ananas, jus de pomme, menthe",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Cocktail Mexicain à ma façon',
+      'sucre vanillé',
+      'téquila',
+      'goyave',
+      "jus d'ananas",
+      'jus de pomme',
+      'menthe',
+      '',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 12
+  },
+  {
+    name: 'Cocktail asiatico-breton',
+    rate: 5,
+    url: 'https://www.marmiton.org/recettes/recette_cocktail-asiatico-breton_41244.aspx',
+    ingredients: [
+      '50 cl de sucre de canne',
+      '1 l de soho',
+      '1 l de citron',
+      '300 g de sirop',
+      '10 l de cidre brut'
+    ],
+    author: 'camila_14433522',
+    images: [
+      'https://assets.afcdn.com/recipe/20100101/recipe_default_img_blurred_1.jpg'
+    ],
+    steps: [
+      'Mettre dans une jarre : le soho, le pulco citron, le sucre de canne et la boîte de lichis avec le jus.',
+      'Laisser au frais.',
+      'Juste avant de servir ajouter le cidre très frais.',
+      'Mélanger avec une louche en soulevant le liquide sans trop remuer et servir.'
+    ],
+    description: 'sucre de canne, soho, citron, sirop, cidre',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Cocktail asiatico-breton',
+      'sucre de canne',
+      'soho',
+      'citron',
+      'sirop',
+      'cidre',
+      '',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 40
+  },
+  {
+    name: 'Lassi à la banane',
+    rate: 4.4,
+    url: 'https://www.marmiton.org/recettes/recette_lassi-a-la-banane_20805.aspx',
+    ingredients: [
+      '1 banane',
+      "1 pot de yaourt d'eau",
+      '1 c.à.c de sucre en poudre',
+      '1 yaourt nature type velouté'
+    ],
+    author: 'eva_16040387',
+    images: [
+      'https://assets.afcdn.com/recipe/20150811/1774_w1024h576c1 cx2808cy1872.webp',
+      'https://assets.afcdn.com/recipe/20150811/1774_w1024h768c1cx2808cy1872.webp',
+      'https://assets.afcdn.com/recipe/20150811/1774_w1024h1024c1cx2808cy1872.webp',
+      'https://assets.afcdn.com/recipe/20150811/1774_w1024h576c1cx2808cy1872.jpg',
+      'https://assets.afcdn.com/recipe/20150811/1774_w1024h768c1cx2808cy1872.jpg',
+      'https://assets.afcdn.com/recipe/20150811/1774_w1024h1024c1cx2808cy1872.jpg'
+    ],
+    steps: [
+      "Mixer tous les ingrédients dans le bol d'un robot. Servir frais. "
+    ],
+    description: 'banane, yaourt, sucre en poudre, yaourt nature',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Lassi à la banane',
+      'banane',
+      'yaourt',
+      'sucre en poudre',
+      'yaourt nature',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 2
+  },
+  {
+    name: 'Vin de cerises',
+    rate: 4.4,
+    url: 'https://www.marmiton.org/recettes/recette_vin-de-cerises_17098.aspx',
+    ingredients: [
+      '1 kg de sucre',
+      "1 l d'eau de vie à 45° où 50°",
+      '5 l de vin rosé à 12°',
+      '1 kg de cerises'
+    ],
+    author: 'anymo',
+    images: [
+      'https://assets.afcdn.com/recipe/20160324/6482_w1024h576c1 cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20160324/6482_w1024h768c1cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20160324/6482_w1024h1024c1cx1872cy2808.webp',
+      'https://assets.afcdn.com/recipe/20160324/6482_w1024h576c1cx1872cy2808.jpg',
+      'https://assets.afcdn.com/recipe/20160324/6482_w1024h768c1cx1872cy2808.jpg',
+      'https://assets.afcdn.com/recipe/20160324/6482_w1024h1024c1cx1872cy2808.jpg'
+    ],
+    steps: [
+      "Laisser macérer l'ensemble 40 jours, filtrer et mettre en bouteilles."
+    ],
+    description: 'sucre, eau, vin rosé, cerises',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Vin de cerises',
+      'sucre',
+      'eau',
+      'vin rosé',
+      'cerises',
+      'vins de fruits',
+      'facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 15,
+    people: 5
+  },
+  {
+    name: 'Cocktail apéritif',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_cocktail-aperitif_84319.aspx',
+    ingredients: [
+      '200 g de sucre',
+      '2 oranges (2 pour le jus + 2 en rondelles)',
+      '2 grands verres de rhum',
+      '2 l de vin blanc sec',
+      '2 citrons (2 pour le jus + 2 en rondelles)',
+      '1 bouteille de perrier (au dernier moment)'
+    ],
+    author: 'laura_14699847',
+    images: [
+      'https://assets.afcdn.com/recipe/20161219/49845_w1024h576c1 cx2189cy3283.webp',
+      'https://assets.afcdn.com/recipe/20161219/49845_w1024h768c1cx2189cy3283.webp',
+      'https://assets.afcdn.com/recipe/20161219/49845_w1024h1024c1cx2189cy3283.webp',
+      'https://assets.afcdn.com/recipe/20161219/49845_w1024h576c1cx2189cy3283.jpg',
+      'https://assets.afcdn.com/recipe/20161219/49845_w1024h768c1cx2189cy3283.jpg',
+      'https://assets.afcdn.com/recipe/20161219/49845_w1024h1024c1cx2189cy3283.jpg'
+    ],
+    steps: [ 'Mélanger tous les ingrédients et servir très frais.' ],
+    description: 'sucre, orange, rhum, vin blanc sec, citron, perrier',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Cocktail apéritif ',
+      'sucre',
+      'orange',
+      'rhum',
+      'vin blanc sec',
+      'citron',
+      'perrier',
+      'cocktail apéritif',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 10
+  },
+  {
+    name: 'Cocktail multi-fruits sans alcool',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_cocktail-multi-fruits-sans-alcool_26830.aspx',
+    ingredients: [
+      '25 cl de pamplemousse',
+      "25 cl de jus d'orange",
+      '25 cl de jus de citron',
+      "25 cl de jus d'ananas",
+      '1 c.à.s de grenadine',
+      "50 cl de limonade ou d'eau gazeuse"
+    ],
+    author: 'Mireille F',
+    images: [
+      'https://assets.afcdn.com/recipe/20180808/81720_w1024h576c1 cx1063cy1594cxb2126cyb3189.webp',
+      'https://assets.afcdn.com/recipe/20180808/81720_w1024h768c1cx1063cy1594cxb2126cyb3189.webp',
+      'https://assets.afcdn.com/recipe/20180808/81720_w1024h1024c1cx1063cy1594cxb2126cyb3189.webp',
+      'https://assets.afcdn.com/recipe/20180808/81720_w1024h576c1cx1063cy1594cxb2126cyb3189.jpg',
+      'https://assets.afcdn.com/recipe/20180808/81720_w1024h768c1cx1063cy1594cxb2126cyb3189.jpg',
+      'https://assets.afcdn.com/recipe/20180808/81720_w1024h1024c1cx1063cy1594cxb2126cyb3189.jpg'
+    ],
+    steps: [
+      'Mélangez tous les ingrédients et servez bien frais, avec des glaçons.'
+    ],
+    description: "pamplemousse, jus d'orange, jus de citron, jus d'ananas, grenadine, limonade",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Cocktail multi-fruits sans alcool',
+      'pamplemousse',
+      "jus d'orange",
+      'jus de citron',
+      "jus d'ananas",
+      'grenadine',
+      'limonade',
+      'cocktail sans alcool',
+      'facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 6
+  },
+  {
+    name: 'Karkadé (Egypte)',
+    rate: 4.5,
+    url: 'https://www.marmiton.org/recettes/recette_karkade-egypte_14389.aspx',
+    ingredients: [
+      "1 l d'eau bouillante",
+      'sucre (selon goût)',
+      "6 c.à.s de fleur d'hibiscus (séchées)"
+    ],
+    author: 'Anonyme',
+    images: [
+      'https://assets.afcdn.com/recipe/20161114/50373_w1024h576c1 cx3000cy2002.webp',
+      'https://assets.afcdn.com/recipe/20161114/50373_w1024h768c1cx3000cy2002.webp',
+      'https://assets.afcdn.com/recipe/20161114/50373_w1024h1024c1cx3000cy2002.webp',
+      'https://assets.afcdn.com/recipe/20161114/50373_w1024h576c1cx3000cy2002.jpg',
+      'https://assets.afcdn.com/recipe/20161114/50373_w1024h768c1cx3000cy2002.jpg',
+      'https://assets.afcdn.com/recipe/20161114/50373_w1024h1024c1cx3000cy2002.jpg'
+    ],
+    steps: [
+      "Dans une théière préchauffée, placez trois poignées de fleurs d'hibiscus sêchées, versez par dessus l'eau bouillante, sucrez et laissez infuser 15 mn au minimum.",
+      "Passez le liquide au chinois afin d'en retirer les fleurs.",
+      'Transvasez dans un flacon et mettez au frais.'
+    ],
+    description: "eau, sucre, fleur d'hibiscus",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Karkadé (Egypte)',
+      'eau',
+      'sucre',
+      "fleur d'hibiscus",
+      "boissons à l'hisiscus",
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 20,
+    totalTime: 20,
+    people: 1
+  },
+  {
+    name: 'Smoothie ultra-simple banane-framboise',
+    rate: 4.6,
+    url: 'https://www.marmiton.org/recettes/recette_smoothie-ultra-simple-banane-framboise_63970.aspx',
+    ingredients: [
+      '1 banane',
+      '1 yaourt velouté nature',
+      '1 c.à.c de sucre en poudre (si besoin)',
+      '1 poignée de framboises (soit environ 60 g)',
+      '2 cl de lait (juste pour rendre la préparation un peu plus liquide)'
+    ],
+    author: 'lily_15977433',
+    images: [
+      'https://assets.afcdn.com/recipe/20131009/41466_w1024h576c1 cx2000cy2000.webp',
+      'https://assets.afcdn.com/recipe/20131009/41466_w1024h768c1cx2000cy2000.webp',
+      'https://assets.afcdn.com/recipe/20131009/41466_w1024h1024c1cx2000cy2000.webp',
+      'https://assets.afcdn.com/recipe/20131009/41466_w1024h576c1cx2000cy2000.jpg',
+      'https://assets.afcdn.com/recipe/20131009/41466_w1024h768c1cx2000cy2000.jpg',
+      'https://assets.afcdn.com/recipe/20131009/41466_w1024h1024c1cx2000cy2000.jpg'
+    ],
+    steps: [
+      "Mettre la banane coupée en rondelles, les framboises, le yaourt et le lait dans le bol d'un mixer.",
+      'Mixer pendant environ 1 minute.',
+      'Goûter et ajouter du sucre si besoin.',
+      'Verser la préparation dans un verre.',
+      'Décorer de quelques framboises.',
+      'Bonne dégustation =)'
+    ],
+    description: 'banane, yaourt, sucre en poudre, framboises, lait',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Smoothie ultra-simple banane-framboise',
+      'banane',
+      'yaourt',
+      'sucre en poudre',
+      'framboises',
+      'lait',
+      'smoothies',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: 'La Soupe Angevine',
+    rate: 4.7,
+    url: 'https://www.marmiton.org/recettes/recette_la-soupe-angevine_49013.aspx',
+    ingredients: [
+      '1 bouteille de crémant de Loire',
+      '1 citron',
+      '15 cl de cointreau',
+      '12 cl de sirop de sucre de canne'
+    ],
+    author: 'lily_13896171',
+    images: [
+      'https://assets.afcdn.com/recipe/20230621/143696_w1024h576c1 cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143696_w1024h768c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143696_w1024h1024c1cx960cy540cxb1920cyb1080.webp',
+      'https://assets.afcdn.com/recipe/20230621/143696_w1024h576c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20230621/143696_w1024h768c1cx960cy540cxb1920cyb1080.jpg',
+      'https://assets.afcdn.com/recipe/20230621/143696_w1024h1024c1cx960cy540cxb1920cyb1080.jpg'
+    ],
+    steps: [
+      'Mettez au frais la bouteille de crémant de Loire.',
+      'Pressez le citron.',
+      'Une fois que la bouteille est bien fraîche, versez le contenu dans un saladier, ajoutez-y le Cointreau, le sirop de sucre de canne, le citron pressé.',
+      'Servir bien frais.'
+    ],
+    description: 'crémant, citron, cointreau, sirop de sucre de canne',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'La Soupe Angevine',
+      'crémant',
+      'citron',
+      'cointreau',
+      'sirop de sucre de canne',
+      'cocktail champagne',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 4
+  },
+  {
+    name: 'Cocktail Martini - framboises',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_cocktail-martini-framboises_52550.aspx',
+    ingredients: [
+      '1/2 citron vert',
+      'framboises (en bouteille)',
+      'martini blanc',
+      'cassonade'
+    ],
+    author: 'emma_17122008',
+    images: [
+      'https://assets.afcdn.com/recipe/20131023/17649_w1024h576c1 cx1837cy2756.webp',
+      'https://assets.afcdn.com/recipe/20131023/17649_w1024h768c1cx1837cy2756.webp',
+      'https://assets.afcdn.com/recipe/20131023/17649_w1024h1024c1cx1837cy2756.webp',
+      'https://assets.afcdn.com/recipe/20131023/17649_w1024h576c1cx1837cy2756.jpg',
+      'https://assets.afcdn.com/recipe/20131023/17649_w1024h768c1cx1837cy2756.jpg',
+      'https://assets.afcdn.com/recipe/20131023/17649_w1024h1024c1cx1837cy2756.jpg'
+    ],
+    steps: [
+      'Coupez le 1/2 citron vert en 2, et pressez les 2 moitiés avec les doigts au dessus du verre (à cocktail, de préférence). ',
+      'Puis, déposez-les au fond. ',
+      'Versez 1 cuillère à soupe rase de cassonade. ',
+      'Remplissez le verre de moitié avec le martini blanc et ajoutez un filet de jus de framboises. ',
+      'Servez avec quelques glaçons, pour maintenir le cocktail bien frais.'
+    ],
+    description: 'citron vert, framboises, martini blanc, cassonade',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Cocktail Martini - framboises',
+      'citron vert',
+      'framboises',
+      'martini blanc',
+      'cassonade',
+      '',
+      'très facile',
+      'assez cher',
+      'rapide'
+    ],
+    prepTime: 3,
+    totalTime: 3,
+    people: 1
+  },
+  {
+    name: 'Piña Colada originale',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_pina-colada-originale_354852.aspx',
+    ingredients: [
+      '4 cl de rhum blanc',
+      '2 cl de rhum ambré',
+      "12 cl de jus d'ananas",
+      '4 cl de lait de coco'
+    ],
+    author: 'Marmiton_Recettes',
+    images: [
+      'https://assets.afcdn.com/recipe/20180605/79412_w1024h576c1 cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20180605/79412_w1024h768c1cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20180605/79412_w1024h1024c1cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20180605/79412_w1024h576c1cx2000cy3000cxb4000cyb6000.jpg',
+      'https://assets.afcdn.com/recipe/20180605/79412_w1024h768c1cx2000cy3000cxb4000cyb6000.jpg',
+      'https://assets.afcdn.com/recipe/20180605/79412_w1024h1024c1cx2000cy3000cxb4000cyb6000.jpg'
+    ],
+    steps: [
+      "Réalisez la recette Piña Colada au mixer ou au shaker si c'est pour 1 seul verre.\n" +
+        'Dans un blender, versez tous les ingrédients avec 5 ou 6 glaçons et mixez le tout. \n' +
+        "C'est prêt ! Versez dans le verre et dégustez."
+    ],
+    description: "rhum blanc, rhum ambré, jus d'ananas, lait de coco",
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Piña Colada originale',
+      'rhum blanc',
+      'rhum ambré',
+      "jus d'ananas",
+      'lait de coco',
+      'Piña colada',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 5,
+    totalTime: 5,
+    people: 1
+  },
+  {
+    name: 'Ice Blue',
+    rate: 4.9,
+    url: 'https://www.marmiton.org/recettes/recette_ice-blue_17425.aspx',
+    ingredients: [
+      '35 cl de citron',
+      '70 cl de gin',
+      '3 l de Seven Up',
+      'curaçao bleu'
+    ],
+    author: 'The Squale',
+    images: [
+      'https://assets.afcdn.com/recipe/20180921/82298_w1024h576c1 cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20180921/82298_w1024h768c1cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20180921/82298_w1024h1024c1cx2000cy3000cxb4000cyb6000.webp',
+      'https://assets.afcdn.com/recipe/20180921/82298_w1024h576c1cx2000cy3000cxb4000cyb6000.jpg',
+      'https://assets.afcdn.com/recipe/20180921/82298_w1024h768c1cx2000cy3000cxb4000cyb6000.jpg',
+      'https://assets.afcdn.com/recipe/20180921/82298_w1024h1024c1cx2000cy3000cxb4000cyb6000.jpg'
+    ],
+    steps: [
+      'Versez tous les ingrédients sauf le Curaçao bleu dans un récipient et mélangez délicatement. ',
+      'Rajoutez le Curaçao bleu à votre convenance (suivant la couleur voulue).',
+      'Laissez refroidir au réfrigérateur 1 heure minimum. Servez bien frais.'
+    ],
+    description: 'citron, gin, Seven Up, curaçao',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Ice Blue',
+      'citron',
+      'gin',
+      'Seven Up',
+      'curaçao',
+      'cocktail gin',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 20
+  },
+  {
+    name: 'Sirop de violettes',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_sirop-de-violettes_88528.aspx',
+    ingredients: [
+      '125 g de sucre en poudre',
+      "12.5 cl d'eau",
+      '50 Fleurs de violettes (sans tiges)',
+      '1/2 citron'
+    ],
+    author: 'sofia_14090843',
+    images: [
+      'https://assets.afcdn.com/recipe/20180222/77699_w1024h576c1 cx2855cy1903cxb5710cyb3807.webp',
+      'https://assets.afcdn.com/recipe/20180222/77699_w1024h768c1cx2855cy1903cxb5710cyb3807.webp',
+      'https://assets.afcdn.com/recipe/20180222/77699_w1024h1024c1cx2855cy1903cxb5710cyb3807.webp',
+      'https://assets.afcdn.com/recipe/20180222/77699_w1024h576c1cx2855cy1903cxb5710cyb3807.jpg',
+      'https://assets.afcdn.com/recipe/20180222/77699_w1024h768c1cx2855cy1903cxb5710cyb3807.jpg',
+      'https://assets.afcdn.com/recipe/20180222/77699_w1024h1024c1cx2855cy1903cxb5710cyb3807.jpg'
+    ],
+    steps: [
+      "Rincer les violettes sous l'eau froide et les déposer dans un bol avec le jus de citron. Les écraser un peu. Couvrir pour 12 h de macération.",
+      "Dans un passoire au dessus d'une casserole, filtrer les fleurs et récupérer le jus de macération. Bien presser pour récupérer tout le jus. ",
+      'Ajouter le sucre et faire cuire à feu très doux pendant 7 minutes.',
+      'Verser dans une petite bouteille ou un bocal à stériliser.',
+      "C'est prêt."
+    ],
+    description: 'sucre en poudre, eau, Fleurs, citron',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Sirop de violettes ',
+      'sucre en poudre',
+      'eau',
+      'Fleurs',
+      'citron',
+      '',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 17,
+    people: 10
+  },
+  {
+    name: 'Vodka Tagada ou Bams',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_vodka-tagada-ou-bams_39105.aspx',
+    ingredients: [
+      '1 bouteille de vodka',
+      '1/2 paquet de fraises tagada® ® ou de bananes, au choix'
+    ],
+    author: 'margot_16477684',
+    images: [
+      'https://assets.afcdn.com/recipe/20151224/49503_w1024h576c1 cx2263cy3478.webp',
+      'https://assets.afcdn.com/recipe/20151224/49503_w1024h768c1cx2263cy3478.webp',
+      'https://assets.afcdn.com/recipe/20151224/49503_w1024h1024c1cx2263cy3478.webp',
+      'https://assets.afcdn.com/recipe/20151224/49503_w1024h576c1cx2263cy3478.jpg',
+      'https://assets.afcdn.com/recipe/20151224/49503_w1024h768c1cx2263cy3478.jpg',
+      'https://assets.afcdn.com/recipe/20151224/49503_w1024h1024c1cx2263cy3478.jpg'
+    ],
+    steps: [
+      'Prévoir 1 bouteille vide, avec bouchon, plus grande que la bouteille de vodka.',
+      'Couper les bonbons choisis en petits morceaux, mettez la bouteille vide, et verser la vodka dessus. ',
+      'Retourner de temps en temps.',
+      "Lorsque les bonbons ont complètement fondu, c'est prêt... Compter environ 1h pour la dissolution."
+    ],
+    description: 'vodka, fraises tagada®',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Vodka Tagada ou Bams',
+      'vodka',
+      'fraises tagada®',
+      'cocktail vodka',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 10,
+    totalTime: 10,
+    people: 4
+  },
+  {
+    name: 'Bubble tea',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_bubble-tea_345399.aspx',
+    ingredients: [
+      '30 g de perles du Japon',
+      '1 sachet de thé vert ou noir (ou 1 boule de thé en vrac)',
+      '5 cl de sirop au choix (menthe / pêche / grenadine / ...)',
+      '2 gouttes de colorant alimentaire',
+      'glaçons'
+    ],
+    author: 'Marmiton_Recettes',
+    images: [
+      'https://assets.afcdn.com/recipe/20200605/111747_w1024h576c1 cx2808cy1872cxb5616cyb3743.webp',
+      'https://assets.afcdn.com/recipe/20200605/111747_w1024h768c1cx2808cy1872cxb5616cyb3743.webp',
+      'https://assets.afcdn.com/recipe/20200605/111747_w1024h1024c1cx2808cy1872cxb5616cyb3743.webp',
+      'https://assets.afcdn.com/recipe/20200605/111747_w1024h576c1cx2808cy1872cxb5616cyb3743.jpg',
+      'https://assets.afcdn.com/recipe/20200605/111747_w1024h768c1cx2808cy1872cxb5616cyb3743.jpg',
+      'https://assets.afcdn.com/recipe/20200605/111747_w1024h1024c1cx2808cy1872cxb5616cyb3743.jpg'
+    ],
+    steps: [
+      "Faire bouillir une casserole d'eau et laisser infuser le thé. ",
+      'Ajouter le sirop puis laisser refroidir le thé. ',
+      "Plonger les perles du Japon dans une casserole d'eau bouillante et ajouter le colorant alimentaire. Laisser cuire 15 minutes minimum, à feu doux, tout en remuant régulièrement. Les perles doivent devenir complètement translucides.",
+      'Égoutter les perles.',
+      'Répartir les perles dans le fond de 2 verres, ajouter des glaçons puis remplir le verre avec le thé. ',
+      "Déposer une paille et c'est prêt !"
+    ],
+    description: 'perles du Japon, thé vert, sirop, colorant, glaçons',
+    difficulty: 1,
+    budget: 1,
+    tags: [
+      'Bubble tea',
+      'perles du Japon',
+      'thé vert',
+      'sirop',
+      'colorant',
+      'glaçons',
+      'boissons froides',
+      'très facile',
+      'bon marché'
+    ],
+    prepTime: 15,
+    totalTime: 30,
+    people: 2
+  },
+  {
+    name: 'Marquisette facile',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_marquisette-facile_18582.aspx',
+    ingredients: [
+      '1 kg de sucre',
+      '75 cl de cointreau',
+      '70 cl de citron jaune',
+      '1 kg de citron vert',
+      '1 kg de citron jaunes',
+      '12 l de mousseux ou 10 litres de vin blanc)',
+      '2 l de limonade'
+    ],
+    author: 'julia_15878715',
+    images: [
+      'https://assets.afcdn.com/recipe/20180725/81580_w1024h576c1 cx3360cy2240cxb6720cyb4480.webp',
+      'https://assets.afcdn.com/recipe/20180725/81580_w1024h768c1cx3360cy2240cxb6720cyb4480.webp',
+      'https://assets.afcdn.com/recipe/20180725/81580_w1024h1024c1cx3360cy2240cxb6720cyb4480.webp',
+      'https://assets.afcdn.com/recipe/20180725/81580_w1024h576c1cx3360cy2240cxb6720cyb4480.jpg',
+      'https://assets.afcdn.com/recipe/20180725/81580_w1024h768c1cx3360cy2240cxb6720cyb4480.jpg',
+      'https://assets.afcdn.com/recipe/20180725/81580_w1024h1024c1cx3360cy2240cxb6720cyb4480.jpg'
+    ],
+    steps: [ "48h a l'avance, melanger les indredients" ],
+    description: 'sucre, cointreau, citron, citron vert, citron, mousseux, limonade',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Marquisette facile',
+      'sucre',
+      'cointreau',
+      'citron',
+      'citron vert',
+      'citron',
+      'mousseux',
+      'limonade',
+      'cocktail champagne',
+      'très facile',
+      'bon marché',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 15,
+    people: 50
+  },
+  {
+    name: 'Sangria blanche (marquise)',
+    rate: 4.8,
+    url: 'https://www.marmiton.org/recettes/recette_sangria-blanche-marquise_170481.aspx',
+    ingredients: [
+      '200 g de sucre de canne',
+      '1 orange',
+      '2 gousses de vanille',
+      '4 l de vin blanc , type Chardonnay',
+      '50 cl de limonade type Schweppes',
+      '6 pêches',
+      '1 bâton de cannelle'
+    ],
+    author: 'Somanytime',
+    images: [
+      'https://assets.afcdn.com/recipe/20170214/445_w1024h576c1 cx1224cy1632.webp',
+      'https://assets.afcdn.com/recipe/20170214/445_w1024h768c1cx1224cy1632.webp',
+      'https://assets.afcdn.com/recipe/20170214/445_w1024h1024c1cx1224cy1632.webp',
+      'https://assets.afcdn.com/recipe/20170214/445_w1024h576c1cx1224cy1632.jpg',
+      'https://assets.afcdn.com/recipe/20170214/445_w1024h768c1cx1224cy1632.jpg',
+      'https://assets.afcdn.com/recipe/20170214/445_w1024h1024c1cx1224cy1632.jpg'
+    ],
+    steps: [
+      'Dans une casserole, porter à ébullition un litre de vin avec la moitié du sucre, la cannelle et les gousses de vanille fendues. Laisser reposer à couvert pendant une heure.',
+      'Dans un saladier, mélanger le reste du vin et du sucre. Faire mariner les fruits découpés. Laisser reposer une heure également.',
+      'Lorsque le vin cuit est froid, mélanger les deux préparations. Laisser reposer plusieurs heures au réfrigérateur.',
+      'Au moment de servir, ajouter 50 cl de limonade.'
+    ],
+    description: 'sucre de canne, orange, vanille, vin blanc, limonade, pêche, cannelle',
+    difficulty: 3,
+    budget: 2,
+    tags: [
+      'Sangria blanche (marquise)',
+      'sucre de canne',
+      'orange',
+      'vanille',
+      'vin blanc',
+      'limonade',
+      'pêche',
+      'cannelle',
+      'sangria',
+      'très facile',
+      'moyen',
+      'rapide'
+    ],
+    prepTime: 15,
+    totalTime: 20,
+    people: 5
   }
 ]
