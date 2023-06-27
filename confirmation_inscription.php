@@ -1,5 +1,6 @@
 <?php
 require 'Function.php';
+session_start();
 ?>
 
 <!DOCTYPE html>

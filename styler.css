@@ -5,6 +5,8 @@ html {
 body {
     margin: auto;
     margin-top: 5%;
+    font-size: 15px;
+    color: #0f0e0e;
     line-height: 30px;
     text-align: center;
     width: 800px;
@@ -12,21 +14,21 @@ body {
     border: 1px solid white;
     background-color: white;
     opacity: 0.8;
-    font-family: "avion", sans-serif;
+    font-family: "American Typewriter", serif;
     display: block;
 }
-    .star {
-        display: inline-block;
-        font-size: 24px;
-        color: #de5656;
-        transition: color 0.3s;
-        cursor: pointer;
-    }
 
-    input[type="radio"]:checked + label .star {
-        color: #ffcc00; /* Change this to your desired color */
-    }
+.star {
+    display: inline-block;
+    font-size: 24px;
+    color: #de5656;
+    transition: color 0.3s;
+    cursor: pointer;
+}
 
+input[type="radio"]:checked + label .star {
+    color: #ffcc00; /* Change this to your desired color */
+}
 
 #recette-container {
     max-width: 800px;
@@ -175,4 +177,3 @@ li {
 .Button:hover {
     box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
 }
-

@@ -7,12 +7,10 @@ session_start();
 <html>
 <head>
     <title>GastronoMix</title>
-    <link rel="stylesheet" type="text/css" href="stylesr.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="Function.js"></script>
-</head>
-<body>
-<script>
-    // Fonction pour retirer une recette aux favoris sans utiliser ajax
+    <script>
+        
     function retirerDesFavoris(idRecette) {
     var formData = new FormData();
     formData.append('id_recette', idRecette);
@@ -39,6 +37,10 @@ session_start();
     
 
 </script>
+    
+</head>
+<body>
+
 
 <div id="header">
     <button id="MenuButton" class="Button" onclick="toggleMenu()">=</button>
@@ -73,13 +75,14 @@ session_start();
 $mysqli = ConnectionDatabase();
 
 // Vérifier si l'utilisateur est connecté
-if (isset($_SESSION['id'])) {
-    $user_id = $_SESSION['id'];
 
+if (isset($_SESSION['pseudo_user'])) {
+    $pseudo = $_SESSION['pseudo_user'];
+    $id_user = $mysqli->query("SELECT id_user FROM user WHERE pseudo_user = '$pseudo'")->fetch_assoc()['id_user'];
     $query = "SELECT r.id_recette, r.image_recette, r.titre
     FROM recette AS r
     INNER JOIN favoris AS f ON r.id_recette = f.id_recette
-    WHERE f.id_user = '$user_id'";
+    WHERE f.id_user = '$id_user'";
 
     $result = $mysqli->query($query);
 
@@ -102,13 +105,20 @@ if (isset($_SESSION['id'])) {
 
     if (!empty($recettes_favorites)) {
         foreach ($recettes_favorites as $recette) {
-            echo '<div>';
-            echo '<img src="' . $recette['image_recette'] . '" alt="' . $recette['titre'] . '">';
-            echo '<h3>' . $recette['titre'] . '</h3>';
-            echo '<button onclick="retirerDesFavoris(' . $recette['id_recette'] . ')">Retirer des favoris</button>';
-       echo '</div>';
-        }
+            echo '<div class="recette zoom">';
+                    // Image cliquable
+                    echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">';
+                    echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                    echo '</a>';
+                    echo '<div class="nom-recette">';
+                    echo '<button onclick="retirerDesFavoris(' . $recette['id_recette'] . ')">Retirer des favoris</button>';
 
+                    // Titre cliquable
+                    echo  '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>' . '<br>';
+                    echo '</div>';
+                    echo '</div>';
+      
+        }
 
     } else {
         echo 'Aucune recette favorite trouvée.';

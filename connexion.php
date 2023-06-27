@@ -1,5 +1,6 @@
 <?php
 require 'Function.php';
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -43,6 +44,9 @@ require 'Function.php';
                 echo "<p>Nom d'utilisateur ou mot de passe incorrect.</p>";
             }
         }
+       
+
+
         $mysqli->close();
     ?>
 
