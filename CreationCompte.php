@@ -10,16 +10,12 @@
         <script src="Function.js"></script>
     </head>
     <body>
-        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
-
         <h1>GastronoMix</h1>
 
         <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
 
         <div id="menu">
             <ul>
-                <h3>Menu</h3>
-                
                 <?php 
                     MenuDeroulantDeconnecter();
                 ?>
@@ -32,7 +28,7 @@
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
-        <h2>Créer un compte</h2>
+        <h2>Création du compte</h2>
 
         <br>
 

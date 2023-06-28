@@ -11,19 +11,24 @@ session_start();
         <script src="Function.js"></script>
     </head>
     <body>
+        <h1>GastronoMix</h1>
+
         <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
 
         <div id="menu">
             <ul>
-                <h3>Menu</h3>
-
-                <?php
+                <?php 
                     MenuDeroulantDeconnecter();
                 ?>
             </ul>
         </div>
 
-        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
+        <?php
+            RechercheAvancee();
+        ?>
+
+        <h2>Confirmation d'inscription</h2>
+
 
         <?php
             $mysqli = ConnectionDatabase();
