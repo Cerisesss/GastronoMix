@@ -26,7 +26,7 @@
                 $query = "INSERT INTO historique (id_user, id_recette, avis_historique) VALUES ($id_user, $id_recette, $avis);";
 
                 if ($mysqli->query($query)) {
-                    header('Location: http://localhost/gastronomix/historique.php');
+                    header('Location: http://localhost/gastronomix/historique.php?pseudo=' . $pseudo . '');
 
                     exit();
                 } else {
