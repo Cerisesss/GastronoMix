@@ -68,6 +68,7 @@ session_start();
     <br><br>
 
     <h1>Résultat</h1> 
+    <h2>Recettes favorites</h2>
 
     <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
@@ -105,18 +106,21 @@ if (isset($_SESSION['pseudo_user'])) {
 
     if (!empty($recettes_favorites)) {
         foreach ($recettes_favorites as $recette) {
+            echo '<div class="recette-categorie">';
+            echo '<div class="container">';
             echo '<div class="recette zoom">';
-                    // Image cliquable
-                    echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">';
-                    echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
-                    echo '</a>';
-                    echo '<div class="nom-recette">';
-                    echo '<button onclick="retirerDesFavoris(' . $recette['id_recette'] . ')">Retirer des favoris</button>';
-
-                    // Titre cliquable
-                    echo  '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>' . '<br>';
-                    echo '</div>';
-                    echo '</div>';
+            // Image cliquable
+            echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">';
+            echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+            echo '</a>';
+             // Titre cliquable
+             echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a><br>';
+             echo '<button onclick="retirerDesFavoris(' . $recette['id_recette'] . ')">Retirer des favoris</button>';
+            echo '</div>';
+            echo '<div class="nom-recette">';
+            echo '</div>';
+            echo '</div>';
+            echo '</div>';
       
         }
 
@@ -131,7 +135,6 @@ $mysqli->close();
 
 ?>
 
-<h2>Recettes favorites</h2>
 
 </body>
 </html>
