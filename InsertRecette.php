@@ -55,29 +55,26 @@
                     }
                 //}
             }
-
             
             foreach($recette->ingredients as $key_ingredient => $ingredient) {
                 foreach($recette->ingredients_recherche as $ingredient_recherche) {
-                    $query = "SELECT * FROM ingredient WHERE nom_ingredient = \"$ingredient\";";
+                    $unite = $recette->unite[$key_ingredient];
+                    $query_id_unite = "SELECT id_unite FROM unite where libelle_unite = \"$unite\";";
+                    $result_id_unite = $mysqli->query($query_id_unite);
+
+                    //recupere l'id_unite sous forme de tableau
+                    $result_id_unite = $result_id_unite->fetch_assoc();
+                    $id_unite = $result_id_unite['id_unite'];
+
+                    $query = "SELECT * FROM ingredient WHERE nom_ingredient = \"$ingredient\" AND id_unite = \"$id_unite\" ;";
                     $result_ingredient = $mysqli->query($query);
 
                     //recupere les resultats sous forme de tableau
                     $result_ingredient = $result_ingredient->fetch_assoc();
 
-                    //ajout des ingredients n'exitant pas dans la database
+                    //ajout des ingredients dans la database
                     if($result_ingredient == false) {
-                        $unite = $recette->unite[$key_ingredient];
                         $ingredient_recherche = $recette->ingredients_recherche[$key_ingredient];
-
-                        if($unite != "") {
-                            $query_id_unite = "SELECT id_unite FROM unite where libelle_unite = \"$unite\";";
-                            $result_id_unite = $mysqli->query($query_id_unite);
-        
-                            //recupere l'id_unite sous forme de tableau
-                            $result_id_unite = $result_id_unite->fetch_assoc();
-                            $id_unite = $result_id_unite['id_unite'];
-                        }
 
                         $query_ingredient = "INSERT INTO ingredient(nom_ingredient, ingredients_recherche, id_unite)
                                             VALUES(\"$ingredient\", \"$ingredient_recherche\",\"$id_unite\");";
@@ -100,7 +97,7 @@
                 $ingredient = $recette->ingredients[$key_quantite];  
                 
                 //recupere l'id_ingredient selon le nom de l'ingredient
-                $query_id_ingredient = "SELECT id_ingredient FROM ingredient WHERE nom_ingredient = \"$ingredient\";";
+                $query_id_ingredient = "SELECT id_ingredient FROM ingredient WHERE nom_ingredient = \"$ingredient\" AND id_unite = \"$id_unite\";";
                 $result_id_ingredient = $mysqli->query($query_id_ingredient);
 
                 $result_id_ingredient = $result_id_ingredient->fetch_assoc();
