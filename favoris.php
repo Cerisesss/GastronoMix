@@ -121,11 +121,11 @@
                         echo '<div class="container">';
                         echo '<div class="recette zoom">';
                         // Image cliquable
-                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">';
-                        echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $recette['titre'] . '">';
+                        echo '<img src="' . $recette['image_recette'] . '" alt="Image de la recette"><br>';
                         echo '</a>';
                         // Titre cliquable
-                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">' . $titre . '</a><br>';
+                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $recette['titre'] . '">' . $recette['titre'] . '</a><br>';
                         echo '<button onclick="retirerDesFavoris(' . $recette['id_recette'] . ')">Retirer des favoris</button>';
                         echo '</div>';
                         echo '<div class="nom-recette">';
@@ -136,6 +136,7 @@
                 } else {
                     echo 'Aucune recette favorite trouvée.';
                 }
+                
             } else {
                 echo 'Veuillez vous connecter pour voir vos recettes favorites.';
             }
