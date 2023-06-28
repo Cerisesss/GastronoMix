@@ -165,6 +165,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['avis_historique'])) {
             document.getElementById('rating-form').elements['avis_historique'].value = avis;
             document.getElementById('rating-form').submit();
         }
+//fonction pour ajouter aux favoris
 
         document.getElementById('ajouter-favoris-form').addEventListener('submit', function(event) {
             event.preventDefault(); // Prevent page reload
