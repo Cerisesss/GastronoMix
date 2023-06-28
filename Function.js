@@ -42,6 +42,26 @@ function ChangeBackgroundColor() {
     }
 }
 
+function AjoutChampInput() {
+    var Input = document.getElementById("Input");
+    var newInput = document.createElement("input");
+    newinput.name = "quantite[]";
+    Input.appendChild(newInput);
+}
+
+
+function AjoutChampTexte() {
+    var text = document.getElementById("TextArea");
+    var etapes = document.createElement("textarea");
+    etapes.name = "quantite_ingredient[]";
+    text.appendChild(etapes);
+}
+
+/*function SupprimerChampTexte(button) {
+  var TextArea = button.parentNode;
+  TextArea.parentNode.removeChild(TextArea);
+}*/
+
 function telecharger_image(url, new_image) {
     return new Promise((resolve, reject) => {
         const dirPath = path.resolve(__dirname, 'images_recettes');

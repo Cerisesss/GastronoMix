@@ -16,7 +16,7 @@
         <script src="Function.js"></script>
     </head>
     <body>
-    <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
+        <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
         <div id="menu">
             <ul>
                 </br>

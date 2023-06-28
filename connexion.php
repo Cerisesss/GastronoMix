@@ -1,70 +1,70 @@
 <?php
-require 'Function.php';
-session_start();
+    require 'Function.php';
+    session_start();
 ?>
 
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Connexion</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="Function.js"></script>
+    </head>
+    <body>
+        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
-<head>
-    <title>Connexion</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="Function.js"></script>
-</head>
+        <h1>GastronoMix</h1>
 
-<body>
-    <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
+        <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
 
-    <div id="menu">
-        <ul>
-            <h3>Menu</h3>
-            
-            <?php
-                MenuDeroulantDeconnecter();
-            ?>
-        </ul>
-    </div>
+        <div id="menu">
+            <ul>
+                <h3>Menu</h3>
+                
+                <?php 
+                    MenuDeroulantDeconnecter();
+                ?>
+            </ul>
+        </div>
 
-    <div id="Rechercher">
-        <form action="resultat_recherche_avancee.php" method="GET">
-            <input id="RechercherBarre" type="text" name="recherche" value="">
-            <button id="RechercherButton" class="Button" type="submit">🔍</button>
-        </form>
-    </div>
+        <?php
+            RechercheAvancee();
+        ?>
 
-    <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
+        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
-    <h2>Se connecter</h2>
+        <h2>Se connecter</h2>
 
-    <?php
-        $mysqli = ConnectionDatabase();
+        <br>
 
-        if (isset($_GET['error'])) {
-            if ($_GET['error'] == "connexion") {
-                echo "<p>Nom d'utilisateur ou mot de passe incorrect.</p>";
+        <?php
+            $mysqli = ConnectionDatabase();
+
+            if (isset($_GET['error'])) {
+                if ($_GET['error'] == "connexion") {
+                    echo "<p>Nom d'utilisateur ou mot de passe incorrect.</p>";
+                }
             }
-        }
-       
+        
 
 
-        $mysqli->close();
-    ?>
+            $mysqli->close();
+        ?>
 
 
-    <form action="Verification_connexion.php" method="post">
-        <label for="pseudo_user">Pseudo</label>
-        <input type="pseudo" class="Button" id="pseudo_user" name="pseudo_user" required /><br>
+        <form action="Verification_connexion.php" method="post">
+            <label for="pseudo_user">Pseudo</label>
+            <input type="pseudo" class="Button" id="pseudo_user" name="pseudo_user" required /><br>
 
-        <label for="mail_user">Email</label>
-        <input type="email" class="Button" id="mail_user" name="mail_user" required /><br>
+            <label for="mail_user">Email</label>
+            <input type="email" class="Button" id="mail_user" name="mail_user" required /><br>
 
-        <label for="password_user">Mot de passe</label>
-        <input type="password" class="Button" id="password_user" name="password_user" required /><br>
+            <label for="password_user">Mot de passe</label>
+            <input type="password" class="Button" id="password_user" name="password_user" required /><br>
 
-        <input type="submit" class="Button" value="Se connecter" />
-    </form>
+            <input type="submit" class="Button" value="Se connecter" />
+        </form>
 
-    <p>Nouveau sur notre site ? <a href="http://localhost/gastronomix/CreationCompte.php"><button class="Button">Créer un compte</button></a></p>
-</body>
-
+        <p>Nouveau sur notre site ? <a href="http://localhost/gastronomix/CreationCompte.php"><button class="Button">Créer un compte</button></a></p>
+    </body>
 </html>

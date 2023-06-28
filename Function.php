@@ -57,6 +57,10 @@
         echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
         echo '<div id="compte">';
         echo '<ul>';
+        echo '<h3>' . $pseudo .'</h3>';
+        echo '<li><a href="http://localhost/gastronomix/InsertNewRecipeTitre.php?pseudo=' . $pseudo . '">➕ Ajouter une recette</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/favoris.php?pseudo=' . $pseudo . '">🧡 Favoris</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/historique.php?pseudo=' . $pseudo . '">⌛️ Historique</a></li>';
         echo '<li><a href="http://localhost/gastronomix/deconnexion.php?pseudo=' . $pseudo . '">👋 Déconnexion</a></li>';
         echo '</ul>';
         echo '</div>';
