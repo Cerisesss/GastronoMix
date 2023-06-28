@@ -167,11 +167,11 @@
             $mysqli->close();
         ?>
 
-        <script>
-            function submitForm(avis) {
-                document.getElementById('rating-form').elements['avis_historique'].value = avis;
-                document.getElementById('rating-form').submit();
-            }
+    <script>
+        function submitForm(avis) {
+            document.getElementById('rating-form').elements['avis_historique'].value = avis;
+            document.getElementById('rating-form').submit();
+        }
 
             document.getElementById('ajouter-favoris-form').addEventListener('submit', function(event) {
                 event.preventDefault(); // Prevent page reload
