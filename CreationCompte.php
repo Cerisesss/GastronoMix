@@ -10,6 +10,10 @@
         <script src="Function.js"></script>
     </head>
     <body>
+        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
+
+        <h1>GastronoMix</h1>
+
         <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
 
         <div id="menu">
@@ -22,16 +26,15 @@
             </ul>
         </div>
 
-        <div id="Rechercher">
-            <form action="resultat_recherche_avancee.php" method="GET">
-                <input id="RechercherBarre" type="text" name="recherche" value="">
-                <button id="RechercherButton" class="Button" type="submit">🔍</button>
-            </form>
-        </div>
+        <?php
+            RechercheAvancee();
+        ?>
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
         <h2>Créer un compte</h2>
+
+        <br>
 
         <?php
            $mysqli = ConnectionDatabase();
