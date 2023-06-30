@@ -4,40 +4,6 @@ CREATE DATABASE GastronoMix;
 
 USE GastronoMix;
 
-CREATE TABLE IF NOT EXISTS `quantite` (
-    `id_recette` BIGINT NOT NULL,
-    `id_ingredient` BIGINT NOT NULL,
-    `quantite` FLOAT,
-    CONSTRAINT `fk_quantite_recette_id`
-        FOREIGN KEY (`id_recette`)
-        REFERENCES `recette` (`id_recette`)
-        ON DELETE NO ACTION
-        ON UPDATE NO ACTION,
-    CONSTRAINT `fk_quantite_ingredient_id`
-        FOREIGN KEY (`id_ingredient`)
-        REFERENCES `ingredient` (`id_ingredient`)
-        ON DELETE NO ACTION
-        ON UPDATE NO ACTION
-);
-
-CREATE TABLE IF NOT EXISTS `ingredient` (
-    `id_ingredient` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `nom_ingredient` VARCHAR(500) NULL,
-    `ingredients_recherche` VARCHAR(500) NULL,
-    `id_unite` INT NOT NULL,
-    CONSTRAINT `fk_unite_id`
-        FOREIGN KEY (`id_unite`)
-        REFERENCES `unite` (`id_unite`)
-        ON DELETE NO ACTION
-        ON UPDATE NO ACTION
-);
-
-CREATE TABLE IF NOT EXISTS `unite` (
-    `id_unite` BIGINT NOT NULL AUTO_INCREMENT,
-    `libelle_unite` VARCHAR(50) NULL,
-    PRIMARY KEY (`id_unite`)
-);
-
 
 CREATE TABLE IF NOT EXISTS `user` (
     `id_user` BIGINT NOT NULL AUTO_INCREMENT,
@@ -78,6 +44,40 @@ CREATE TABLE IF NOT EXISTS `recette` (
     CONSTRAINT `fk_recette_categorie_id`
         FOREIGN KEY (`id_categorie`)
         REFERENCES `categorie` (`id_categorie`)
+        ON DELETE NO ACTION
+        ON UPDATE NO ACTION
+);
+
+CREATE TABLE IF NOT EXISTS `unite` (
+    `id_unite` BIGINT NOT NULL AUTO_INCREMENT,
+    `libelle_unite` VARCHAR(50) NULL,
+    PRIMARY KEY (`id_unite`)
+);
+
+CREATE TABLE IF NOT EXISTS `ingredient` (
+    `id_ingredient` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `nom_ingredient` VARCHAR(500) NULL,
+    `ingredients_recherche` VARCHAR(500) NULL,
+    `id_unite` INT NOT NULL,
+    CONSTRAINT `fk_unite_id`
+        FOREIGN KEY (`id_unite`)
+        REFERENCES `unite` (`id_unite`)
+        ON DELETE NO ACTION
+        ON UPDATE NO ACTION
+);
+
+CREATE TABLE IF NOT EXISTS `quantite` (
+    `id_recette` BIGINT NOT NULL,
+    `id_ingredient` BIGINT NOT NULL,
+    `quantite` FLOAT,
+    CONSTRAINT `fk_quantite_recette_id`
+        FOREIGN KEY (`id_recette`)
+        REFERENCES `recette` (`id_recette`)
+        ON DELETE NO ACTION
+        ON UPDATE NO ACTION,
+    CONSTRAINT `fk_quantite_ingredient_id`
+        FOREIGN KEY (`id_ingredient`)
+        REFERENCES `ingredient` (`id_ingredient`)
         ON DELETE NO ACTION
         ON UPDATE NO ACTION
 );
