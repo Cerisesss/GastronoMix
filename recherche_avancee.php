@@ -136,7 +136,7 @@
                         $ingredients_recherche = $row['TRIM(ingredients_recherche)'];
                         $ingredients[] = $ingredients_recherche;
                     }
-
+                    echo '<div class="colonne">';
                     // Affiche les ingrédients
                     foreach ($ingredients as $ingredient) {
                         echo '
@@ -149,7 +149,8 @@
                                 <input type="hidden" name="etat_bouton[]" value="unchecked">
                             </div>
                             <br>';
-                    } 
+                    }
+                    echo'</div>'; 
                 }
             ?>
             <div class="centered">

@@ -12,9 +12,12 @@
     cursor: pointer;
 }
 
+.colonne{
+    column-count: 5;
+}
+
 #form-multi-checkbox {
-    column-count: 3;
-    display: flex;
+    display: inline;
     flex-wrap: wrap;
     flex-basis: 50%;
 }
@@ -42,7 +45,6 @@ body {
     margin : auto;
     margin-top: 5%;
     line-height: 30px;
-    text-align: center;
     /*width: 800px;*/
     padding: 1em;
     /*border: 1px solid rgb(210, 32, 201);*/
