@@ -12,7 +12,7 @@
 <html>
     <head>
         <title>Historique</title>
-        <link rel="stylesheet" type="text/css" href="new_affichage_recettes.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="Function.js"></script>
     </head>
     <body>
@@ -55,6 +55,7 @@
         <h2>Avis</h2>
 
         <?php
+            echo '<div class="container-accueil">';
             if (isset($_SESSION['pseudo_user'])) {
                 $pseudo = $_SESSION['pseudo_user'];
 
@@ -79,8 +80,6 @@
                         $titre = $row['titre'];
                         $image_recette = $row['image_recette'];
                         $avis_historique = $row['avis_historique'];
-
-                        echo '<div class="recette-categorie">';
                         
                         echo '<div class="recette zoom">';
                         // Image cliquable
@@ -94,15 +93,13 @@
                         // Titre cliquable
                         echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">' . $titre . '</a><br>';
                         echo '</div>';
-                        // Afficher l'avis de l'utilisateur
-                        echo '</div>';
-                      //  echo 'Avis : ' . $avis_historique . '/5';
                         echo '</div>';
                        
                     }
                 } else {
                     echo "<p>Aucun avis trouvé dans l'historique.</p>";
                 }
+                echo '</div>';
                 echo '</div>';
 
                 $mysqli->close();
