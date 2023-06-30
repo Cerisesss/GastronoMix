@@ -16,24 +16,16 @@
         <script src="Function.js"></script>
     </head>
     <body>
-        <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
-        <div id="menu">
-            <ul>
-                </br>
-                <?php
-                    if (isset($_SESSION['pseudo_user'])) {
-                        MenuDeroulantConnecter($pseudo);
-                    } else {
-                        echo "Tu n'es pas autoriser à accéder à cette page !";
-                        header("Refresh: 2; url=http://localhost/gastronomix/Accueil.php");
-                    }
-                ?>
-            </ul>
-        </div>
-
         <?php
             if (isset($_SESSION['pseudo_user'])) {
-                RechercheAvanceeConnecter($pseudo);
+                if($_SESSION['pseudo_user'] == "admin" || $_SESSION['pseudo_user'] == "Admin") {
+                    MenuDeroulantAdmin($pseudo);
+                    MenuDeroulantConnecter($pseudo);
+                    RechercheAvanceeConnecter($pseudo);
+                } else {
+                    echo "Tu n'es pas autoriser à accéder à cette page !";
+                    header("Refresh: 2; url=http://localhost/gastronomix/Accueil.php");
+                }
             } else {
                 echo "Tu n'es pas autoriser à accéder à cette page !";
                 header("Refresh: 2; url=http://localhost/gastronomix/Accueil.php");
@@ -47,20 +39,6 @@
         <h2>Ajout d'une nouvelle recette</h2>
 
         <br>
-
-        <?php
-            if (isset($_SESSION['pseudo_user'])) {
-                if($_SESSION['pseudo_user'] == "admin" || $_SESSION['pseudo_user'] == "Admin") {
-                    MenuDeroulantAdmin($pseudo);
-                }else {
-                    echo "Tu n'es pas autoriser à accéder à cette page !";
-                    header("Refresh: 2; url=http://localhost/gastronomix/Accueil.php");
-                }
-            } else {
-                echo "Tu n'es pas autoriser à accéder à cette page !";
-                header("Refresh: 2; url=http://localhost/gastronomix/Accueil.php");
-            }
-        ?>
 
         <form action="Confirmation_InsertNewRecipe.php?pseudo=<?php echo $pseudo; ?>" method="POST">
             <label for="titre">Titre</label>
@@ -79,8 +57,8 @@
             </select>
             <br>
 
-            <label for="image_recette">Image</label>
-            <input type="file" class="Button" name="image_recette" required /><br>
+            <label for="image_recette">Lien de l'image</label>
+            <input type="text" class="Button" name="image_recette" required /><br>
 
             <label for="nb_personne">Nombre de personne</label>
             <input type="number" min="1" class="Button" name="nb_personne" required /><br>

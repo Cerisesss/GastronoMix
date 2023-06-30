@@ -37,22 +37,6 @@
 
         <h2>Confirmation de l'ajout d'une nouvelle recette</h2>
 
-
-        <?php
-            if (isset($_SESSION['pseudo_user'])) {
-                if($_SESSION['pseudo_user'] == "admin" || $_SESSION['pseudo_user'] == "Admin") {
-                    MenuDeroulantAdmin($pseudo);
-                }else {
-                    echo "Tu n'es pas autoriser à accéder à cette page !";
-                    header("Refresh: 2; url=http://localhost/gastronomix/Accueil.php");
-                }
-            } else {
-                echo "Tu n'es pas autoriser à accéder à cette page !";
-                header("Refresh: 2; url=http://localhost/gastronomix/Accueil.php");
-            }
-        ?>
-
-
         <?php
             $mysqli = ConnectionDatabase();
 
@@ -73,13 +57,21 @@
             $regroupement_ingredient = [];
             $regroupement_unite = [];
 
-            $query_verif_titre = "SELECT * FROM unite WHERE libelle_unite = \"$titre\";";
+            $query_verif_titre = "SELECT * FROM recette WHERE titre = \"$titre\";";
             $result_verif_titre = $mysqli->query($query_verif_titre);
 
             //recupere les resultats sous forme de tableau
             $result_verif_titre = $result_verif_titre->fetch_assoc();
 
             if($result_verif_titre == false){
+                // Converti en minuscules, remplace les : par des underscores, enleve les accents, remplace les espaces par des underscores et supprime les espaces en fin de chaîne
+                //let image_recette = nom.toLowerCase().replace(/:/g, "a").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ /g, "_").replace(/\//g, "a");
+                //let imageFilePath = path.resolve(__dirname, 'images_recettes', new_image + '.jpg');
+
+                // Enregistre l'image dans le dossier image
+                //telecharger_image($image_recette, new_image);
+
+
                 // Ne prend pas en compte les éléments vide du tableau pour les etapes
                 foreach ($etapes as $etape) {
                     if ($etape == "") {
