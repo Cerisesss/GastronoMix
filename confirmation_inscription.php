@@ -11,21 +11,14 @@ session_start();
         <script src="Function.js"></script>
     </head>
     <body>
-        <h1>GastronoMix</h1>
-
-        <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
-
-        <div id="menu">
-            <ul>
-                <?php 
-                    MenuDeroulantDeconnecter();
-                ?>
-            </ul>
-        </div>
-
-        <?php
+        <?php 
+            MenuDeroulantDeconnecter();
             RechercheAvancee();
         ?>
+
+        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
+
+        <h1>GastronoMix</h1>
 
         <h2>Confirmation d'inscription</h2>
 

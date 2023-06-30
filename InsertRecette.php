@@ -53,7 +53,6 @@
                     $result_ajout_unite = $mysqli->query($query_ajout_unite);
                     //echo "ajout avec succes  : " . $query_ajout_unite . "\n";
                     }
-                //}
             }
             
             foreach($recette->ingredients as $key_ingredient => $ingredient) {

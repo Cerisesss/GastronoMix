@@ -20,17 +20,6 @@ function toggleCompte() {
     }
 }
 
-function toggleRechercheAvancee() {
-    var letter = document.getElementById("letter");
-    if (letter.style.display === "block") {
-        letter.style.display = "none";
-    } else {
-        letter.style.display = "block";
-    }
-}
-
-
-
 function ChangeBackgroundColor() {
     var html = document.documentElement;
     backgroundColor = html.style.backgroundColor;
@@ -42,25 +31,23 @@ function ChangeBackgroundColor() {
     }
 }
 
-function AjoutChampInput() {
-    var Input = document.getElementById("Input");
-    var newInput = document.createElement("input");
-    newinput.name = "quantite[]";
-    Input.appendChild(newInput);
+
+function AjoutChampTexteQuantite() {
+    var text = document.getElementById("TextAreaQuantite");
+    var quantite = document.createElement("textarea");
+    quantite.name = "quantite_ingredient[]";
+    quantite.classList.add("Button");
+    text.appendChild(quantite);
 }
 
-
-function AjoutChampTexte() {
-    var text = document.getElementById("TextArea");
+function AjoutChampTexteEtape() {
+    var text = document.getElementById("TextAreaEtapes");
     var etapes = document.createElement("textarea");
-    etapes.name = "quantite_ingredient[]";
+    etapes.name = "etapes[]";
+    etapes.classList.add("Button");
     text.appendChild(etapes);
 }
 
-/*function SupprimerChampTexte(button) {
-  var TextArea = button.parentNode;
-  TextArea.parentNode.removeChild(TextArea);
-}*/
 
 function telecharger_image(url, new_image) {
     return new Promise((resolve, reject) => {
@@ -98,7 +85,6 @@ function fichierExiste(filePath) {
 module.exports = {
     toggleMenu: toggleMenu,
     toggleCompte: toggleCompte,
-    toggleRechercheAvancee: toggleRechercheAvancee,
     ChangeBackgroundColor: ChangeBackgroundColor,
     telecharger_image: telecharger_image,
     fichierExiste: fichierExiste

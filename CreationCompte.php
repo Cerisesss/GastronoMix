@@ -10,21 +10,12 @@
         <script src="Function.js"></script>
     </head>
     <body>
-        <h1>GastronoMix</h1>
-
-        <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
-
-        <div id="menu">
-            <ul>
-                <?php 
-                    MenuDeroulantDeconnecter();
-                ?>
-            </ul>
-        </div>
-
-        <?php
+        <?php 
+            MenuDeroulantDeconnecter();
             RechercheAvancee();
         ?>
+
+        <h1>GastronoMix</h1>
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 

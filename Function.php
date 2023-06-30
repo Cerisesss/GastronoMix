@@ -20,27 +20,44 @@
         }
     }
 
+    //Menu deroulant "🟰" lorsque l'utilisateur est deconnecté
     function MenuDeroulantDeconnecter() {
         $categories = ['Entrée', 'Plat', 'Dessert', 'Boisson'];
 
+        echo '<button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>';
+        echo '<div id="menu">';
+        echo '<ul>';
+        echo '<br>';
         echo '<li><a href="http://localhost/gastronomix/Accueil.php">🍽️ Accueil</a></li>';
 
         foreach ($categories as $categorie) {
             echo '<li><a href="http://localhost/gastronomix/categorie.php?categorie=' . $categorie .'">🍽️ ' . $categorie . '</a></li>';
         }
+
+        echo '</ul>';
+        echo '</div>';
     }
 
+    //Menu deroulant "🟰" lorsque l'utilisateur est connecté
     function MenuDeroulantConnecter($pseudo) {
         $categories = ['Entrée', 'Plat', 'Dessert', 'Boisson'];
 
+        echo '<button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>';
+        echo '<div id="menu">';
+        echo '<ul>';
+        echo '<br>';
         echo '<li><a href="http://localhost/gastronomix/Accueil.php?pseudo=' . $pseudo . '">🍽️ Accueil</a></li>';
 
         foreach ($categories as $categorie) {
             echo '<li><a href="http://localhost/gastronomix/categorie.php?pseudo=' .  $pseudo . '&categorie='. $categorie . '">🍽️ ' . $categorie . '</a></li>';
         }
 
+        echo '</ul>';
+        echo '</div>';
+
     }
 
+    //Menu deroulant du compte lorsque l'utilisateur est connecté
     function MenuDeroulantCompte($pseudo) {
         echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
         echo '<div id="compte">';
@@ -53,12 +70,13 @@
         echo '</div>';
     }
 
+    //Menu deroulant du compte admin lorsqu'il est connecté
     function MenuDeroulantAdmin($pseudo) {
         echo '<button id="CompteButton" class="Button" onclick="toggleCompte()">Compte</button>';
         echo '<div id="compte">';
         echo '<ul>';
         echo '<h3>' . $pseudo .'</h3>';
-        echo '<li><a href="http://localhost/gastronomix/InsertNewRecipeTitre.php?pseudo=' . $pseudo . '">➕ Ajouter une recette</a></li>';
+        echo '<li><a href="http://localhost/gastronomix/InsertNewRecipe.php?pseudo=' . $pseudo . '">➕ Ajouter une recette</a></li>';
         echo '<li><a href="http://localhost/gastronomix/favoris.php?pseudo=' . $pseudo . '">🧡 Favoris</a></li>';
         echo '<li><a href="http://localhost/gastronomix/historique.php?pseudo=' . $pseudo . '">⌛️ Historique</a></li>';
         echo '<li><a href="http://localhost/gastronomix/deconnexion.php?pseudo=' . $pseudo . '">👋 Déconnexion</a></li>';
@@ -66,6 +84,7 @@
         echo '</div>';
     }
 
+    //Barre de recherche et bouton qui mene vers la page de recherche avancee lorsque l'utilisateur est deconnecté
     function RechercheAvancee() {
         echo '<div id="Rechercher">';
         echo '<a href="http://localhost/gastronomix/recherche_avancee.php"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>';
@@ -76,6 +95,7 @@
         echo '</div>';
     }
 
+    //Barre de recherche et bouton qui mene vers la page de recherche avancee lorsque l'utilisateur est connecté
     function RechercheAvanceeConnecter($pseudo) {
         echo '<div id="Rechercher">';
         echo '<a href="http://localhost/gastronomix/recherche_avancee.php?pseudo=' . $pseudo . '"><button id="Recherche_avancee" class="Button"><img src="Images/filtre.png" alt="Image"></button></a>';

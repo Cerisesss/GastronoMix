@@ -16,25 +16,21 @@
         <script src="Function.js"></script>
     </head>
     <body>
-        <button id="MenuButton" class="Button" onclick="toggleMenu()">🟰</button>
-        <div id="menu">
-            <ul>
-                </br>
-                <?php
-                    if (isset($_SESSION['pseudo_user'])) {
-                        MenuDeroulantConnecter($pseudo);
-                    } else {
-                        MenuDeroulantDeconnecter();
-                    }
-                ?>
-            </ul>
-        </div>
-
         <?php
             if (isset($_SESSION['pseudo_user'])) {
+                if($_SESSION['pseudo_user'] == "admin" || $_SESSION['pseudo_user'] == "Admin") {
+                    MenuDeroulantAdmin($pseudo);
+                }else {
+                    MenuDeroulantCompte($pseudo);
+                }
+                
+                MenuDeroulantConnecter($pseudo);
                 RechercheAvanceeConnecter($pseudo);
             } else {
+                MenuDeroulantDeconnecter();
                 RechercheAvancee();
+
+                echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
             }
         ?>
 
