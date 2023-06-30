@@ -91,12 +91,6 @@
                         echo  '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">' . $titre . '</a>' . '<br>';
                         echo '</div>';
                         echo '</div>';
-
-                        $id_recette = $row['id_recette'];
-                        echo '<form action="" method="post">';
-                        echo '<input type="hidden" name="favori_recette" value="' . $id_recette . '">';
-                        echo '<button type="submit" class="favori-button" name="ajout_favori"><img src="favori.png"></button>';
-                        echo '</form>';
                     } else {
                         echo '<div class="recette zoom">';
                         // Image cliquable
