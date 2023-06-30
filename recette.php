@@ -99,6 +99,7 @@
                     while ($row = $result_recette->fetch_assoc()) {
                         $id_recette = $row['id_recette'];
                         echo '<div id="recette-container">';
+                        echo '<br>';
                         echo '<img class="recipe-image" src="' . $row['image_recette'] . '" alt="Recette">';
                         echo "<h2>" . $row["titre"] . "</h2></br>";
                         echo "<h4>Source : " . $row['source'] . "</h4>";
