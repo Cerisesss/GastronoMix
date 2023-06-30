@@ -4,12 +4,6 @@ CREATE DATABASE GastronoMix;
 
 USE GastronoMix;
 
-CREATE TABLE IF NOT EXISTS `unite` (
-    `id_unite` BIGINT NOT NULL AUTO_INCREMENT,
-    `libelle_unite` VARCHAR(50) NULL,
-    PRIMARY KEY (`id_unite`)
-);
-
 CREATE TABLE IF NOT EXISTS `quantite` (
     `id_recette` BIGINT NOT NULL,
     `id_ingredient` BIGINT NOT NULL,
@@ -36,6 +30,12 @@ CREATE TABLE IF NOT EXISTS `ingredient` (
         REFERENCES `unite` (`id_unite`)
         ON DELETE NO ACTION
         ON UPDATE NO ACTION
+);
+
+CREATE TABLE IF NOT EXISTS `unite` (
+    `id_unite` BIGINT NOT NULL AUTO_INCREMENT,
+    `libelle_unite` VARCHAR(50) NULL,
+    PRIMARY KEY (`id_unite`)
 );
 
 
@@ -69,7 +69,7 @@ CREATE TABLE IF NOT EXISTS `recette` (
     `id_user` BIGINT NOT NULL,
     `id_categorie` BIGINT NOT NULL,
     PRIMARY KEY (`id_recette`),
-    
+
     CONSTRAINT `fk_recette_user_id`
         FOREIGN KEY (`id_user`)
         REFERENCES `user` (`id_user`)
@@ -81,7 +81,6 @@ CREATE TABLE IF NOT EXISTS `recette` (
         ON DELETE NO ACTION
         ON UPDATE NO ACTION
 );
-
 
 CREATE TABLE IF NOT EXISTS `etape` (
     `id_etape` BIGINT NOT NULL,
@@ -111,7 +110,6 @@ CREATE TABLE IF NOT EXISTS `historique` (
         ON DELETE NO ACTION
         ON UPDATE NO ACTION
 );
-
 
 CREATE TABLE IF NOT EXISTS `favoris` (
     `id_favori` BIGINT NOT NULL AUTO_INCREMENT,
