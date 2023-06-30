@@ -47,8 +47,13 @@
                 $categorie_actuelle = $categorie[$i];
                 
                 echo '<div class="recette-categorie">';
+                echo '<br>';
+                echo '<br>';
                 echo '<h2>' . $categorie_actuelle . '</h2>';
-                echo '<div class="container">';
+                echo '<br>';
+                echo '<br>';
+                echo '<div class="container-accueil">';
+                
 
                 $rand = rand(1, 160);
 
