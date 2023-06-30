@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-    width: 56vw; /* Prend toute la largeur horizontale de l'écran */
+    width: 97.3%; /* Prend toute la largeur horizontale de l'écran */
     border: 2px solid black; /* Bordure de 2 pixels de largeur et de couleur noire */
     background-color: #f3d6e5; /* Couleur d'arrière-plan foncée */
     padding: 10px; /* Espace intérieur de 10 pixels autour du texte */
