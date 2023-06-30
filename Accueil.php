@@ -67,28 +67,29 @@
                 while ($row = mysqli_fetch_assoc($result)) {
                     $image_recette = $row["image_recette"];
                     $titre = $row['titre'];
+                    $newtitre = str_replace("'", "_", $titre);
 
                     // Affichage du bouton d'ajout aux favoris
                     if (isset($_SESSION['pseudo_user'])) {
                         echo '<div class="recette zoom">';
                         // Image cliquable
-                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">';
+                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">';
                         echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
                         echo '</a>';
                         echo '<div class="nom-recette">';
                         // Titre cliquable
-                        echo  '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">' . $titre . '</a>' . '<br>';
+                        echo  '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">' . $titre . '</a>' . '<br>';
                         echo '</div>';
                         echo '</div>';
                     } else {
                         echo '<div class="recette zoom">';
                         // Image cliquable
-                        echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">';
+                        echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $newtitre . '">';
                         echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
                         echo '</a>';
                         echo '<div class="nom-recette">';
                         // Titre cliquable
-                        echo  '<a href="http://localhost/gastronomix/recette.php?recherche=' . $titre . '">' . $titre . '</a>' . '<br>';
+                        echo  '<a href="http://localhost/gastronomix/recette.php?recherche=' . $newtitre . '">' . $titre . '</a>' . '<br>';
                         echo '</div>';
                         echo '</div>';
                     }
