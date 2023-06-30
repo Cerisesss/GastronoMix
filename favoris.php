@@ -35,7 +35,9 @@
                     if (response.ok) {
                         // La recette a été retirée des favoris avec succès
                         alert("La recette a été retirée des favoris !");
-                        // Effectuer d'autres actions si nécessaire, comme mettre à jour l'interface utilisateur.
+                        // equivalent du refresh de la page
+                        window.location.reload();
+                       // Effectuer d'autres actions si nécessaire, comme mettre à jour l'interface utilisateur.
                     } else {
                         // Une erreur s'est produite lors de la suppression des favoris
                         alert("Erreur lors du retrait des favoris.");
@@ -95,42 +97,37 @@
 
                 $recettes_favorites = array();
 
+                echo '<div class="container">';
                 //on utilise la fonction mysqli_fetch_assoc pour recuperer les donnees de la requete sous forme de tableau
                 while ($row = mysqli_fetch_assoc($result)) {
-                    $id_recette = $row['id_recette'];
                     $image_recette = $row["image_recette"];
+                    $id_recette = $row['id_recette'];
                     $titre = $row['titre'];
+                    $newtitre = str_replace("'", "_", $titre);
 
-                    $recette = array(
-                        'image_recette' => $image_recette,
-                        'titre' => $titre,
-                        'id_recette' => $id_recette
-                    );
-
-                    $recettes_favorites[] = $recette;
-                }
-
-                echo '<div class="container">';
-
-                if (!empty($recettes_favorites)) {
-                    foreach ($recettes_favorites as $recette) {
-                        echo '<div class="recette zoom">';
-                        // Image cliquable
-                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $recette['titre'] . '">';
-                        echo '<img src="' . $recette['image_recette'] . '" alt="Image de la recette"><br>';
-                        echo '</a>';
-                        // Titre cliquable
-                        echo '<div class="nom-recette">';
-                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $recette['titre'] . '">' . $recette['titre'] . '</a><br>';
-                        echo '<button class="Button" onclick="retirerDesFavoris(' . $recette['id_recette'] . ')">Retirer des favoris</button>';
-                        echo '</div>';
-                        echo '</div>';
+                    $recettes_favorites = [];
+                    array_push($recettes_favorites, $image_recette, $titre, $id_recette);
+                    
+                    if (!empty($recettes_favorites)) {
+                        if (isset($_SESSION['pseudo_user'])) {
+                            echo '<div class="recette zoom">';
+                            // Image cliquable
+                            echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">';
+                            echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                            echo '</a>';
+                            echo '<div class="nom-recette">';
+                            // Titre cliquable
+                            echo  '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">' . $titre . '</a>' . '<br>';
+                            echo '<button class="Button" onclick="retirerDesFavoris(' . $id_recette . ')">Retirer des favoris</button>';
+                            echo '</div>';
+                            echo '</div>';
+                        }
+                    } else {
+                        echo 'Aucune recette favorite trouvée.';
                     }
-                } else {
-                    echo 'Aucune recette favorite trouvée.';
-                }
+                } 
                 echo '</div>';
-            } else {
+            }else {
                 echo 'Veuillez vous connecter pour voir vos recettes favorites.';
             }
             $mysqli->close();
