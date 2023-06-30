@@ -20,7 +20,7 @@
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
-        <h2>Connection</h2>
+        <h2>Connexion</h2>
 
         <br>
 

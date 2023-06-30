@@ -19,7 +19,7 @@
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
-        <h2>Création du compte</h2>
+        <h2>Création de compte</h2>
 
         <br>
 

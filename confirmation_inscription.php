@@ -57,7 +57,7 @@ session_start();
                 $inscription->bind_param("ssssss", $nom_user, $pseudo_user, $prenom_user, $tel_user, $mail_user, $hashed_password);
 
                 if ($inscription->execute()) {
-                    echo "Inscription réussie.";
+                    echo "Inscription réussite.";
                 } else {
                     echo "Erreur lors de l'inscription : " . $inscription->error;
                 }
