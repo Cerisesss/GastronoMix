@@ -66,22 +66,27 @@
                             JOIN recette r ON r.id_recette = h.id_recette
                             JOIN user u ON u.id_user = h.id_user
                             WHERE u.pseudo_user = '$pseudo';";
-
+//la requete sql est stockée dans une variable $query
                 $result = $mysqli->query($query);
-
+//on fait une condition pour vérifier si la requete est bien exécutée et si le nombre de lignes est supérieur à 0
                 if ($result && $result->num_rows > 0) {
+                    //assigner les valeurs de la requete dans un tableau associatif
+                    
+                    echo '<div class="container">';
                     while ($row = $result->fetch_assoc()) {
+                        //les valeurs sont stockées dans des variables
                         $id_recette = $row['id_recette'];
                         $titre = $row['titre'];
                         $image_recette = $row['image_recette'];
                         $avis_historique = $row['avis_historique'];
 
                         echo '<div class="recette-categorie">';
-                        echo '<div class="container">';
+                        
                         echo '<div class="recette zoom">';
                         // Image cliquable
+                        echo 'Avis : ' . $avis_historique . '/5<br>';
                         echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">';
-                        echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                        echo '<img src="' . $image_recette . '" alt="Avis: ' . $avis_historique . '/5"><br>';
                         echo '</a>';
                         // Titre cliquable
                         echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">' . $titre . '</a><br>';
@@ -89,13 +94,14 @@
                         echo '<div class="nom-recette">';
                         // Afficher l'avis de l'utilisateur
                         echo '</div>';
-                        echo 'Avis : ' . $avis_historique . '/5';
+                      //  echo 'Avis : ' . $avis_historique . '/5';
                         echo '</div>';
-                        echo '</div>';
+                       
                     }
                 } else {
                     echo "<p>Aucun avis trouvé dans l'historique.</p>";
                 }
+                echo '</div>';
 
                 $mysqli->close();
             } else {

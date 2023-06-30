@@ -1,7 +1,7 @@
 <?php
 require_once 'Function.php';
 session_start();
-
+//la conditions verifier si la requete est de type post 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id_recette = $_POST['id_recette'];
     if (isset($_SESSION['pseudo_user'])) {
@@ -15,6 +15,7 @@ echo'$id_user';
     if($mysqli->query("SELECT * FROM favoris WHERE id_recette = '$id_recette' AND id_user = '$id_user'")->num_rows > 0){
        echo "recette deja dans les favoris";
     }
+    //sinon on l'ajoute
     else{
         $query = "INSERT INTO favoris (id_recette, id_user) VALUES ('$id_recette', '$id_user')";
 
