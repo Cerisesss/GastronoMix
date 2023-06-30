@@ -52,7 +52,7 @@
 
         <br><br>
 
-        <h2>Recettes noté</h2>
+        <h2>Avis</h2>
 
         <?php
             if (isset($_SESSION['pseudo_user'])) {
@@ -66,9 +66,9 @@
                             JOIN recette r ON r.id_recette = h.id_recette
                             JOIN user u ON u.id_user = h.id_user
                             WHERE u.pseudo_user = '$pseudo';";
-//la requete sql est stockée dans une variable $query
+                //la requete sql est stockée dans une variable $query
                 $result = $mysqli->query($query);
-//on fait une condition pour vérifier si la requete est bien exécutée et si le nombre de lignes est supérieur à 0
+                //on fait une condition pour vérifier si la requete est bien exécutée et si le nombre de lignes est supérieur à 0
                 if ($result && $result->num_rows > 0) {
                     //assigner les valeurs de la requete dans un tableau associatif
                     
@@ -86,12 +86,14 @@
                         // Image cliquable
                         echo 'Avis : ' . $avis_historique . '/5<br>';
                         echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">';
-                        echo '<img src="' . $image_recette . '" alt="Avis: ' . $avis_historique . '/5"><br>';
+                        //echo '<img src="' . $image_recette . '" alt="Avis: ' . $avis_historique . '/5"><br>';
+                        echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                        echo '<span class=".badge-chapterCount">' . $avis_historique . '/5</span>';
                         echo '</a>';
+                        echo '<div class="nom-recette">';
                         // Titre cliquable
                         echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">' . $titre . '</a><br>';
                         echo '</div>';
-                        echo '<div class="nom-recette">';
                         // Afficher l'avis de l'utilisateur
                         echo '</div>';
                       //  echo 'Avis : ' . $avis_historique . '/5';

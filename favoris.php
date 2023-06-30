@@ -70,7 +70,7 @@
 
         <br><br>
 
-        <h2>Recettes favorites</h2>
+        <h2>Favoris</h2>
 
         <?php
             $mysqli = ConnectionDatabase();
