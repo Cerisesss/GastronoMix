@@ -45,7 +45,11 @@
         }
 
         $query_string = implode('&', $query_strings);
-        $url = "resultat_recherche_avancee.php?pseudo=" . $pseudo . "&". $query_string;
+        if (isset($_SESSION['pseudo_user'])) {
+            $url = "resultat_recherche_avancee.php?pseudo=" . $pseudo . "&". $query_string;
+        } else {
+            $url = "resultat_recherche_avancee.php?" . $query_string;
+        }
 
         header("Location: " . $url);
         exit();
