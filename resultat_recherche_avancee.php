@@ -13,7 +13,7 @@
 <html>
     <head>
         <title>Resultat recherche avancée</title>
-        <link rel="stylesheet" type="text/css" href="new_affichage_recettes.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="Function.js"></script>
     </head>
 
