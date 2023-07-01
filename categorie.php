@@ -48,9 +48,10 @@
             echo '<h2>' . $categorie . '</h2>';
             
             echo '<div class="container">';
-            $query = "SELECT r.id_recette, r.titre, r.image_recette
+            $query = "SELECT r.id_recette, r.titre, r.image_recette, h.avis_historique
                     FROM recette r
                     JOIN categorie c ON c.id_categorie = r.id_categorie
+                    LEFT JOIN historique h ON h.id_recette = r.id_recette
                     WHERE c.libelle_categorie = '$categorie'
                     ORDER BY r.titre ASC";
             
@@ -61,12 +62,20 @@
                     $titre = $row['titre'];
                     $image_recette = $row['image_recette'];
                     $newtitre = str_replace("'", "_", $titre);
+                    $avis_historique = $row['avis_historique'];
 
                     if (isset($_SESSION['pseudo_user'])) {
                         echo '<div class="recette zoom">';
                         // Image cliquable
                         echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">';
-                        echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                        if($avis_historique === null) {
+                            echo '<img src="' . $image_recette . '" alt="Image de la recette">';
+                        } else {
+                            echo '<div style="position: relative; display: inline-block;">';
+                            echo '<img src="' . $image_recette . '" alt="Image de la recette">';
+                            echo '<button id="avis" class="Button" style="position: relative; bottom: 55px; left: 26%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $avis_historique . '/5</button>';
+                            echo '</div>';
+                        }
                         echo "</a>";
                         echo '<div class="nom-recette">';
                         // Titre cliquable
@@ -87,7 +96,7 @@
                     }
                 }
             } else {
-                echo "Aucun entree trouvé.";
+                echo "Aucune entrée trouvée.";
             }
             echo '</div>';
             $mysqli->close();
