@@ -86,8 +86,14 @@
                         echo '<div class="recette zoom">';
                         // Image cliquable
                         echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $newtitre . '">';
-                        echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
-                        echo "</a>";
+                        if($avis_historique === null) {
+                            echo '<img src="' . $image_recette . '" alt="Image de la recette">';
+                        } else {
+                            echo '<div style="position: relative; display: inline-block;">';
+                            echo '<img src="' . $image_recette . '" alt="Image de la recette">';
+                            echo '<button id="avis" class="Button" style="position: relative; bottom: 55px; left: 26%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $avis_historique . '/5</button>';
+                            echo '</div>';
+                        }                        echo "</a>";
                         echo '<div class="nom-recette">';
                         // Titre cliquable
                         echo "<a href=\"recette.php?recherche=$newtitre\">$titre</a><br>";
