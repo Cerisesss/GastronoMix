@@ -55,7 +55,6 @@
         <h2>Avis</h2>
 
         <?php
-            echo '<div class="container-accueil">';
             if (isset($_SESSION['pseudo_user'])) {
                 $pseudo = $_SESSION['pseudo_user'];
 
@@ -80,23 +79,26 @@
                         $titre = $row['titre'];
                         $image_recette = $row['image_recette'];
                         $avis_historique = $row['avis_historique'];
+                        $newtitre = str_replace("'", "_", $titre);
                         
                         echo '<div class="recette zoom">';
                         // Image cliquable
-                        echo 'Avis : ' . $avis_historique . '/5<br>';
-                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">';
+                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">';
                         //echo '<img src="' . $image_recette . '" alt="Avis: ' . $avis_historique . '/5"><br>';
-                        echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
-                        echo '<span class=".badge-chapterCount">' . $avis_historique . '/5</span>';
+                        //echo '<img src="' . $image_recette . '" alt="Image de la recette"><br>';
+                        //echo '<button id="avis" class="Button">' . $avis_historique . '/5</button>';
+                        echo '<div style="position: relative; display: inline-block;">';
+                        echo '<img src="' . $image_recette . '" alt="Image de la recette">';
+                        echo '<button id="avis" class="Button" style="position: relative; bottom: 55px; left: 26%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $avis_historique . '/5</button>';
+                        echo '</div>';
                         echo '</a>';
                         echo '<div class="nom-recette">';
                         // Titre cliquable
-                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $titre . '">' . $titre . '</a><br>';
+                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">' . $titre . '</a><br>';
                         echo '</div>';
-                        echo '</div>';
-                       
+                        echo '</div>';  
                     }
-                } else {
+                } else { 
                     echo "<p>Aucun avis trouvé dans l'historique.</p>";
                 }
                 echo '</div>';
