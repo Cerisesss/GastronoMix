@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS `categorie` (
   `id_categorie` bigint NOT NULL AUTO_INCREMENT,
   `libelle_categorie` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id_categorie`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 
 DROP TABLE IF EXISTS `etape`;
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `etape` (
   `texte_etape` varchar(500) DEFAULT NULL,
   `id_recette` bigint NOT NULL,
   KEY `fk_etape_recette_id` (`id_recette`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 
 DROP TABLE IF EXISTS `favoris`;
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `favoris` (
   PRIMARY KEY (`id_favori`),
   KEY `fk_favoris_recette_id` (`id_recette`),
   KEY `fk_favoris_user_id` (`id_user`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 
 DROP TABLE IF EXISTS `historique`;
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `historique` (
   PRIMARY KEY (`id_historique`),
   KEY `fk_historique_recette_id` (`id_recette`),
   KEY `fk_historique_user_id` (`id_user`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 
 DROP TABLE IF EXISTS `ingredient`;
@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS `ingredient` (
   `id_unite` int NOT NULL,
   PRIMARY KEY (`id_ingredient`),
   KEY `fk_unite_id` (`id_unite`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 
 DROP TABLE IF EXISTS `quantite`;
@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS `quantite` (
   `quantite` float DEFAULT NULL,
   KEY `fk_quantite_recette_id` (`id_recette`),
   KEY `fk_quantite_ingredient_id` (`id_ingredient`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 
 DROP TABLE IF EXISTS `recette`;
@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS `recette` (
   PRIMARY KEY (`id_recette`),
   KEY `fk_recette_user_id` (`id_user`),
   KEY `fk_recette_categorie_id` (`id_categorie`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 
 DROP TABLE IF EXISTS `unite`;
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS `unite` (
   `id_unite` bigint NOT NULL AUTO_INCREMENT,
   `libelle_unite` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id_unite`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 
 
 DROP TABLE IF EXISTS `user`;
@@ -103,5 +103,5 @@ CREATE TABLE IF NOT EXISTS `user` (
   `tel_user` varchar(50) DEFAULT NULL,
   `password_user` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id_user`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 COMMIT;
