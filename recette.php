@@ -87,7 +87,7 @@
 
                 $query = "SELECT id_recette, image_recette, titre, source, temps_prep_recette, temps_total_recette, nb_personne, difficulte
                             FROM recette 
-                            WHERE titre = '$mot_clef';";
+                            WHERE titre LIKE '$mot_clef';";
 
                 $result_recette = $mysqli->query($query);
 
@@ -96,6 +96,9 @@
                         $id_recette = $row['id_recette'];
                         echo '<div id="recette-container">';
                         echo '<br>';
+                        echo '<form action="Modification_Recette.php?pseudo=' . $pseudo . '&recherche=' . $mot_clef . '" method="POST">';
+                        echo '<button id="UpdateButton" class="Button" type="submit">Modifier cette recette</button>';
+                        echo '</form>';
                         echo '<img class="recipe-image" src="' . $row['image_recette'] . '" alt="Recette">';
                         echo "<h2>" . $row["titre"] . "</h2></br>";
                         echo "<h4>Source : " . $row['source'] . "</h4>";
