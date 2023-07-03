@@ -69,6 +69,7 @@
                 while ($row = mysqli_fetch_assoc($result)) {
                     $image_recette = $row["image_recette"];
                     $titre = $row['titre'];
+                    $id_recette = $row['id_recette'];
                     $newtitre = str_replace("'", "_", $titre);
                     $avis_historique = $row['avis_historique'];
 
@@ -76,39 +77,35 @@
                     if (isset($_SESSION['pseudo_user'])) {
                         echo '<div class="recette zoom">';
                         // Image cliquable
-                        echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">';
                         //affiche l'historique si un utilisateur a déjà noté la recette
                         if($avis_historique === null) {
+                            echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">';
                             echo '<img src="' . $image_recette . '" alt="Image de la recette">';
+                            echo "</a>";
                         } else {
                             echo '<div style="position: relative; display: inline-block;">';
+                            echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">';
+                            
                             echo '<img src="' . $image_recette . '" alt="Image de la recette">';
+                            echo "</a>";
                             echo '<button id="avis" class="Button" style="position: relative; bottom: 55px; left: 26%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $avis_historique . '/5</button>';
                             echo '</div>';
-                        }
-                        echo '</a>';
+                        }            
+                        echo '<button id="ajouter-favoris-button" style="position: relative; bottom: 175px; left: -48%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);" class="Button" onclick="ajouterAuxFavoris(' . $id_recette . ')">&#x2661;</button>';
                         echo '<div class="nom-recette">';
                         // Titre cliquable
-                        echo  '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">' . $titre . '</a>' . '<br>';
+                        echo "<a href=\"recette.php?pseudo=$pseudo&recherche=$newtitre\">$titre</a><br>";
                         echo '</div>';
                         echo '</div>';
                     } else {
                         echo '<div class="recette zoom">';
                         // Image cliquable
                         echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $newtitre . '">';
-                        //affiche l'historique si un utilisateur a déjà noté la recette
-                        if($avis_historique === null) {
-                            echo '<img src="' . $image_recette . '" alt="Image de la recette">';
-                        } else {
-                            echo '<div style="position: relative; display: inline-block;">';
-                            echo '<img src="' . $image_recette . '" alt="Image de la recette">';
-                            echo '<button id="avis" class="Button" style="position: relative; bottom: 55px; left: 26%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $avis_historique . '/5</button>';
-                            echo '</div>';
-                        }
-                        echo '</a>';
+                        echo '<img src="' . $image_recette . '" alt="Image de la recette">';                       
+                        echo "</a>";
                         echo '<div class="nom-recette">';
                         // Titre cliquable
-                        echo  '<a href="http://localhost/gastronomix/recette.php?recherche=' . $newtitre . '">' . $titre . '</a>' . '<br>';
+                        echo "<a href=\"recette.php?recherche=$newtitre\">$titre</a><br>";
                         echo '</div>';
                         echo '</div>';
                     }
@@ -119,6 +116,28 @@
             }
             $mysqli->close();
         ?>
+<script>
+            function ajouterAuxFavoris(id_recette) {
+                var form = new FormData();
+                form.append('id_recette', id_recette);
 
+                fetch('ajouter_aux_favoris.php', {
+                    method: 'POST',
+                    body: form
+                })
+                .then(function(response) {
+                    if (response.ok) {
+                        // Le script PHP a terminé avec succès
+                        alert("La recette a été ajoutée aux favoris !");
+                    } else {
+                        throw new Error("Erreur lors de l'ajout aux favoris.");
+                    }
+                })
+                .catch(function(error) {
+                    // Une erreur s'est produite lors de l'appel à ajouter_aux_favoris.php
+                    alert(error.message);
+                });
+            }
+        </script>
     </body>
 </html>
