@@ -44,7 +44,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>GastronoMix</title>
+        <title>GastronoMix - <?php if(isset($_GET['recherche'])) echo $_GET['recherche']; ?></title>
         <link rel="stylesheet" type="text/css" href="styler.css">
         <script src="Function.js"></script>
     </head>
@@ -70,28 +70,24 @@
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
 
         <h1>GastronoMix</h1>
-
-        <?php
-            if (isset($_SESSION['pseudo_user'])) {
-                if ($_SESSION['pseudo_user'] == "admin" || $_SESSION['pseudo_user'] == "Admin") {
-                    MenuDeroulantAdmin($pseudo);
-                } else {
-                    MenuDeroulantCompte($pseudo);
-                }
-            } else {
-                echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
-            }
-        ?>
-
+        
         <?php
             $mysqli = ConnectionDatabase();
 
             if (isset($_GET['recherche'])) {
                 $mot_clef = $_GET['recherche'];
 
+                if (isset($_SESSION['pseudo_user'])) {
+                    if($pseudo == "admin" || $pseudo == "Admin") {
+                        echo '<form action="Confirmation_Suppression.php?pseudo=' . $pseudo . '&recherche=' . $mot_clef . '" method="POST">';
+                        echo '<button id="DeleteButton" class="Button" type="submit">Supprimer cette recette</button>';
+                        echo '</form>';
+                    }
+                }
+
                 $query = "SELECT id_recette, image_recette, titre, source, temps_prep_recette, temps_total_recette, nb_personne, difficulte
                             FROM recette 
-                            WHERE titre LIKE '%$mot_clef%';";
+                            WHERE titre = '$mot_clef';";
 
                 $result_recette = $mysqli->query($query);
 

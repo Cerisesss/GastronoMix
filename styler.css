@@ -213,6 +213,15 @@ input[type="radio"]:checked + label .star {
 
 
 
+#DeleteButton {
+    position: absolute;
+    top: 4%;
+    right : 15%;
+    width: 12%;
+    height: 4%;
+}
+
+
 
 /*css des buttons*/
 .Button {
