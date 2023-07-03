@@ -73,13 +73,10 @@
                     $avis_historique = $row['avis_historique'];
 
                     // Affichage du bouton d'ajout aux favoris
-                    if (isset($_SESSION['pseudo_user']) ) {
-                        $id_recette = $row['id_recette'];
+                    if (isset($_SESSION['pseudo_user'])) {
                         echo '<div class="recette zoom">';
                         // Image cliquable
                         echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">';
-                         // Afficher le bouton cœur
-                         echo '<button id="ajouter-favoris-button" class="Button" onclick="ajouterAuxFavoris(' . $id_recette . ')">&#x2661;</button>';
                         //affiche l'historique si un utilisateur a déjà noté la recette
                         if($avis_historique === null) {
                             echo '<img src="' . $image_recette . '" alt="Image de la recette">';
@@ -122,28 +119,6 @@
             }
             $mysqli->close();
         ?>
-<script>
-            function ajouterAuxFavoris(id_recette) {
-                var form = new FormData();
-                form.append('id_recette', id_recette);
 
-                fetch('ajouter_aux_favoris.php', {
-                    method: 'POST',
-                    body: form
-                })
-                .then(function(response) {
-                    if (response.ok) {
-                        // Le script PHP a terminé avec succès
-                        alert("La recette a été ajoutée aux favoris !");
-                    } else {
-                        throw new Error("Erreur lors de l'ajout aux favoris.");
-                    }
-                })
-                .catch(function(error) {
-                    // Une erreur s'est produite lors de l'appel à ajouter_aux_favoris.php
-                    alert(error.message);
-                });
-            }
-        </script>
     </body>
 </html>
