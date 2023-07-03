@@ -81,8 +81,6 @@
                     }
                 }
 
-                var_dump($regroupement_etapes);
-            
                 //recupere l'id de la recette
                 $query_id_recette = "SELECT id_recette FROM recette 
                                     ORDER BY id_recette DESC LIMIT 1;";
