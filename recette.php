@@ -96,9 +96,17 @@
                         $id_recette = $row['id_recette'];
                         echo '<div id="recette-container">';
                         echo '<br>';
-                        echo '<form action="Modification_Recette.php?pseudo=' . $pseudo . '&recherche=' . $mot_clef . '" method="POST">';
-                        echo '<button id="UpdateButton" class="Button" type="submit">Modifier cette recette</button>';
-                        echo '</form>';
+
+                        if (isset($_SESSION['pseudo_user'])) {
+                            if($pseudo == "admin" || $pseudo == "Admin") {
+                                $newtitre = str_replace("'", "_", $mot_clef);
+
+                                echo '<form action="Modification_Recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '" method="POST">';
+                                echo '<button id="UpdateButton" class="Button" type="submit">Modifier cette recette</button>';
+                                echo '</form>';
+                            }
+                        }
+
                         echo '<img class="recipe-image" src="' . $row['image_recette'] . '" alt="Recette">';
                         echo "<h2>" . $row["titre"] . "</h2></br>";
                         echo "<h4>Source : " . $row['source'] . "</h4>";
