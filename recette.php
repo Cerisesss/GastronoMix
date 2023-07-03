@@ -148,12 +148,13 @@
 
                     echo "</br>";
 
+                    
                     if (isset($_SESSION['pseudo_user'])) {
-                        echo '<form id="ajouter-favoris-form" method="post">';
+                        echo '<form id="ajouter-favoris-form" onsubmit="ajouterAuxFavoris(' . $id_recette . '); return false;">';
                         echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
                         echo '<input type="submit" value="🧡">';
                         echo '</form>';
-                        echo '<form id="rating-form"  method="POST">';
+                        echo '<form id="rating-form" method="POST">';
                         echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
                         for ($i = 1; $i <= 5; $i++) {
                             echo '<input type="radio" id="star' . $id_recette . '_' . $i . '" name="avis_historique" value="' . $i . '" style="display: none;">';
@@ -161,6 +162,7 @@
                         }
                         echo '</form>';
                     }
+                    
                 } else {
                     echo "<p>Aucun résultat.</p>";
                 }
@@ -177,29 +179,28 @@
             document.getElementById('rating-form').submit();
         }
 
-            document.getElementById('ajouter-favoris-form').addEventListener('submit', function(event) {
-                event.preventDefault(); // Prevent page reload
+        function ajouterAuxFavoris(id_recette) {
+    var form = new FormData();
+    form.append('id_recette', id_recette);
 
-                var form = event.target;
-                var formData = new FormData(form);
+    fetch('ajouter_aux_favoris.php', {
+        method: 'POST',
+        body: form
+    })
+    .then(function(response) {
+        if (response.ok) {
+            // Le script PHP a terminé avec succès
+            alert("La recette a été ajoutée aux favoris !");
+        } else {
+            throw new Error("Erreur lors de l'ajout aux favoris.");
+        }
+    })
+    .catch(function(error) {
+        // Une erreur s'est produite lors de l'appel à ajouter_aux_favoris.php
+        alert(error.message);
+    });
+}
 
-                fetch('ajouter_aux_favoris.php', {
-                    method: 'POST',
-                    body: formData
-                })
-                .then(function(response) {
-                    if (response.ok) {
-                        // PHP script finished successfully
-                        alert("La recette a été ajoutée aux favoris !");
-                    } else {
-                        throw new Error("Erreur lors de l'ajout aux favoris.");
-                    }
-                })
-                .catch(function(error) {
-                    // An error occurred during the call to ajouter_aux_favoris.php
-                    alert(error.message);
-                });
-            });
         </script>
     </body>
 </html>
