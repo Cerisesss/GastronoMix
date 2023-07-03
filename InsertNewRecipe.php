@@ -58,7 +58,7 @@
             <br>
 
             <label for="image_recette">Lien de l'image</label>
-            <input type="text" class="Button" name="image_recette" required /><br>
+            <input type="text" class="Button" name="image_recette" /><br>
 
             <label for="nb_personne">Nombre de personne</label>
             <input type="number" min="1" class="Button" name="nb_personne" required /><br>

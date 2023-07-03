@@ -84,7 +84,7 @@
         <br>
         
         <form action="Accueil.php?pseudo=<?php echo $pseudo?>" method="POST">
-            <button id="DeleteButton" class="Button" type="submit">Supprimer cette recette</button>
+            <button id="DeleteButton" class="Button" type="submit">Retour à la page d'accueil</button>
         </form>
 
     </body>
