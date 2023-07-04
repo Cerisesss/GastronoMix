@@ -21,7 +21,7 @@
             $id_user = $row['id_user'];
             $avis = $_POST['avis_historique'];
             if ($mysqli->query("SELECT * FROM historique WHERE id_recette = '$id_recette' AND id_user = '$id_user'")->num_rows > 0) {
-                echo "recette  deja noter";
+                echo "<h2>Recette déjà notée</h2>";
             } else {
                 $query = "INSERT INTO historique (id_user, id_recette, avis_historique) VALUES ($id_user, $id_recette, $avis);";
 
@@ -111,7 +111,7 @@
                         echo "<h2>" . $row["titre"] . "</h2></br>";
                         echo "<h4>Source : " . $row['source'] . "</h4>";
                         echo "<p>Temps de préparation : " . $row['temps_prep_recette'] . "</p>";
-                        echo "<p>Temps de total : " . $row['temps_total_recette'] . "</p>";
+                        echo "<p>Temps total : " . $row['temps_total_recette'] . "</p>";
                         echo "<p>Nombre de personne : " . $row['nb_personne'] . "</br>";
                         echo "<p>Difficulté : " . $row['difficulte'] . "</p>";
                     }

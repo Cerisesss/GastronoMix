@@ -70,7 +70,7 @@
             <input type="time" class="Button" name="temps_total_recette" step="1" required /><br>
 
             <label for="difficulte">Difficulté</label>
-            <input type="number" min="1" max="3" class="Button" name="difficulte" required /><br>
+            <input type="number" min="1" max="3" step="1" class="Button" name="difficulte" required /><br>
             
             <br>
             <h2>Ajout des ingrédients et de leur quantité</h2>

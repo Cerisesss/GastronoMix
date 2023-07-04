@@ -191,7 +191,7 @@
             $mysqli->close();
         ?>
         <br>
-        <a href="http://localhost/gastronomix/Accueil.php<?php echo $pseudo; ?>"><button class="Button">Retour a la page d'accueil</button></a>
+        <a href="http://localhost/gastronomix/Accueil.php?pseudo=<?php echo $pseudo; ?>"><button class="Button">Retour a la page d'accueil</button></a>
 
     </body>
 </html>
