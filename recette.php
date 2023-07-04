@@ -97,7 +97,7 @@
                         echo '<div id="recette-container">';
                         echo '<br>';
 
-                        if (isset($_SESSION['pseudo_user'])) {
+                        /*if (isset($_SESSION['pseudo_user'])) {
                             if($pseudo == "admin" || $pseudo == "Admin") {
                                 $newtitre = str_replace("'", "_", $mot_clef);
 
@@ -105,7 +105,7 @@
                                 echo '<button id="UpdateButton" class="Button" type="submit">Modifier cette recette</button>';
                                 echo '</form>';
                             }
-                        }
+                        }*/
 
                         echo '<img class="recipe-image" src="' . $row['image_recette'] . '" alt="Recette">';
                         echo "<h2>" . $row["titre"] . "</h2></br>";
