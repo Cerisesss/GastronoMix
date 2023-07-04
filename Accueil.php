@@ -91,7 +91,7 @@
                             echo '<button id="avis" class="Button" style="position: relative; bottom: 55px; left: 26%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $avis_historique . '/5</button>';
                             echo '</div>';
                         }            
-                        echo '<button id="ajouter-favoris-button" style="position: relative; bottom: 175px; left: -48%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);" class="Button" onclick="ajouterAuxFavoris(' . $id_recette . ')">&#x2661;</button>';
+                        echo '<button id="ajouter-favoris-button" style="position: relative; top : -70% ; left: -48%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);" class="Button" onclick="ajouterAuxFavoris(' . $id_recette . ')">&#x2661;</button>';
                         echo '<div class="nom-recette">';
                         // Titre cliquable
                         echo "<a href=\"recette.php?pseudo=$pseudo&recherche=$newtitre\">$titre</a><br>";
