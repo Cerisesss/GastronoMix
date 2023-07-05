@@ -118,7 +118,7 @@
                             echo '<div class="nom-recette">';
                             // Titre cliquable
                             echo  '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . $newtitre . '">' . $titre . '</a>' . '<br>';
-                            echo '<button class="Button" onclick="retirerDesFavoris(' . $id_recette . ')">Retirer des favoris</button>';
+                            echo '<button class="Button" onclick="retirerDesFavoris(' . $id_recette . ')">💔 </button>';
                             echo '</div>';
                             echo '</div>';
                         }
