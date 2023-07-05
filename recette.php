@@ -15,6 +15,7 @@
             $id_recette = $_POST['id_recette'];
 
             $query = "SELECT id_user FROM user WHERE pseudo_user = '$pseudo';";
+            
             //verifier si l'utilisateur a note la recette et mettre la note a jour si on souhaite modifier la note
             $result_user = $mysqli->query($query);
             $row_user = $result_user->fetch_assoc();
@@ -33,20 +34,21 @@
                 $query = "INSERT INTO historique (id_user, id_recette, avis_historique) VALUES ('$id_user', '$id_recette', '" . $_POST['avis_historique'] . "');";
                 $result = $mysqli->query($query);
             }
-
-        }}
-
-          
+        }
+    }      
 ?>
 
 <!DOCTYPE html>
 <html>
     <head>
         <title>GastronoMix - <?php if(isset($_GET['recherche'])) echo $_GET['recherche']; ?></title>
-        <link rel="stylesheet" type="text/css" href="styler.css">
+        <link rel="stylesheet" type="text/css" href="recette.css">
         <script src="Function.js"></script>
     </head>
     <body>
+        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
+        <h1>GastronoMix</h1>
+
         <?php
             if (isset($_SESSION['pseudo_user'])) {
                 if($_SESSION['pseudo_user'] == "admin" || $_SESSION['pseudo_user'] == "Admin") {
@@ -63,13 +65,7 @@
 
                 echo '<a href="http://localhost/gastronomix/connexion.php"><button id="CompteButton" class="Button">Connexion</button></a>';
             }
-        ?>
 
-        <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
-
-        <h1>GastronoMix</h1>
-        
-        <?php
             $mysqli = ConnectionDatabase();
 
             if (isset($_GET['recherche'])) {
@@ -82,8 +78,6 @@
                         echo '</form>';
                     }
                 }
-
-
 
                 $query = "SELECT id_recette, image_recette, titre, source, temps_prep_recette, temps_total_recette, nb_personne, difficulte
                             FROM recette 
@@ -107,10 +101,11 @@
                         $minutes_total = $temps_total % 60;
                         $temps_total_recette = sprintf('%02d:%02d', $heures_total, $minutes_total);
 
-
                         $id_recette = $row['id_recette'];
                         echo '<div id="recette-container">';
                         echo '<br>';
+                        echo '<img class="recipe-image" src="' . $row['image_recette'] . '" alt="Recette">';
+                        echo "<h2>" . $row["titre"] . "</h2></br>";
 
                         if (isset($_SESSION['pseudo_user'])) {
                             if($pseudo == "admin" || $pseudo == "Admin") {
@@ -120,15 +115,30 @@
                                 echo '<button id="UpdateButton" class="Button" type="submit">Modifier cette recette</button>';
                                 echo '</form>';
                             }
-                        }
 
-                        echo '<img class="recipe-image" src="' . $row['image_recette'] . '" alt="Recette">';
-                        echo "<h2>" . $row["titre"] . "</h2></br>";
+                            echo '<form id="ajouter-favoris-form" onsubmit="ajouterAuxFavoris(' . $id_recette . '); return false;">';
+                            echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
+                            echo '<input type="submit" value="🧡">';
+                            echo '</form>';
+                            echo '<form id="rating-form" method="POST">';
+                            echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
+                            for ($i = 1; $i <= 5; $i++) {
+                                echo '<input type="radio" id="star' . $id_recette . '_' . $i . '" name="avis_historique" value="' . $i . '" style="display: none;">';
+                                echo '<label for="star' . $id_recette . '_' . $i . '" onclick="submitForm(' . $i . ')"><span class="star">&#9734;</span></label>';
+                            }
+                            echo '</form>';
+                        }
                         echo "<h4>Source : " . $row['source'] . "</h4>";
+                        echo "<p>Difficulté : " . $row['difficulte'] . "</p><br>";
+                        echo "<div class='temps-container'>";
+                        echo '<div class="temps-item">';
                         echo "<p>Temps de préparation : " . $temps_prep_recette . "</p>";
+                        echo '</div>';
+                        echo '<div class="temps-item">';
                         echo "<p>Temps total : " . $temps_total_recette . "</p>";
-                        echo "<p>Nombre de personne : " . $row['nb_personne'] . "</br>";
-                        echo "<p>Difficulté : " . $row['difficulte'] . "</p>";
+                        echo '</div>';
+                        echo '</div>';
+                        echo "<br><p>Nombre de personne : " . $row['nb_personne'] . "</br>";
                     }
 
                     $query_ingredient = "SELECT i.nom_ingredient, q.quantite, u.libelle_unite FROM recette r
@@ -139,14 +149,19 @@
 
                     $result_ingredient = $mysqli->query($query_ingredient);
 
+                    echo "<div class='etape-container'>";
                     echo "<h3>Ingrédients</h3>";
+                    echo '<hr class="ligne-horizontale">';
+                    echo "</div>";
 
                     while ($row = $result_ingredient->fetch_assoc()) {
                         if ($row['quantite'] == 0) {
                             $row['quantite'] = "";
                         }
 
-                        echo "<li>" . $row['quantite'] . " " . $row['libelle_unite'] . " " . $row['nom_ingredient'] . "</li>";
+                        echo "<div class='etape-affiche'>";
+                        echo $row['quantite'] . " " . $row['libelle_unite'] . " " . $row['nom_ingredient'];
+                        echo "</div>";
                     }
 
                     $query_etape = "SELECT e.id_etape, e.texte_etape FROM recette r 
@@ -155,31 +170,20 @@
 
                     $result_etape = $mysqli->query($query_etape);
 
-                    echo "<h3>Étapes</h3>";
+                    echo "<div class='etape-container'>";
+                    echo "<p>Étapes</p>";
+                    echo '<hr class="ligne-horizontale">';
+                    echo "</div>";
 
                     while ($row = $result_etape->fetch_assoc()) {
-                        echo "<li>" . "Etape " . $row['id_etape'] . " : " . $row['texte_etape'] . "</li>";
+                        echo "<div class='etape-affiche'>";
+                        echo "Etape " . $row['id_etape'] . " : " . $row['texte_etape'] . "<br>";
+                        echo "</div>";
                     }
-
                     echo "</br>";
-
-                    
-                    if (isset($_SESSION['pseudo_user'])) {
-                        echo '<form id="ajouter-favoris-form" onsubmit="ajouterAuxFavoris(' . $id_recette . '); return false;">';
-                        echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
-                        echo '<input type="submit" value="🧡">';
-                        echo '</form>';
-                        echo '<form id="rating-form" method="POST">';
-                        echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
-                        for ($i = 1; $i <= 5; $i++) {
-                            echo '<input type="radio" id="star' . $id_recette . '_' . $i . '" name="avis_historique" value="' . $i . '" style="display: none;">';
-                            echo '<label for="star' . $id_recette . '_' . $i . '" onclick="submitForm(' . $i . ')"><span class="star">&#9734;</span></label>';
-                        }
-                        echo '</form>';
-                    }
-                    
+                    echo "Bon Appétit !";
                 } else {
-                    echo "<p>Aucun résultat.</p>";
+                    echo "<p>Aucun résultat</p>";
                 }
             } else {
                 echo "<p>Aucun résultat</p>";
@@ -194,7 +198,7 @@
             document.getElementById('rating-form').submit();
         }
 
-        function ajouterAuxFavoris(id_recette) {
+    function ajouterAuxFavoris(id_recette) {
     var form = new FormData();
     form.append('id_recette', id_recette);
 
