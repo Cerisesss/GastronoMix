@@ -58,7 +58,7 @@
 
                 $rand = rand(1, 160);
 
-                $query = "SELECT r.image_recette, r.difficulte, r.titre, r.id_recette, h.avis_historique
+                $query = "SELECT r.image_recette, r.difficulte, r.temps_total_recette, r.titre, r.id_recette, h.avis_historique
                                 FROM recette r
                                 LEFT JOIN historique h ON h.id_recette = r.id_recette
                                 WHERE categorie_recette = '$categorie_actuelle'
@@ -74,6 +74,9 @@
                     $newtitre = str_replace("'", "_", $titre);
                     $avis_historique = $row['avis_historique'];
                     $difficulte = $row['difficulte'];
+                    $temps_total_recette = $row['temps_total_recette'];
+                   
+
 
                     // Affichage du bouton d'ajout aux favoris
                     if (isset($_SESSION['pseudo_user'])) {
@@ -100,10 +103,11 @@
                         echo '<div class="nom-recette">';
                         // Titre cliquable
                         echo "<a href=\"recette.php?pseudo=$pseudo&recherche=$newtitre\">$titre</a><br>";
+                       
                         echo '</div>';
                         echo '</div>';
                         echo '</div>';
-                        
+
                     } else {
                         echo '<div class="recette zoom">';
                         // Image cliquable
@@ -113,6 +117,14 @@
                         echo '<div class="nom-recette">';
                         // Titre cliquable
                         echo "<a href=\"recette.php?recherche=$newtitre\">$titre</a><br>";
+                        echo '<div id="temps-total-wrapper">';
+                        // Affichage du temps total de la recette
+                       
+                     echo '<button class="temps-total-button">' . $temps_total_recette .'min'. '</button>';
+                     
+                     echo '</div>';
+                       // echo '<button id="" class="Button" style="position: relative; bottom: 45px; left: 20%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $temps_total_recette . '</button>';
+
                         echo '</div>';
                         echo '</div>';
                     }
