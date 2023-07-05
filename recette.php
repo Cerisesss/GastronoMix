@@ -83,6 +83,8 @@
                     }
                 }
 
+
+
                 $query = "SELECT id_recette, image_recette, titre, source, temps_prep_recette, temps_total_recette, nb_personne, difficulte
                             FROM recette 
                             WHERE titre LIKE '$mot_clef';";
@@ -91,11 +93,26 @@
 
                 if ($result_recette && $result_recette->num_rows > 0) {
                     while ($row = $result_recette->fetch_assoc()) {
+                        //calcul du temps de préparation en format 00:00
+                        $temps_prep = $row['temps_prep_recette'];
+
+                        $heures_prep = floor($temps_prep / 60);
+                        $minutes_prep = $temps_prep % 60;
+                        $temps_prep_recette = sprintf('%02d:%02d', $heures_prep, $minutes_prep);
+
+                        //calcul du temps total en format 00:00
+                        $temps_total = $row['temps_total_recette'];
+
+                        $heures_total = floor($temps_total / 60);
+                        $minutes_total = $temps_total % 60;
+                        $temps_total_recette = sprintf('%02d:%02d', $heures_total, $minutes_total);
+
+
                         $id_recette = $row['id_recette'];
                         echo '<div id="recette-container">';
                         echo '<br>';
 
-                        /*if (isset($_SESSION['pseudo_user'])) {
+                        if (isset($_SESSION['pseudo_user'])) {
                             if($pseudo == "admin" || $pseudo == "Admin") {
                                 $newtitre = str_replace("'", "_", $mot_clef);
 
@@ -103,13 +120,13 @@
                                 echo '<button id="UpdateButton" class="Button" type="submit">Modifier cette recette</button>';
                                 echo '</form>';
                             }
-                        }*/
+                        }
 
                         echo '<img class="recipe-image" src="' . $row['image_recette'] . '" alt="Recette">';
                         echo "<h2>" . $row["titre"] . "</h2></br>";
                         echo "<h4>Source : " . $row['source'] . "</h4>";
-                        echo "<p>Temps de préparation : " . $row['temps_prep_recette'] . "</p>";
-                        echo "<p>Temps total : " . $row['temps_total_recette'] . "</p>";
+                        echo "<p>Temps de préparation : " . $temps_prep_recette . "</p>";
+                        echo "<p>Temps total : " . $temps_total_recette . "</p>";
                         echo "<p>Nombre de personne : " . $row['nb_personne'] . "</br>";
                         echo "<p>Difficulté : " . $row['difficulte'] . "</p>";
                     }

@@ -40,6 +40,16 @@
 
         <br>
 
+        <?php
+            if (isset($_GET['error'])) {
+                if($_GET['error'] == "1") {
+                    echo "<h2>Erreur : vous avez oublié de mettre l'ingredient !</h2>";
+                } else if ($_GET['error'] == "2"){
+                    echo "<h2>Erreur : vous avez oublié de mettre un tag !</h2>";
+                }
+            }
+        ?>
+
         <form action="Confirmation_InsertNewRecipe.php?pseudo=<?php echo $pseudo; ?>" method="POST">
             <label for="titre">Titre</label>
             <input type="text" class="Button" name="titre" required /><br>
@@ -64,10 +74,10 @@
             <input type="number" min="1" class="Button" name="nb_personne" required /><br>
 
             <label for="temps_prep_recette">Temps de préparation</label>
-            <input type="time" class="Button" name="temps_prep_recette" step="1" required /><br>
+            <input type="time" class="Button" name="temps_prep_recette" required /><br>
             
             <label for="temps_total_recette">Temps total</label>
-            <input type="time" class="Button" name="temps_total_recette" step="1" required /><br>
+            <input type="time" class="Button" name="temps_total_recette" required /><br>
 
             <label for="difficulte">Difficulté</label>
             <input type="number" min="1" max="3" step="1" class="Button" name="difficulte" required /><br>
@@ -94,7 +104,7 @@
             </div>
             <button type="button" class="Button" onclick="AjoutChampTexteEtape()">Ajouter une étape</button>
 
-            <br>
+            <br><br>
             <input type="submit" class="Button" value="Ajouter" />
         </form>
     </body>

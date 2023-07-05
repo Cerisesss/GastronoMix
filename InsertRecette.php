@@ -43,8 +43,6 @@
                 $result_id_categorie = $result_id_categorie->fetch_assoc();
                 $id_categorie = $result_id_categorie['id_categorie'];
 
-                //affiche que la premiere recette
-                
                 $query_recette = "INSERT INTO recette(titre, source, categorie_recette, image_recette, nb_personne, temps_prep_recette, temps_total_recette, difficulte, id_categorie)
                                 VALUES(\"$recette->nom\", \"$recette->source\", \"$recette->categorie\", \"$recette->image\", \"$recette->nombredepersonne\", \"$recette->tempspreparation\", \"$recette->tempstotal\", \"$recette->difficulte\", $id_categorie);";
 

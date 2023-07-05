@@ -71,7 +71,7 @@
             
 
             if ($result_Delete_recette->execute() && $result_Delete_Quantite->execute() && $result_Delete_Etape->execute() && $result_Delete_Historique->execute() && $result_Delete_Favoris->execute()) {
-                echo "Suppression réussite.";
+                echo "Suppression réussie.";
             } else {
                 echo "Erreur lors de la supression : " . $mysqli->error;
             }
