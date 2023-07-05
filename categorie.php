@@ -93,7 +93,7 @@
                             echo '</div>';
                         }
                        
-                        echo '<button id="ajouter-favoris-button" style="position: relative; bottom: 250px; left: -48%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);" class="Button" onclick="ajouterAuxFavoris(' . $id_recette . ')">&#x2661;</button>';
+                        echo '<button id="ajouter-favoris-button-' . $id_recette . '"style="position: relative; top : -70% ; left: -48%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);" class="Button" onclick="ajouterAuxFavoris(' . $id_recette . ', \'ajouter-favoris-button-' . $id_recette . '\')">&#x2661;</button>';
                         
                         echo '<div class="nom-recette">';
                         // Titre cliquable
@@ -121,7 +121,10 @@
         ?>
     </body>
     <script>
-         function ajouterAuxFavoris(id_recette) {
+              function ajouterAuxFavoris(id_recette, buttonId) {
+    var button = document.getElementById(buttonId);
+    button.classList.add('red-heart');
+
                 var form = new FormData();
                 form.append('id_recette', id_recette);
 
@@ -141,6 +144,11 @@
                     // Une erreur s'est produite lors de l'appel à ajouter_aux_favoris.php
                     alert(error.message);
                 });
+            }
+            //conserve la couleur du coeur si la recette est déjà dans les favoris
+            function conserveCouleur(id_recette, buttonId) {
+                var button = document.getElementById(buttonId);
+                button.classList.add('red-heart');
             }
         </script>
 </html>
