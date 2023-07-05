@@ -45,7 +45,17 @@
                 $categorie = $_GET['categorie'];
             }
 
-            echo '<h2>' . $categorie . '</h2>';
+           
+            $queryCount = "SELECT COUNT(*) AS count FROM recette WHERE categorie_recette = '$categorie'";
+            $resultCount = $mysqli->query($queryCount);
+    
+            if ($resultCount !== false && $resultCount->num_rows > 0) {
+                $row = $resultCount->fetch_assoc();
+                $count = $row['count'];
+              
+
+                echo '<h2>'.$count .' '. $categorie .'s'. '</h2>';
+            }
             
             echo '<div class="container">';
             $query = "SELECT r.id_recette, r.titre, r.image_recette, h.avis_historique
