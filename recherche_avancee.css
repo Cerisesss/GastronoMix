@@ -18,13 +18,16 @@
 
 #form-multi-checkbox {
     display: inline;
-    flex-wrap: wrap;
     flex-basis: 50%;
 }
 
-
 .multi-checkbox .check.unchecked i {
     display: none;
+}
+
+.multi-checkbox .check i {
+    display: flex;
+    justify-content: center;
 }
 
 .multi-checkbox .check.partial i.fa-minus {
@@ -96,16 +99,16 @@ input[type="submit"] {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #ac85bb;
-    color: #fff;
-    border: none;
+    background-color: #f3d6e5;
+    color: black;
+    border: 2px solid #020107;
     border-radius: 4px;
     cursor: pointer;
     
 }
 
 input[type="submit"]:hover {
-    background-color: #ac85bb;
+    background-color: rgb(90, 81, 81);
 }
 
 .centered {
