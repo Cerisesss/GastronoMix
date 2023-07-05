@@ -119,19 +119,35 @@
                         // Utilisez le résultat de la requête pour afficher les données
                         if ($result && $result->num_rows > 0) {
                             while ($row = $result->fetch_assoc()) {
-                                $titre = $row['titre'];
-                                $newtitre = str_replace("'", "_", $titre);
-                                echo '<div class="recette zoom">';
-                                // Image cliquable
-                                echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($newtitre) . '">';
-                                echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
-                                echo '</a>';
-                                echo '<div class="nom-recette">';
-                                // Titre cliquable
-                                echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($newtitre) . '">' . $titre . '</a>';
-                                echo '</a>';
-                                echo '</div>';
-                                echo '</div>';
+                                if (isset($_SESSION['pseudo_user'])) {
+                                    $titre = $row['titre'];
+                                    $newtitre = str_replace("'", "_", $titre);
+                                    echo '<div class="recette zoom">';
+                                    // Image cliquable
+                                    echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . urlencode($newtitre) . '">';
+                                    echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
+                                    echo '</a>';
+                                    echo '<div class="nom-recette">';
+                                    // Titre cliquable
+                                    echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . urlencode($newtitre) . '">' . $titre . '</a>';
+                                    echo '</a>';
+                                    echo '</div>';
+                                    echo '</div>';
+                                } else {
+                                    $titre = $row['titre'];
+                                    $newtitre = str_replace("'", "_", $titre);
+                                    echo '<div class="recette zoom">';
+                                    // Image cliquable
+                                    echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($newtitre) . '">';
+                                    echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
+                                    echo '</a>';
+                                    echo '<div class="nom-recette">';
+                                    // Titre cliquable
+                                    echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($newtitre) . '">' . $titre . '</a>';
+                                    echo '</a>';
+                                    echo '</div>';
+                                    echo '</div>';
+                                }
                             }
                         } else {
                             echo "Aucune recette trouvée.";
