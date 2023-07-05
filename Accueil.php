@@ -36,6 +36,8 @@
         ?>
 
         <button id="ThemeButton" class="Button" onclick="ChangeBackgroundColor()">🌓</button>
+
+        <h1>GastronoMix</h1>
         
         <?php
             $mysqli = ConnectionDatabase();
