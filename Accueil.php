@@ -153,11 +153,7 @@
     });
 }
 
-            //conserve la couleur du coeur si la recette est déjà dans les favoris
-           //*function conserveCouleur(id_recette, buttonId) {
-              //  var button = document.getElementById(buttonId);
-              //  button.classList.add('red-heart');
-          //  }
+            
             
         </script>
     </body>

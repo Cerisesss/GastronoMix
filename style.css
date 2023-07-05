@@ -245,4 +245,6 @@ h2 {
 .Button:hover {
     box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
 }
-
+.red-heart {
+    color: red;
+  }

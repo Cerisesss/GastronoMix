@@ -150,7 +150,7 @@
         console.log(data);
     })
     .catch(function (error) {
-        // Une erreur s'est produite lors de l'appel à ajouter_aux_favoris.php
+        // une errer s'est produite lors de l'appel à ajouter_aux_favoris.php
         alert(error.message);
     });
 }
