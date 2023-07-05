@@ -111,20 +111,35 @@
 
                     if ($quantite == "") {
                         continue;
-                    } else if($tab_quantite[0] == 0) {
-                        $tab_quantite[0] = "";
-                    } else if($tab_quantite[1] == 0) {
-                        $tab_quantite[1] = "";
-                    } else if($tab_quantite[2] == 0) {
-                        $tab_quantite[2] = "";
-                    } else if($tab_quantite[3] == 0) {
-                        $tab_quantite[3] = "";
-                    }
+                    } else {
+                        $quantite = $tab_quantite[0];
+                        $ingredient = $tab_quantite[1];
+                        $unite = $tab_quantite[2];
+                        $tag = $tab_quantite[3];
 
-                    $quantite = $tab_quantite[0];
-                    $ingredient = $tab_quantite[1];
-                    $unite = $tab_quantite[2];
-                    $tag = $tab_quantite[3];
+                        if($unite == 0) {
+                            $unite = "";
+                        }
+                        
+                        if($quantite == 0) {
+                            $unite = "";
+                        }
+                        
+                        if($ingredient == 0 || $ingredient == "") {
+                            header('Location: http://localhost/gastronomix/InsertNewRecipe.php?pseudo=' . $pseudo . '&error=1');
+                            exit();
+                        }
+                        
+                        if($tag == 0 || $tag == "") {
+                            header('Location: http://localhost/gastronomix/InsertNewRecipe.php?pseudo=' . $pseudo . '&error=2');
+                            exit();
+                        }
+                        
+                        var_dump($quantite);
+                        var_dump($ingredient);
+                        var_dump($unite);
+                        var_dump($tag);
+                    }
 
                     //verifie si l'unite existe deja dans la database
                     $query_unite = "SELECT * FROM unite WHERE libelle_unite = \"$unite\";";
@@ -133,7 +148,7 @@
                     $result_unite = $result_unite->fetch_assoc();
                     
                     //si l'unite n'existe pas, on l'ajoute
-                    if($result_unite == false && $unite != "") {
+                    if($result_unite == false) {
                         $query_ajout_unite = "INSERT INTO unite(libelle_unite)
                                             VALUES(\"$unite\");";
         

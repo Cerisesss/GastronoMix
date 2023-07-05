@@ -39,7 +39,7 @@
         ?>
 
 
-        <form action="Verification_connexion.php" method="post">
+        <form action="verification_connexion.php" method="post">
             <label for="pseudo_user">Pseudo</label>
             <input type="pseudo" class="Button" id="pseudo_user" name="pseudo_user" required /><br>
 
