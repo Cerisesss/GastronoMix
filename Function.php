@@ -3,7 +3,7 @@
         $host = "localhost";
         $user = "root";
         $password = "";
-        $database = "gastronomix"; 
+        $database = "GastronoMix"; 
         
         try {
             $mysqli = new mysqli($host, $user, $password, $database);
