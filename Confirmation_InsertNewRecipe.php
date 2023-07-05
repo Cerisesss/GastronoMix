@@ -89,10 +89,18 @@
                 $id_recette = mysqli_fetch_assoc($result_id_recette);
                 $id_recette = $id_recette['id_recette'] + 1;
 
+                //recupere l'id de la categorie
+                $query_id_categorie = "SELECT id_categorie FROM categorie 
+                                    WHERE libelle_categorie = \"$categorie_recette\";";
+                
+                $result_id_categorie = $mysqli->query($query_id_categorie);
+                $id_categorie = mysqli_fetch_assoc($result_id_categorie);
+                $id_categorie = $id_categorie['id_categorie'];
+
                 
                 // Insert les données dans la database
-                $query_ajout_recette = "INSERT INTO recette(titre, source, categorie_recette, image_recette, nb_personne, temps_prep_recette, temps_total_recette, difficulte) 
-                                VALUES ('$titre', '$source', '$categorie_recette', '$image_recette', '$nb_personne', '$temps_prep_recette', '$temps_total_recette', '$difficulte');";
+                $query_ajout_recette = "INSERT INTO recette(titre, source, categorie_recette, image_recette, nb_personne, temps_prep_recette, temps_total_recette, difficulte, id_categorie) 
+                                VALUES ('$titre', '$source', '$categorie_recette', '$image_recette', '$nb_personne', '$temps_prep_recette', '$temps_total_recette', '$difficulte', '$id_categorie');";
 
                 $result_ajout_recette = $mysqli->prepare($query_ajout_recette);
                 

@@ -2425,8 +2425,9 @@ INSERT INTO `etape` (`id_etape`, `texte_etape`, `id_recette`) VALUES
 (2, 'Dans un saladier, mélanger le reste du vin et du sucre. Faire mariner les fruits découpés. Laisser reposer une heure également.', 391),
 (3, 'Lorsque le vin cuit est froid, mélanger les deux préparations. Laisser reposer plusieurs heures au réfrigérateur.', 391),
 (4, 'Au moment de servir, ajouter 50 cl de limonade.', 391),
-(1, 'Cuire le riz', 392),
-(2, 'Melangez le thon et la mayonnaise ', 392);
+(1, 'Cuire le riz et ajoutez du sucre et du vinaigre une fois le cuit.', 392),
+(2, 'Mélangez le thon et la mayonnaise dans un bol.', 392),
+(3, 'Si vous voulez la suite, mettez 20/20 a notre projet :D', 392);
 
 
 DROP TABLE IF EXISTS `favoris`;
@@ -2460,7 +2461,7 @@ CREATE TABLE IF NOT EXISTS `ingredient` (
   `id_unite` int NOT NULL,
   PRIMARY KEY (`id_ingredient`),
   KEY `fk_unite_id` (`id_unite`)
-) ENGINE=MyISAM AUTO_INCREMENT=1389 DEFAULT CHARSET=utf8mb4;
+) ENGINE=MyISAM AUTO_INCREMENT=1392 DEFAULT CHARSET=utf8mb4;
 
 
 INSERT INTO `ingredient` (`id_ingredient`, `nom_ingredient`, `ingredients_recherche`, `id_unite`) VALUES
@@ -3852,7 +3853,11 @@ INSERT INTO `ingredient` (`id_ingredient`, `nom_ingredient`, `ingredients_recher
 (1385, 'limonade type Schweppes', ' limonade', 3),
 (1386, ' riz', ' riz', 61),
 (1387, ' thon', ' thon', 62),
-(1388, ' mayonnaise', ' mayonnaise', 63);
+(1388, ' mayonnaise', ' mayonnaise', 63),
+(1389, ' algues', ' algues', 64),
+(1390, ' sucre', ' sucre', 65),
+(1391, ' vinaigre', ' vinaigre ', 66);
+
 
 
 DROP TABLE IF EXISTS `quantite`;
@@ -6956,8 +6961,11 @@ INSERT INTO `quantite` (`id_recette`, `id_ingredient`, `quantite`) VALUES
 (391, 954, 6),
 (391, 1189, 1),
 (392, 1386, 1),
-(392, 1387, 1),
-(392, 1388, 0);
+(392, 1387, 2),
+(392, 1388, 0),
+(392, 1389, 10),
+(392, 1390, 100),
+(392, 1391, 150);
 
 
 DROP TABLE IF EXISTS `recette`;
@@ -7372,7 +7380,7 @@ INSERT INTO `recette` (`id_recette`, `titre`, `source`, `categorie_recette`, `im
 (389, 'Bubble tea', 'Marmiton', 'boisson', 'images_recettes/bubble_tea.jpg', '2', 15, 30, '1', 0, 4),
 (390, 'Marquisette facile', 'Marmiton', 'boisson', 'images_recettes/marquisette_facile.jpg', '50', 15, 15, '3', 0, 4),
 (391, 'Sangria blanche (marquise)', 'Marmiton', 'boisson', 'images_recettes/sangria_blanche_(marquise).jpg', '5', 15, 20, '3', 0, 4),
-(392, 'Bouboule', 'GastronoMix', 'plat', 'https://yt3.ggpht.com/a/AATXAJxCynIlorcJdC9QMet4K-R6ROHLV5s9cNZTig=s900-c-k-c0xffffffff-no-rj-mo', '1', 1, 2, '1', 0, 0);
+(392, 'Bouboule', 'GastronoMix', 'plat', 'https://yt3.ggpht.com/a/AATXAJxCynIlorcJdC9QMet4K-R6ROHLV5s9cNZTig=s900-c-k-c0xffffffff-no-rj-mo', '2', 30, 120, '2', 0, 2);
 
 
 DROP TABLE IF EXISTS `unite`;
@@ -7380,11 +7388,8 @@ CREATE TABLE IF NOT EXISTS `unite` (
   `id_unite` bigint NOT NULL AUTO_INCREMENT,
   `libelle_unite` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id_unite`)
-) ENGINE=MyISAM AUTO_INCREMENT=64 DEFAULT CHARSET=utf8mb4;
+) ENGINE=MyISAM AUTO_INCREMENT=67 DEFAULT CHARSET=utf8mb4;
 
---
--- Déchargement des données de la table `unite`
---
 
 INSERT INTO `unite` (`id_unite`, `libelle_unite`) VALUES
 (1, ' '),
@@ -7449,7 +7454,10 @@ INSERT INTO `unite` (`id_unite`, `libelle_unite`) VALUES
 (60, 'tasse'),
 (61, ' kg'),
 (62, ' conserve'),
-(63, '');
+(63, ''),
+(64, ' feuilles'),
+(65, ' g'),
+(66, ' cl');
 
 
 DROP TABLE IF EXISTS `user`;
@@ -7466,5 +7474,5 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 
 INSERT INTO `user` (`id_user`, `nom_user`, `prenom_user`, `pseudo_user`, `mail_user`, `tel_user`, `password_user`) VALUES
-(1, 'Admin', 'Admin', 'Admin', 'AdminGastronoMix@gmail.com', '0000000000', '$2y$10$T8h7mQ6ANflSH3lNFRcgHOfZEhcw0dS2Tz1Pl946kQ4wX9f3HykFG');
+(1, 'Admin', 'Admin', 'Admin', 'AdminGastronoMix@gmail.com', '0000000000', '$2y$10$ZDoyZo3drsBM.0qb63QckODkFgrSRQVPgJrdkWb64XKEt7yPIpEEG');
 COMMIT;
