@@ -15,30 +15,28 @@
             $id_recette = $_POST['id_recette'];
 
             $query = "SELECT id_user FROM user WHERE pseudo_user = '$pseudo';";
-            //verifier si cette utilisateur a mis un avis sur cette recette il le mets pas deux fois
-            $result = $mysqli->query($query);
-            $row = $result->fetch_assoc();
-            $id_user = $row['id_user'];
-            $avis = $_POST['avis_historique'];
-            if ($mysqli->query("SELECT * FROM historique WHERE id_recette = '$id_recette' AND id_user = '$id_user'")->num_rows > 0) {
-                echo "<h2>Recette déjà notée</h2>";
+            //verifier si l'utilisateur a note la recette et mettre la note a jour si on souhaite modifier la note
+            $result_user = $mysqli->query($query);
+            $row_user = $result_user->fetch_assoc();
+            $id_user = $row_user['id_user'];
+
+            $query = "SELECT id_historique FROM historique WHERE id_user = '$id_user' AND id_recette = '$id_recette';";
+            $result_historique = $mysqli->query($query);
+
+            if ($result_historique && $result_historique->num_rows > 0) {
+                $row_historique = $result_historique->fetch_assoc();
+                $id_historique = $row_historique['id_historique'];
+
+                $query = "UPDATE historique SET avis_historique = '" . $_POST['avis_historique'] . "' WHERE id_historique = '$id_historique';";
+                $result = $mysqli->query($query);
             } else {
-                $query = "INSERT INTO historique (id_user, id_recette, avis_historique) VALUES ($id_user, $id_recette, $avis);";
-
-                if ($mysqli->query($query)) {
-                    header('Location: http://localhost/gastronomix/historique.php?pseudo=' . $pseudo . '');
-
-                    exit();
-                } else {
-                    http_response_code(500);
-                    exit();
-                }
+                $query = "INSERT INTO historique (id_user, id_recette, avis_historique) VALUES ('$id_user', '$id_recette', '" . $_POST['avis_historique'] . "');";
+                $result = $mysqli->query($query);
             }
-        } else {
 
-            $mysqli->close();
-        }
-    }
+        }}
+
+          
 ?>
 
 <!DOCTYPE html>
