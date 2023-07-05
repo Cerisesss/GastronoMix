@@ -134,11 +134,6 @@
                             header('Location: http://localhost/gastronomix/InsertNewRecipe.php?pseudo=' . $pseudo . '&error=2');
                             exit();
                         }
-                        
-                        var_dump($quantite);
-                        var_dump($ingredient);
-                        var_dump($unite);
-                        var_dump($tag);
                     }
 
                     //verifie si l'unite existe deja dans la database
