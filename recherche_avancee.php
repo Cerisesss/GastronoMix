@@ -50,7 +50,6 @@
         } else {
             $url = "resultat_recherche_avancee.php?" . $query_string;
         }
-
         header("Location: " . $url);
         exit();
     }
