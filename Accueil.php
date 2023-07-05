@@ -124,36 +124,40 @@
             $mysqli->close();
         ?>
 <script>
-    
-            function ajouterAuxFavoris(id_recette, buttonId) {
+    function ajouterAuxFavoris(id_recette, buttonId) {
     var button = document.getElementById(buttonId);
     button.classList.add('red-heart');
 
-                var form = new FormData();
-                form.append('id_recette', id_recette);
+    var form = new FormData();
+    form.append('id_recette', id_recette);
 
-                fetch('ajouter_aux_favoris.php', {
-                    method: 'POST',
-                    body: form
-                })
-                .then(function(response) {
-                    if (response.ok) {
-                        // Le script PHP a terminé avec succès
-                        alert("La recette a été ajoutée aux favoris !");
-                    } else {
-                        throw new Error("Erreur lors de l'ajout aux favoris.");
-                    }
-                })
-                .catch(function(error) {
-                    // Une erreur s'est produite lors de l'appel à ajouter_aux_favoris.php
-                    alert(error.message);
-                });
-            }
+    fetch('ajouter_aux_favoris.php', {
+        method: 'POST',
+        body: form
+    })
+    .then(function (response) {
+        if (response.ok) {
+            // La recette a été ajoutée ou supprimée des favoris avec succès
+            return response.text();
+        } else {
+            throw new Error("Erreur lors de l'ajout aux favoris.");
+        }
+    })
+    .then(function (data) {
+        // Afficher la réponse de la requête AJAX dans la console
+        console.log(data);
+    })
+    .catch(function (error) {
+        // Une erreur s'est produite lors de l'appel à ajouter_aux_favoris.php
+        alert(error.message);
+    });
+}
+
             //conserve la couleur du coeur si la recette est déjà dans les favoris
-            function conserveCouleur(id_recette, buttonId) {
-                var button = document.getElementById(buttonId);
-                button.classList.add('red-heart');
-            }
+           //*function conserveCouleur(id_recette, buttonId) {
+              //  var button = document.getElementById(buttonId);
+              //  button.classList.add('red-heart');
+          //  }
             
         </script>
     </body>
