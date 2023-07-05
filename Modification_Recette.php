@@ -143,10 +143,10 @@
             <input type="number" min="1" class="Button" name="nb_personne" required /><br>
 
             <label for="temps_prep_recette">Temps de préparation</label>
-            <input type="time" class="Button" name="temps_prep_recette" step="1" required /><br>
+            <input type="number" min="0" class="Button" name="temps_prep_recette" step="1" required /><br>
             
             <label for="temps_total_recette">Temps total</label>
-            <input type="time" class="Button" name="temps_total_recette" step="1" required /><br>
+            <input type="number" min="0" class="Button" name="temps_total_recette" step="1" required /><br>
 
             <label for="difficulte">Difficulté</label>
             <input type="number" min="1" max="3" class="Button" name="difficulte" required /><br>
