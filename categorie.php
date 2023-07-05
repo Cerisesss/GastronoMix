@@ -58,7 +58,7 @@
             }
             
             echo '<div class="container">';
-            $query = "SELECT r.id_recette, r.titre, r.image_recette, h.avis_historique
+            $query = "SELECT r.id_recette, r.difficulte, r.titre, r.image_recette, h.avis_historique
                     FROM recette r
                     JOIN categorie c ON c.id_categorie = r.id_categorie
                     LEFT JOIN historique h ON h.id_recette = r.id_recette
@@ -74,9 +74,12 @@
                     $image_recette = $row['image_recette'];
                     $newtitre = str_replace("'", "_", $titre);
                     $avis_historique = $row['avis_historique'];
+                    $difficulte = $row['difficulte'];
 
                     if (isset($_SESSION['pseudo_user'])) {
                         echo '<div class="recette zoom">';
+                        echo '<button id="difficulte" class="Button" style="position: relative; top : -3% ; right: -30%; width: 30px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $difficulte . '</button>';
+
                         // Image cliquable
                         //affiche l'historique si un utilisateur a déjà noté la recette
                         if($avis_historique === null) {
