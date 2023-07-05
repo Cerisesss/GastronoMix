@@ -125,30 +125,35 @@
         ?>
     </body>
     <script>
-              
+              //cette fonction permet d'ajouter une recette aux favoris 
               function ajouterAuxFavoris(id_recette, buttonId) {
     var button = document.getElementById(buttonId);
     button.classList.add('red-heart');
-
+//on crée un objet FormData qui va contenir les données à envoyer au serveur
     var form = new FormData();
     form.append('id_recette', id_recette);
-
+//on envoie les données au serveur avec fetch
     fetch('ajouter_aux_favoris.php', {
         method: 'POST',
         body: form
     })
+    //on récupère la réponse du serveur
     .then(function (response) {
+        //on vérifie que la réponse est bien un succès
         if (response.ok) {
-            // La recette a été ajoutée ou supprimée des favoris avec succès
+            //on retourne la réponse au format texte
             return response.text();
         } else {
+            //sinon on lance une erreur
             throw new Error("Erreur lors de l'ajout aux favoris.");
         }
     })
+    //on récupère la réponse au format texte
     .then(function (data) {
-        // Afficher la réponse de la requête AJAX dans la console
+        //on affiche la réponse du serveur
         console.log(data);
     })
+    //on gère les erreurs
     .catch(function (error) {
         // une errer s'est produite lors de l'appel à ajouter_aux_favoris.php
         alert(error.message);
