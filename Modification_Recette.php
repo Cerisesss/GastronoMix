@@ -12,7 +12,7 @@
 <html>
     <head>
         <title>GastronoMix</title>
-        <link rel="stylesheet" type="text/css" href="styler.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script src="Function.js"></script>
     </head>
     <body>

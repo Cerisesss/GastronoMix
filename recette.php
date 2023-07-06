@@ -108,6 +108,7 @@
                         echo "<h2>" . $row["titre"] . "</h2></br>";
 
                         if (isset($_SESSION['pseudo_user'])) {
+                            /*
                             if($pseudo == "admin" || $pseudo == "Admin") {
                                 $newtitre = str_replace("'", "_", $mot_clef);
 
@@ -115,6 +116,7 @@
                                 echo '<button id="UpdateButton" class="Button" type="submit">Modifier cette recette</button>';
                                 echo '</form>';
                             }
+                            */
 
                             echo '<form id="ajouter-favoris-form" onsubmit="ajouterAuxFavoris(' . $id_recette . '); return false;">';
                             echo '<input type="hidden" name="id_recette" value="' . $id_recette . '">';
