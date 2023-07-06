@@ -9,7 +9,7 @@ body {
     color: #0f0e0e;
     line-height: 30px;
     text-align: center;
-    width: 800px;
+    width: 850px;
     padding: 1em;
     border: 1px solid white;
     background-color: white;
@@ -160,10 +160,6 @@ input[type="radio"]:checked + label .star {
     text-align: center;
 }
 
-
-
-
-
 /*css pour changer le fond en noir*/
 #ThemeButton{
     position: absolute;
@@ -172,9 +168,6 @@ input[type="radio"]:checked + label .star {
     width: 2.8%;
     height: 5%;
 }
-
-
-
 
 /*css du menu deroulant du compte*/
 #compte {
@@ -210,8 +203,6 @@ input[type="radio"]:checked + label .star {
     height: 40px;
     text-align: center;
 }
-
-
 
 #DeleteButton {
     position: absolute;
@@ -251,3 +242,48 @@ input[type="radio"]:checked + label .star {
 .Button:hover {
     box-shadow: 0 3px 8px rgba(10, 9, 9, 0.2);
 }
+
+  .temps-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .temps-item {
+    flex: 1;
+    border: 2px solid #000000;
+    padding: 10px;
+    background-color: #f3d6e5;
+    border-radius: 50px;
+    /*margin-right: 10px;*/
+  }
+  
+  .temps-item:last-child {
+    margin-right: 0;
+  }
+  
+  .temps-item p {
+    margin: 0;
+  }
+
+
+/*css de étape et ingredients finalement*/
+.etape-container {
+    display: flex;
+    align-items: baseline;
+    font-size: 22px;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: bold;
+  }
+  
+  .ligne-horizontale {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #000000;
+    margin-left: 10px;
+  }
+  
+  .etape-affiche {
+    text-align: justify;
+    margin-left: 10%;
+  }

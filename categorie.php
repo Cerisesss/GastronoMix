@@ -58,7 +58,7 @@
             }
             
             echo '<div class="container">';
-            $query = "SELECT r.id_recette, r.difficulte, r.titre, r.image_recette, h.avis_historique
+            $query = "SELECT r.id_recette, r.difficulte, r.titre, r.image_recette, r.temps_total_recette, h.avis_historique
                     FROM recette r
                     JOIN categorie c ON c.id_categorie = r.id_categorie
                     LEFT JOIN historique h ON h.id_recette = r.id_recette
@@ -75,6 +75,14 @@
                     $newtitre = str_replace("'", "_", $titre);
                     $avis_historique = $row['avis_historique'];
                     $difficulte = $row['difficulte'];
+                    $temps_total_recette = $row['temps_total_recette'];
+
+                    //calcul du temps total en format 00:00
+                    $temps_total = $row['temps_total_recette'];
+
+                    $heures_total = floor($temps_total / 60);
+                    $minutes_total = $temps_total % 60;
+                    $temps_total_recette = sprintf('%02d:%02d', $heures_total, $minutes_total);
 
                     if (isset($_SESSION['pseudo_user'])) {
                         echo '<div class="recette zoom">';
@@ -101,6 +109,10 @@
                         echo '<div class="nom-recette">';
                         // Titre cliquable
                         echo "<a href=\"recette.php?pseudo=$pseudo&recherche=$newtitre\">$titre</a><br>";
+                        // Affichage du temps total de la recette
+                        echo '<div id="temps-total-wrapper">';
+                        echo '<button class="temps-total-button">' . $temps_total_recette .' min'. '</button>';
+                        echo '</div>';
                         echo '</div>';
                         echo '</div>';
                         echo '</div>';
@@ -113,6 +125,10 @@
                         echo '<div class="nom-recette">';
                         // Titre cliquable
                         echo "<a href=\"recette.php?recherche=$newtitre\">$titre</a><br>";
+                        // Affichage du temps total de la recette
+                        echo '<div id="temps-total-wrapper">';
+                        echo '<button class="temps-total-button">' . $temps_total_recette .' min'. '</button>';
+                        echo '</div>';
                         echo '</div>';
                         echo '</div>';
                     }

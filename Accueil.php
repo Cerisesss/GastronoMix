@@ -54,7 +54,6 @@
                 echo '<br>';
                 echo '<br>';
                 echo '<div class="container-accueil">';
-                
 
                 $rand = rand(1, 160);
 
@@ -75,8 +74,13 @@
                     $avis_historique = $row['avis_historique'];
                     $difficulte = $row['difficulte'];
                     $temps_total_recette = $row['temps_total_recette'];
-                   
 
+                    //calcul du temps total en format 00:00
+                    $temps_total = $row['temps_total_recette'];
+
+                    $heures_total = floor($temps_total / 60);
+                    $minutes_total = $temps_total % 60;
+                    $temps_total_recette = sprintf('%02d:%02d', $heures_total, $minutes_total);
 
                     // Affichage du bouton d'ajout aux favoris
                     if (isset($_SESSION['pseudo_user'])) {
@@ -103,11 +107,13 @@
                         echo '<div class="nom-recette">';
                         // Titre cliquable
                         echo "<a href=\"recette.php?pseudo=$pseudo&recherche=$newtitre\">$titre</a><br>";
-                       
+                        // Affichage du temps total de la recette
+                        echo '<div id="temps-total-wrapper">';
+                        echo '<button class="temps-total-button">' . $temps_total_recette .' min'. '</button>';
                         echo '</div>';
                         echo '</div>';
                         echo '</div>';
-
+                        echo '</div>';
                     } else {
                         echo '<div class="recette zoom">';
                         // Image cliquable
@@ -117,12 +123,10 @@
                         echo '<div class="nom-recette">';
                         // Titre cliquable
                         echo "<a href=\"recette.php?recherche=$newtitre\">$titre</a><br>";
+                       // Affichage du temps total de la recette
                         echo '<div id="temps-total-wrapper">';
-                        // Affichage du temps total de la recette
-                       
-                     echo '<button class="temps-total-button">' . $temps_total_recette .'min'. '</button>';
-                     
-                     echo '</div>';
+                        echo '<button class="temps-total-button">' . $temps_total_recette .' min'. '</button>';
+                        echo '</div>';
                        // echo '<button id="" class="Button" style="position: relative; bottom: 45px; left: 20%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $temps_total_recette . '</button>';
 
                         echo '</div>';
@@ -169,10 +173,7 @@
         // une errer s'est produite lors de l'appel à ajouter_aux_favoris.php
         alert(error.message);
     });
-}
-
-            
-            
+}  
         </script>
     </body>
 </html>
