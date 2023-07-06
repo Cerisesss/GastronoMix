@@ -8,6 +8,7 @@ function toggleMenu() {
         menu.style.display = "none";
     } else {
         menu.style.display = "block";
+        menu.style.zIndex = "1"
     }
 }
 
@@ -17,6 +18,7 @@ function toggleCompte() {
         compte.style.display = "none";
     } else {
         compte.style.display = "block";
+        compte.style.zIndex = "10"
     }
 }
 

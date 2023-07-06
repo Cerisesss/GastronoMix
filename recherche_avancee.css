@@ -59,6 +59,7 @@ h1 {
     position: absolute;
     top: 12px;
     left: 125px;
+    z-index: 2;
 }
 
 h2 {
@@ -132,6 +133,7 @@ input[type="submit"]:hover {
     background-color: #fff3f8;
     border: 3px solid #f3d6e5;
     padding: 10px;
+    text-align: center;
 }
 
 #menu ul {
@@ -216,6 +218,7 @@ input[type="submit"]:hover {
     border: 3px solid #f3d6e5;
     padding: 10px;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 #compte ul {
