@@ -7380,7 +7380,7 @@ INSERT INTO `recette` (`id_recette`, `titre`, `source`, `categorie_recette`, `im
 (389, 'Bubble tea', 'Marmiton', 'boisson', 'images_recettes/bubble_tea.jpg', '2', 15, 30, '1', 0, 4),
 (390, 'Marquisette facile', 'Marmiton', 'boisson', 'images_recettes/marquisette_facile.jpg', '50', 15, 15, '3', 0, 4),
 (391, 'Sangria blanche (marquise)', 'Marmiton', 'boisson', 'images_recettes/sangria_blanche_(marquise).jpg', '5', 15, 20, '3', 0, 4),
-(392, 'Bouboule', 'GastronoMix', 'plat', 'https://yt3.ggpht.com/a/AATXAJxCynIlorcJdC9QMet4K-R6ROHLV5s9cNZTig=s900-c-k-c0xffffffff-no-rj-mo', '2', 30, 120, '2', 0, 2);
+(392, 'Bouboule de riz', 'GastronoMix', 'plat', 'https://yt3.ggpht.com/a/AATXAJxCynIlorcJdC9QMet4K-R6ROHLV5s9cNZTig=s900-c-k-c0xffffffff-no-rj-mo', '2', 30, 120, '2', 0, 2);
 
 
 DROP TABLE IF EXISTS `unite`;
