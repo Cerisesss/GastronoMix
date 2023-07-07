@@ -132,9 +132,10 @@
                                 $temps_total_recette = sprintf('%02d:%02d', $heures_total, $minutes_total);
 
                                 if (isset($_SESSION['pseudo_user'])) {
+                                    echo '<div class="container">';
+
                                     echo '<div class="recette zoom">';
 
-                                    echo '<div style="position: relative;">';
                                     //afficher la difficulté de la recette sur l'image
                                     echo '<button id="difficulte" class="Button" style="position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; font-size: 15px;">' . $difficulte . '</button>';
                                     
@@ -142,16 +143,17 @@
                                     echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . urlencode($newtitre) . '">';
                                     echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
                                     echo '</a>';
+
                                     echo '<div class="nom-recette">';
                                     
                                     // Titre cliquable
                                     echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . urlencode($newtitre) . '">' . $titre . '</a>';
-                                    echo '</a>';
                                     
                                     // Affichage du temps total de la recette
                                     echo '<div id="temps-total-wrapper">';
                                     echo '<button class="temps-total-button">' . $temps_total_recette .' min'. '</button>';
                                     echo '</div>';
+                                    
                                     echo '</div>';
                                     echo '</div>';
                                     echo '</div>';
@@ -159,15 +161,18 @@
 
                                     echo '<div class="recette zoom">';
 
+                                    //afficher la difficulté de la recette sur l'image
+                                    echo '<button id="difficulte" class="Button" style="position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; font-size: 15px;">' . $difficulte . '</button>';
+
                                     // Image cliquable
                                     echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($newtitre) . '">';
                                     echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
                                     echo '</a>';
+
                                     echo '<div class="nom-recette">';
 
                                     // Titre cliquable
                                     echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($newtitre) . '">' . $titre . '</a>';
-                                    echo '</a>';
 
                                     // Affichage du temps total de la recette
                                     echo '<div id="temps-total-wrapper">';
@@ -214,7 +219,7 @@
                                     // Affichage du bouton d'ajout aux favoris
                                     if (isset($_SESSION['pseudo_user'])) {
                                         echo '<div class="recette zoom">';
-                                        echo '<div style="position: relative;">';
+
                                         //afficher la difficulté de la recette sur l'image
                                         echo '<button id="difficulte" class="Button" style="position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; font-size: 15px;">' . $difficulte . '</button>';
                                         
@@ -230,40 +235,44 @@
                                             echo '<button id="avis" class="Button" style="position: relative; bottom: 55px; left: 20%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $avis_historique . '/5</button>';
                                             // echo '<button id="avis" class="Button" style="position: absolute; bottom: 10px; left: 10px; width: 50px; height: 30px; font-size: 15px;">' . $avis_historique . '/5</button>';
                                         }
-                                        
-                                        echo '<button id="ajouter-favoris-button-' . $id_recette . '" style="position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; font-size: 15px;" class="Button" onclick="ajouterAuxFavoris(' . $id_recette . ', \'ajouter-favoris-button-' . $id_recette . '\')">&#x2661;</button>';
-                                        
+                                                                                
                                         echo '<div class="nom-recette">';
+
                                         // Titre cliquable
                                         echo "<a href=\"recette.php?pseudo=$pseudo&recherche=$newtitre\">$titre</a><br>";
+
                                         // Affichage du temps total de la recette
                                         echo '<div id="temps-total-wrapper">';
                                         echo '<button class="temps-total-button">' . $temps_total_recette .' min'. '</button>';
                                         echo '</div>';
-                                        echo '</div>';
+
                                         echo '</div>';
                                         echo '</div>';
                                     } else {
                                         echo '<div class="recette zoom">';
+
+                                        //afficher la difficulté de la recette sur l'image
+                                        echo '<button id="difficulte" class="Button" style="position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; font-size: 15px;">' . $difficulte . '</button>';
+
                                         // Image cliquable
                                         echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $newtitre . '">';
                                         echo '<img src="' . $image_recette . '" alt="Image de la recette">';                       
                                         echo "</a>";
+
                                         echo '<div class="nom-recette">';
+
                                         // Titre cliquable
                                         echo "<a href=\"recette.php?recherche=$newtitre\">$titre</a><br>";
+
                                        // Affichage du temps total de la recette
                                         echo '<div id="temps-total-wrapper">';
                                         echo '<button class="temps-total-button">' . $temps_total_recette .' min'. '</button>';
                                         echo '</div>';
-                                       // echo '<button id="" class="Button" style="position: relative; bottom: 45px; left: 20%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $temps_total_recette . '</button>';
                 
                                         echo '</div>';
                                         echo '</div>';
                                     }
                                 }
-                                echo '</div>';
-                                echo '</div>';
                                 echo '</div>';
                             }
                         }
@@ -294,7 +303,6 @@
 
                             if (isset($_SESSION['pseudo_user'])) {
                                 echo '<div class="recette zoom">';
-                                echo '<div style="position: relative;">';
                                 
                                 //afficher la difficulté de la recette sur l'image
                                 echo '<button id="difficulte" class="Button" style="position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; font-size: 15px;">' . $difficulte . '</button>';
@@ -303,6 +311,7 @@
                                 echo '<a href="http://localhost/gastronomix/recette.php?pseudo=' . $pseudo . '&recherche=' . urlencode($row['titre']) . '">';
                                 echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
                                 echo '</a>';
+
                                 echo '<div class="nom-recette">';
                                 
                                 // Titre cliquable
@@ -317,10 +326,8 @@
 
                                 echo '</div>';
                                 echo '</div>';
-                                echo '</div>';
                             } else {
                                 echo '<div class="recette zoom">';
-                                echo '<div style="position: relative;">';
                                 
                                 //afficher la difficulté de la recette sur l'image
                                 echo '<button id="difficulte" class="Button" style="position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; font-size: 15px;">' . $difficulte . '</button>';
@@ -329,6 +336,7 @@
                                 echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . urlencode($row['titre']) . '">';
                                 echo '<img src="' . $row['image_recette'] . '" alt="Recette">';
                                 echo '</a>';
+
                                 echo '<div class="nom-recette">';
                                 
                                 // Titre cliquable
@@ -340,7 +348,7 @@
                                 echo '<div id="temps-total-wrapper">';
                                 echo '<button class="temps-total-button">' . $temps_total_recette .' min'. '</button>';
                                 echo '</div>';
-                                echo '</div>';
+
                                 echo '</div>';
                                 echo '</div>';
                             }
@@ -378,10 +386,9 @@
                             $minutes_total = $temps_total % 60;
                             $temps_total_recette = sprintf('%02d:%02d', $heures_total, $minutes_total);
         
-                            // Affichage du bouton d'ajout aux favoris
                             if (isset($_SESSION['pseudo_user'])) {
                                 echo '<div class="recette zoom">';
-                                echo '<div style="position: relative;">';
+
                                 //afficher la difficulté de la recette sur l'image
                                 echo '<button id="difficulte" class="Button" style="position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; font-size: 15px;">' . $difficulte . '</button>';
                                 
@@ -395,35 +402,40 @@
                                     echo '<img src="' . $image_recette . '" alt="Image de la recette">';
                                     echo "</a>";
                                     echo '<button id="avis" class="Button" style="position: relative; bottom: 55px; left: 20%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $avis_historique . '/5</button>';
-                                    // echo '<button id="avis" class="Button" style="position: absolute; bottom: 10px; left: 10px; width: 50px; height: 30px; font-size: 15px;">' . $avis_historique . '/5</button>';
                                 }
-                                
-                                echo '<button id="ajouter-favoris-button-' . $id_recette . '" style="position: absolute; top: 10px; right: 10px; width: 30px; height: 30px; font-size: 15px;" class="Button" onclick="ajouterAuxFavoris(' . $id_recette . ', \'ajouter-favoris-button-' . $id_recette . '\')">&#x2661;</button>';
-                                
+                                                                
                                 echo '<div class="nom-recette">';
+
                                 // Titre cliquable
                                 echo "<a href=\"recette.php?pseudo=$pseudo&recherche=$newtitre\">$titre</a><br>";
+
                                 // Affichage du temps total de la recette
                                 echo '<div id="temps-total-wrapper">';
                                 echo '<button class="temps-total-button">' . $temps_total_recette .' min'. '</button>';
                                 echo '</div>';
-                                echo '</div>';
+
                                 echo '</div>';
                                 echo '</div>';
                             } else {
                                 echo '<div class="recette zoom">';
+
+                                //afficher la difficulté de la recette sur l'image
+                                echo '<button id="difficulte" class="Button" style="position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; font-size: 15px;">' . $difficulte . '</button>';
+
                                 // Image cliquable
                                 echo '<a href="http://localhost/gastronomix/recette.php?recherche=' . $newtitre . '">';
                                 echo '<img src="' . $image_recette . '" alt="Image de la recette">';                       
                                 echo "</a>";
+
                                 echo '<div class="nom-recette">';
+
                                 // Titre cliquable
                                 echo "<a href=\"recette.php?recherche=$newtitre\">$titre</a><br>";
+
                                 // Affichage du temps total de la recette
                                 echo '<div id="temps-total-wrapper">';
                                 echo '<button class="temps-total-button">' . $temps_total_recette .' min'. '</button>';
                                 echo '</div>';
-                                // echo '<button id="" class="Button" style="position: relative; bottom: 45px; left: 20%; width: 50px; height: -50%; font-size: 15px; transform: translate(50%, 50%);">' . $temps_total_recette . '</button>';
         
                                 echo '</div>';
                                 echo '</div>';
